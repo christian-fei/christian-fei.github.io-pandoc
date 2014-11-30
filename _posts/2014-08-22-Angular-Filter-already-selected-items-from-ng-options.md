@@ -97,40 +97,4 @@ And now we can implement the actual filter function:
 
 # A working example
 
-
-<div ng-app="app" ng-init="things=[{id:0,name:'thing1'},{id:1,name:'thing2'},{id:2,name:'thing3'},{id:3,name:'thing4'}]">
-  <select ng-model="fields.option1" ng-options="thing.name for thing in things | excludeFrom:fields.option2"></select>
-  <select ng-model="fields.option2" ng-options="thing.name for thing in things | excludeFrom:fields.option1"></select>
-  <pre>
-    debug information:
-
-    fields.option1: {{fields.option1}}
-    fields.option2: {{fields.option2}}
-  </pre>
-</div>
-
-
-<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
-<script>
-  angular.module('app',[])
-    .filter('excludeFrom',[function(){
-      return function(array,expression,comparator){
-        return array.filter(function(item){
-      return !expression || !angular.equals(item,expression);
-    });
-  };
-}])
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
+<iframe src="http://embed.plnkr.co/hXNaCAZ5J75nAdqeF0C2/preview" width="100%" height="200px"></iframe>

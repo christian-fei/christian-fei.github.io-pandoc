@@ -15,9 +15,9 @@ Passionate about the web and [open source](http://github.com).
 
 - <del>attending a 'JavaScript Developer' course at <a href="http://www.redoddity.it/courses/fse-javascript-developer/" class="imp" target="_blank">redoddity</a> in Bolzano</del>
 
-- <del>doing an internship at [XPeppers](http://xpeppers.com)</del>
+- <del>doing an internship at <a href="http://xpeppers.com">XPeppers</a></del>
 
-- happily employed at [XPeppers](http://xpeppers.com)
+- improving, learning everyday and working at [XPeppers](http://xpeppers.com)
 
 
 
