@@ -4,6 +4,8 @@ title: About me
 permalink: /about/
 ---
 
+<img class="me" src="/img/me.jpg" alt="Christian Fei"/>
+
 Hi, my name is Christian.
 
 I'm an aspiring ninja agile developer, working in Trento [@XPeppers](http://xpeppers.com/), Italy.
