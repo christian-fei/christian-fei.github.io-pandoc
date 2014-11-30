@@ -8,7 +8,7 @@ Hi, my name is Christian.
 
 I'm an aspiring ninja agile developer, working in Trento [@XPeppers](http://xpeppers.com/), Italy.
 
-Passionate about the web and [open source](http://github.com).
+Passionate about the web and [open source](https://github.com/christian-fei)
 
 
 # I'm
