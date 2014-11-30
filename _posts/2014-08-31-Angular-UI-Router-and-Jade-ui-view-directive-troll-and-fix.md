@@ -1,6 +1,7 @@
 ---
 title: "Angular UI-Router and Jade, ui-view directive troll and 'fix'"
 date: 2014-08-31
+desc: "Fix problem with ui-view directive and Jade"
 layout: post
 ---
 
