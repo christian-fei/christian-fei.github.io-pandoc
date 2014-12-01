@@ -8,7 +8,7 @@ permalink: /about/
 
 Hi, my name is Christian.
 
-I'm an aspiring ninja agile developer, working in Trento [@XPeppers](http://xpeppers.com/), Italy.
+I'm an aspiring <del>ninja</del> agile developer, working in Trento at [XPeppers](http://xpeppers.com/), Italy.
 
 Passionate about the web and [open source](https://github.com/christian-fei)
 
@@ -19,7 +19,7 @@ Passionate about the web and [open source](https://github.com/christian-fei)
 
 - <del>doing an internship at <a href="http://xpeppers.com">XPeppers</a></del>
 
-- improving, learning everyday and working at [XPeppers](http://xpeppers.com)
+- improving and learning everyday at [XPeppers](http://xpeppers.com)
 
 
 
