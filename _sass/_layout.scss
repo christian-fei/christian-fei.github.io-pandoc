@@ -239,6 +239,9 @@ img.me {
   float: right;
   margin-left: 10px;
 
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+
   -webkit-box-shadow: 10px 10px 10px lightgrey;
   box-shadow: 10px 10px 10px lightgrey;
 }
