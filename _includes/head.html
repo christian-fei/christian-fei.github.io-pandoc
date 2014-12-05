@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.desc %}{{ page.desc }}{% else %}{{ site.description }}{% endif %}">
 
     <meta name="HandheldFriendly" content="True" />
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -23,11 +23,11 @@
     <meta property="og:site_name" content="Christian Fei" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:description" content="{% if page.desc %}{{ page.desc }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:url" content="{{ page.url }}" />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="twitter:description" content="{% if page.desc %}{{ page.desc }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="twitter:url" content="{{ page.url }}" />
 </head>
