@@ -4,12 +4,13 @@
 .site-header {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
 
 
-  background-color: $brand-color;
+  background-color: $background-color;
 
   &, * {
-    color: $inverted-brand-color !important;
+    color: $text-color !important;
   }
 
   // Positioning context for the mobile navigation icon
@@ -17,11 +18,10 @@
 }
 
 .site-title {
-  $fs: 26px;
-  font-size: $fs;
-  line-height: $fs*2;
+  display: inline-block;
   letter-spacing: -1px;
   margin-bottom: 0;
+  margin-top: 0;
   float: left;
 }
 

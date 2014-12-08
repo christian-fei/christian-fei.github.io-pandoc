@@ -6,16 +6,17 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: "calluna-sans",sans-serif;
+
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2F2E2C;
-$inverted-brand-color: #F7DC3F;
+$text-color:       #444444;
+$link-color:       #333333;
+$background-color: #FAFAFA;
+$brand-color:      #444444;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
