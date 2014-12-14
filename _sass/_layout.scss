@@ -4,10 +4,6 @@
 .site-header {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  margin-bottom: 1rem;
-
-  border-bottom: 1px solid $grey-color-light;
-
   background-color: $background-color;
 
   &, * {
@@ -20,6 +16,15 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+}
+
+.home-row {
+  height: 1rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  // background-image: url(http://subtlepatterns.com/patterns/swirl_pattern.png);
+  background-size: 300px;
+  opacity: 0.2;
 }
 
 .site-title {
@@ -164,12 +169,6 @@
 
 
 
-/**
- * Page content
- */
-.page-content {
-  padding: $spacing-unit 0;
-}
 
 .post-list {
   margin-left: 0;
