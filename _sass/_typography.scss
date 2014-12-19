@@ -104,9 +104,8 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    background-color: $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
 }
 
 code {
@@ -116,6 +115,7 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
+    border-left: 6px solid rgb(246,220,100);
 
     > code {
         border: 0;

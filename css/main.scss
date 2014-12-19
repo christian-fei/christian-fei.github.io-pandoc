@@ -18,8 +18,8 @@ $background-color: #FAFAFA;
 $background-color: #FFFFFF;
 $brand-color:      #444444;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
+$grey-color:       rgb(249,249,249);
+$grey-color-light: darken($grey-color, 1%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $max-width:        666px;
