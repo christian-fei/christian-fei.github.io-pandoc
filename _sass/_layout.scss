@@ -188,6 +188,9 @@
   color: $grey-color;
 }
 
+.post-content {
+  position: relative;
+}
 
 /**
  * Posts
@@ -208,7 +211,7 @@
   opacity: 0.5;
 
   @media all and(max-width: $max-width) {
-    display: none;   
+    display: none;
   }
 }
 
