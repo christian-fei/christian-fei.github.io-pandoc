@@ -32,4 +32,5 @@ Passionate about the web and [open source](https://github.com/christian-fei)
 
 ## Reading
 
-- Scrum and XP from the trenches
+- <del>Scrum and XP from the trenches</del>
+- The Pragmatic Programmer
