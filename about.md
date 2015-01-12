@@ -34,3 +34,7 @@ Passionate about the web and [open source](https://github.com/christian-fei)
 
 - <del>Scrum and XP from the trenches</del>
 - The Pragmatic Programmer
+
+## Attending
+
+- [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x#.VLMY6orF_xF)
