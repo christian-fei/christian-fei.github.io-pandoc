@@ -36,6 +36,8 @@ In your default `protractor-conf.js` file, add this line to let protractor know 
   ...
 ```
 
+Install `cucumber` and `chai` (or your favourite assertion library) through npm.
+
 Now write your step definitions following this pattern in your `steps.js` :
 
 ```
