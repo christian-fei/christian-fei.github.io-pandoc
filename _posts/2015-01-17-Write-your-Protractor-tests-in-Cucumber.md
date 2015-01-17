@@ -79,7 +79,7 @@ module.exports = function() {
 An example of an acceptance test could be (taken from [pomodoro.cc](https://pomodoro.cc)):
 
 ```
-Feature: Loading the dashboard page
+Feature: Track time took for task
   As a user of Pomodoro.cc
   I should be able to see the dashboard
   So that I can track time
