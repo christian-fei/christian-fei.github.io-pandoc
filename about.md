@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: About
 permalink: /about/
 ---
 
@@ -10,7 +10,9 @@ Hi, my name is Christian.
 
 I'm an aspiring <del>ninja</del> agile developer, working in Trento at [XPeppers](http://xpeppers.com/), Italy.
 
-Passionate about the web and [open source](https://github.com/christian-fei)
+Passionate about the web and [open source](https://github.com/christian-fei).
+
+I'm into simple and stupid things.
 
 
 # I'm
