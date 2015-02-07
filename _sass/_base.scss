@@ -57,8 +57,7 @@ li {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(666px - (#{$spacing-unit} * 2));
-    max-width:         calc(666px - (#{$spacing-unit} * 2));
+    max-width: 699px;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
