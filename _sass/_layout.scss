@@ -3,8 +3,8 @@
  */
 .site-header {
   padding-top: 3rem;
-  padding-bottom: 0.25rem;
-  background-color: $background-color;
+  padding-bottom: 3rem;
+  background-color: lighten(invert($background-color), 90%);
 
   &, * {
     color: $text-color !important;
@@ -114,7 +114,6 @@
   font-size: 15px;
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
-  @extend %clearfix;
 }
 
 .footer-col {
@@ -164,6 +163,7 @@
 
 .post-list {
   margin-left: 0;
+  padding-left: 0;
   list-style: none;
 
   > li {
