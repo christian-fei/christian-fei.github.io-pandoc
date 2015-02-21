@@ -1,5 +1,5 @@
 ---
-title: "Start your coding kata right"
+title: "Start your coding kata the right way"
 date: 2015-02-21
 layout: post
 ---
