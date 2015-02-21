@@ -4,7 +4,7 @@
 .site-header {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: lighten(invert($background-color), 90%);
+  background-color: lighten(invert($background-color), 95%);
 
   &, * {
     color: $text-color !important;
@@ -230,4 +230,8 @@ img.me {
   text-align:center;
   padding: .25rem;
   margin: 1rem auto;
+}
+
+#disqus_thread {
+  margin-top: 200px;
 }
