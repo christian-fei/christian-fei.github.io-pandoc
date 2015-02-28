@@ -74,7 +74,12 @@ a {
     border-bottom: 1px solid rgba(136, 136, 136, 0.3);
 
     &:hover {
-        color: $text-color;
+      background-color: $yellow-color !important;
+      color: white !important;
+    }
+    &.simple:hover {
+      background-color: inherit !important;
+      color: $yellow-color !important;      
     }
 }
 
@@ -115,7 +120,7 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
-    border-left: 6px solid rgb(246,220,100);
+    border-left: 6px solid $yellow-color;
 
     > code {
         border: 0;

@@ -2,9 +2,8 @@
  * Site header
  */
 .site-header {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  background-color: lighten(invert($background-color), 95%);
+  padding: 1rem 0;
+  border-bottom: 2px solid lighten(invert($background-color), 95%);
 
   &, * {
     color: $text-color !important;

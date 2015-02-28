@@ -15,7 +15,7 @@ Passionate about the web and [open source](https://github.com/christian-fei).
 I'm into simple and stupid things.
 
 
-# I'm
+# I'm currently
 
 - <del>attending a 'JavaScript Developer' course at <a href="http://www.redoddity.it/courses/fse-javascript-developer/" class="imp" target="_blank">redoddity</a> in Bolzano</del>
 
