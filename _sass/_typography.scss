@@ -70,14 +70,11 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $link-color;
+    font-weight: bold;
     text-decoration: none;
     border-bottom: 1px solid rgba(136, 136, 136, 0.3);
 
     &:hover {
-      background-color: $yellow-color !important;
-      color: white !important;
-    }
-    &.simple:hover {
       background-color: inherit !important;
       color: $yellow-color !important;      
     }
