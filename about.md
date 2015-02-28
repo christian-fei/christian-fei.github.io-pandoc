@@ -38,6 +38,6 @@ I'm into simple and stupid things.
 - [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer)
 - [JavaScript Design Patterns](https://www.goodreads.com/book/show/14289134-learning-javascript-design-patterns)
 
-## Attending
+## Studying
 
 - [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x#.VLMY6orF_xF)
