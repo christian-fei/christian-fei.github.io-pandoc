@@ -8,7 +8,7 @@ permalink: /about/
 
 Hi, my name is Christian.
 
-I'm an aspiring <del>ninja</del> agile developer, working in Trento at [XPeppers](http://xpeppers.com/), Italy.
+I'm an aspiring ~~ninja~~ agile developer, working in Trento at [XPeppers](http://xpeppers.com/), Italy.
 
 Passionate about the web and [open source](https://github.com/christian-fei).
 
@@ -17,9 +17,9 @@ I'm into simple and stupid things.
 
 # I'm currently
 
-- <del>attending a 'JavaScript Developer' course at <a href="http://www.redoddity.it/courses/fse-javascript-developer/" class="imp" target="_blank">redoddity</a> in Bolzano</del>
+- ~~attending a 'JavaScript Developer' course at <a href="http://www.redoddity.it/courses/fse-javascript-developer/" class="imp" target="_blank">redoddity</a> in Bolzano~~
 
-- <del>doing an internship at <a href="http://xpeppers.com">XPeppers</a></del>
+- ~~doing an internship at <a href="http://xpeppers.com">XPeppers</a>~~
 
 - improving and learning everyday at [XPeppers](http://xpeppers.com)
 
@@ -34,8 +34,9 @@ I'm into simple and stupid things.
 
 ## Reading
 
-- <del>Scrum and XP from the trenches</del>
-- The Pragmatic Programmer
+- ~~[Scrum and XP from the trenches](https://www.goodreads.com/book/show/2455391.Scrum_and_XP_from_the_Trenches)~~
+- [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer)
+- [JavaScript Design Patterns](https://www.goodreads.com/book/show/14289134-learning-javascript-design-patterns)
 
 ## Attending
 

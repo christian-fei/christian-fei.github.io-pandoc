@@ -21,7 +21,7 @@ Anyways:
 
 
 
-<h2 id="tldr">tldr;</h1>
+<h2 id="tldr">tldr;</h2>
 
 In your default `protractor-conf.js` file, add this line to let protractor know that you're writing your tests in Cucumber:
 

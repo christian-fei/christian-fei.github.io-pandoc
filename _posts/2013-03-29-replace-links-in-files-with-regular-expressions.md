@@ -30,7 +30,7 @@ Explanation:
 
 - -i.bak is need, to prevent sed to cry around, it will make a backup of the files that you can simply remove with ``` rm *.bak ```
 
-- '*' at the end means 'search all files'
+- * at the end means 'search all files'
 
 <br>
 <br>

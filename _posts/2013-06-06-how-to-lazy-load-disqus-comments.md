@@ -8,7 +8,8 @@ date: 2013-06-06 18:36:07
 
 Disqus is definitely one of the best commenting systems out there (not to mention that it is responsive).
 As a speed freak I'm always concerned how much assets a website needs to load, affecting the overall load time of it.
-________________
+
+---------
 
 #The goal
 
