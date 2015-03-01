@@ -1,5 +1,5 @@
 ---
-title: "Write your first multi-container application with docker compose"
+title: "Write your first multi-container application with docker-compose"
 date: 2015-03-01
 layout: post
 ---
@@ -12,7 +12,7 @@ It uses a file (`docker-compose.yml`) to define the structure of your applicatio
 
 We'll build a simple node applications that interacts with redis to keep track of how many times the page has been visited.
 
-For this we'll need two containers: 
+For this we'll need two containers:
 
 - the node application running an HTTP server listening on port 80, communicating with Redis
 
