@@ -99,3 +99,7 @@ You'll need to run boot2docker, and to access the application you can run the fo
 ```
 open http://$(boot2docker ip):8080
 ```
+
+## Github project
+
+You can find the source code of the project on [GitHub](https://github.com/christian-fei/docker-compose-playground).
