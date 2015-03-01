@@ -20,64 +20,17 @@ For this we'll need two containers:
 
 The `docker-compose.yml` file for this project is defined as follows:
 
-```
-web:
-  build: .
-  command: node index.js
-  ports:
-    - "8080:80"
-  links:
-    - redis
-redis:
-  image: redis:latest
-  ports:
-    - "6379"
-```
+<script src="http://gist-it.appspot.com/github/christian-fei/docker-compose-playground/blob/master/docker-compose.yml"></script>
 
 ## Building the web application
 
 The node application is built from the latest stable version of node:
 
-```
-FROM node:0.10.34
-
-RUN ["mkdir", "-p", "/app"]
-ADD . /app
-WORKDIR /app
-RUN ["npm", "install"]
-
-EXPOSE 80
-```
+<script src="http://gist-it.appspot.com/github/christian-fei/docker-compose-playground/blob/master/Dockerfile"></script>
 
 The application itself is a simple web server incrementing the number of hits each time a request comes in and responds with the current hit count:
 
-```
-var HTTP_PORT = 80
-  , REDIS_HOST  = process.env.REDIS_PORT_6379_TCP_ADDR
-  , REDIS_PORT  = 6379
-
-var redis = require('redis')
-  , http = require('http')
-  , redisClient = redis.createClient(REDIS_PORT, REDIS_HOST)
-
-redisClient.on('error', function (err) {
-  console.log(err)
-})
-
-redisClient.set('hits', 0, redis.print)
-
-http.createServer(function(req, res) {
-  if( /favicon\.ico$/.test(req.url) ) return res.end()
-  redisClient.incr('hits', function(err,hits){
-    console.log( 'incremting hits', hits )
-    res.writeHead(200, {'Content-Type': 'text/plain'})
-    res.end('Hello World * ' + hits)
-  })
-}).listen(HTTP_PORT, '0.0.0.0', function() {
-  console.log('Server running at http://127.0.0.1:'+HTTP_PORT)
-})
-```
-
+<script src="http://gist-it.appspot.com/github/christian-fei/docker-compose-playground/blob/master/index.js"></script>
 
 ## Running the application with docker-compose
 
