@@ -32,13 +32,19 @@ I'm into simple and stupid things.
 - fiddling around with code on [Github](https://github.com/christian-fei)
 
 
-## Reading
-
-- ~~[Scrum and XP from the trenches](https://www.goodreads.com/book/show/2455391.Scrum_and_XP_from_the_Trenches)~~
-- [Learn You a Haskell for Great Good!](https://www.goodreads.com/book/show/6593810-learn-you-a-haskell-for-great-good)
-- [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer)
-- [JavaScript Design Patterns](https://www.goodreads.com/book/show/14289134-learning-javascript-design-patterns)
 
 ## Studying
 
 - [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x#.VLMY6orF_xF)
+
+
+
+## Reading
+
+- ~~[Scrum and XP from the trenches](https://www.goodreads.com/book/show/2455391.Scrum_and_XP_from_the_Trenches)~~
+- [Extreme Programming Explained](https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained)
+- [Learn You a Haskell for Great Good!](https://www.goodreads.com/book/show/6593810-learn-you-a-haskell-for-great-good)
+
+#### In pipeline
+- [JavaScript Design Patterns](https://www.goodreads.com/book/show/14289134-learning-javascript-design-patterns)
+- [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer)
