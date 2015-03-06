@@ -1,5 +1,5 @@
 ---
-title: "Speed up your docker container by caching the node_modules"
+title: "Speed up your docker container by caching node_modules"
 date: 2015-03-06
 layout: post
 ---
