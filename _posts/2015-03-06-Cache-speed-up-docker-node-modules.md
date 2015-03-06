@@ -31,7 +31,7 @@ We could achieve this by defining the Dockerfile in the following way:
 ```
 COPY package.json /src/package.json
 RUN cd /src; npm install
-COPY . /app
+COPY . /src
 ```
 
 This will cache the dependencies until the package.json file changes :)
