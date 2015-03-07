@@ -3,24 +3,17 @@
  */
 .site-header {
   padding: 1rem 0;
-  border-bottom: 2px solid lighten(invert($background-color), 95%);
-
-  &, * {
-    color: $text-color !important;
-  }
 
   a {
     border-bottom: none;
   }
 
-  // Positioning context for the mobile navigation icon
   position: relative;
 }
 
 
 .site-title {
   display: inline-block;
-  letter-spacing: -1px;
   margin-bottom: 0;
   margin-top: 0;
   float: left;
@@ -34,20 +27,10 @@
     display: none;
   }
 
-  .page-link {
-    color: $text-color;
-
-    // Gaps between nav items, but not on the first one
-    &:not(:first-child) {
-      margin-left: 20px;
-    }
-  }
-
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
     right: 30px;
-    background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
@@ -89,84 +72,14 @@
 }
 
 
-
-
 .home-row {
   margin: 5rem auto;
 }
 
 
-
-
-/**
- * Site footer
- */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  margin-top: 5rem;
 }
-
-.footer-heading {
-  font-size: 18px;
-  margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-  list-style: none;
-  margin-left: 0;
-}
-
-.footer-col-wrapper {
-  font-size: 15px;
-  color: $grey-color;
-  margin-left: -$spacing-unit / 2;
-}
-
-.footer-col {
-  float: left;
-  margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-  .footer-col-1,
-  .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-  }
-}
-
-@include media-query($on-palm) {
-  .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-  }
-}
-
-
-
 
 .post-list {
   margin-left: 0;
@@ -232,5 +145,5 @@ img.me {
 }
 
 #disqus_thread {
-  margin-top: 200px;
+  margin-top: 100px;
 }
