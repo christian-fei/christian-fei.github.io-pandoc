@@ -25,14 +25,6 @@ I'm into simple and stupid things.
 
 
 
-## Building
-
-- [Pomodoro.cc](https://pomodoro.cc) - A simple time tracking tool leveraging the [Pomodoro technique](http://pomodorotechnique.com/). It provides you insightful statistics about the achieved goals and time spent on a specific task.
-
-- fiddling around with code on [Github](https://github.com/christian-fei)
-
-
-
 ## Studying
 
 - [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x#.VLMY6orF_xF)
