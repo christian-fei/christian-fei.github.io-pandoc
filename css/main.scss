@@ -30,18 +30,18 @@ $on-laptop:        800px;
 
 
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 
 
 @import
-        "normalize",
-        "base",
-        "layout",
-        "syntax-highlighting",
-        "typography",
-        "ads"
+  "normalize",
+  "base",
+  "layout",
+  "syntax-highlighting",
+  "typography",
+  "ads"
 ;

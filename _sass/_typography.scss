@@ -2,12 +2,12 @@
  * Basic styling
  */
 body {
-    font: 18px Helvetica Neue, Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300;
-    line-height: 1.6;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
+  font: 18px Helvetica Neue, Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
 }
 
 
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
 }
 
 
@@ -58,7 +58,7 @@ ul, ol, dl, figure,
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 
@@ -67,15 +67,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $link-color;
-    font-weight: bold;
-    text-decoration: none;
-    border-bottom: 1px solid rgba(136, 136, 136, 0.3);
+  color: $link-color;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(136, 136, 136, 0.3);
 
-    &:hover {
-      background-color: inherit !important;
-      color: $yellow-color !important;
-    }
+  &:hover {
+    background-color: inherit !important;
+    color: $yellow-color !important;
+  }
 }
 
 
@@ -84,16 +84,16 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
+  color: $grey-color;
+  border-left: 4px solid $grey-color-light;
+  padding-left: $spacing-unit / 2;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic;
 
-    > :last-child {
-        margin-bottom: 0;
-    }
+  > :last-child {
+    margin-bottom: 0;
+  }
 }
 
 
@@ -103,25 +103,25 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
-    background-color: $grey-color-light;
-    border-radius: 3px;
+  font-size: 15px;
+  background-color: $grey-color-light;
+  border-radius: 3px;
 }
 
 code {
-    padding: 1px 5px;
+  padding: 1px 5px;
 }
 
 pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
-    border-left: 6px solid $yellow-color;
+  padding: 8px 12px;
+  overflow-x: scroll;
+  border-left: 6px solid $yellow-color;
 
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 .twitter-share-button, .twitter-follow-button {
