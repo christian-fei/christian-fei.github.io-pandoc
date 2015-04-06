@@ -35,6 +35,7 @@ I'm into simple and stupid things.
 
 - ~~[Scrum and XP from the trenches](https://www.goodreads.com/book/show/2455391.Scrum_and_XP_from_the_Trenches)~~
 - ~~[Extreme Programming Explained](https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained)~~
+- [Software Craftsmanship](https://www.goodreads.com/book/show/18054154-software-craftsmanship)
 - [Learn You a Haskell for Great Good!](https://www.goodreads.com/book/show/6593810-learn-you-a-haskell-for-great-good)
 
 #### In pipeline
