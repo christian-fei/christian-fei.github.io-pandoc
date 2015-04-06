@@ -4,32 +4,9 @@ layout: default
 
 <div class="home-row"></div>
 
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ site.posts[0].title }}</h1>
-    <p class="post-meta">{{ site.posts[0].date | date: "%b %-d, %Y" }}{% if site.posts[0].author %} • {{ site.posts[0].author }}{% endif %}{% if site.posts[0].meta %} • {{ site.posts[0].meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=christianfeininja" id="_carbonads_js"></script>
-
-    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ site.posts[0].title }}&url={{ site.url }}{{ site.posts[0].url }}&via=christian_fei" target="_blank" title="Tweet">Tweet this!</a>
-
-    {{ site.posts[0].content }}
-  </article>
-
-  <a class="twitter-follow-button" href="https://twitter.com/intent/user?screen_name=christian_fei"  title="Tweet">Let's keep in touch on Twitter</a>
+<div class="post-content">
+  <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=christianfeininja" id="_carbonads_js"></script>
 </div>
-
-
-<br>
-<br>
-<br>
-<br>
-<hr>
-
-<h1>More posts</h1>
-
 <ul class="post-list">
   {% for post in site.posts offset:1 %}
     <li>
