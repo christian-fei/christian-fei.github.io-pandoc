@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img class="me" src="/img/me.jpg" alt="Christian Fei"/>
+<img class="round" src="/img/me.jpg" alt="Christian Fei"/>
 
 Hi, my name is Christian.
 
