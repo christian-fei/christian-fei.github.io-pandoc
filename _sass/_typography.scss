@@ -2,7 +2,8 @@
  * Basic styling
  */
 body {
-  font: 16px Helvetica Neue, Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  font-family: "Merriweather Sans", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
   font-weight: 300;
   line-height: 1.6;
   color: $text-color;
@@ -23,8 +24,8 @@ p {margin-bottom: 1.3em;}
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
-  font-weight: inherit;
-  line-height: 1.2;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 h1 {

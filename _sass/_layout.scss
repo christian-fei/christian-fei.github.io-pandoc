@@ -91,9 +91,9 @@
     margin-bottom: $spacing-unit;
   }
 
-  a {
-    font-size: 1.1rem;
-  }
+  // a {
+  //   font-size: 1.1rem;
+  // }
 }
 
 .post-meta {
@@ -114,8 +114,7 @@
 
 .post-title {
   letter-spacing: -1px;
-  line-height: 1;
-
+  line-height: 1.2;
 }
 
 .post-date {
