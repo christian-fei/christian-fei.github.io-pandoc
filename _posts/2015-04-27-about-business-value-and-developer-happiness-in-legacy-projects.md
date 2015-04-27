@@ -22,3 +22,18 @@ Naturally, you have to do the least amount of work needed to make you confident 
 
 ---
 
+One of the most stressful/challenging moments in this project was the communication to the business.
+
+This was due to the fact that the application was working very well, seen from "outside";
+in other words the external quality was quite satisfactory.
+
+From the developer perspective it was a nightmare to work with it sometimes,
+mostly because of its fragility and high entanglement of components in the application.
+
+But that's no excuse to still *try* to do a good job..
+
+### Lessons learned
+
+To gain confidence in the monstrous codebase we found the following points useful, if not *essential*:
+
+-fd
