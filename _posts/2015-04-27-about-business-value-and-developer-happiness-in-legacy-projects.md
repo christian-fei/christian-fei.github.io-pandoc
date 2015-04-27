@@ -31,6 +31,14 @@ in other words the external quality was quite satisfactory.
 From the developer perspective it was a nightmare to work with it sometimes,
 mostly because of its fragility and high entanglement of components in the application.
 
+I still didn't find the antidote to this poison.
+But I understood that the external quality (as soon as it works and there are no nasty bugs),
+the code underneath doesn't matter *that much*.
+
+*(sorry if I offended you with this strong statement)*
+
+As soon as you need to make changes to it the situation can get a lil bit fragile, but not until this unholy moment comes..
+
 
 
 ### Lessons learned
