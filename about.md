@@ -8,11 +8,11 @@ permalink: /about/
 
 Hi, my name is Christian.
 
-I'm a ninja/agile developer by day (and usually by night too), working in Trento at [XPeppers](http://xpeppers.com/), Italy.
+I work as a developer in an agile team at [XPeppers](http://xpeppers.com/) in Trento, Italy.
 
-Passionate about the web and [open source](https://github.com/christian-fei).
+I consider myself passionate about the web and [open source](https://github.com/christian-fei).
 
-I'm into simple and stupid things.
+I'm way too into simple and stupid things.
 
 
 # I'm currently
