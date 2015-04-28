@@ -55,7 +55,7 @@ but beware of the kind of changes you make since there are no tests (right?)
 - don't let **your decisions as a developer** be taken by the business people,
 like *"I HAVE to do some test coverage here to refactor and add the new feature"*,
 but you **promptly** get the response *"we HAVE to be online next week"*.
-Just try your best and do as little as possible that you find necessary to ship the actual feature with some degree of confidence
+Just try to do your best to ship the new feature with some degree of confidence.
 
 - a legacy project can be *kind of* frustrating, don't let yourself down;
 and see it as a great **opportunity** to get better and improve your coding skills,
