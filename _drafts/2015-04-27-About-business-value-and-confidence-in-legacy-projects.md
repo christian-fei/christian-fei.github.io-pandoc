@@ -32,7 +32,7 @@ From the developer perspective it was a nightmare to work with it sometimes,
 mostly because of its fragility and high entanglement of components in the application.
 
 I still didn't find a solution to this situation.
-But I came to the conclusion that as long as the external quality is acceptance and solves the business problem,
+But I came to the conclusion that as long as the external quality is acceptable and solves the business problem,
 the code underneath doesn't matter *that much*. You can (try to) ignore it *for now*.
 
 *(sorry if I offended you with this strong statement)*
