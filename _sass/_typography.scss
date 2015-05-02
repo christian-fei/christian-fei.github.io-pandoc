@@ -2,9 +2,9 @@
  * Basic styling
  */
 body {
-  font-size: 15px;
-  font-family: "Merriweather Sans", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
-  font-weight: 400;
+  font-size: 16px;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+  font-weight: 300;
   line-height: 1.6;
   color: $text-color;
   background-color: $background-color;
@@ -98,7 +98,6 @@ blockquote {
   padding-left: $spacing-unit / 2;
   margin-left: $spacing-unit;
   font-size: 18px;
-  letter-spacing: -1px;
   font-style: italic;
 
   > :last-child {

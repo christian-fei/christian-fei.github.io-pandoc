@@ -1,3 +1,4 @@
 _site
 .sass-cache
 naked-jekyll.sublime-workspace
+.DS_Store
