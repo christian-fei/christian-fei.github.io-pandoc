@@ -4,17 +4,11 @@
 .site-header {
   padding: 1rem 0;
 
-  a {
-    border-bottom: none;
-  }
-
   position: relative;
 }
 
 
 .site-title {
-  font-size: 5em;
-  display: inline-block;
   margin-bottom: 0;
   margin-top: 0;
   float: left;
@@ -22,7 +16,6 @@
 
 .site-nav {
   float: right;
-  line-height: 4.8rem;
 
   .menu-icon {
     display: none;

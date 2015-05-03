@@ -1,5 +1,5 @@
 ---
-title: "About business value and confidence in legacy projects"
+title: About business value and confidence in legacy projects
 date: 2015-04-27
 layout: post
 ---
