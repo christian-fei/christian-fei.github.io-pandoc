@@ -136,6 +136,26 @@ pre {
 }
 
 
+.post-title, .post-meta {
+  line-height: 1;
+  margin: 0;
+}
+
+.post-meta {
+  margin-top: 1em;
+}
+
+.post-date {
+  float: right;
+  font-size: 0.8rem;
+  opacity: 0.5;
+
+  @media all and(max-width: $max-width) {
+    display: none;
+  }
+}
+
+
 .post-background-header {
   overflow: hidden;
   background: black;
@@ -143,6 +163,6 @@ pre {
   background: $yellow-color;
   color: black;
 
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
