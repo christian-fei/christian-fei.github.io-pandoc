@@ -10,7 +10,7 @@ layout: default
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <span class="post-date">{{ post.date | date_to_string }}</span></a>
+      <a class="no-bold" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <span class="post-date">{{ post.date | date_to_string }}</span></a>
     </li>
   {% endfor %}
 </ul>

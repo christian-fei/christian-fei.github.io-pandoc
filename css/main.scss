@@ -13,16 +13,17 @@ $small-font-size:  $base-font-size * 0.875;
 
 $spacing-unit:     20px;
 
-$text-color:       #111;
-$link-color:       #000;
-$background-color: #FFFFFF;
-$brand-color:      #444444;
-
 $yellow-color:     #FFC600;
-
+$background-color: #FFFFFF;
 $grey-color:       rgb(80,80,80);
 $grey-color-light: #FCFCFC;
 $grey-color-dark:  darken($grey-color, 25%);
+
+
+$text-color:       #111;
+$link-color:       #000;
+$link-color:       $grey-color;
+
 
 $max-width:        666px;
 $on-palm:          600px;
