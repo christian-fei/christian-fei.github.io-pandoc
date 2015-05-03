@@ -79,9 +79,10 @@ a {
     font-weight: normal;
   }
 
-  &:hover {
-    background-color: inherit !important;
-    color: $yellow-color !important;
+  &:hover, &:focus {
+    font-weight: bold;
+    background-color: $yellow-color !important;
+    color: black !important;
   }
 }
 
