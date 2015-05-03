@@ -134,3 +134,15 @@ pre {
   background-color: rgba(128, 128, 128, 0.05);
   text-align: center;
 }
+
+
+.post-background-header {
+  overflow: hidden;
+  background: black;
+  color: white;
+  background: $yellow-color;
+  color: black;
+
+  padding-top: 2em;
+  padding-bottom: 2em;
+}

@@ -3,16 +3,18 @@ layout: default
 ---
 
 <div class="home-row"></div>
+  <div class="wrapper">
 
-<div class="post-content">
-  <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=christianfeininja" id="_carbonads_js"></script>
+  <div class="post-content">
+    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=christianfeininja" id="_carbonads_js"></script>
+  </div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <a class="no-bold" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <span class="post-date">{{ post.date | date_to_string }}</span></a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>
-<ul class="post-list">
-  {% for post in site.posts %}
-    <li>
-      <a class="no-bold" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <span class="post-date">{{ post.date | date_to_string }}</span></a>
-    </li>
-  {% endfor %}
-</ul>
-
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

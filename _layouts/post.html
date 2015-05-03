@@ -2,42 +2,47 @@
 layout: default
 ---
 <div class="post" itemscope itemtype="http://schema.org/Article">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-    <p class="post-meta" itemprop="datePublished" content="2015-03-06">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content" role="article">
-    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=christianfeininja" id="_carbonads_js"></script>
-
-    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=christian_fei" target="_blank" title="Tweet">Tweet this!</a>
-
-    <div itemprop="articleBody">
-      {{ content }}
+  <div class="post-background-header">
+    <div class="wrapper">
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+        <p class="post-meta" itemprop="datePublished" content="2015-03-06">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      </header>
     </div>
-  </article>
-
-  <a class="twitter-follow-button" href="https://twitter.com/intent/user?screen_name=christian_fei"  title="Tweet">Let's keep in touch on Twitter</a>
-
-
-  <div>
-    <span>by</span>
-    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-      Christian Fei
-    </span>
   </div>
 
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'christianfeiblog'; // required: replace example with your forum shortname
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <div class="wrapper">
+    <article class="post-content" role="article">
+      <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=christianfeininja" id="_carbonads_js"></script>
+
+      <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=christian_fei" target="_blank" title="Tweet">Tweet this!</a>
+
+      <div itemprop="articleBody">
+        {{ content }}
+      </div>
+    </article>
+
+    <a class="twitter-follow-button" href="https://twitter.com/intent/user?screen_name=christian_fei"  title="Tweet">Let's keep in touch on Twitter</a>
+
+
+    <div>
+      <span>by</span>
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        Christian Fei
+      </span>
+    </div>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'christianfeiblog'; // required: replace example with your forum shortname
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
 </div>
