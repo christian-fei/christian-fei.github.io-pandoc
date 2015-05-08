@@ -73,6 +73,12 @@
   a {
     margin-right: 1em;
   }
+
+  @include media-query($on-palm) {
+    position: absolute;
+    right: 75px;
+  }
+
 }
 
 
