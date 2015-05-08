@@ -3,8 +3,9 @@
  */
 .site-header {
   padding: 1rem 0;
-
+  background: $yellow-color;
   position: relative;
+  font-weight: bold;
 }
 
 
@@ -62,6 +63,15 @@
       display: block;
       padding: 5px 10px;
     }
+  }
+}
+
+
+.social {
+  float: right;
+
+  a {
+    margin-right: 1em;
   }
 }
 
