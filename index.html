@@ -11,8 +11,19 @@ layout: default
   <div class="post-content">
     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=christianfeininja" id="_carbonads_js"></script>
   </div>
+  <div class="highlighted-post">
+    {% for post in site.posts limit:1 %}
+      <h2 class="no-rythm">
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <p>
+        {{ post.excerpt }}
+      </p>
+    {% endfor %}
+  </div>
+
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts offset:1 %}
       <li>
         <a class="no-bold" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <span class="post-date">{{ post.date | date_to_string }}</span></a>
       </li>
