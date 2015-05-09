@@ -27,7 +27,7 @@ I'm way too into simple and stupid things.
 
 ## Studying
 
-- [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x#.VLMY6orF_xF)
+- ~~[Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x#.VLMY6orF_xF)~~
 
 
 
