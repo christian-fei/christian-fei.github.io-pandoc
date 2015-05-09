@@ -8,7 +8,7 @@ body > header {
   font-weight: bold;
 }
 
-.site-nav {
+nav[role="main"] {
   float: right;
 
   .menu-icon {
@@ -71,6 +71,7 @@ body > header {
   @include media-query($on-palm) {
     position: absolute;
     right: 75px;
+    top: 14px;
   }
 
 }
