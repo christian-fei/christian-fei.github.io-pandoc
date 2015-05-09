@@ -1,5 +1,5 @@
 ---
-title: Functional JavaScript: Write your own negate/not function
+title: "Functional JavaScript: Write your own negate/not function"
 date: 2015-05-09
 layout: post
 ---
