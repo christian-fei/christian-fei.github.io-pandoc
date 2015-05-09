@@ -112,46 +112,10 @@ ul.block-list {
 }
 
 
-.post-container {
-  position: relative;
 
-  header {
-    h1, p {
-      line-height: 1;
-      margin: 0;
-    }
-    p {
-      font-size: $small-font-size;
-      color: $grey-color;
-      margin-top: 1em;
-      color: white;
-      font-weight: bold;
-    }
-  }
-}
-
-
-
-.round {
-  border-radius: 50%;
-}
-
-
-#disqus_thread {
-  margin-top: 100px;
-}
-
-
-.featured-post {
-  .promotion-message {
-    color: white !important;
-  }
-  p {
-    background-color: #fff;
-    padding: 1em;
-  }
-}
-
+/*
+  BACKGROUND EXTENDED
+*/
 .background-extended {
   padding: 0.5em;
   overflow: hidden;
