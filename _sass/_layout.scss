@@ -2,12 +2,20 @@ body {
   overflow-x: hidden;
 }
 
+
+/*
+  HEADER
+*/
 body > header {
   padding: 1rem 0;
   position: relative;
   font-weight: bold;
 }
 
+
+/*
+  NAVIGATION
+*/
 nav[role="main"] {
   float: right;
 
@@ -61,6 +69,10 @@ nav[role="main"] {
 }
 
 
+
+/*
+  SOCIAL LINKS
+*/
 .social {
   float: right;
 
@@ -77,14 +89,17 @@ nav[role="main"] {
 }
 
 
-.home-row {
-  margin: 5rem auto;
-}
 
-
+/*
+  FOOTER
+*/
 .site-footer {
   margin-top: 5rem;
 }
+
+
+
+
 
 .post-list {
   margin-left: 0;
@@ -94,10 +109,6 @@ nav[role="main"] {
   > li {
     margin-bottom: $spacing-unit;
   }
-
-  // a {
-  //   font-size: 1.1rem;
-  // }
 }
 
 .post-title, .post-meta {
@@ -118,14 +129,6 @@ nav[role="main"] {
 }
 
 
-img.me {
-  width: 100px;
-  float: right;
-  margin-left: 10px;
-
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-}
 
 .round {
   border-radius: 50%;
