@@ -206,3 +206,14 @@ li {
     clear: both;
   }
 }
+
+
+.post-date {
+  float: right;
+  font-size: 0.8rem;
+  opacity: 0.5;
+
+  @media all and(max-width: $max-width) {
+    display: none;
+  }
+}
