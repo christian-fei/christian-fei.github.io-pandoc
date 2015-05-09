@@ -111,6 +111,11 @@ ul.block-list {
   }
 }
 
+
+article {
+  position: relative;
+}
+
 .post-title, .post-meta {
   line-height: 1;
   margin: 0;
@@ -123,11 +128,6 @@ ul.block-list {
   color: white;
   font-weight: bold;
 }
-
-.post-content {
-  position: relative;
-}
-
 
 
 .round {
