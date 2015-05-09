@@ -4,22 +4,20 @@ layout: default
 
 <div class="background-extended">
   <div class="wrapper">
-    <h1 class="no-rythm">&nbsp;</h1>
+    <div class="featured-post">
+      <h4 class="promotion-message">LATEST BLOG POST</h4>
+      {% for post in site.posts limit:1 %}
+        <h2 class="no-rythm">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        {{ post.excerpt }}
+      {% endfor %}
+    </div>
   </div>
 </div>
 <div class="wrapper">
   <div class="post-content">
     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=christianfeininja" id="_carbonads_js"></script>
-  </div>
-  <div class="highlighted-post">
-    {% for post in site.posts limit:1 %}
-      <h2 class="no-rythm">
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-      <p>
-        {{ post.excerpt }}
-      </p>
-    {% endfor %}
   </div>
 
   <ul class="post-list">

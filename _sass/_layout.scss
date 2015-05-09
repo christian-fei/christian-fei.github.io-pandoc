@@ -141,8 +141,12 @@ img.me {
 }
 
 
-.highlighted-post {
-  margin: 4em auto 6em;
-  padding-bottom: 3em;
-  border-bottom: 5px solid lightgrey;
+.featured-post {
+  .promotion-message {
+    color: white !important;
+  }
+  p {
+    background-color: #fff;
+    padding: 1em;
+  }
 }

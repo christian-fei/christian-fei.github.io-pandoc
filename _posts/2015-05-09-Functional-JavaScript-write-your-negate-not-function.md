@@ -10,7 +10,7 @@ One way to solve this problem in a functional fashion is to provide an `odd` fil
 
 So, let's define these functions step by step:
 
-```
+```javascript
 function odd(number){
   return not(even)
 }
