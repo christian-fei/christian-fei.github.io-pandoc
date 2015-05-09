@@ -109,9 +109,17 @@ body {
   // }
 }
 
+.post-title, .post-meta {
+  line-height: 1;
+  margin: 0;
+}
+
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  margin-top: 1em;
+  color: white;
+  font-weight: bold;
 }
 
 .post-content {
