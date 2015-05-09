@@ -1,9 +1,12 @@
+body {
+  overflow-x: hidden;
+}
+
 /**
  * Site header
  */
 .site-header {
   padding: 1rem 0;
-  //background: $yellow-color;
   position: relative;
   font-weight: bold;
 }
@@ -26,9 +29,9 @@
     position: absolute;
     top: 9px;
     right: 30px;
-    border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
+    z-index: 10000;
 
     .menu-icon {
       display: block;
@@ -56,7 +59,8 @@
 
     &:hover .trigger {
       display: block;
-      padding-bottom: 5px;
+      padding: .5em 1em;
+      background: white;
     }
 
     .page-link {
@@ -149,4 +153,18 @@ img.me {
     background-color: #fff;
     padding: 1em;
   }
+}
+
+.background-extended {
+  padding: 0.5em;
+  overflow: hidden;
+  background: black;
+  color: white;
+  background: $yellow-color;
+  color: black;
+
+  padding-top: 5em;
+  padding-bottom: 5em;
+
+  transform: scaleX(1.04) rotateZ(-1deg);
 }
