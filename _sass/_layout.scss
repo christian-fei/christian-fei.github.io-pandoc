@@ -112,35 +112,30 @@ ul.block-list {
 }
 
 
-article {
+.post-container {
   position: relative;
+
+  header {
+    h1, p {
+      line-height: 1;
+      margin: 0;
+    }
+    p {
+      font-size: $small-font-size;
+      color: $grey-color;
+      margin-top: 1em;
+      color: white;
+      font-weight: bold;
+    }
+  }
 }
 
-.post-title, .post-meta {
-  line-height: 1;
-  margin: 0;
-}
-
-.post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
-  margin-top: 1em;
-  color: white;
-  font-weight: bold;
-}
 
 
 .round {
   border-radius: 50%;
 }
 
-
-.twitter-share-button {
-  display: inline-block;
-  text-align:center;
-  padding: .25rem;
-  margin: 1rem auto;
-}
 
 #disqus_thread {
   margin-top: 100px;

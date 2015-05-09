@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-<div class="post" itemscope itemtype="http://schema.org/Article">
+<div class="post-container" itemscope itemtype="http://schema.org/Article">
   <div class="background-extended">
     <div class="wrapper">
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-        <p class="post-meta" itemprop="datePublished" content="2015-03-06">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      <header>
+        <h1 itemprop="name">{{ page.title }}</h1>
+        <p itemprop="datePublished" content="2015-03-06">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
       </header>
     </div>
   </div>
@@ -15,14 +15,14 @@ layout: default
     <article role="article">
       <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=christianfeininja" id="_carbonads_js"></script>
 
-      <a class="twitter-button" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=christian_fei" target="_blank" title="Tweet">Tweet this!</a>
+      <a class="button" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=christian_fei" target="_blank" title="Tweet">Tweet this!</a>
 
       <div itemprop="articleBody">
         {{ content }}
       </div>
     </article>
 
-    <a class="twitter-button" href="https://twitter.com/intent/user?screen_name=christian_fei"  title="Tweet">Let's keep in touch on Twitter</a>
+    <a class="button" href="https://twitter.com/intent/user?screen_name=christian_fei"  title="Tweet">Let's keep in touch on Twitter</a>
 
 
     <div>
