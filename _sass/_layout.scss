@@ -117,17 +117,20 @@ ul.block-list {
   BACKGROUND EXTENDED
 */
 .background-extended {
-  padding: 0.5em;
   overflow: hidden;
   background: black;
   color: white;
   background: $yellow-color;
   color: black;
 
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding: 4em .5em;
+  margin: 2em auto;
 
-  transform: scaleX(1.04) rotateZ(-1deg);
+  transform: scaleX(1.1) rotateZ(-$rotation-degrees);
+
+  .wrapper {
+    transform: translateY(5%) scaleX(0.9) rotateZ($rotation-degrees);
+  }
 }
 
 

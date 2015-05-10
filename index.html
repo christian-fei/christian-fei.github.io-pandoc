@@ -23,7 +23,7 @@ layout: default
   <ul class="block-list">
     {% for post in site.posts offset:1 %}
       <li>
-        <a class="no-bold" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <span class="post-date">{{ post.date | date_to_string }}</span></a>
+        <a class="no-bold1" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <span class="post-date">{{ post.date | date_to_string }}</span></a>
       </li>
     {% endfor %}
   </ul>
