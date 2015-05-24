@@ -1,0 +1,17 @@
+.author-about {
+  margin: 1em auto;
+  max-width: 17em;
+  text-align: center;
+  img {
+    display:block;
+    margin:auto;
+    width:5em;
+    height:5em;
+    float:left;
+  }
+  span {
+    display: inline-block;
+    margin-top: (5em/3);
+    // margin-left: 1em;
+  }
+}
