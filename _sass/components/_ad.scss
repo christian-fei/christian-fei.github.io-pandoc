@@ -6,15 +6,16 @@
   display: block;
   margin: 3em auto;
   width: 130px;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
 
   @media all and (min-width: 1100px){
     position: absolute;
     top: 50px;
     left: -175px;
-
-    &:hover {
-      opacity: 1;
-    }
   }
 
   .carbon-img {

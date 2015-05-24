@@ -123,14 +123,14 @@ ul.block-list {
   background: $yellow-color;
   color: black;
 
-  padding: 4em .5em;
-  margin: 2em auto;
+  padding: 5em .5em;
+  margin: 0 auto 2em;
 
-  transform: scaleX(1.1) rotateZ(-$rotation-degrees);
+  // transform: scaleX(1.1) rotateZ(-$rotation-degrees);
 
-  .wrapper {
-    transform: translateY(5%) scaleX(0.9) rotateZ($rotation-degrees);
-  }
+  // .wrapper {
+  //   transform: translateY(5%) scaleX(0.9) rotateZ($rotation-degrees);
+  // }
 }
 
 
