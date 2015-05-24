@@ -8,9 +8,9 @@ In my opinion a README should be a requirement for every project, be it open sou
 
 It's the essential piece of information of a project.
 
-If a project doesn't have an exhaustive README, a new people on the project may find themselves asking colleagues what the installation steps are, or even worse: search through the internal google sites wiki, or, god forbid, the journal!
+If a project doesn't have an exhaustive README, new people on the project may find themselves asking colleagues what the installation steps are, or even worse: search through the internal google sites wiki, or, god forbid, the journal!
 
-To keep a README up to date is such a simple procedure/practice, that it's a shame to hear the sentence from time to time "ah the readme is not updated, you have to do ..."
+Keeping a README up to date is such a simple procedure/practice, that it's a shame to hear the sentence from time to time "ah the readme is not updated, you have to do ..."
 
 Are you a [good boyscout](http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule) or a [happy, shitty coder](http://shittysomething.com)?
 
