@@ -120,17 +120,11 @@ ul.block-list {
   overflow: hidden;
   background: black;
   color: white;
-  background: $yellow-color;
+  background: $main-color;
   color: black;
 
   padding: 5em .5em;
   margin: 0 auto 2em;
-
-  // transform: scaleX(1.1) rotateZ(-$rotation-degrees);
-
-  // .wrapper {
-  //   transform: translateY(5%) scaleX(0.9) rotateZ($rotation-degrees);
-  // }
 }
 
 

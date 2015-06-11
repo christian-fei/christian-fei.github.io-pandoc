@@ -81,7 +81,7 @@ a {
 
   &:hover, &:focus {
     font-weight: bold;
-    background-color: $yellow-color;
+    background-color: $main-color;
     color: black;
   }
 }
@@ -90,7 +90,7 @@ a {
 
 blockquote {
   color: $grey-color;
-  border-left: 4px solid $yellow-color;
+  border-left: 4px solid $main-color;
   padding-left: $spacing-unit / 2;
   margin-left: $spacing-unit;
   font-size: 18px;
@@ -117,7 +117,7 @@ code {
 pre {
   padding: 8px 12px;
   overflow-x: scroll;
-  border-left: 6px solid $yellow-color;
+  border-left: 6px solid $main-color;
 
   > code {
     border: 0;
