@@ -4,7 +4,7 @@ date: 2015-07-05
 layout: post
 ---
 
-One of the [reccomended backup strategies](http://docs.mongodb.org/manual/tutorial/backup-and-restore-tools/) of a mongodb database is through its tool called `mongodump`.
+One of the [recommended backup strategies](http://docs.mongodb.org/manual/tutorial/backup-and-restore-tools/) of a mongodb database is through its tool called `mongodump`.
 
 We will use it to dump the current consistent state of the database with all its collections and move it to the host machine for persistence.
 
