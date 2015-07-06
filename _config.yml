@@ -1,5 +1,6 @@
 # Site settings
 title: Christian Fei's Blog
+desc: "A blog about my programming ramblings with JavaScript and other weird stuff"
 email: christian@fei.ninja
 description: Christian Fei's Blog
 permalink: /:title/
