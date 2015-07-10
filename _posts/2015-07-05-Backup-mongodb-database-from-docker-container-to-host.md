@@ -12,23 +12,8 @@ Let's say you have a docker container running a mongodb database with a volume o
 
 You can create a dump of the current state of the database with `mongodump`.
 
-You need to enter the running mongodb container, to do that you need to execute the following:
+*Update*: as suggested by sokrat in the comments, you can run this command to backup your mongo database to host on `/backup`:
 
 ```
-docker exec -it RUNNING_MONGODB_CONTAINER_ID_OR_NAME mongodump --out /backup
-```
-
-Once this process is finished, you can grab the dumped that and copy it to the host with
-
-```
-docker cp RUNNING_MONGODB_CONTAINER_ID_OR_NAME:/backup /backup
-```
-
-where the last parameter `/backup` is the folder on the host machine.
-
-
-Now you can savely delete the temporary dump on the docker container with 
-
-```
-docker exec -it RUNNING_MONGODB_CONTAINER_ID_OR_NAME rm -rf /backup
+docker run --rm -it --link pomodoro-api-db:mongo_alias -v /backup:/backup mongo mongodump --host mongo_alias --out /backup/
 ```
