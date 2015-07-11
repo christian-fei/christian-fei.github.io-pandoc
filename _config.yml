@@ -1,15 +1,37 @@
-# Site settings
-title: Christian Fei's Blog
-desc: "A blog about my programming ramblings with JavaScript and other weird stuff"
-email: christian@fei.ninja
-description: Christian Fei's Blog
-permalink: /:title/
-baseurl: ""
-url: "http://christian.fei.ninja"
-twitter_username: christian_fei
-github_username: christian-fei
+name: Christian Fei's Blog
+description: A blog about my programming ramblings with JavaScript and other weird stuff
+meta_description: A blog about my programming ramblings with JavaScript and other weird stuff
 
-# Build settings
+aboutPage: true
+
 markdown: redcarpet
 redcarpet:
   extensions: ["strikethrough"]
+highlighter: pygments
+
+paginate: 20
+baseurl: /
+domain_name: 'http://christian.fei.ninja'
+google_analytics: 'UA-57238829-1'
+disqus_shortname: 'christianfei'
+
+# Details for the RSS feed generator
+url:            'http://christian.fei.ninja'
+author:         'Christian Fei'
+authorTwitter:  'christian_fei'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post

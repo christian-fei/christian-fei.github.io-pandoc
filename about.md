@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img class="round" style="display:block; margin:auto;" src="/img/me.jpg" alt="Christian Fei"/>
+<img id="avatar" style="width: 100px;border-radius: 50%;margin: 0 auto;display: block;" src="/assets/images/avatar.png"/>  
 
 Hi, my name is Christian.
 

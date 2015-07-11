@@ -1,57 +1,51 @@
 ---
 layout: default
+disqus: false
+archive: true
 ---
-<div class="post" itemscope itemtype="http://schema.org/Article">
-  <div class="background-extended">
-    <div class="wrapper">
-      <header>
-        <h1 itemprop="name">{{ page.title }}</h1>
-        <p itemprop="datePublished" content="2015-03-06">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-      </header>
+
+<article class="post">
+    <header>
+        <h1>{{ page.title }}</h1>
+        <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
+    </header>
+    <section id="post-body">
+        {{content}}
+    </section>
+</article>
+<footer id="post-meta" class="clearfix">
+    <a href="http://twitter.com/{{ site.authorTwitter }}">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">{{ site.author }}</span>
+            <span>{{ site.description }}</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        {% include share.html %}
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+{% if page.disqus %}
+    <div class="archive readmore">
+        <h3>Comments</h3>
+        {% include disqus.html %}
     </div>
-  </div>
+{% endif %}
 
-  <div class="wrapper">
-    <div class="author-about">
-      <img class="round" src="/img/me.jpg" alt="Christian Fei"/>
-      <span>by</span>
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person">Christian Fei</span>
-    </div>
-  </div>
-
-
-  <div class="wrapper">
-    <article role="article" class="ad-container">
-      <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=christianfeininja" id="_carbonads_js"></script>
-
-      <a class="button" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=christian_fei" target="_blank" title="Tweet">Tweet this!</a>
-
-      <div itemprop="articleBody">
-        {{ content }}
-      </div>
-    </article>
-
-    <a class="button" href="https://twitter.com/intent/user?screen_name=christian_fei"  title="Tweet">Let's keep in touch on Twitter</a>
+<!-- Archive post list -->
+{% if page.archive %}
+    <ul id="post-list" class="archive readmore">
+        <h3>Read more</h3>
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
 
 
-    <div>
-      <span>by</span>
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        Christian Fei
-      </span>
-    </div>
 
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-      var disqus_shortname = 'christianfeiblog'; // required: replace example with your forum shortname
-      /* * * DON'T EDIT BELOW THIS LINE * * */
-      (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
-</div>
