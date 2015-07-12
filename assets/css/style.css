@@ -649,3 +649,11 @@ h2.month {
 	.post h1 { font-size:24px; }
 	.post h2 { font-size:20px; }
 }
+
+pre {
+	white-space: pre;
+}
+
+code {
+	font-weight: bold;
+}
