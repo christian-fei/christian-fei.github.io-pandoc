@@ -12,8 +12,8 @@ Let's say you have a docker container running a mongodb database with a volume o
 
 You can create a dump of the current state of the database with `mongodump`.
 
-*Update*: as suggested by sokrat in the comments, you can run this command to backup your mongo database to host on `/backup`:
+*Updated* as suggested by sokrat in the comments
 
 ```
-docker run --rm -it --link pomodoro-api-db:mongo_alias -v /backup:/backup mongo mongodump --host mongo_alias --out /backup/
+docker run --rm -it --link DOCKER_CONTAINER_NAME:mongo_alias -v /backup:/backup mongo mongodump --host mongo_alias --out /backup/
 ```
