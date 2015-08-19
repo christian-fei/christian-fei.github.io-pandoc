@@ -2,8 +2,6 @@ name: Christian Fei's Blog
 description: A blog about my programming ramblings with JavaScript and other weird stuff
 meta_description: A blog about my programming ramblings with JavaScript and other weird stuff
 
-aboutPage: true
-
 markdown: redcarpet
 redcarpet:
   extensions: ["strikethrough"]
