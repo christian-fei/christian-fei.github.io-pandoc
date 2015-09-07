@@ -866,6 +866,7 @@ body:not(.post-template) .post-title {
    imperfections with browser width % calculations and rounding */
 .post-template .content {
     overflow: hidden;
+    padding-bottom: 2em;
 }
 
 /* Tweak the .post wrapper style */
