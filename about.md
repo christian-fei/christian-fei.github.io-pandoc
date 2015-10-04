@@ -27,7 +27,7 @@ I'm way too into simple and stupid things.
 
 ## Studying
 
-- ~~[Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x#.VLMY6orF_xF)~~
+- ~~[Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)~~
 - [User Innovation: A Path to Entrepreneurship](https://www.edx.org/course/user-innovation-path-entrepreneurship-mitx-uinov8x)
 - [Design principles](https://www.coursera.org/specializations/interaction-design)
 
