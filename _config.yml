@@ -5,7 +5,7 @@ meta_description: A blog about my programming ramblings and other weird stuff
 markdown: redcarpet
 redcarpet:
   extensions: ["strikethrough"]
-highlighter: pygments
+# highlighter: pygments
 
 paginate: 10
 baseurl: /

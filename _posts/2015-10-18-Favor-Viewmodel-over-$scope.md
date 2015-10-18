@@ -12,7 +12,6 @@ One of them was the preference to use the [controller as](https://docs.angularjs
 
 ### Often unneeded $scope gets injected to conform to the rest of the controller definitions
 
-I found that oftentimes `$scope` gets injected as a dependency in your controllers just to conform to other controller definitions.
 For example, if you do not need to watch for changes on a model or viewmodel object, the $scope object is totally useless and litters the whole controller.
 
 ```
@@ -31,12 +30,12 @@ function FooCtrl($scope){
 
 You can save yourself headaches by not needing to inject the $scope for testing purposes in each test, but simply makes the assertions on the instance of the controller (that is represented by the Viewmodel):
 
-```
+```javascript
 // implementation
 function FooCtrl(){
    this.foo = 'bar'
    this.submit = submit
-   
+
    function submit(){/* |c?o.d:e*/ }
 }
 
