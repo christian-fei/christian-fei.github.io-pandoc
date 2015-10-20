@@ -1786,4 +1786,4 @@ body:not(.post-template) .post-title {
 
 /* GitHub style for Pygments syntax highlighter, for use with Jekyll Courtesy of GitHub.com */
 
-pre, code { overflow-x: auto; white-space: pre; background: #f5f6f5; padding: 10px 15px; border-radius: 3px; font-size: 14px; }
+pre { overflow-x: auto; white-space: pre; background: #f5f6f5; padding: 10px 15px; border-radius: 3px; font-size: 14px; }
