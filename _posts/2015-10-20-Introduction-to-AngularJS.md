@@ -14,7 +14,13 @@ slimmed down Promises and jqlite implementations, and much, much more.
 # Table of contents
 
 - [Modules](#modules)
-
+- [ng-app and startup phase](#ng-app-and-angular-startup-phase)
+- [data-binding and the digest loop](#data-binding-and-the-digest-loop)
+- [Provider, Factory, Service, Value and Constant](#provider-factory-service-value-and-constant)
+- [Directives](#directives)
+- [Filters](#filters)
+- [Interceptors](#interceptors)
+- [angular-start project](https://github.com/christian-fei/angular-start)
 
 # Modules
 
@@ -210,7 +216,8 @@ module.factory('AuthHeaderInterceptor', function(token){
 
 ---
 
+# [angular-start](https://github.com/christian-fei/angular-start)
+
 To conclude this article I reccommend you to check out my repo to start a new Angular project from scratch!
 It includes testing framework already setup with examples and basic structure to get going fast:
 
-[angular-start](https://github.com/christian-fei/angular-start)
