@@ -12,7 +12,6 @@ var date  = [year,month,day].join('-') + '-'
  , fullTitle     = [date,titleDashed,extension].join('')
  , postPath      = '_posts/'+fullTitle
 
-console.log( postContents(title,date) )
 var cmd = 'echo "'+ postContents(title,date) + '" >> ' + postPath
 exec(cmd)
 
