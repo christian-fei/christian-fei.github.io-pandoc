@@ -39,6 +39,8 @@ I'm way too into simple and stupid things.
 - ~~[Extreme Programming Explained](https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained)~~
 - ~~[Learn You a Haskell for Great Good!](https://www.goodreads.com/book/show/6593810-learn-you-a-haskell-for-great-good)~~
 - ~~[RESTful Web APIs](https://www.goodreads.com/book/show/17346969-restful-web-apis?from_search=true&search_version=service)~~
+- ~~[The Agile Samurai](https://www.goodreads.com/book/show/8248700-the-agile-samurai)~~
+- [Elixir In Action](https://www.goodreads.com/book/show/20524444-elixir-in-action)
 - [JavaScript Design Patterns](https://www.goodreads.com/book/show/14289134-learning-javascript-design-patterns)
 
 #### In pipeline
