@@ -8,6 +8,8 @@ Today I started using [joebew42`s](https://twitter.com/joebew42) [daily activity
 
 It was very interesting to see [his progress](http://joebew42.github.io/events) and keeping track of his studies and interesting reads over the course of over 4 months!
 
+[Here`s my take](http://christian.fei.ninja/daily-activity-log/).
+
 Now I want to try it and to see it as a log and motivation/reminder to study regularly. I will also use it probably as a aid to review the studies and to visualize the progress.
 
 Finally I will also find a way to integrate it with [pomodoro.cc](https://pomodoro.cc), I`m sure about that..
