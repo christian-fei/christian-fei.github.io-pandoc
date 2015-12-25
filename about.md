@@ -28,8 +28,6 @@ I'm way too into simple and stupid things.
 ## Studying
 
 - ~~[Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)~~
-- [User Innovation: A Path to Entrepreneurship](https://www.edx.org/course/user-innovation-path-entrepreneurship-mitx-uinov8x)
-- [Design principles](https://www.coursera.org/specializations/interaction-design)
 
 
 
@@ -40,9 +38,9 @@ I'm way too into simple and stupid things.
 - ~~[Learn You a Haskell for Great Good!](https://www.goodreads.com/book/show/6593810-learn-you-a-haskell-for-great-good)~~
 - ~~[RESTful Web APIs](https://www.goodreads.com/book/show/17346969-restful-web-apis?from_search=true&search_version=service)~~
 - ~~[The Agile Samurai](https://www.goodreads.com/book/show/8248700-the-agile-samurai)~~
+- ~~[JavaScript Design Patterns](https://www.goodreads.com/book/show/14289134-learning-javascript-design-patterns)~~
+- ~~[Test Driven Development: By Example](https://www.goodreads.com/book/show/387190.Test_Driven_Development?from_search=true&search_version=service)~~
+- [Lean Software Development](https://www.goodreads.com/book/show/194338.Lean_Software_Development?from_search=true&search_version=service)
 - [Elixir In Action](https://www.goodreads.com/book/show/20524444-elixir-in-action)
-- [JavaScript Design Patterns](https://www.goodreads.com/book/show/14289134-learning-javascript-design-patterns)
-
-#### In pipeline
 - [Software Craftsmanship](https://www.goodreads.com/book/show/18054154-software-craftsmanship)
 - [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer)
