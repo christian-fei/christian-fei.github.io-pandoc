@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: page
+title: Thoughts
+permalink: /thoughts/
 ---
 
 {% for post in site.posts %}
-  {%if post.category != 'thoughts'%}
+  {%if post.category == 'thoughts'%}
   <article class="post">
     <div class="content">
       <a class="title" href="{{ post.url }}">{{ post.title }}</a>

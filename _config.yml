@@ -18,7 +18,7 @@ url:            'http://christian.fei.ninja'
 author:         'Christian Fei'
 authorTwitter:  'christian_fei'
 
-permalink:       /:title/
+permalink:       /:categories/:title/
 
 defaults:
     -

@@ -8,9 +8,9 @@ Hi, my name is Christian.
 
 I work as a developer in an agile team at [XPeppers](http://xpeppers.com/) in Trento, Italy.
 
-I consider myself passionate about the web and [open source](https://github.com/christian-fei).
+Two things I like: web development and [open source](https://github.com/christian-fei).
 
-I'm way too into simple and stupid things.
+I'm way into simple and stupid things, and I swear a lot.
 
 
 # I'm currently
