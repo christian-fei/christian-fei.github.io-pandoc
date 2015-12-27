@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<img id="avatar" style="width: 100px;border-radius: 50%;margin: 0 auto;display: block;" src="/assets/images/avatar.png"/>
-
 Hi, my name is Christian.
 
 I work as a developer in an agile team at [XPeppers](http://xpeppers.com/) in Trento, Italy.
