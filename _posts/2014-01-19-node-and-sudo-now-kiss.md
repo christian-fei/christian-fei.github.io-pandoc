@@ -36,4 +36,4 @@ sudo ln -s /path.to/your/home/local/bin/node /usr/local/bin/
 sudo ln -s /path.to/your/home/local/bin/npm /usr/local/bin/
 ```
 
-![now kiss](http://weknowmemes.com/wp-content/uploads/2012/01/fap-now-kiss.png)
+<img data-echo="http://weknowmemes.com/wp-content/uploads/2012/01/fap-now-kiss.png" alt="now kiss">

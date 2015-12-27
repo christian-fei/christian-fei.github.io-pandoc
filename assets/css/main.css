@@ -1,0 +1,61 @@
+a {
+  color: inherit;
+  text-decoration: underline !important;
+}
+
+header, main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0.2rem;
+}
+
+header {
+  margin-bottom: 1em;
+}
+
+.post {
+  margin-top: 5em;
+}
+
+.post .title {
+  font-weight: bold;
+  display: block;
+}
+
+main img {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.go-home {
+  font-size: 1.5em;
+}
+
+.ovh {
+  overflow: hidden;
+}
+
+.fl {
+  float: left;
+}
+
+#avatar {
+  display: block;
+  width: 66px;
+  border-radius: 50%;
+}
+
+#slogan {
+  margin: 0;
+  margin-top: 1.3em;
+  opacity: 0.05;
+}
+
+#slogan:hover {
+  opacity: 1;
+}
