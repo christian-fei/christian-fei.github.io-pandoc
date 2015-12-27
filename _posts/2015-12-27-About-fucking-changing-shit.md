@@ -2,6 +2,7 @@
 title: 'About fucking changing shit'
 date: 2015-12-27
 layout: post
+type: thought
 ---
 
 if you want, you can change your shit.

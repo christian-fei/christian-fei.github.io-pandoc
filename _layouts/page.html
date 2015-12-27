@@ -3,10 +3,12 @@ layout: default
 ---
 
 <article class="post">
-  <div class="title">
-    {{ page.title }}
+  <div class="content">
+    <div class="title">
+      {{ page.title }}
+    </div>
+    <section>
+      {{content}}
+    </section>
   </div>
-  <section>
-    {{content}}
-  </section>
 </article>

@@ -3,13 +3,15 @@ layout: default
 ---
 
 {% for post in site.posts %}
-<article class="post">
-  <a class="title" href="{{ post.url }}">{{ post.title }}</a>
-  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
-    {{ post.date | date_to_string }}
-  </time>
-  <div>
-    {{ post.content }}
+<article class="post {%if post.type == 'thought'%}bg-black white wide{%endif%}">
+  <div class="content">
+    <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
+      {{ post.date | date_to_string }}
+    </time>
+    <div>
+      {{ post.content }}
+    </div>
   </div>
 </article>
 {% endfor %}
