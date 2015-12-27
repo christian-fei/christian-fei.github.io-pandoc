@@ -5,7 +5,7 @@ var today  = new Date()
  , month   = pad(today.getMonth()+1)
  , year    = today.getFullYear()
 
-var date  = [year,month,day].join('-') + '-'
+var date  = [year,month,day].join('-')
  , title         = process.argv.splice(2).join(' ')
  , titleDashed   = title.split(' ').join('-')
  , extension     = '.md'
