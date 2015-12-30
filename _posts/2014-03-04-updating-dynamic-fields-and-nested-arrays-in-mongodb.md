@@ -1,11 +1,9 @@
 ---
-
-seo_desc: "update dynamic field and nested arrays in MongoDB node, MongoDB dynamic dot notation"
 layout: post
+category: posts
 title: "Updating dynamic fields and nested arrays in MongoDB"
 date: 2014-03-04 20:49:22
 category: articles
-
 ---
 
 <h4>
@@ -87,7 +85,7 @@ gamesColl.update({_id: realId},{
 
 <h3 id="tldr">Dynamic dot-notation (workaround)</h3>
 
-Then it hit me: 
+Then it hit me:
 
 ```
 var setObject = {};

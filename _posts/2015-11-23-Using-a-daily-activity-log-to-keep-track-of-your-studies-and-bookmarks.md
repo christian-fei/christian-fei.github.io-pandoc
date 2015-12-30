@@ -2,6 +2,7 @@
 title: Using a daily activity log to keep track of your studies and bookmarks
 date: 2015-11-23
 layout: post
+category: posts
 ---
 
 Today I started using [joebew42`s](https://twitter.com/joebew42) [daily activity log concept](https://github.com/joebew42/daily-activity-log-concept).

@@ -2,6 +2,7 @@
 title: "How to make a pull request on GitHub from the command line"
 date: 2015-03-04
 layout: post
+category: posts
 ---
 
 I hope this will help you to push your productivity level to the edge and to find the ultimate flow to contribute to open source projects with ease :)

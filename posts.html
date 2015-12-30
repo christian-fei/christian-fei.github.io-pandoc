@@ -1,0 +1,21 @@
+---
+layout: page
+title: Posts
+permalink: /posts/
+---
+
+{% for post in site.posts %}
+  {%if post.category == 'posts'%}
+  <article class="post">
+    <div class="content">
+      <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
+        {{ post.date | date_to_string }}
+      </time>
+      <div>
+        {{ post.content }}
+      </div>
+    </div>
+  </article>
+  {%endif%}
+{% endfor %}

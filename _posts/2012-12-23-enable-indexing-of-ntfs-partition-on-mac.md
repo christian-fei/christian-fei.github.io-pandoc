@@ -2,6 +2,7 @@
 desc: "Understand how to enable indexing of a NTFS partition on Mac OS X mountain lion, snow leopard"
 date: 2012-12-23 12:00:37
 layout: post
+category: posts
 title: How to index a NTFS partition on Mac
 ---
 

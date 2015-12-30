@@ -2,6 +2,7 @@
 title: "How to setup Drone CI on a DigitalOcean droplet"
 date: 2014-08-02
 layout: post
+category: posts
 ---
 
 There are countless continous integration continuous integration tools: Travis, Jenkins, Shippable, Circle, CodeShip, Wercker, etc.

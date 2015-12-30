@@ -2,6 +2,7 @@
 title: "Favor Viewmodel over $scope"
 date: 2015-10-18
 layout: post
+category: posts
 ---
 
 As you may be accustomed by now, in the JavaScript scene there is *almost never* a single way to program. I think it`s very difficult to find an idiomatic styleguide for the language/framework.

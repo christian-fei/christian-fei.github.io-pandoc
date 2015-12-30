@@ -2,6 +2,7 @@
 title: "Angular ui-router: define multiple states with same base url"
 date: 2015-04-23
 layout: post
+category: posts
 ---
 
 Recently on [pomodoro.cc](https://pomodoro.cc) I found myself in need of the following routes:

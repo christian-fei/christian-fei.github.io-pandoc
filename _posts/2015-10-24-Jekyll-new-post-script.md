@@ -2,6 +2,7 @@
 title: 'Jekyll new post script'
 date: 2015-10-24-
 layout: post
+category: posts
 ---
 
 I want to share this handy snippet to create a jekyll post.

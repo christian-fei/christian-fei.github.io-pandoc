@@ -2,6 +2,7 @@
 title: "How to invalidate AppCache"
 date: 2015-08-12
 layout: post
+category: posts
 ---
 
 

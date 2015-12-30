@@ -2,6 +2,7 @@
 title: "What Elixir and Angular have in common"
 date: 2015-10-19
 layout: post
+category: posts
 ---
 
 **Warning: sarcasm ahead**

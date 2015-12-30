@@ -1,13 +1,9 @@
 ---
-
-seo_desc: "Simplest Apache configuration for hosting multiple sites, Virtual hosts, Document root, /var/www/"
 layout: post
+category: posts
 title: "Simplest Apache configuration for hosting multiple sites"
 date: 2014-01-18 17:47:32
 category: articles
-header_image: http://lucene.apache.org/images/mantle-asf.png
-header_credit: http://lucene.apache.org/images/mantle-asf.png
-
 ---
 
 I want to share the most simple and straightforward configuration that suited my needs for developing locally.

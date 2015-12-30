@@ -1,6 +1,7 @@
 ---
 desc: "Understand how to lazy load/defer Disqus comments! With code and explanation."
 layout: post
+category: posts
 title: "How to lazy load Disqus comments"
 date: 2013-06-06 18:36:07
 ---

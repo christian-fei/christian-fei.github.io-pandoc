@@ -2,6 +2,7 @@
 title: "Keep Docker container running with upstart and Docker's restart policy"
 date: 2014-12-23
 layout: post
+category: posts
 ---
 
 Upstart is a tool which manages the start/stop/restart of processes on given events from the OS (like boot, shutdown, etc.).

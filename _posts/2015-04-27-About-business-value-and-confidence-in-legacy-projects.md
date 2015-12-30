@@ -2,6 +2,7 @@
 title: About business value and confidence in legacy projects
 date: 2015-04-27
 layout: post
+category: posts
 ---
 
 Recently I got the *opportunity* to work in a legacy, and wanted to share what I learned about gaining confidence and still deliver business value.

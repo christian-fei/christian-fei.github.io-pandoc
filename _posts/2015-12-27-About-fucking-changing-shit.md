@@ -2,6 +2,7 @@
 title: 'About fucking changing shit'
 date: 2015-12-27
 layout: post
+category: posts
 category: thoughts
 ---
 

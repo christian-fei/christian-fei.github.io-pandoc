@@ -1,6 +1,7 @@
 ---
 desc: "How to create a new github repository from the command line shell, github api, authentication api, oauth"
 layout: post
+category: posts
 title: "Create a new Github repository from the command line"
 date: 2014-01-05 18:31:53
 ---

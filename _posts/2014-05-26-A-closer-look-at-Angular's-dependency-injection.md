@@ -1,6 +1,7 @@
 ---
 title: "A closer look at Angular's dependency injection"
 layout: post
+category: posts
 date: 2014-05-26
 ---
 

@@ -2,6 +2,7 @@
 title: "How to configure Drone behind an nginx proxy on a subdomain"
 date: 2014-08-03
 layout: post
+category: posts
 ---
 
 

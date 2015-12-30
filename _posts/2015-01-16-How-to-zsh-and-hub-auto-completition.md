@@ -2,6 +2,7 @@
 title: "How to zsh and hub auto completition"
 date: 2015-01-16
 layout: post
+category: posts
 ---
 
 Recently I installed hub and couldn't get zsh git auto-complete to work.

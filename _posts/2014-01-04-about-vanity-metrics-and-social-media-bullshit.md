@@ -1,6 +1,7 @@
 ---
 desc: "About vanity metrics and social media bullshit"
 layout: post
+category: posts
 title: "About vanity metrics and social media bullshit"
 date: 2014-01-04 13:31:14
 ---

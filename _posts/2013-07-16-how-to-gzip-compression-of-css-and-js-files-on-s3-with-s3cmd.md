@@ -1,6 +1,7 @@
 ---
 desc: "How to enable Gzip Compression on static website hosting with AWS Amazon S3. Serve compressed files, CSS and JavaScript"
 layout: post
+category: posts
 title: "How to: Gzip compression of CSS and JS files on S3 with s3cmd"
 date: 2013-07-16 01:51:46
 ---

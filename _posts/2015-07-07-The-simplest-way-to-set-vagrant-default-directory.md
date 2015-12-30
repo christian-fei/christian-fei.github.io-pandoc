@@ -2,6 +2,7 @@
 title: "The simplest way to set vagrant default directory"
 date: 2015-07-07
 layout: post
+category: posts
 ---
 
 Here the oneliner, add it to the end of your Vagrantfile

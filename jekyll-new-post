@@ -24,5 +24,6 @@ function postContents(title, date){
   "title: '"+ title +"'",
   "date: "+ date,
   "layout: post",
+  "category: posts",
   "---"].join('\n')
 }

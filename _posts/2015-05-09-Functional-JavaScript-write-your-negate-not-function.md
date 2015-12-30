@@ -2,6 +2,7 @@
 title: "Functional JavaScript: Write your own negate/not function"
 date: 2015-05-09
 layout: post
+category: posts
 ---
 
 Let's say you want to filter odd numbers from a list of numbers, like `[1,2,3,4,5,6]` should become `[1,3,5]`.

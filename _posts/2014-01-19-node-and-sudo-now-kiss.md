@@ -1,11 +1,9 @@
 ---
-
-seo_desc: "How to node sudo, fix permission denied when running node npm install, sudo: node: command not found"
 layout: post
+category: posts
 title: "node and sudo: now kiss"
 date: 2014-01-19 23:02:14
 category: articles
-
 ---
 
 

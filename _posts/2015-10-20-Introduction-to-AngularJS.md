@@ -2,6 +2,7 @@
 title: "Introduction to AngularJS"
 date: 2015-10-20
 layout: post
+category: posts
 ---
 
 Angular is a JavaScript framework for creating modern web applications,
@@ -24,7 +25,7 @@ slimmed down Promises and jqlite implementations, and much, much more.
 
 # Modules
 
-Modules are Angular`s way of grouping user defined services. 
+Modules are Angular`s way of grouping user defined services.
 Modules can require other modules and are resolved asynchronously without
 worrying about execution order etc. Your service will be instanciated when all
 its collaborators/dependencies are loaded.
@@ -63,7 +64,7 @@ Imagine you have the following markup that represent your single page applicatio
     <title>Document</title>
   </head>
   <body>
-    
+
   </body>
 </html>
 ```
@@ -166,7 +167,7 @@ module.directive('profile', function(){
 })
 ```
 
-We introduced a `<profile>` component that is easily testable in isolation and does one thing very well, 
+We introduced a `<profile>` component that is easily testable in isolation and does one thing very well,
 showing the currently logged in user.
 
 As we said a directive can also be used to introduce custom behaviour on an element.
@@ -199,7 +200,7 @@ module.filter('camelCase', function(){
 
 # Interceptors
 
-Interceptors operate at the http request/response level. You could use them for 
+Interceptors operate at the http request/response level. You could use them for
 Authorization handling, logging, error handling, etc.
 
 ```

@@ -2,6 +2,7 @@
 title: "Speed up your docker container by caching node_modules"
 date: 2015-03-06
 layout: post
+category: posts
 ---
 
 When following the tutorial on the [Docker's official website](https://docs.docker.com/examples/nodejs_web_app/) about *Dockerizing a Node.js Web App* I found it installs the defined npm dependencies each time you rebuild the container.
