@@ -64,3 +64,16 @@ h1, h2, h3, h4, h5, h6 {
 #fucking-slogan:hover {
   opacity: 1;
 }
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+}
+.tac {
+  text-align: center;
+}
+
+.nav-links {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
