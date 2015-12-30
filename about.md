@@ -14,6 +14,8 @@ i think... i'm way into simple and stupid things.
 
 i think... i swear a lot.
 
+i think... therefore i am not.
+
 # i'm currently
 
 - ~~attending a 'javascript developer' course at <a href="http://www.redoddity.it/courses/fse-javascript-developer/" class="imp" target="_blank">redoddity</a> in bolzano~~
