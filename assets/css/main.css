@@ -6,8 +6,6 @@ a {
 .content {
   max-width: 500px;
   margin: 0 auto;
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
 }
 
 .wide {
@@ -19,7 +17,7 @@ header {
 }
 
 .post {
-  margin-bottom: 200px;
+  margin-bottom: 300px;
 }
 
 .post .title {

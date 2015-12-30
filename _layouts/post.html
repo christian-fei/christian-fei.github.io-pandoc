@@ -2,14 +2,12 @@
 layout: default
 ---
 
-<article class="post">
-  <div class="content">
-    <div class="title">{{ page.title }}</div>
-    <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
-      {{ page.date | date_to_string }}
-    </time>
-    <section>
-      {{content}}
-    </section>
-  </div>
-</article>
+<div class="content">
+  <div class="title">{{ page.title }}</div>
+  <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
+    {{ page.date | date_to_string }}
+  </time>
+  <section>
+    {{content}}
+  </section>
+</div>
