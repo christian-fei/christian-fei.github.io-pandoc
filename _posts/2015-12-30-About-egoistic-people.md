@@ -24,3 +24,5 @@ they have to concentrate on themselves.
 fuck them when you spend lots of time and thought on a person you really care
 about and they seem too at first, but finally you realize they have some serious
 issues with themselves and they used you as a scapegoat.
+
+happy fucking :)
