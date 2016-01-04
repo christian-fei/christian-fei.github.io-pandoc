@@ -1,3 +1,24 @@
 ---
 layout: default
 ---
+
+<div class="content">
+  <h1 class="tac">hey, sup</h1>
+  <img src="assets/images/ss/1.jpg" id="avatar-ss">
+</div>
+
+<script type="text/javascript">
+  var avatarSS = document.getElementById('avatar-ss')
+  var hovering = false
+  avatarSS.addEventListener('mouseover', function(){ hovering = true })
+  avatarSS.addEventListener('mouseout', function(){ hovering = false })
+  var imagesPath = 'assets/images/ss/'
+  var imagesExt = '.jpg'
+  var images = ['1','2','3','4','6','8']
+  var currentImageIndex = 0
+  setInterval(function(){
+    if( hovering ) { return }
+    avatarSS.setAttribute('src', imagesPath + images[currentImageIndex%(images.length-1)] + imagesExt)
+    currentImageIndex++
+  }, 1000/60)
+</script>

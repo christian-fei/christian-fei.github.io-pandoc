@@ -1,10 +1,47 @@
+html {font-size: 1em;}
+
+body {
+  font-family: 'PT Sans', 'Ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
 a {
-  color: inherit;
   text-decoration: underline !important;
+  font-weight: bold;
+  color: #257C92;
+  color: black;
+}
+
+.nav-links a {
+  font-weight: normal;
 }
 
 .content {
-  max-width: 500px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -20,19 +57,10 @@ header {
   margin-bottom: 300px;
 }
 
-.post .title {
-  font-weight: bold;
-  display: block;
-}
-
 main img {
   display: block;
   max-width: 100%;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 1em;
-  font-weight: bold;
+  margin: auto;
 }
 
 .go-home {
@@ -47,12 +75,6 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
 }
 
-#avatar {
-  display: block;
-  width: 66px;
-  border-radius: 50%;
-}
-
 #fucking-slogan {
   margin: 0;
   margin-top: 1.3em;
@@ -63,15 +85,11 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
-.btn {
-  display: inline-block;
-  padding: 0.5em 1em;
-}
 .tac {
   text-align: center;
 }
 
-.nav-links {
-  margin-top: 2em;
-  margin-bottom: 2em;
+#avatar-ss {
+  width: 150px;
+  border-radius: 50%;
 }

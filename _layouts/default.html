@@ -11,7 +11,7 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/assets/css/colors.min.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
   </head>
@@ -19,18 +19,23 @@
     <header class="ovh">
       <div class="content">
         <div class="ovh">
-          <a href="/" class="go-home btn fl">«</a>
-          <a href="/about" class="btn">
-            <img id="avatar" src="/assets/images/avatar.png"/>
-          </a>
           <div class="nav-links tac">
-            <a href="/posts/">/posts/</a>
-            <a href="/thoughts/">/thoughts/</a>
-            <a href="/daily-activity-log/" target="_blank">/daily-activity-log/</a>
+            <h1>
+              <a href="/">@cf</a>
+            </h1>
+            <div>
+              <a href="/posts/">/posts/</a>
+              <a href="/thoughts/">/thoughts/</a>
+              <a href="/about/">/about/</a>
+              <a href="/daily-activity-log/" target="_blank">/daily-activity-log/</a>
+            </div>
+            <div>
+              <a href="https://twitter.com/christian_fei" target="_blank">/twitter</a>
+              <a href="https://github.com/christian-fei" target="_blank">/github</a>
+              <a href="https://www.instagram.com/christianfei/" target="_blank">/instagram</a>
+              <a href="https://www.goodreads.com/user/show/38117692-christian-fei" target="_blank">/goodreads</a>
+            </div>
           </div>
-        </div>
-        <div class="fl">
-          <p id="fucking-slogan"></p>
         </div>
       </div>
     </header>
@@ -38,6 +43,10 @@
     <main>
       {{ content }}
     </main>
+
+    <div class="fl">
+      <p id="fucking-slogan"></p>
+    </div>
 
     <script type="text/javascript" src="/assets/js/echo.js"></script>
     <script type="text/javascript">
@@ -60,19 +69,16 @@
     </script>
     <script type="text/javascript">
       var fuckingSlogans = [
-        "this is my fucking blog",
-        "u offended, little shit?",
-        "go fuck yourself",
-        "fucking #?=+",
-        "wtf r u doin",
-        "refreshing like an asshole",
-        "you must be fun at bars",
-        "oh please tell me more about you",
-        "you can find me on twitter @fuckoff",
-        "you little shit",
+        "this is my fucking blog.",
+        "hi.",
+        "go fuck yourself.",
+        "wtf r u doin.",
+        "you must be fun at bars.",
+        "oh please tell me more about you.",
+        "you can find me on twitter @christian_fei, fucker.",
       ]
       var fuckingSloganIndex = Math.floor(Math.random()*fuckingSlogans.length)
-      document.getElementById('fucking-slogan').innerText = '"'+fuckingSlogans[fuckingSloganIndex]+'", ~cf'
+      document.getElementById('fucking-slogan').innerText = fuckingSlogans[fuckingSloganIndex]
     </script>
   </body>
 </html>
