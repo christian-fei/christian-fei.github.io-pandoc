@@ -28,7 +28,7 @@ i swear a lot.
 ## studying
 
 - ~~[introduction to functional programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)~~
-- ~~[Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn/home/week/1)~~
+- [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn/home/week/1)
 
 
 
