@@ -4,24 +4,23 @@ title: about
 permalink: /about/
 ---
 
-i think... my name is christian.
+my name is christian.
 
-i think... i work as a developer in an agile team at [xpeppers](http://xpeppers.com/) in trento, italy.
+i work as a developer in an agile team at [xpeppers](http://xpeppers.com/) in trento, italy.
 
-i think... i like web development and [open source](https://github.com/christian-fei).
+i like web development and [open source](https://github.com/christian-fei).
 
-i think... i'm way into simple and stupid things.
+i'm way into simple and stupid things.
 
-i think... i swear a lot.
+i swear a lot.
 
-i think... therefore i am not.
+> i think... therefore i am a hipster.
+
 
 # i'm currently
 
 - ~~attending a 'javascript developer' course at <a href="http://www.redoddity.it/courses/fse-javascript-developer/" class="imp" target="_blank">redoddity</a> in bolzano~~
-
 - ~~doing an internship at <a href="http://xpeppers.com">xpeppers</a>~~
-
 - improving and learning everyday at [xpeppers](http://xpeppers.com)
 
 
@@ -29,6 +28,7 @@ i think... therefore i am not.
 ## studying
 
 - ~~[introduction to functional programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)~~
+- ~~[Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn/home/week/1)~~
 
 
 
