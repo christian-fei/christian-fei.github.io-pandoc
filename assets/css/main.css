@@ -1,12 +1,15 @@
-html {font-size: 1em;}
+html {font-size: 16px;}
 
 body {
   font-family: 'PT Sans', 'Ubuntu', sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.45;
   color: #333;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
+
 
 p {margin-bottom: 1.3em;}
 
@@ -108,3 +111,17 @@ main img {
   width: 150px;
   border-radius: 50%;
 }
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+
+  .giant {font-size: 6em;}
+}
+
