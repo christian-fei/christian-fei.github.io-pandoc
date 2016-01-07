@@ -5,19 +5,28 @@ var today  = new Date()
  , month   = pad(today.getMonth()+1)
  , year    = today.getFullYear()
 
+var extension     = '.md'
 var date  = [year,month,day].join('-')
- , title         = process.argv.splice(2).join(' ')
- , titleDashed   = title.split(' ').join('-')
- , extension     = '.md'
- , fullTitle     = [date,'-',titleDashed,extension].join('')
- , postPath      = '_posts/'+fullTitle
+var title         = process.argv.splice(2).join(' ')
+var titleDashed   = title.split(' ').join('-')
+
+titleDashed = titleDashed.replace("'", '')
+titleDashed = titleDashed.replace('"', '')
+titleDashed = titleDashed.replace(',', '')
+
+var fullTitle     = [date,'-',titleDashed,extension].join('')
+var postPath      = '_posts/'+fullTitle
+
 
 var cmd = 'echo "'+ postContents(title,date) + '" >> ' + postPath
-exec(cmd)
+exec(cmd, function(){
+  console.log( arguments )
+})
 
 function pad(x){return (x>=10)?x:'0'+x}
 
 function postContents(title, date){
+  title = title.replace("'", '')
   return [
   "---",
   "title: '"+ title +"'",

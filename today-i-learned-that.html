@@ -1,0 +1,28 @@
+---
+layout: page
+title: Today I learned...
+permalink: /today-i-learned-that/
+---
+
+<h1 class="giant">
+  today.
+  <br/>
+  i.
+  <br/>
+  learned.
+  <br/>
+  that:
+</h1>
+
+{% for post in site.posts %}
+  {%if post.category == 'today-i-learned-that'%}
+  <article class="post">
+    <div class="content">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
+        {{ post.date | date_to_string }}
+      </time>
+    </div>
+  </article>
+  {%endif%}
+{% endfor %}
