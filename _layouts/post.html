@@ -7,6 +7,9 @@ layout: default
   <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
     {{ page.date | date_to_string }}
   </time>
+  <section class="discuss-with-me">
+    Discuss this thought with me <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=christian_fei" target="_blank">on Twitter!</a>
+  </section>
   <section>
     {{content}}
   </section>

@@ -11,6 +11,23 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@site_username">
+    <meta name="twitter:creator" content="@creator_username">
+    {% if page.title %}
+      <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+      <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.url %}
+      <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    {% endif %}
+    {% if page.description %}
+      <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+      <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/assets/css/colors.min.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
