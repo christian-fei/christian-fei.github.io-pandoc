@@ -3,6 +3,9 @@ layout: default
 ---
 
 <div class="content">
+  {% if page.category == 'today-i-learned-that' %}
+    {% include today-i-learned-that-header.html %}
+  {% endif %}
   <h1 class="title">{{ page.title }}</h1>
   <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
     {{ page.date | date_to_string }}
