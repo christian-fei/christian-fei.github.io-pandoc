@@ -5,6 +5,7 @@ layout: post
 category: thoughts
 ---
 
+![political correctness](http://politicalmoll.com/wp-content/uploads/2015/06/Politically-Correct.jpg)
 it's definitely not easy. and absolutely nobody forces you to do so.
 
 but here's what i think: if you read/see/hear/feel something outrageous/excessively negative/stupid/wrong,
