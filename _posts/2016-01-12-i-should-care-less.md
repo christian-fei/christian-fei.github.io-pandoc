@@ -11,6 +11,6 @@ you know what? fuck it.
 
 what happens, happens.
 
-what could go possibly go wrong?
+what could possibly go wrong?
 
 i'll try this approach and report back how it goes, if i survive.
