@@ -13,7 +13,7 @@ How often did you notice the annoying message "This branch is X commits behind a
 
 Why did you fork it in the first place?
 
-Was it an animal instinct of your to click on a shiny button?
+Was it an animal instinct of yours to click on a shiny button?
 
 A great man once said:
 
