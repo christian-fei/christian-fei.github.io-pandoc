@@ -11,4 +11,4 @@ their answer was:
 
 > everything IS alright!
 
-keep this in mind the next time your feeling down, melancholic or try to cheer someone up!
+keep this in mind the next time you're feeling down, melancholic or try to cheer someone up!
