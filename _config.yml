@@ -2,7 +2,7 @@ name: Christian Fei's Blog
 description: A blog about my programming ramblings and other weird stuff
 meta_description: A blog about my programming ramblings and other weird stuff
 
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions: ["strikethrough","with_toc_data"]
 # highlighter: pygments
