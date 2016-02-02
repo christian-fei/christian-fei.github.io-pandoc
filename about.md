@@ -4,6 +4,7 @@ title: about
 permalink: /about/
 ---
 
+
 my name is christian.
 
 i work as a developer in an agile team at [xpeppers](http://xpeppers.com/) in trento, italy.
