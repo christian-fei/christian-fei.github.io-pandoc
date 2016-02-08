@@ -43,6 +43,7 @@ i swear a lot.
 - ~~[javascript design patterns](https://www.goodreads.com/book/show/14289134-learning-javascript-design-patterns)~~
 - ~~[test driven development: by example](https://www.goodreads.com/book/show/387190.test_driven_development?from_search=true&search_version=service)~~
 - [lean software development](https://www.goodreads.com/book/show/194338.lean_software_development?from_search=true&search_version=service)
+- [How to Stop Worrying and Start Living](https://www.goodreads.com/book/show/4866.How_to_Stop_Worrying_and_Start_Living?from_search=true&search_version=service)
 - [elixir in action](https://www.goodreads.com/book/show/20524444-elixir-in-action)
 - [software craftsmanship](https://www.goodreads.com/book/show/18054154-software-craftsmanship)
 - [the pragmatic programmer](https://www.goodreads.com/book/show/4099.the_pragmatic_programmer)
