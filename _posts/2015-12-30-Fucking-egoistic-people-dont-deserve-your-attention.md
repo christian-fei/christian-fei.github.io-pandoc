@@ -1,8 +1,8 @@
 ---
-title: 'About egoistic people'
+title: "Fucking egoistic people don't deserve your attention"
 date: 2015-12-30
 layout: post
-category: thoughts
+category: today-i-learned-that
 ---
 
 ![scapegoat](http://www.silverbearcafe.com/private/04.11/images/scapegoat.jpg)

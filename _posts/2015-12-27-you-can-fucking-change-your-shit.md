@@ -1,9 +1,9 @@
 ---
-title: 'About fucking changing shit'
+title: 'you can fucking change your shit'
 date: 2015-12-27
 layout: post
 category: posts
-category: thoughts
+category: today-i-learned-that
 ---
 
 if you want, you can change your shit.
