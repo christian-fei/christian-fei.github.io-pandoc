@@ -2,7 +2,7 @@
 title: "you can't take yourself too seriously"
 date: 2016-02-25
 layout: post
-category: today-i-learned-that
+category: today-i-learned
 ---
 
 somebody pissed you off, offended by something they said?

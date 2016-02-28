@@ -2,7 +2,7 @@
 title: 'you should fucking say it'
 date: 2016-01-07
 layout: post
-category: today-i-learned-that
+category: today-i-learned
 ---
 
 ![political correctness](http://politicalmoll.com/wp-content/uploads/2015/06/Politically-Correct.jpg)

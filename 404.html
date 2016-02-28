@@ -4,10 +4,26 @@ title: 404
 permalink: /404.html
 ---
 
-<h1 class="giant">
-  oh.
-  <br/>
-  fucking.
-  <br/>
-  shit.
-</h1>
+
+oh.
+<br/>
+fucking.
+<br/>
+shit.
+<br/>
+<br/>
+
+it seems what you were searching doesn't exist anymore :(
+<br/>
+
+but here a list of stuff i wrote, use the search function of your browser if you need to narrow your search
+<br/>
+
+
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+<ul>

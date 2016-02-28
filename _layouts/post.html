@@ -3,20 +3,6 @@ layout: default
 ---
 
 <div class="content">
-  <h1 class="giant">
-    {% if page.category == 'today-i-learned-that' %}
-      today.
-      <br/>
-      i.
-      <br/>
-      learned.
-      <br/>
-      that:
-    {% else %}
-      {{ page.category }}.
-    {% endif %}
-  </h1>
-
   <h1>{{ page.title }}</h1>
   <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
     {{ page.date | date_to_string }}

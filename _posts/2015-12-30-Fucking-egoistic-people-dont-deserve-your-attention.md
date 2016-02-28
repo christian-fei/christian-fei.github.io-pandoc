@@ -2,7 +2,7 @@
 title: "Fucking egoistic people don't deserve your attention"
 date: 2015-12-30
 layout: post
-category: today-i-learned-that
+category: today-i-learned
 ---
 
 ![scapegoat](http://www.silverbearcafe.com/private/04.11/images/scapegoat.jpg)

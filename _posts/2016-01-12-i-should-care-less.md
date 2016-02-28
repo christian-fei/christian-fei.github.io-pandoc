@@ -2,7 +2,7 @@
 title: 'i should care less'
 date: 2016-01-12
 layout: post
-category: today-i-learned-that
+category: today-i-learned
 ---
 
 ![fuck it](/assets/images/posts/fuckit.png)

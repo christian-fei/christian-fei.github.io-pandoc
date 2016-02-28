@@ -2,7 +2,7 @@
 title: 'i am no one to judge anyone'
 date: 2016-01-17
 layout: post
-category: today-i-learned-that
+category: today-i-learned
 ---
 
 nobody should judge anyone for their actions and thoughts.

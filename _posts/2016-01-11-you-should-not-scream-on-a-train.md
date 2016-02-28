@@ -2,7 +2,7 @@
 title: 'you should not scream on a train'
 date: 2016-01-11
 layout: post
-category: today-i-learned-that
+category: today-i-learned
 ---
 
 it really fucking pisses people off.

@@ -3,7 +3,7 @@ title: 'you can fucking change your shit'
 date: 2015-12-27
 layout: post
 category: posts
-category: today-i-learned-that
+category: today-i-learned
 ---
 
 if you want, you can change your shit.
