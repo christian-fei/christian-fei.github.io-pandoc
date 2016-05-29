@@ -2,7 +2,7 @@
 title: 'never take too much in delicate situtations'
 date: 2016-05-29
 layout: post
-category: posts
+category: today-i-learned
 ---
 
 it is definitely tempting to be longing for too much when you are feeling good.
