@@ -2,55 +2,14 @@
 layout: default
 ---
 
-<div class="content">
-  <img src="assets/images/ss/1.jpg" id="avatar-ss">
-
-  <br/>
-  <br/>
-
-  <section class="tac">
-    <h1 class="giant">
-      hey, sup?
-    </h1>
-
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-
-    <h1>with the tecnology that we have today you can</h1>
-    <h4>
-      <a href="/posts">read what i write</a>
-    </h4>
-    <h4>
-      <a href="/about">know more about me than myself</a>
-    </h4>
-    <h4>
-      <a href="/daily-activity-log">see what i am studying</a>
-    </h4>
-  </section>
-
-  <img src="assets/images/ss/1.jpg" style="display:none">
-  <img src="assets/images/ss/2.jpg" style="display:none">
-  <img src="assets/images/ss/3.jpg" style="display:none">
-  <img src="assets/images/ss/4.jpg" style="display:none">
-  <img src="assets/images/ss/6.jpg" style="display:none">
-  <img src="assets/images/ss/8.jpg" style="display:none">
-
-</div>
-
-<script type="text/javascript">
-  var avatarSS = document.getElementById('avatar-ss')
-  var hovering = false
-  avatarSS.addEventListener('mouseover', function(){ hovering = true })
-  avatarSS.addEventListener('mouseout', function(){ hovering = false })
-  var imagesPath = 'assets/images/ss/'
-  var imagesExt = '.jpg'
-  var images = ['1','2','3','4','6','8']
-  var currentImageIndex = 0
-  setInterval(function(){
-    if( hovering ) { return }
-    avatarSS.setAttribute('src', imagesPath + images[currentImageIndex%(images.length-1)] + imagesExt)
-    currentImageIndex++
-  }, 1000/60*3)
-</script>
+{% for post in site.posts %}
+  {%if post.category == 'posts'%}
+  <div>
+    <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
+      {{ post.date | date_to_string }}
+    </time>
+  </div>
+  <br>
+  {%endif%}
+{% endfor %}

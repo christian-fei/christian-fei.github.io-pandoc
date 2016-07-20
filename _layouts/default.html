@@ -28,42 +28,44 @@
       <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
 
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://raw.githubusercontent.com/resir014/Clear-Sans-Webfont/master/css/clear-sans.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/typogrid.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/colors.min.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/fontello-cf/css/fontello.css" />
   </head>
-  <body class="bg-white black">
-    <header class="ovh">
-      <div class="content">
-        <div class="ovh">
-          <div class="nav-links tac">
-            <h1>
-              <a href="/">@cf</a>
-            </h1>
-            <div>
-              <a href="/posts/">/posts/</a>
-              <a href="/today-i-learned/">/today-i-learned/</a>
-              <a href="/about/">/about/</a>
-              <a href="/daily-activity-log/" target="_blank">/daily-activity-log/</a>
-            </div>
-            <div>
-              <a href="https://twitter.com/christian_fei" target="_blank">/twitter</a>
-              <a href="https://github.com/christian-fei" target="_blank">/github</a>
-              <a href="https://www.instagram.com/christianfei/" target="_blank">/instagram</a>
-              <a href="https://www.goodreads.com/user/show/38117692-christian-fei" target="_blank">/goodreads</a>
-            </div>
+  <body>
+    <main class="container">
+      <div class="row">
+        <div class="col-2 mobile-col-10 mobile-center">
+          <div class="sidebar__container">
+            <a href="/">
+              <i class="icon-home"></i>
+            </a>
+            <br/>
+            <p class="intro">
+              I’m an Italian software developer living in Trento.
+              <br/>
+              Working at <a target="_blank" href="http://www.xpeppers.com/">XPeppers</a> with an awesome agile team.
+              <br/>
+              Learning everyday a lil bit more about TDD, Clean Code, Agile methodologies, Continuous Improvement and other stuff like that, y'know.
+              <br/>
+              <!-- <a href="/about">More about me</a> -->
+            </p>
+            <a target="_blank" href="/rss.xml"><i class="icon-rss"></i></a>
+            <a target="_blank" href="https://github.com/christian-fei"><i class="icon-github"></i></a>
+            <a target="_blank" href="https://twitter.com/christian_fei"><i class="icon-twitter"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/christian-fei-6b72b5123?trk=hp-identity-name"><i class="icon-linkedin"></i></a>
+            <a target="_blank" href="https://open.spotify.com/user/11183484356"><i class="icon-spotify"></i></a>
+            <a target="_blank" href="https://www.instagram.com/christianfei/"><i class="icon-instagram"></i></a>
           </div>
         </div>
+
+        <div class="col-8 above-5 mobile-col-10 mobile-center mobile-above-4">
+          {{ content }}
+        </div>
       </div>
-    </header>
-
-    <main>
-      {{ content }}
     </main>
-
-    <div class="fl">
-      <p id="fucking-slogan"></p>
-    </div>
 
     <script type="text/javascript" src="/assets/js/echo.js"></script>
     <script type="text/javascript">
@@ -83,19 +85,6 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-    </script>
-    <script type="text/javascript">
-      var fuckingSlogans = [
-        "this is my fucking blog.",
-        "hi.",
-        "go fuck yourself.",
-        "wtf r u doin.",
-        "you must be fun at bars.",
-        "oh please tell me more about you.",
-        "you can find me on twitter @christian_fei, fucker.",
-      ]
-      var fuckingSloganIndex = Math.floor(Math.random()*fuckingSlogans.length)
-      document.getElementById('fucking-slogan').innerText = fuckingSlogans[fuckingSloganIndex]
     </script>
   </body>
 </html>

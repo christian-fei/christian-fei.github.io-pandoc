@@ -1,89 +1,89 @@
-html {font-size: 16px;}
-
 body {
-  font-family: 'PT Sans', 'Ubuntu', sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  line-height: 1.45;
-  color: #333;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  color: hsl(195, 10%, 35%);
 }
 
 
-p {margin-bottom: 1.3em;}
+.intro {
+  font-size: 0.85rem;
+}
 
-h1, h2, h3, h4 {
+@media (min-width: 60em) {
+  .sidebar__container {
+      position: fixed;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      padding: 5rem 1rem 2rem 1rem;
+      width: calc(20% + 1rem);
+      max-width: 18rem;
+  }
+}
+
+/*typography*/
+html {font-size: 16px;}
+
+body {
+  font-family: -apple-system, "Clear Sans", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+  -webkit-font-feature-settings: "kern" 1, "liga" 1;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+p {
+  margin-bottom: 1.3em;
+  color: hsl(200, 1%, 35%);
+}
+
+h1, h2, h3, h4, h5 {
   margin: 1.414em 0 0.5em;
-  font-weight: bold;
+  font-weight: inherit;
+  color: hsl(200, 10%, 19%);
   line-height: 1.2;
-  text-transform: uppercase;
+  -webkit-font-feature-settings: "kern" 1, "liga" 1;
+  font-feature-settings: "kern" 1, "liga" 1;
 }
 
 h1 {
   margin-top: 0;
-  font-size: 3.998em;
+  font-size: 2.441em;
 }
 
-h2 {font-size: 2.827em;}
+h2 {font-size: 1.953em;}
 
-h3 {font-size: 1.999em;}
+h3 {font-size: 1.563em;}
 
-h4 {font-size: 1.414em;}
+h4 {font-size: 1.25em;}
 
-small, .font_small {font-size: 0.707em;}
+small, .font_small {font-size: 0.8em;}
 
 blockquote {
   font-family: monospace;
 }
 
-.giant {
-  font-size: 7em;
-  margin-bottom: 1em;
-}
-
 a {
-  text-decoration: underline !important;
   font-weight: bold;
   color: #257C92;
   color: black;
 }
 
-.discuss-with-me {
-  padding: 0.5em 0;
-  margin: 0.5em 0;
-  background: #F5F5F5;
-}
 
-.nav-links a {
-  font-weight: normal;
-}
 
-.content {
-  max-width: 700px;
-  margin: 0 auto;
-}
 
-.wide {
-  max-width: none;
-}
 
-header {
-  margin-bottom: 5em;
-}
 
-.post {
-  margin-bottom: 300px;
-}
+
+
+
+
 
 main img {
   display: block;
   max-width: 100%;
   margin: auto;
-}
-
-.go-home {
-  font-size: 1.5em;
 }
 
 .ovh {
@@ -94,35 +94,12 @@ main img {
   float: left;
 }
 
-#fucking-slogan {
-  margin: 0;
-  margin-top: 1.3em;
-  opacity: 0.05;
-}
-
-#fucking-slogan:hover {
-  opacity: 1;
-}
-
 .tac {
   text-align: center;
 }
-
-#avatar-ss {
-  width: 150px;
-  border-radius: 50%;
-}
-
-
-
-
-
 
 @media all and (max-width: 768px) {
   html {
     font-size: 15px;
   }
-
-  .giant {font-size: 5em;}
 }
-
