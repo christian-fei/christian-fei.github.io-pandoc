@@ -10,6 +10,7 @@ body {
 
 .intro {
   font-size: 0.85rem;
+  margin-top: 1rem;
 }
 
 @media (min-width: 60em) {
@@ -23,6 +24,10 @@ body {
       padding: 5rem 1rem 2rem 1rem;
       width: calc(20% + 1rem);
       max-width: 18rem;
+  }
+  
+  .intro {
+    margin-top: 0;
   }
 }
 
@@ -92,7 +97,11 @@ a {
 }
 
 .post-link .title {
-  opacity: 0.9;
+  opacity: 0.8;
+  transition: all .3s ease;
+}
+.post-link .title:hover {
+  opacity: 1;
 }
 
 .post-link time {
