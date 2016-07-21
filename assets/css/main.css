@@ -75,30 +75,6 @@ a {
   color: black;
 }
 
-
-
-
-
-
-
-
-
-
-
-main img {
-  display: block;
-  max-width: 100%;
-  margin: auto;
-}
-
-.ovh {
-  overflow: hidden;
-}
-
-.fl {
-  float: left;
-}
-
 .tac {
   text-align: center;
 }
@@ -107,4 +83,23 @@ main img {
   html {
     font-size: 15px;
   }
+}
+
+
+
+
+.post-link {
+}
+
+.post-link .title {
+  opacity: 0.9;
+}
+
+.post-link time {
+  font-size: 0.8rem;
+  opacity: 0.3;
+  transition: all .3s ease;
+}
+.post-link time:hover {
+  opacity: 0.5;
 }
