@@ -94,9 +94,11 @@ a {
 
 
 .post-link {
+  margin-bottom: 0.85rem;
 }
 
 .post-link .title {
+  font-size: 0.9rem !important;
   opacity: 0.8;
   transition: all .3s ease;
 }
