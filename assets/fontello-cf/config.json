@@ -77,6 +77,18 @@
       "css": "home-1",
       "code": 59396,
       "src": "entypo"
+    },
+    {
+      "uid": "018571e697f22ca41803de480e10ed10",
+      "css": "home-2",
+      "code": 59397,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "e15f0d620a7897e2035c18c80142f6d9",
+      "css": "link-ext",
+      "code": 61582,
+      "src": "fontawesome"
     }
   ]
 }
