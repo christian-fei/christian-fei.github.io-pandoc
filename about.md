@@ -13,6 +13,4 @@ Currently i am
 
 --- 
 
-In my spare time I am building [pomodoro.cc](https://pomodoro.cc), I want to rewrite it in [Elm](http://elm-lang.org) so I am experimenting with it [here](https://github.com/christian-fei/elm-playground).
-
-See what I am reading [](https://www.goodreads.com/user/show/38117692-christian-fei)
+In my spare time I am building [pomodoro.cc](https://pomodoro.cc)<small><a href="https://github.com/christian-fei/pomodoro.cc/" target="_blank"><i class="icon-link-ext"></i></a></small>, I want to rewrite it in [Elm](http://elm-lang.org) so I am experimenting with it [here](https://github.com/christian-fei/elm-playground).
