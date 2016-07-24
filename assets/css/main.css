@@ -13,6 +13,9 @@
   max-width: 33em;
   margin: 0 auto;
 }
+.content {
+  margin-top: 2em;
+}
 
 /*typography*/
 html {font-size: 16px;}
@@ -60,7 +63,7 @@ blockquote {
 a {
   font-weight: bold;
   color: #222;
-  border-bottom: 1px solid rgb(255, 202, 0);
+  /*border-bottom: 1px solid rgb(255, 202, 0);*/
 }
 a:hover, a:active, a:focus {
   background-color: rgb(255, 202, 0) !important;
