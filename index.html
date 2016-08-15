@@ -3,12 +3,10 @@ layout: default
 ---
 
 {% for post in site.posts %}
-  {%if post.category == 'posts'%}
   <div class="post-link">
     <a class="title" href="{{ post.url }}">{{ post.title }}</a>
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
       {{ post.date | date_to_string }}
     </time>
   </div>
-  {%endif%}
 {% endfor %}

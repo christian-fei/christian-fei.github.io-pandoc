@@ -12,6 +12,7 @@
 .container {
   max-width: 33em;
   margin: 0 auto;
+  padding: 0.5em;
 }
 .content {
   margin-top: 2em;
