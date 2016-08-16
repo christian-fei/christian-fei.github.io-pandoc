@@ -2,15 +2,18 @@
 layout: default
 ---
 
-<div class="content">
-  <h1 class="title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
-    {{ page.date | date_to_string }}
-  </time>
-  <section class="discuss-with-me">
-    Discuss this thought with me <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=christian_fei" target="_blank">on Twitter!</a>
-  </section>
+<article class="content">
+  <header>
+    <h1 class="title">{{ page.title }}</h1>
+    {% include share-twitter.html %}
+    <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
+      {{ page.date | date_to_string }}
+    </time>
+  </header>
   <section>
     {{content}}
   </section>
-</div>
+  <footer>
+    {% include share-twitter.html %}
+  </footer>
+</article>

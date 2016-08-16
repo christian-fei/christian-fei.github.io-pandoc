@@ -70,8 +70,21 @@ a:hover, a:active, a:focus {
   background-color: rgb(255, 202, 0) !important;
 }
 
+time {
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+
 .tac {
   text-align: center;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+article header {
+  margin-bottom: 3em;
 }
 
 
