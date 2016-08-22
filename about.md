@@ -9,7 +9,7 @@ I am a passionate programmer, I like to build digital products
 that meet the customer's needs.
 My objective is to continuously improve since I believe in this field
 you never stop learning.
-In my work experience in XPeppers I adopted essential practices to write
+In my work experience in XPeppers since 2014 I adopted essential practices to write
 maintainable software and work effectively with my team, collaborate
 with the customer in a lean and modern way.
 During the past few years I expanded my knowledge with methodologies,
