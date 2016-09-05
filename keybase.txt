@@ -1,0 +1,52 @@
+https://keybase.io/christianfei
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://christianfei.com
+  * I am christianfei (https://keybase.io/christianfei) on keybase.
+  * I have a public key ASCL36GRLuHLlZ-3tfN7lLNf2M-rmatrERU0ITGNK0wrwAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01208bdfa1912ee1cb959fb7b5f37b94b35fd8cfab99ab6b11153421318d2b4c2bc00a",
+            "host": "keybase.io",
+            "kid": "01208bdfa1912ee1cb959fb7b5f37b94b35fd8cfab99ab6b11153421318d2b4c2bc00a",
+            "uid": "3f1c60cb32d8ef5d0aafba34d248af19",
+            "username": "christianfei"
+        },
+        "service": {
+            "hostname": "christianfei.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1473115799,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1473115767,
+        "hash": "ff653b6d905e46d7fd296ef459469179c54aa1b941e7c8d9217c7b4bb878f29f5d797ccd0557eaacb5b749e9ac592212e61b7c43947b883e238e943459bc7f7d",
+        "seqno": 619941
+    },
+    "prev": "ad8d63b0adc43c1bccb30e1405931c9af3f8ab2818d440d4ccac77b692b44a39",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgi9+hkS7hy5Wft7Xze5SzX9jPq5mraxEVNCExjStMK8AKp3BheWxvYWTFAvt7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOGJkZmExOTEyZWUxY2I5NTlmYjdiNWYzN2I5NGIzNWZkOGNmYWI5OWFiNmIxMTE1MzQyMTMxOGQyYjRjMmJjMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOGJkZmExOTEyZWUxY2I5NTlmYjdiNWYzN2I5NGIzNWZkOGNmYWI5OWFiNmIxMTE1MzQyMTMxOGQyYjRjMmJjMDBhIiwidWlkIjoiM2YxYzYwY2IzMmQ4ZWY1ZDBhYWZiYTM0ZDI0OGFmMTkiLCJ1c2VybmFtZSI6ImNocmlzdGlhbmZlaSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiY2hyaXN0aWFuZmVpLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTcifSwiY3RpbWUiOjE0NzMxMTU3OTksImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3MzExNTc2NywiaGFzaCI6ImZmNjUzYjZkOTA1ZTQ2ZDdmZDI5NmVmNDU5NDY5MTc5YzU0YWExYjk0MWU3YzhkOTIxN2M3YjRiYjg3OGYyOWY1ZDc5N2NjZDA1NTdlYWFjYjViNzQ5ZTlhYzU5MjIxMmU2MWI3YzQzOTQ3Yjg4M2UyMzhlOTQzNDU5YmM3ZjdkIiwic2Vxbm8iOjYxOTk0MX0sInByZXYiOiJhZDhkNjNiMGFkYzQzYzFiY2NiMzBlMTQwNTkzMWM5YWYzZjhhYjI4MThkNDQwZDRjY2FjNzdiNjkyYjQ0YTM5Iiwic2Vxbm8iOjcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAGRiTOE+ypeXGoMXlgDFHPgLQdQJn4ObnIZrizTw31GLTYtYtbiLWpQxEaNEYMZfZ/YFHr46Y6S/jFrhGUf0/C6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMkQzB9Yh7qVxYBpX3QA6UH5YBNQ7+jeCVa1N0RFt5yqo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/christianfei
+
