@@ -36,6 +36,7 @@ p {
 }
 
 h1, h2, h3, h4, h5 {
+  font-family: -apple-system, "Clear Sans", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   color: hsl(200, 10%, 19%);
@@ -126,4 +127,8 @@ article header {
 }
 .post-link time:hover {
   opacity: 0.5;
+}
+
+header h1 {
+  font-size: 3em;
 }
