@@ -132,3 +132,7 @@ article header {
 header h1 {
   font-size: 3em;
 }
+
+.title {
+  text-transform: none !important;
+}

@@ -2,11 +2,22 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-  <div class="post-link">
-    <a class="title" href="{{ post.url }}">{{ post.title }}</a>
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
-      {{ post.date | date_to_string }}
-    </time>
-  </div>
-{% endfor %}
+<section class="content">
+  <h1>Hello stranger.</h1>
+  <p>
+  You might wanna check out my <a href="https://github.com/christian-fei">GitHub profile</a>.
+  I'm currently working on <a href="https://github.com/christian-fei/lambda-status">lambda-status</a> and <a href="http://pomodoro.cc">pomodoro.cc</a>.
+  </p>
+</section>
+
+
+<section class="content">
+  {% for post in site.posts %}
+    <div class="post-link">
+      <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
+        {{ post.date | date_to_string }}
+      </time>
+    </div>
+  {% endfor %}
+</section>
