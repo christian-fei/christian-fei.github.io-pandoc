@@ -1,5 +1,5 @@
 ---
-title: 'discourse first installation steps'
+title: 'Discourse first installation steps'
 date: 2016-05-28
 layout: post
 category: posts
