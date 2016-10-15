@@ -3,7 +3,7 @@
   border-radius: 50%;
 }
 
-.intro {
+header {
   font-size: 0.85rem;
   margin-top: 1rem;
 }
@@ -135,4 +135,45 @@ header h1 {
 
 .title {
   text-transform: none !important;
+}
+
+#currently-working-on {
+  position: relative;
+  display: block;
+  height: 3em;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -10px 0 -10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-left: 1px solid rgba(0, 0, 0, 0);
+  border-right: 1px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid rgba(0, 0, 0, .4);
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  -webkit-animation: rot .75s infinite ;
+  -moz-animation: rot .75s infinite ;
+  animation: rot .75s infinite ;
+}
+
+@keyframes rot {
+  10% {transform: rotate(10deg);}
+  30% {transform: rotate(30deg);}
+  60% {transform: rotate(70deg);}
+  70% {transform: rotate(100deg);}
+  90% {transform: rotate(200deg);}
+  100% {transform: rotate(359deg);}
+}
+
+@-webkit-keyframes rot {
+  10% {transform: rotate(10deg);}
+  30% {transform: rotate(30deg);}
+  60% {transform: rotate(70deg);}
+  70% {transform: rotate(100deg);}
+  90% {transform: rotate(200deg);}
+  100% {-webkit-transform: rotate(359deg);}
 }
