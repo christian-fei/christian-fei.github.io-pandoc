@@ -4,9 +4,9 @@ title: about
 permalink: /about/
 ---
 
-
+<div class="about-with-background">
 I am a passionate programmer, I like to build digital products
-that meet the customer's needs.
+that meet the customers' needs.
 My objective is to continuously improve since I believe in this field
 you never stop learning.
 In my work experience in XPeppers since 2014 I adopted essential practices to write
@@ -38,3 +38,4 @@ In my spare time I am building [pomodoro.cc](https://pomodoro.cc)<small><a href=
 I am also experimenting with [Elm](http://elm-lang.org) [here](https://github.com/christian-fei/elm-playground).
 
 Recently I started a new project to monitor web applications: check out [lambda-status](https://github.com/christian-fei/lambda-status) and [lamdba-status-server](https://github.com/christian-fei/lambda-status-server).
+</div>

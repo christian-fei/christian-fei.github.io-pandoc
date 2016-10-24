@@ -177,3 +177,16 @@ header h1 {
   90% {transform: rotate(200deg);}
   100% {-webkit-transform: rotate(359deg);}
 }
+
+.about-with-background {
+  background-image: url('/assets/images/cf.jpg');
+  background-size: 7.8em;
+  text-indent: 10em;
+  background-repeat: no-repeat;
+}
+.about-with-background::first-letter {
+  font-size: 7em;
+}
+.about-with-background::first-line {
+  line-height: 1em;
+}
