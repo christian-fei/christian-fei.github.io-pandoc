@@ -32,10 +32,10 @@ In my opinion good software development is about people, so I embrace and
 truly believe it's essential to have a tight collaboration and
 effective communication between the team and the customer.
 
---- 
+<hr>
 
-In my spare time I am building [pomodoro.cc](https://pomodoro.cc)<small><a href="https://github.com/christian-fei/pomodoro.cc/" target="_blank"><i class="icon-link-ext"></i></a></small>.
-I am also experimenting with [Elm](http://elm-lang.org) [here](https://github.com/christian-fei/elm-playground).
+In my spare time I am:
 
-Recently I started a new project to monitor web applications: check out [lambda-status](https://github.com/christian-fei/lambda-status) and [lamdba-status-server](https://github.com/christian-fei/lambda-status-server).
-</div>
+<ul>
+  <li style="text-indent: 0">building <a href="https://pomodoro.cc">Pomodoro.cc</a></li>
+<ul>
