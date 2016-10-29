@@ -10,19 +10,21 @@ header {
 
 
 .container {
-  max-width: 33em;
+  max-width: 50rem;
   margin: 0 auto;
-  padding: 0.5em;
+  padding: 0 0.5rem;
 }
-.content {
-  margin-top: 2em;
+.container.extended {
+  min-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /*typography*/
 html {font-size: 16px;}
 
 body {
-  font-family: -apple-system, "Clear Sans", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   line-height: 1.45;
   color: #333;
@@ -32,7 +34,6 @@ body {
 
 p {
   margin-bottom: 1.3em;
-  color: hsl(200, 1%, 35%);
 }
 
 h1, h2, h3, h4, h5 {
@@ -178,15 +179,24 @@ header h1 {
   100% {-webkit-transform: rotate(359deg);}
 }
 
-.about-with-background {
-  background-image: url('/assets/images/cf.jpg');
-  background-size: 7.8em;
-  text-indent: 10em;
-  background-repeat: no-repeat;
+.cf {
+  width: 10em;
+  height: 7.8em;
+  padding-right: 2.2em;
+  display: inline-block;
 }
-.about-with-background::first-letter {
+
+.inline {
+  display: inline-block;
+}
+
+.giant-first-letter::first-letter {
   font-size: 7em;
 }
-.about-with-background::first-line {
+.giant-line-height::first-line {
   line-height: 1em;
+}
+
+.important-margin {
+  margin-top: 1em;
 }
