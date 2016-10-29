@@ -5,20 +5,38 @@
 
 header {
   font-size: 0.85rem;
-  margin-top: 1rem;
+  padding: 1rem 0;
 }
 
 
 .container {
-  max-width: 50rem;
+  max-width: 45rem;
   margin: 0 auto;
-  padding: 0 0.5rem;
 }
-.container.extended {
+.container.fullwidth {
   min-width: 100%;
-  padding-left: 0;
-  padding-right: 0;
 }
+
+@media all and (max-width: 45rem) {
+  .container {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .container.fullwidth {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/*
+body {
+  background-image: url('/assets/images/pen.png');
+  background-repeat: no-repeat;
+  background-size: 124px;
+  background-position-y: 1rem;
+  background-position-x: right;
+}
+*/
 
 /*typography*/
 html {font-size: 16px;}

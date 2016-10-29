@@ -2,13 +2,15 @@
 layout: page
 title: about
 permalink: /about/
-css_class: extended
 ---
+
 
 <div class="container">
     <img src="/assets/images/cf.jpg" alt="cf" class="cf inline"/>
     <p class="inline giant-line-height giant-first-letter">I am a passionate programmer.</p>
+</div>
 
+<div class="container">
     <p>
         I like to build digital products that meet the customers' needs.
         My objective is to continuously improve since I believe in this field you never stop learning.
@@ -29,12 +31,4 @@ css_class: extended
     <p>
         In my opinion good software development is about people, so I embrace and truly believe it's essential to have a tight collaboration and effective communication between the team and the customer.
     </p>
-</div>
-
-<div class="container">
-    <h1 class="important-margin">My workstation</h1>
-</div>
-
-<div>
-    <img src="/assets/images/posts/workstation.jpg" alt="" width="100%" class="m0 p0">
 </div>
