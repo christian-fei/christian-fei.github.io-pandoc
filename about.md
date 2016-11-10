@@ -32,3 +32,7 @@ permalink: /about/
         In my opinion good software development is about people, so I embrace and truly believe it's essential to have a tight collaboration and effective communication between the team and the customer.
     </p>
 </div>
+
+<recent-tweet></recent-tweet>
+<script src="https://www.tweet-o-matic.com/tweets/christian_fei/recent.js" async="async" defer="defer"></script>
+
