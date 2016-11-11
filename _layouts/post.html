@@ -4,9 +4,8 @@ layout: default
 
 <article class="content">
   <header>
-    <h1>{{ page.title }}</h1>
-    {% include share-twitter.html %}
-    <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
+    <h1 class="f-subheadline lh-title">{{ page.title }}</h1>
+    <time datetime="{{ page.date | date:"%Y-%m-%d" }}" class="db mb4">
       {{ page.date | date_to_string }}
     </time>
   </header>

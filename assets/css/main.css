@@ -3,7 +3,7 @@
   border-radius: 50%;
 }
 
-main header {
+main > header {
   font-size: 0.85rem;
   padding: 1rem 0;
   height: 7em;
