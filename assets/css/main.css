@@ -91,12 +91,6 @@ a:hover {
   text-decoration: underline;
 }
 
-article header {
-  margin-bottom: 3em;
-}
-
-
-
 .separator {
   display: inline-block;
   margin-top: 0.5rem;
@@ -110,37 +104,6 @@ article header {
   background-color: #e0e0e0;
   position: absolute;
   top: -0.85rem;
-}
-
-.post-link {
-  margin-top: -0.25rem;
-  margin-bottom: 0.85rem;
-}
-
-.post-link .title {
-  font-size: 0.9rem !important;
-  opacity: 0.8;
-  transition: all .3s ease;
-}
-.post-link .title:hover {
-  opacity: 1;
-}
-
-.post-link time {
-  font-size: 0.8rem;
-  opacity: 0.3;
-  transition: all .3s ease;
-}
-.post-link time:hover {
-  opacity: 0.5;
-}
-
-header h1 {
-  font-size: 3em;
-}
-
-.title {
-  text-transform: none !important;
 }
 
 #currently-working-on {
