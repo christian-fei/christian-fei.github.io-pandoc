@@ -28,13 +28,14 @@
       <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.5/css/tachyons.min.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/fontello-cf/css/fontello.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
   </head>
-  <body class="avenir">
-    <main class="ba bw2 ph3 ph5-ns">
-      <header class="container">
+  <body class="avenir bl bw3">
+    <main class="ph3 ph5-ns">
+      <header class="pv3">
         <a href="/"><i class="icon-home-2"></i></a>
         <span class="separator"></span>
         <a target="_blank" href="/rss.xml"><i class="icon-rss"></i></a>
@@ -44,19 +45,22 @@
         <a target="_blank" href="https://open.spotify.com/user/11183484356"><i class="icon-spotify"></i></a>
         <a target="_blank" href="https://www.instagram.com/christianfei/"><i class="icon-instagram"></i></a>
         {% unless page.title == 'about' %}
-        <a href="/about" class="ml3">More about me</a>
+        <a href="/about" class="ml3 f6">More about me</a>
         {% endunless %}
       </header>
+
+      {% unless page.title == 'about' %}
       <section class="container">
         <p class="intro">
           I’m an Italian software developer living in Trento, Italy.
         </p>
         <p>
-          <div id="currently-working-on">
+          <div id="currently-working-on" class="relative">
             <span class="loader"></span>
           </div>
         </p>
       </section>
+      {% endunless %}
 
       <section class="container">
         {{ content }}
@@ -88,6 +92,9 @@
           setTimeout(function() {
             currentlyWorkingOnElement.innerHTML = "I'm currently working on " + reposAsText
           }, 500)
+        }
+        if (this.readyState == 4 && this.status >= 400) {
+          currentlyWorkingOnElement.innerHTML = ""
         }
       }
       request.open("GET", "https://api.github.com/users/christian-fei/repos?sort=updated_at", true);

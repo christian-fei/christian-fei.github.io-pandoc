@@ -1,87 +1,3 @@
-.avatar {
-  width: 60px;
-  border-radius: 50%;
-}
-
-main > header {
-  font-size: 0.85rem;
-  padding: 1rem 0;
-  height: 7em;
-}
-
-
-.container {
-  max-width: 45rem;
-  margin: 0 auto;
-}
-.container.fullwidth {
-  min-width: 100%;
-}
-
-@media all and (max-width: 45rem) {
-  .container {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .container.fullwidth {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-/*
-body {
-  background-image: url('/assets/images/pen.png');
-  background-repeat: no-repeat;
-  background-size: 124px;
-  background-position-y: 1rem;
-  background-position-x: right;
-}
-*/
-
-/*typography*/
-html {font-size: 16px;}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 400;
-  line-height: 1.45;
-  color: #333;
-  -webkit-font-feature-settings: "kern" 1, "liga" 1;
-  font-feature-settings: "kern" 1, "liga" 1;
-}
-
-p {
-  margin-bottom: 1.3em;
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: -apple-system, "Clear Sans", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
-  margin: 1.414em 0 0.5em;
-  font-weight: inherit;
-  color: hsl(200, 10%, 19%);
-  line-height: 1.2;
-  -webkit-font-feature-settings: "kern" 1, "liga" 1;
-  font-feature-settings: "kern" 1, "liga" 1;
-}
-
-h1 {
-  margin-top: 0;
-  font-size: 2.441em;
-}
-
-h2 {font-size: 1.953em;}
-
-h3 {font-size: 1.563em;}
-
-h4 {font-size: 1.25em;}
-
-small, .font_small {font-size: 0.8em;}
-
-blockquote {
-  font-family: monospace;
-}
-
 a {
   font-weight: bold;
   color: #222;
@@ -107,11 +23,8 @@ a:hover {
 }
 
 #currently-working-on {
-  position: relative;
-  display: block;
-  height: 3em;
+  min-height: 1.15em;
 }
-
 .loader {
   position: absolute;
   left: 0%;
@@ -147,24 +60,9 @@ a:hover {
   100% {-webkit-transform: rotate(359deg);}
 }
 
-.cf {
-  width: 10em;
-  height: 7.8em;
-  padding-right: 2.2em;
-  display: inline-block;
-}
-
-.inline {
-  display: inline-block;
-}
-
 .giant-first-letter::first-letter {
   font-size: 7em;
 }
 .giant-line-height::first-line {
   line-height: 1em;
-}
-
-.important-margin {
-  margin-top: 1em;
 }

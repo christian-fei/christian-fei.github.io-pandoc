@@ -3,14 +3,19 @@ layout: default
 ---
 
 <section class="content">
+  <p>
+    Some things I wrote.
+  </p>
   {% for post in site.posts %}
-    <div class="post-link">
-      <a class="title" href="{{ post.url }}">{{ post.title }}</a>
-      <!--
-      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
-        {{ post.date | date_to_string }}
-      </time>
-      -->
-    </div>
+  <div class="mv6">
+    <h1 class="measure ttu fw6 mt0 f2 f-subheadline-l" class1="title f1 lh-title">
+      <a href="{{ post.url }}" title="{{ post.title}}">
+        {{ post.title }}
+        </a>
+    </h1>
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="db f6">
+      {{ post.date | date_to_string }}
+    </time>
+  </div>
   {% endfor %}
 </section>
