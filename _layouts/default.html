@@ -28,6 +28,7 @@
       <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
 
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.5/css/tachyons.min.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/colors.min.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/typebase.css" />
     <link rel="stylesheet" type="text/css" href="/assets/fontello-cf/css/fontello.css" />
@@ -36,7 +37,6 @@
   <body>
     <main>
       <header class="container">
-        <img src="/assets/images/avatar.jpg" class="avatar"/>
         <a href="/"><i class="icon-home-2"></i></a>
         <span class="separator"></span>
         <a target="_blank" href="/rss.xml"><i class="icon-rss"></i></a>
@@ -45,7 +45,11 @@
         <a target="_blank" href="https://www.linkedin.com/in/christian-fei-6b72b5123?trk=hp-identity-name"><i class="icon-linkedin"></i></a>
         <a target="_blank" href="https://open.spotify.com/user/11183484356"><i class="icon-spotify"></i></a>
         <a target="_blank" href="https://www.instagram.com/christianfei/"><i class="icon-instagram"></i></a>
-        <br/>
+        {% unless page.title == 'about' %}
+        <a href="/about">&nbsp;&nbsp;-&gt;&nbsp;&nbsp;More about me&nbsp;&nbsp;&lt;-&nbsp;&nbsp;</a>
+        {% endunless %}
+      </header>
+      <section class="container">
         <p class="intro">
           I’m an Italian software developer living in Trento, Italy.
           <br/>
@@ -56,16 +60,6 @@
             <span class="loader"></span>
           </div>
         </p>
-        {% unless page.title == 'about' %}
-        <p>
-          <a href="/about">More about me</a>
-        </p>
-        {% endunless %}
-      </header>
-
-      <section class="container">
-        <recent-tweet></recent-tweet>
-        <script src="https://www.tweet-o-matic.com/tweets/christian_fei/recent.js" async="async" defer="defer"></script>
       </section>
 
       <section class="container">
@@ -95,7 +89,9 @@
             if(index === array.length-1) {return text + ' and ' + repoAsLink(repo)}
             return text + ', ' + repoAsLink(repo)
           }, '')
-          currentlyWorkingOnElement.innerHTML = "I'm currently working on " + reposAsText
+          setTimeout(function() {
+            currentlyWorkingOnElement.innerHTML = "I'm currently working on " + reposAsText
+          }, 500)
         }
       }
       request.open("GET", "https://api.github.com/users/christian-fei/repos?sort=updated_at", true);

@@ -3,9 +3,10 @@
   border-radius: 50%;
 }
 
-header {
+main header {
   font-size: 0.85rem;
   padding: 1rem 0;
+  height: 7em;
 }
 
 
@@ -164,7 +165,7 @@ header h1 {
 
 .loader {
   position: absolute;
-  left: 50%;
+  left: 0%;
   top: 50%;
   margin: -10px 0 -10px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0);
