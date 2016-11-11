@@ -4,10 +4,10 @@ layout: default
 
 <article class="content">
   <header>
-    <h1 class="f-subheadline lh-title">{{ page.title }}</h1>
-    <time datetime="{{ page.date | date:"%Y-%m-%d" }}" class="db mb4">
+    <h1 class="f1">{{ page.title }}</h1>
+    <span class="f6">
       {{ page.date | date_to_string }}
-    </time>
+    </span>
   </header>
   <section>
     {{content}}
