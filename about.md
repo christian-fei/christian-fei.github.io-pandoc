@@ -28,7 +28,7 @@ I try to focus more on concepts and practices than on the technology or programm
 </p>
 <p>
 In my opinion good software development is about people, so I embrace and truly believe it's essential to have a tight collaboration and effective communication between the team and the customer.
-</div>
+</p>
 
 <h1>my alter egos.</h1>
 
