@@ -16,14 +16,20 @@ shit.
 it seems what you were searching doesn't exist anymore :(
 <br/>
 
-but here a list of stuff i wrote, use the search function of your browser if you need to narrow your search
-<br/>
-
-
-<ul>
-{% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-<ul>
+<section class="content mv4">
+  <p>
+    Here you can read some things I wrote:
+  </p>
+  {% for post in site.posts %}
+  <div class="mv3">
+    <a href="{{ post.url }}" title="{{ post.title}}" class="hover-pop-out ttu f5 title f1 lh-title hover-pop-out">
+      {{ post.title }}
+    </a>
+    <!--
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="db f6">
+      {{ post.date | date_to_string }}
+    </time>
+    -->
+  </div>
+  {% endfor %}
+</section>
