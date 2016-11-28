@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<article>
-  <header class="mv6">
+<article class="">
+  <header class="mb6">
     <h1 class="measure ttu fw6 mt0 f2 f-subheadline-l" class1="title f1 lh-title">{{ page.title }}</h1>
-    <time datetime="{{ page.date | date:"%Y-%m-%d" }}" class="db f6">
+    <time datetime="{{ page.date | date:'%Y-%m-%d' }}" class="db f6">
       {{ page.date | date_to_string }}
     </time>
   </header>
   <section class="measure-wide">
     {{content}}
   </section>
-  <footer>
+  <footer class="mt6">
     {% include share-twitter.html %}
   </footer>
 </article>
