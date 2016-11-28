@@ -8,11 +8,9 @@ layout: default
   </p>
   {% for post in site.posts %}
   <div class="mv3">
-    <h1 class="ttu f5" class1="title f1 lh-title">
-      <a href="{{ post.url }}" title="{{ post.title}}">
-        {{ post.title }}
-      </a>
-    </h1>
+    <a href="{{ post.url }}" title="{{ post.title}}" class="hover-pop-out ttu f5 title f1 lh-title hover-pop-out">
+      {{ post.title }}
+    </a>
     <!--
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="db f6">
       {{ post.date | date_to_string }}
