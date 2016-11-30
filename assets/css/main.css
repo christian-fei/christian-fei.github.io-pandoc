@@ -70,6 +70,15 @@ a:hover {
 .hover-pop-out {
   position: relative;
   display: block;
+  -webkit-perspective: 100px;
+  -moz-perspective: 100px;
+  -ms-perspective: 100px;
+  perspective: 100px;
+  -webkit-transition: all .08s ease-in-out;
+  -o-transition: all .08s ease-in-out;
+  transition: all .08s ease-in-out;
+}
+.hover-pop-out > * {
   -webkit-transition: all .08s ease-in-out;
   -o-transition: all .08s ease-in-out;
   transition: all .08s ease-in-out;
@@ -80,4 +89,13 @@ a:hover {
   -o-transform: translateX(2em) scale(1.05) rotateZ(-0.3deg);
   -ms-transform: translateX(2em) scale(1.05) rotateZ(-0.3deg);
   transform: translateX(2em) scale(1.05) rotateZ(-0.3deg);
+}
+
+
+.post-list-title-hover {}
+.post-list-title-hover time {
+  opacity: 0;
+}
+.post-list-title-hover:hover time {
+  opacity: 1;
 }
