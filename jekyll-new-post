@@ -18,9 +18,10 @@ var fullTitle     = [date,'-',titleDashed,extension].join('')
 var postPath      = '_posts/'+fullTitle
 
 
-var cmd = 'echo "'+ postContents(title,date) + '" >> ' + postPath
-exec(cmd, function(){
-  console.log( arguments )
+var cmd = 'echo "'+ postContents(title,date) + '" > ' + postPath
+exec(cmd, function(err){
+  if(err) {console.log('there was an error')}
+  console.log('created file '+postPath)
 })
 
 function pad(x){return (x>=10)?x:'0'+x}
@@ -32,6 +33,5 @@ function postContents(title, date){
   "title: '"+ title +"'",
   "date: "+ date,
   "layout: post",
-  "category: posts",
   "---"].join('\n')
 }
