@@ -40,38 +40,12 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
   </head>
   <body class="avenir">
-    <main class="ph3 ph5-ns">
-      <header class="pv3">
-        <a href="/"><i class="icon-home-2"></i></a>
-        <span class="separator"></span>
-        <a target="_blank" href="/rss.xml"><i class="icon-rss"></i></a>
-        <a target="_blank" href="https://github.com/christian-fei"><i class="icon-github"></i></a>
-        <a target="_blank" href="https://twitter.com/christian_fei"><i class="icon-twitter"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/christian-fei-6b72b5123?trk=hp-identity-name"><i class="icon-linkedin"></i></a>
-        <a target="_blank" href="https://open.spotify.com/user/11183484356"><i class="icon-spotify"></i></a>
-        <a target="_blank" href="https://www.instagram.com/christianfei/"><i class="icon-instagram"></i></a>
-        {% unless page.title == 'about' %}
-        <a href="/about" class="ml3 f6">More about me</a>
-        {% endunless %}
-      </header>
-
-      {% unless page.title == 'about' %}
-      <section class="container">
-        <p class="intro">
-          I’m an Italian software developer living in Trento, Italy.
-        </p>
-        <p>
-          <div id="currently-working-on" class="relative">
-            <span class="loader"></span>
-          </div>
-        </p>
-      </section>
-      {% endunless %}
-
-      <section class="container">
-        {{ content }}
-      </section>
+    {% include main-header.html %}
+    {% include intro-line.html %}
+    <main {% unless page.free_layout %} class="ph3 ph5-ns" {% endunless %}>
+      {{ content }}
     </main>
+    {% include main-footer.html %}
 
     <script type="text/javascript" src="/assets/js/echo.js"></script>
     <script type="text/javascript">
@@ -90,32 +64,5 @@
       ga('create', 'UA-57238829-1', 'auto');
       ga('send', 'pageview');
     </script>
-    {% unless page.title == 'about' %}
-    <script type="text/javascript">
-      var repoAsLink = function(repo) {return '<a href="'+repo.url+'" target="_blank">'+repo.name+'</a>'}
-      var currentlyWorkingOnElement = document.getElementById('currently-working-on')
-      var request = new XMLHttpRequest();
-      request.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-          var repos = JSON.parse(this.responseText)
-          repos.length = 3
-          var repoNames = repos.map(function(repo) {return {name: repo.full_name, url: repo.html_url}})
-          var reposAsText = repoNames.reduce(function(text, repo, index, array) {
-            if(0 === index) {return repoAsLink(repo)}
-            if(index === array.length-1) {return text + ' and ' + repoAsLink(repo)}
-            return text + ', ' + repoAsLink(repo)
-          }, '')
-          setTimeout(function() {
-            currentlyWorkingOnElement.innerHTML = "I'm currently working on " + reposAsText + "."
-          }, 500)
-        }
-        if (this.readyState == 4 && this.status >= 400) {
-          currentlyWorkingOnElement.innerHTML = ""
-        }
-      }
-      request.open("GET", "https://api.github.com/users/christian-fei/repos?sort=updated_at", true);
-      request.send();
-    </script>
-    {% endunless %}
   </body>
 </html>

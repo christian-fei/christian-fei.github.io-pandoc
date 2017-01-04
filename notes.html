@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<section class="content">
-  <p class="f2">
-    Posts
+<section class="content mv4">
+  <p>
+    Some notes:
   </p>
   {% for post in site.posts %}
-  {% if post.category == 'posts' %}
+  {% if post.category == 'notes' %}
   <div class="mv3 hover-pop-out post-list-title-hover">
-    <a href="{{ post.url }}" title="{{ post.title}}" class="link f5">
+    <a href="{{ post.url }}" title="{{ post.title}}" class="ttu f5 title f1 lh-title">
       {{ post.title }}
     </a>
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="db f6">
