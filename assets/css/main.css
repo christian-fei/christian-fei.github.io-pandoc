@@ -109,3 +109,9 @@ a:hover {
 .posts-title {
   font-weight: 500;
 }
+
+.intro-line {
+  opacity: 0.9;
+  background-color: rgb(27, 27, 27);
+  color: rgb(244, 244, 244);
+}
