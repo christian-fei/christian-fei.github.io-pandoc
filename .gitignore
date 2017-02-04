@@ -3,3 +3,4 @@ _site
 naked-jekyll.sublime-workspace
 .DS_Store
 .jekyll-metadata
+node_modules/
