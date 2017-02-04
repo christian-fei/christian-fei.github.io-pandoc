@@ -92,11 +92,10 @@ a:hover {
 }
 
 
-.post-list-title-hover {}
-.post-list-title-hover time {
+.post-list-title, .post-list-title-hover time {
   opacity: 0;
 }
-.post-list-title-hover:hover time {
+.post-list-title, .post-list-title-hover:hover time, .post-list-title, .post-list-title-hover:focus time {
   opacity: 1;
 }
 
