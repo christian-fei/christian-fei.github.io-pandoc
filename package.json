@@ -1,0 +1,31 @@
+{
+  "name": "christian-fei.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "assets:css": "gulp css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian-fei/christian-fei.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christian-fei/christian-fei.github.io/issues"
+  },
+  "homepage": "https://github.com/christian-fei/christian-fei.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.7.2",
+    "cssnano": "^3.10.0",
+    "cssnext": "^1.8.4",
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-postcss": "^6.3.0",
+    "postcss-clean": "^1.0.2",
+    "precss": "^1.4.0"
+  }
+}
