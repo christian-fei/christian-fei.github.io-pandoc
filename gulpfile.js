@@ -11,9 +11,13 @@ gulp.task('css', function () {
     require('postcss-clean'),
     autoprefixer({browsers: ['last 1 version']})
   ]
-  return gulp.src(['./assets/css/*.css','./assets/fontello-cf/css/fontello.css'])
-    .pipe(concatCss('main.min.css'))
-    .pipe(postcss(processors))
-    .pipe(cssnano())
-    .pipe(gulp.dest('./dest'))
+  return gulp.src([
+    './assets/css/*.css',
+    './node_modules/normalize.css/normalize.css',
+    './assets/fontello-cf/css/fontello.css'
+  ])
+  .pipe(concatCss('main.min.css'))
+  .pipe(postcss(processors))
+  .pipe(cssnano())
+  .pipe(gulp.dest('./dest'))
 })
