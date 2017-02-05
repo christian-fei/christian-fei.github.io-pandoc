@@ -8,12 +8,12 @@ redcarpet:
 # highlighter: pygments
 
 baseurl: /
-domain_name: 'http://christian.fei.ninja'
+domain_name: 'http://christianfei.com'
 google_analytics: 'UA-57238829-1'
 disqus_shortname: 'christianfei'
 
 # Details for the RSS feed generator
-url:            'http://christian.fei.ninja'
+url:            'http://christianfei.com'
 author:         'Christian Fei'
 authorTwitter:  'christian_fei'
 
