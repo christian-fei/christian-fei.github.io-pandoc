@@ -14,6 +14,7 @@ category: posts
 Create a file `search.json` with this content:
 
 ```
+{% raw  %}
 ---
 layout: nil
 ---
@@ -28,6 +29,7 @@ layout: nil
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
+{% endraw  %}
 ```
 
 # Prepare HTML
