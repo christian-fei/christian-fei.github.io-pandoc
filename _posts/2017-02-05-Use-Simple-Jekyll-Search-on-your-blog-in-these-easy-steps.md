@@ -2,6 +2,7 @@
 title: 'Use Simple-Jekyll-Search on your blog in these easy steps'
 date: 2017-02-05
 layout: post
+category: posts
 ---
 
 # Requirements
