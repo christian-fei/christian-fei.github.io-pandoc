@@ -58,7 +58,7 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
-  searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>'
+  searchResultTemplate: '<li><a href="{% raw %}{{ site.url }}{% endraw %}{url}">{title}</a></li>'
 })
 </script>
 ```
