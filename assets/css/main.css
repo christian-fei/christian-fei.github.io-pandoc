@@ -114,3 +114,10 @@ a:hover {
   background-color: rgb(27, 27, 27);
   color: rgb(244, 244, 244);
 }
+
+.grow-focus {
+  transition: all .1s ease-in-out;
+}
+.grow-focus:focus {
+  padding-right: .5em;
+}
