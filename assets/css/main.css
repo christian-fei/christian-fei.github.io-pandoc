@@ -12,6 +12,11 @@ a:hover {
   text-decoration: underline;
 }
 
+pre {
+  overflow: scroll;
+  padding: 1em;
+}
+
 .separator {
   display: inline-block;
   margin-top: 0.5rem;
