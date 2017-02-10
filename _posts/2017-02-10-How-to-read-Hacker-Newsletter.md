@@ -15,7 +15,7 @@ Today, at the issue date of #338 of Hacker Newsletter, I tried:
 
 Usually, on friday evening, in my routine I had planned to spend at most an hour reading the links that I found interesting at first sight.
 
-Which means, that I had opening 15+ tabs with unread articles.
+Which means, that I had opened 15+ tabs with unread articles.
 If I didn't take my routine very seriously, I would then "archive" them in my (it doesn't exist anymore, r.i.p.) "to_read" bookmarks folder.
 
 Soo unproductive and really, what a waste of interesting articles.
