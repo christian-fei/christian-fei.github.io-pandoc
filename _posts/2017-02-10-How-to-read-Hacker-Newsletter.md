@@ -8,7 +8,7 @@ category: posts
 Today, at the issue date of #338 of Hacker Newsletter, I tried:
 
 - not to read ahead
-- don't "spoil" me any links (maybe it's just me)
+- not to "spoil" me any links (maybe it's just me)
 - to reflect on how to learn the most out of each issue of Hacker Newsletter
 
 # Before
