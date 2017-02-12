@@ -59,17 +59,7 @@
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '/search.json',
-        searchResultTemplate: '<li><a class="grow-focus" href="{{ site.url }}{url}">{title}</a></li>',
-        templateMiddleware: function(prop, value, template){
-          debugger
-          searchJSON.push(value)
-          return value
-        },
-        middleware: function(prop, value, template){
-          debugger
-          searchJSON.push(value)
-          return value
-        },
+        searchResultTemplate: '<li><a class="pa" href="{{ site.url }}{url}">{title}</a></li>',
       })
       console.log(searchJSON)
     </script>

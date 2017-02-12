@@ -120,21 +120,12 @@ pre {
   color: rgb(244, 244, 244);
 }
 
-.grow-focus {
-  transition: all .1s ease-in-out;
-}
-.grow-focus:focus {
-  padding-right: .5em;
-  -webkit-animation: diag .25s ;
-  -moz-animation: diag .25s ;
-  animation: diag .25s ;
-}
-
 #search-input {
   border: none;
-  border-bottom: 1px solid #dadada;
-  border-left: 1px solid #dadada;
-  padding: 0 0 2px 5px;
+  display: inline-block;
+  width: 80%;
+  width: calc(100% - 3em);
+  padding: 1.5em 1em;
 }
 
 @keyframes diag {
@@ -151,4 +142,14 @@ pre {
   50% {-webkit-transform: rotate(0deg);}
   75% {-webkit-transform: rotate(-2deg) translateX(-2px);}
   100% {-webkit-transform: rotate(0deg);}
+}
+
+@media all and (min-widtg: 30em) {
+  .float-right-desktop {
+    float: right;
+  }
+}
+
+.cf {
+  overflow: hidden;
 }
