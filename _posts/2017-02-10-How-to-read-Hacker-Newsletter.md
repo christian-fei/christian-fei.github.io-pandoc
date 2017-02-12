@@ -1,6 +1,6 @@
 ---
-title: 'How to read Hacker Newsletter'
-date: 2017-02-10
+title: How to read Hacker Newsletter
+date: '2017-02-10'
 layout: post
 category: posts
 ---
@@ -11,7 +11,7 @@ Today, at the issue date of #338 of Hacker Newsletter, I tried:
 - not to "spoil" me any links (maybe it's just me)
 - to reflect on how to learn the most out of each issue of Hacker Newsletter
 
-# Before
+# My routine
 
 Usually, on friday evening, in my routine I had planned to spend at most an hour reading the links that I found interesting at first sight.
 
@@ -20,7 +20,7 @@ If I didn't take my routine very seriously, I would then "archive" them in my (i
 
 Soo unproductive and really, what a waste of interesting articles.
 
-# My simple conclusion
+# Conclusions
 
 Simply mark it as "starred" in your favourite email "program". Btw, do we still say this in 2017, or is it "micro-service" nowadays?.
 
