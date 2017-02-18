@@ -88,9 +88,9 @@ pre {
   width: auto;
   height: 100%;
   top: 0;
-  padding: 8em .5em 8em 5em;
+  padding: 8em .5em 8em 5.3em;
   margin-left: -5em;
-  background-color: white;
+  background-color: transparent;
   color: black;
   transition: color .3s ease-in-out;
 }

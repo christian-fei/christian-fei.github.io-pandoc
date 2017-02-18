@@ -39,7 +39,7 @@
   <body class="avenir">
     {% include main-header.html %}
     {% include intro-line.html %}
-    <main {% unless page.free_layout %} class="ph3 ph5-ns" {% endunless %}>
+    <main {% unless page.free_layout %} class="ph1 ph5-ns" {% endunless %}>
       {{ content }}
     </main>
     {% include main-footer.html %}
@@ -62,6 +62,11 @@
       })
     </script>
     <script>
+      function rect (element) {
+        return element.getBoundingClientRect()
+      }
+    </script>
+    <script>
       var mainHeader = document.querySelector('.main-header')
       var introLine = document.querySelector('.intro-line')
       var socialLinks = document.querySelector('.social-links')
@@ -70,15 +75,20 @@
 
       window.addEventListener('scroll', positionSocialLinks)
       function positionSocialLinks () {
-        var fixedTriggerYPosition = height(mainHeader) + height(introLine)
-        var crossedIntroLine = document.body.scrollTop > fixedTriggerYPosition
-        var method = crossedIntroLine ? 'add' : 'remove'
+        var method = isScrolledIntoView(socialLinks) ? 'remove' : 'add'
         socialLinks.classList[method]('fixed')
       }
 
-      function height(element) {
-        return element.getBoundingClientRect().height
+      function isScrolledIntoView (element) {
+          var scrollTop = document.body.scrollTop
+          var height = scrollTop + window.innerHeight
+
+          var elementTop = rect(element).top
+          var elemBottom = elementTop + rect(element).height
+
+          return ((elemBottom <= height) && (elementTop >= scrollTop))
       }
+
     </script>
     <script>
       var searchInput = document.getElementById('search-input')
