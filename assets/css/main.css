@@ -1,88 +1,10 @@
-html, body {
-  height: 100%;
-  min-height:100%;
-  line-height: 1.60;
-}
-
-a {
-  font-weight: bold;
-  color: #222;
-  outline: 0;
-  border: 0;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-pre {
-  overflow: scroll;
-  padding: 1em;
-}
-
-.hover-pop-out {
-  position: relative;
-  display: block;
-  -webkit-perspective: 100px;
-  -moz-perspective: 100px;
-  -ms-perspective: 100px;
-  perspective: 100px;
-  -webkit-transition: all .1s ease-in-out;
-  -o-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
-}
-.hover-pop-out > * {
-  -webkit-transition: all .1s ease-in-out;
-  -o-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
-}
-.hover-pop-out:hover, .hover-pop-out:focus {
-  -moz-transform: translateX(2em) scale(1.05) rotateZ(-0.3deg);
-  -webkit-transform: translateX(2em) scale(1.05) rotateZ(-0.3deg);
-  -o-transform: translateX(2em) scale(1.05) rotateZ(-0.3deg);
-  -ms-transform: translateX(2em) scale(1.05) rotateZ(-0.3deg);
-  transform: translateX(2em) scale(1.05) rotateZ(-0.3deg);
-}
-
-
-.post-list-title, .post-list-title-hover time {
-  opacity: 0.1;
-}
-.post-list-title, .post-list-title-hover:hover time, .post-list-title, .post-list-title-hover:focus time {
-  opacity: 0.4;
-}
-
-.posts-title {
-  font-weight: 500;
-}
-
 .intro-line {
   opacity: 0.9;
   background-color: rgb(27, 27, 27);
   color: rgb(244, 244, 244);
 }
 
-#search-input {
-  display: inline-block;
-  width: 80%;
-  width: calc(100% - 3em);
-  padding: 1.3rem 1.5rem;
-  font-size: 0.825em;
-  line-height: 1;
-  letter-spacing: 0.05em;
-  border: 0;
-  outline: 0;
-}
 
-
-
-.cf {
-  overflow: hidden;
-}
-
-.me {
-  margin: 0 1em 1em 0;
-}
 
 
 .social-links {
@@ -119,39 +41,6 @@ pre {
   color: inherit;
   transition: inherit;
 }
-
-.mw7 {
-  max-width: 60rem;
-}
-
-.avatar-container {
-  display: block;
-  width: 24em;
-  height: 24em;
-  background-image: url('/assets/images/cf.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.avatar-container:hover {
-  background-image: url('/assets/images/cf.qr.cut.png');
-}
-.preload-cf-qr {
-  background-image: url('/assets/images/cf.qr.cut.png');
-  display: none;
-  height: 0;
-  width: 0;
-  border: 0;
-  outline: 0;
-  margin: 0;
-  padding: 0;
-}
-
-
-
-
-
-
-
 
 @media all and (max-width: 40em) {
   .me {
