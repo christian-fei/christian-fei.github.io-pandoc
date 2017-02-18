@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node tachyons-build-optimal-css.js && npm run assets:css",
-    "assets:css": "gulp css"
+    "assets:css": "gulp css:watch"
   },
   "repository": {
     "type": "git",

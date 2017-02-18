@@ -4,3 +4,4 @@ naked-jekyll.sublime-workspace
 .DS_Store
 .jekyll-metadata
 node_modules/
+npm-debug.log
