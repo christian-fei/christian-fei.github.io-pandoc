@@ -126,8 +126,8 @@ pre {
 
 .avatar-container {
   display: block;
-  width: 30em;
-  height: 30em;
+  width: 24em;
+  height: 24em;
   background-image: url('/assets/images/cf.png');
   background-size: contain;
   background-repeat: no-repeat;
