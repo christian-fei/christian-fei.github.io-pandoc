@@ -3,6 +3,12 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4285f4">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4285f4">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
 
     <title>
     {% if page.title %}
@@ -35,6 +41,7 @@
     {% endif %}
 
     <link rel="stylesheet" href="/dest/main.min.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
   <body class="avenir f5">
     {% include main-header.html %}

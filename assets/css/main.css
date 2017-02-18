@@ -7,6 +7,8 @@ html, body {
 a {
   font-weight: bold;
   color: #222;
+  outline: 0;
+  border: 0;
 }
 
 a:hover {
@@ -87,12 +89,10 @@ pre {
   transition: color .3s ease-in-out;
   margin-top: 0.75em;
 }
-.social-links a {
+.social-links a{
   animation-duration: .3s;
   animation-name: fade-in;
   animation-timing-function: ease-in-out;
-}
-.social-links a {
   transition: opacity .3s ease-in-out;
   color: inherit !important;
 }
@@ -128,8 +128,8 @@ pre {
   }
 }
 
-@media all and (max-width: 78em) {
-  .social-links.fixed {
+@media all and (max-width: 50em) {
+  .social-links {
     display: none;
   }
 }
