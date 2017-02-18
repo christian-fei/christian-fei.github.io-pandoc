@@ -158,3 +158,18 @@ pre {
 .mw7 {
   max-width: 60rem;
 }
+
+.avatar-container {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('/assets/images/cf.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.avatar-container:hover {
+  background-image: url('/assets/images/cf.qr.png');
+  margin: -10px 6px 10px -10px;
+  width: 170px;
+  height: 170px;
+}
