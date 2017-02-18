@@ -12,8 +12,13 @@ module.exports = function (env) {
     },
     plugins: [
       new CommonsChunkPlugin({
-        filename: 'main.js',
-        name: 'main'
+        filename: 'main.min.js',
+        name: 'main',
+        mifify: true
+      }),
+      new webpack.optimize.UglifyJsPlugin({
+       minimize: true,
+       compress: false
       })
     ]
   }
