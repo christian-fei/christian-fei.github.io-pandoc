@@ -44,22 +44,16 @@
   </head>
   <body class="avenir f5">
     {% include main-header.html %}
+
     {% include intro-line.html %}
+
     <main {% unless page.free_layout %} class="ph3 ph5-ns" {% endunless %}>
       {{ content }}
     </main>
+
     {% include main-footer.html %}
 
-    <script src="https://unpkg.com/simple-jekyll-search@latest/dest/jekyll-search.min.js" type="text/javascript"></script>
-
-    <script>
-      SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '/search.json',
-        searchResultTemplate: '<li><a class="pa" href="{{ site.url }}{url}">{title}</a></li>',
-      })
-    </script>
+    <script src="/dest/main.js"></script>
 
     <script>
       var mainHeader = document.querySelector('.main-header')

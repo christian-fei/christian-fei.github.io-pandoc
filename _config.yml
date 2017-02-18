@@ -7,7 +7,7 @@ redcarpet:
   extensions: ["strikethrough","with_toc_data"]
 # highlighter: pygments
 
-baseurl: /
+baseurl: 
 domain_name: 'http://christianfei.com'
 google_analytics: 'UA-57238829-1'
 disqus_shortname: 'christianfei'

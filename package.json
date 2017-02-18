@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node tachyons-build-optimal-css.js && npm run assets:css",
+    "build:webpack": "webpack --config webpack.config.js --colors",
     "assets:css": "gulp css:watch"
   },
   "repository": {
@@ -28,12 +29,15 @@
     "gulp-cssnano": "^2.1.2",
     "gulp-livereload": "^3.8.1",
     "gulp-postcss": "^6.3.0",
+    "html-webpack-plugin": "^2.28.0",
     "postcss-clean": "^1.0.2",
     "precss": "^1.4.0",
-    "tachyons-build-optimal-css": "^1.1.0"
+    "tachyons-build-optimal-css": "^1.1.0",
+    "webpack": "^2.2.1"
   },
   "dependencies": {
-    "tachyons": "^4.6.2",
-    "normalize.css": "^5.0.0"
+    "normalize.css": "^5.0.0",
+    "simple-jekyll-search": "^1.1.6",
+    "tachyons": "^4.6.2"
   }
 }
