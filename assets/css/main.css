@@ -120,6 +120,38 @@ pre {
   transition: inherit;
 }
 
+.mw7 {
+  max-width: 60rem;
+}
+
+.avatar-container {
+  display: block;
+  width: 30em;
+  height: 30em;
+  background-image: url('/assets/images/cf.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.avatar-container:hover {
+  background-image: url('/assets/images/cf.qr.cut.png');
+}
+.preload-cf-qr {
+  background-image: url('/assets/images/cf.qr.cut.png');
+  display: none;
+  height: 0;
+  width: 0;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
 
 @media all and (max-width: 40em) {
   .me {
@@ -127,8 +159,8 @@ pre {
     float: none !important;
   }
   .avatar-container {
-    width: 10em;
-    height: 10em;
+    width: 15em;
+    height: 15em;
   }
 }
 
@@ -157,30 +189,4 @@ pre {
   100% {
     opacity: 1;
   }
-}
-
-.mw7 {
-  max-width: 60rem;
-}
-
-.avatar-container {
-  display: block;
-  width: 27em;
-  height: 27em;
-  background-image: url('/assets/images/cf.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.avatar-container:hover {
-  background-image: url('/assets/images/cf.qr.cut.png');
-}
-.preload-cf-qr {
-  background-image: url('/assets/images/cf.qr.cut.png');
-  display: none;
-  height: 0;
-  width: 0;
-  border: 0;
-  outline: 0;
-  margin: 0;
-  padding: 0;
 }

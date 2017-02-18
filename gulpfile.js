@@ -3,6 +3,7 @@ const postcss = require('gulp-postcss')
 const concatCss = require('gulp-concat-css')
 const cssnano = require('gulp-cssnano')
 const autoprefixer = require('autoprefixer')
+const livereload = require('gulp-livereload')
 
 
 var cssFiles = [ './assets/css/*.css', './node_modules/normalize.css/normalize.css', './assets/fontello-cf/css/fontello.css' ]
@@ -10,7 +11,8 @@ var cssFiles = [ './assets/css/*.css', './node_modules/normalize.css/normalize.c
 gulp.task('default', ['css:watch'])
 
 gulp.task('css:watch', function () {
-  gulp.watch(cssFiles, ['css'])
+  livereload.listen()
+  return gulp.watch(cssFiles, ['css'])
 })
 
 gulp.task('css', function () {
@@ -18,11 +20,12 @@ gulp.task('css', function () {
     require('precss'),
     require('cssnext'),
     require('postcss-clean'),
-    autoprefixer({browsers: ['last 1 version']})
+    autoprefixer({browsers: ['last 10 version']})
   ]
   return gulp.src(cssFiles)
   .pipe(concatCss('main.min.css'))
   .pipe(postcss(processors))
   .pipe(cssnano())
   .pipe(gulp.dest('./dest'))
+  .pipe(livereload({ start: true, reloadPage: true }))
 })
