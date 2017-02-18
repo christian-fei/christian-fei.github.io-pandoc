@@ -17,8 +17,8 @@ module.exports = function (env) {
         mifify: true
       }),
       new webpack.optimize.UglifyJsPlugin({
-       minimize: true,
-       compress: false
+        minimize: true,
+        compress: false
       })
     ]
   }
