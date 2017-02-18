@@ -99,7 +99,7 @@ pre {
 .social-links.fixed {
   position: fixed;
   top: 0;
-  right: calc(100% - 80em - 4em);
+  right: calc(100% - 88em);
   width: auto;
   height: 100%;
   padding-top: 2em;
@@ -128,8 +128,8 @@ pre {
   }
 }
 
-@media all and (max-width: 75em) {
-  .social-links {
+@media all and (max-width: 90em) {
+  .social-links.fixed {
     display: none;
   }
 }
@@ -153,4 +153,8 @@ pre {
   100% {
     opacity: 1;
   }
+}
+
+.mw7 {
+  max-width: 60rem;
 }
