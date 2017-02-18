@@ -25,14 +25,14 @@ pre {
   -moz-perspective: 100px;
   -ms-perspective: 100px;
   perspective: 100px;
-  -webkit-transition: all .08s ease-in-out;
-  -o-transition: all .08s ease-in-out;
-  transition: all .08s ease-in-out;
+  -webkit-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 .hover-pop-out > * {
-  -webkit-transition: all .08s ease-in-out;
-  -o-transition: all .08s ease-in-out;
-  transition: all .08s ease-in-out;
+  -webkit-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 .hover-pop-out:hover, .hover-pop-out:focus {
   -moz-transform: translateX(2em) scale(1.05) rotateZ(-0.3deg);
@@ -72,6 +72,67 @@ pre {
   outline: 0;
 }
 
+
+
+.cf {
+  overflow: hidden;
+}
+
+.me {
+  margin: 0 1em 1em 0;
+}
+
+
+.social-links {
+  transition: color .3s ease-in-out;
+  margin-top: 0.75em;
+}
+.social-links a {
+  animation-duration: .3s;
+  animation-name: fade-in;
+  animation-timing-function: ease-in-out;
+}
+.social-links a {
+  transition: opacity .3s ease-in-out;
+}
+.social-links.fixed {
+  position: fixed;
+  top: 0;
+  left: 1em;
+  width: auto;
+  height: 100%;
+  padding: 8em .5em 8em 5.3em;
+  margin-left: -5em;
+  background-color: transparent;
+  color: black;
+  margin-top: 0;
+}
+.social-links a {
+  display: inline-block;
+  padding: .25em;
+  /*margin-top: -.125em;
+  margin-bottom: -0.325em;*/
+}
+.social-links.fixed a {
+  display: block;
+  color: inherit;
+  transition: inherit;
+}
+
+
+@media all and (max-width: 40em) {
+  .me {
+    display: block;
+    float: none !important;
+  }
+}
+
+@media all and (max-width: 50em) {
+  .social-links {
+    display: none;
+  }
+}
+
 @keyframes blink-border {
   0% {
     background-color: transparent;
@@ -83,72 +144,17 @@ pre {
     background-color: transparent;
   }
 }
-
-
-.cf {
-  overflow: hidden;
-}
-
-.me {
-  margin: 0 1em 1em 0;
-}
-.social-links {
-  transition: color .3s ease-in-out;
-}
-.fade-in {
-  animation-duration: .3s;
-  animation-name: fade-in;
-  animation-timing-function: ease-in-out;
-}
-
 @keyframes fade-in {
-  from {
+  0% {
     opacity: 0;
   }
 
-  to {
-    opacity: 0.3;
+  100% {
+    opacity: 1;
   }
 }
 
-.social-links {
-  transition: opacity .3s ease-in-out;
-}
-.social-links.fixed {
-  position: fixed;
-  left: 1em;
-  opacity: 1;
-  width: auto;
-  height: 100%;
-  top: 0;
-  padding: 8em .5em 8em 5.3em;
-  margin-left: -5em;
-  background-color: transparent;
-  color: black;
-  opacity: 0.3;
-}
-
-@media all and (max-width: 478px) {
-  .social-links.fixed {
-    display: none;
-  }
-}
-.social-links a {
-  display: inline-block;
-  padding: .25em;
-  margin-top: -.125em;
-  margin-bottom: -0.325em;
-}
-.social-links.fixed a {
-  display: block;
-  color: inherit;
-  transition: inherit;
-}
-
-
-@media screen and (max-width: 40em) {
-  .me {
-    display: block;
-    float: none !important;
-  }
+.pad-ns {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }

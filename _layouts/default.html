@@ -39,7 +39,7 @@
   <body class="avenir f5">
     {% include main-header.html %}
     {% include intro-line.html %}
-    <main {% unless page.free_layout %} class="ph1 ph5-ns" {% endunless %}>
+    <main {% unless page.free_layout %} class="ph3 ph5-ns" {% endunless %}>
       {{ content }}
     </main>
     {% include main-footer.html %}
@@ -71,9 +71,9 @@
       window.addEventListener('scroll', positionSocialLinks)
       function positionSocialLinks () {
         var method = isScrolledIntoView(socialLinks) ? 'remove' : 'add'
+        console.log('positionSocialLinks', method)
         socialLinks.classList[method]('fixed')
-        socialLinks.classList.remove('fade-in')
-        socialLinks.classList.add('fade-in')
+        // socialLinks.classList[method]('fade-in')
       }
 
       function isScrolledIntoView (element) {
