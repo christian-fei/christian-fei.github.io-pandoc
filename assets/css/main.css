@@ -68,7 +68,25 @@ pre {
   padding: 1rem 1.5rem;
   font-size: 1em;
   line-height: 1;
+  outline: 0;
+  letter-spacing: 0.04em;
+  font-size: 0.9em;
 }
+#search-input:focus {
+  animation-name: blink-border;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes blink-border {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 
 .cf {
   overflow: hidden;
@@ -78,7 +96,22 @@ pre {
   margin: 0 1em 1em 0;
 }
 .social-links {
-  transition: top left 1s ease;
+  transition: color .1s ease-in-out;
+}
+.fade-in {
+  animation-duration: .3s;
+  animation-name: fade-in;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .social-links.fixed {
@@ -92,7 +125,6 @@ pre {
   margin-left: -5em;
   background-color: transparent;
   color: black;
-  transition: color .3s ease-in-out;
 }
 
 @media all and (max-width: 478px) {

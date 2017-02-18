@@ -77,6 +77,8 @@
       function positionSocialLinks () {
         var method = isScrolledIntoView(socialLinks) ? 'remove' : 'add'
         socialLinks.classList[method]('fixed')
+        socialLinks.classList.remove('fade-in')
+        socialLinks.classList.add('fade-in')
       }
 
       function isScrolledIntoView (element) {
@@ -116,7 +118,7 @@
       searchInput.addEventListener('focus', function () {
         updateWithNextText()
 
-        searchBlinkTimer = setInterval(updateWithNextText, 300)
+        searchBlinkTimer = setInterval(updateWithNextText, 200)
       })
 
 
