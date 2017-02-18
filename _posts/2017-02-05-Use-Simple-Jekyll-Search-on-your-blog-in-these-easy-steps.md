@@ -37,7 +37,7 @@ layout: nil
 In your template add the following markup to define a placeholder for the search widget:
 
 ```
-<input type="text" id="search-input" placeholder="search posts..">
+<input type="text" id="searchInput" placeholder="search posts..">
 <br>
 <div id="results-container"></div>
 ```
@@ -55,7 +55,7 @@ And in a separate script tag:
 ```
 <script>
 SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
+  searchInput: document.getElementById('searchInput'),
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
   searchResultTemplate: '<li><a href="{% raw %}{{ site.url }}{% endraw %}{url}">{title}</a></li>'

@@ -120,12 +120,14 @@ pre {
   color: rgb(244, 244, 244);
 }
 
-#search-input {
+#searchInput {
   border: none;
   display: inline-block;
   width: 80%;
   width: calc(100% - 3em);
-  padding: 1.5em 1em;
+  padding: 1em;
+  font-size: 1em;
+  line-height: 1;
 }
 
 @keyframes diag {

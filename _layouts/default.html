@@ -55,7 +55,7 @@
       });
 
       SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
+        searchInput: document.getElementById('searchInput'),
         resultsContainer: document.getElementById('results-container'),
         json: '/search.json',
         searchResultTemplate: '<li><a class="pa" href="{{ site.url }}{url}">{title}</a></li>',
@@ -78,6 +78,26 @@
 
       function height(element) {
         return element.getBoundingClientRect().height
+      }
+    </script>
+    <script>
+      var trackedKeys = []
+      window.addEventListener('keyup', function (event) {
+        track(event.keyCode)
+        if (searchActiveCombo()) {
+          window.searchInput.focus()
+        }
+      })
+
+      function track (key) {
+        trackedKeys.unshift(key)
+        trackedKeys.length = 2
+      }
+
+      function searchActiveCombo() {
+        var sevenKey = 55
+        var shiftKey = 16
+        return trackedKeys[0] === shiftKey && trackedKeys[1] === sevenKey
       }
     </script>
     <script>
