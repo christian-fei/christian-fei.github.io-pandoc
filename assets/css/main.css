@@ -70,11 +70,6 @@ pre {
   line-height: 1;
 }
 
-#search-input:focus {
-    font-size: 1.5em;
-    padding: 0.45em 1em;
-}
-
 .cf {
   overflow: hidden;
 }
