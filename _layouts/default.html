@@ -36,7 +36,7 @@
 
     <link rel="stylesheet" href="/dest/main.min.css" />
   </head>
-  <body class="avenir">
+  <body class="avenir f6">
     {% include main-header.html %}
     {% include intro-line.html %}
     <main {% unless page.free_layout %} class="ph1 ph5-ns" {% endunless %}>
@@ -60,11 +60,6 @@
         json: '/search.json',
         searchResultTemplate: '<li><a class="pa" href="{{ site.url }}{url}">{title}</a></li>',
       })
-    </script>
-    <script>
-      function rect (element) {
-        return element.getBoundingClientRect()
-      }
     </script>
     <script>
       var mainHeader = document.querySelector('.main-header')
@@ -91,8 +86,6 @@
           return ((elemBottom <= height) && (elementTop >= scrollTop))
       }
 
-    </script>
-    <script>
       var searchInput = document.getElementById('search-input')
       var searchIsActive = false
       var searchBlinkTimer = 0
@@ -120,6 +113,13 @@
 
         searchBlinkTimer = setInterval(updateWithNextText, 200)
       })
+
+
+
+
+      function rect (element) {
+        return element.getBoundingClientRect()
+      }
 
 
 

@@ -5,15 +5,9 @@ title: About Christian Fei
 permalink: /about/
 ---
 
-<!--
-<section class="ph3 ph5-ns pv3 intro-line">
-  <div id="currently-working-on"></div>
-</section>
--->
-
 <div class="ph3 ph5-ns pv3 bg-black-10">
   <div class="measure-wide">
-    <img src="/assets/images/cf.jpg" class="me fl pr2 pb2" style="width: 200px" alt="Christian Fei"/>
+    <img src="/assets/images/cf.jpg" class="me fl pr2 pb2" style="width: 10em" alt="Christian Fei"/>
 
     <p class="mt0">
     I like to build digital products that meet the customers' needs.
@@ -41,7 +35,6 @@ permalink: /about/
 
 <div class="ph3 ph5-ns pv3">
   <h1>my alter egos.</h1>
-
   <div class="pv3">
     <a target="_blank" href="https://github.com/christian-fei"><i class="icon-github"></i></a>
     <a target="_blank" href="https://twitter.com/christian_fei"><i class="icon-twitter"></i></a>
@@ -49,31 +42,4 @@ permalink: /about/
     <a target="_blank" href="https://open.spotify.com/user/11183484356"><i class="icon-spotify"></i></a>
     <a target="_blank" href="https://www.instagram.com/christianfei/"><i class="icon-instagram"></i></a>
  </div>
-
-  <!--
-  <recent-tweet></recent-tweet>
-  <script src="https://www.tweet-o-matic.com/tweets/christian_fei/recent.js" async="async" defer="defer"></script>
-  -->
 </div>
-
-<script type="text/javascript">
-return
-  var repoAsLink = function(repo) {return '<a class="white" href="'+repo.url+'">'+repo.name+'</a>'}
-  var currentlyWorkingOnElement = document.getElementById('currently-working-on')
-  var request = new XMLHttpRequest();
-  request.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      var repos = JSON.parse(this.responseText)
-      repos.length = 3
-      var repoNames = repos.map(function(repo) {return {name: repo.full_name, url: repo.html_url}})
-      var reposAsText = repoNames.reduce(function(text, repo, index, array) {
-        if(0 === index) {return repoAsLink(repo)}
-        if(index === array.length-1) {return text + ' and ' + repoAsLink(repo)}
-        return text + ', ' + repoAsLink(repo)
-      }, '')
-      currentlyWorkingOnElement.innerHTML = "I'm currently working on " + reposAsText + '.'
-    }
-  }
-  request.open("GET", "https://api.github.com/users/christian-fei/repos?sort=updated_at", true);
-  request.send();
-</script>

@@ -93,7 +93,7 @@ pre {
   margin: 0 1em 1em 0;
 }
 .social-links {
-  transition: color .1s ease-in-out;
+  transition: color .3s ease-in-out;
 }
 .fade-in {
   animation-duration: .3s;
@@ -107,10 +107,13 @@ pre {
   }
 
   to {
-    opacity: 1;
+    opacity: 0.3;
   }
 }
 
+.social-links {
+  transition: opacity .3s ease-in-out;
+}
 .social-links.fixed {
   position: fixed;
   left: 1em;
@@ -122,6 +125,7 @@ pre {
   margin-left: -5em;
   background-color: transparent;
   color: black;
+  opacity: 0.3;
 }
 
 @media all and (max-width: 478px) {
@@ -129,8 +133,22 @@ pre {
     display: none;
   }
 }
+.social-links a {
+  display: inline-block;
+  padding: .25em;
+  margin-top: -.125em;
+  margin-bottom: -0.325em;
+}
 .social-links.fixed a {
   display: block;
   color: inherit;
   transition: inherit;
+}
+
+
+@media screen and (max-width: 40em) {
+  .me {
+    display: block;
+    float: none !important;
+  }
 }
