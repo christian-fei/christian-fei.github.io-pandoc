@@ -56,34 +56,6 @@
     <script src="/dest/main.js"></script>
 
     <script>
-      var mainHeader = document.querySelector('.main-header')
-      var introLine = document.querySelector('.intro-line')
-      var socialLinks = document.querySelector('.social-links')
-
-      positionSocialLinks()
-
-      window.addEventListener('scroll', positionSocialLinks)
-      function positionSocialLinks () {
-        var topPadding = 180
-        var inView = isScrolledIntoView(socialLinks, topPadding)
-        var method = inView ? 'remove' : 'add'
-        var invertColor = inView ? 'add' : 'remove'
-        socialLinks.classList[method]('fixed')
-        socialLinks.classList[method]('black')
-        socialLinks.classList[invertColor]('white')
-      }
-
-      function isScrolledIntoView (element, topPadding) {
-        topPadding = topPadding || 0
-        var scrollTop = document.body.scrollTop
-        var height = scrollTop + window.innerHeight
-
-        var elementTop = rect(element).top
-        var elemBottom = elementTop + rect(element).height
-
-        return ((elemBottom <= height) && (elementTop + topPadding >= scrollTop))
-      }
-
       var searchInput = document.getElementById('search-input')
       var searchIsActive = false
       var searchBlinkTimer = 0
@@ -112,14 +84,6 @@
 
         searchBlinkTimer = setInterval(updateWithNextText, 200)
       })
-
-
-
-
-      function rect (element) {
-        return element.getBoundingClientRect()
-      }
-
 
 
       function track (key) {

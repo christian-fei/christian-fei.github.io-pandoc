@@ -1,4 +1,5 @@
 require('simple-jekyll-search')
+require('./ui')
 window.SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),

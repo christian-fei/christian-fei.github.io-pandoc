@@ -12,8 +12,8 @@ module.exports = function (env) {
     },
     plugins: [
       new CommonsChunkPlugin({
-          filename: 'main.js',
-          name: 'main'
+        filename: 'main.js',
+        name: 'main'
       })
     ]
   }

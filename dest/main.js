@@ -473,12 +473,55 @@ function isJSON(json){
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(0)
+__webpack_require__(2)
 window.SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
   searchResultTemplate: '<li><a class="pa" href="{url}">{title}</a></li>'
 })
+
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(3)
+
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+var socialLinks = document.querySelector('.social-links')
+
+positionSocialLinks()
+
+window.addEventListener('scroll', positionSocialLinks)
+function positionSocialLinks () {
+  var topPadding = 180
+  var inView = isScrolledIntoView(socialLinks, topPadding)
+  var method = inView ? 'remove' : 'add'
+  var invertColor = inView ? 'add' : 'remove'
+  socialLinks.classList[method]('fixed')
+  socialLinks.classList[method]('black')
+  socialLinks.classList[invertColor]('white')
+}
+
+function isScrolledIntoView (element, topPadding) {
+  topPadding = topPadding || 0
+  var scrollTop = document.body.scrollTop
+  var height = scrollTop + window.innerHeight
+
+  var elementTop = rect(element).top
+  var elemBottom = elementTop + rect(element).height
+
+  return ((elemBottom <= height) && (elementTop + topPadding >= scrollTop))
+}
+
+function rect (element) {
+  return element.getBoundingClientRect()
+}
 
 
 /***/ })
