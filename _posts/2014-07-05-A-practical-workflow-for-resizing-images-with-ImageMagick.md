@@ -14,7 +14,7 @@ Fortunately I came across a nice tool that exists since the archaic times of com
 
 Without leaving the terminal, I would like to make a small icon (eventually a base64 encoded one) of this image:
 
-<img data-echo="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="github octocat">
+<img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="github octocat">
 
 ---
 

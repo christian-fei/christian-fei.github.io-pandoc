@@ -49,7 +49,7 @@ The credentials to access your droplet will be emailed to you.
 To setup the DNS go to your domain registrar and create an A record to point to your droplet's IP address. This can be either a subdomain or TLD, it doesn't matter.
 Like this:
 
-<img data-echo="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2014/08/dns_a_record.png" alt="dns a record">
+<img src="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2014/08/dns_a_record.png" alt="dns a record">
 
 
 <h1 id="drone">Configure drone</h1>
@@ -68,7 +68,7 @@ The first thing you'll want to do, is create an admin user for your CI.
 
 To do this, navigate to `http://[ci.example.com]/install` and register your admin user.
 
-<img data-echo="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2014/08/drone_registration.png" alt="drone registration screen">
+<img src="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2014/08/drone_registration.png" alt="drone registration screen">
 
 
 ---

@@ -32,7 +32,7 @@ To get things started here is the boilerplate from which we will start:
   <body ng-app="app" ng-init="things=[{id:0,name:'thing1'},{id:1,name:'thing2'}]">
     <select ng-model="fields.option1" ng-options="thing.name for thing in things"></select>
     <select ng-model="fields.option2" ng-options="thing.name for thing in things"></select>
-    <script data-echo="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
     <script>
       /* THE CODE */
       angular.module('app',[])
@@ -98,4 +98,4 @@ And now we can implement the actual filter function:
 
 # A working example
 
-<iframe data-echo="http://embed.plnkr.co/hXNaCAZ5J75nAdqeF0C2/preview" width="100%" height="200px"></iframe>
+<iframe src="http://embed.plnkr.co/hXNaCAZ5J75nAdqeF0C2/preview" width="100%" height="200px"></iframe>

@@ -22,11 +22,11 @@ The goal is simple: I want to load the comments only if the user is actually rea
 #Disqus requests queue
 
 A blog post on this site without loading Disqus comments loads these resources:
-<a href="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2013/06/requestswithoutdisqus.png" title="Requests queue without loading comments"><img class='lazy' data-echo="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2013/06/requestswithoutdisqus.png" alt="Requests queue without loading comments"></a>
+<a href="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2013/06/requestswithoutdisqus.png" title="Requests queue without loading comments"><img class='lazy' src="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2013/06/requestswithoutdisqus.png" alt="Requests queue without loading comments"></a>
 
 and here with all the requests Disqus made
 
-<a href="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2013/06/requestswithdisqus.png" title="Requests queue with loading comments"><img class='lazy' data-echo="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2013/06/requestswithdisqus.png" alt="Requests queue with loading comments"></a>
+<a href="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2013/06/requestswithdisqus.png" title="Requests queue with loading comments"><img class='lazy' src="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2013/06/requestswithdisqus.png" alt="Requests queue with loading comments"></a>
 
 Disqus is so intelligent to load stuff asynchronously, leveraging your websites load time.
 So I don't see a **valuable** reason to not use Disqus as your commenting system.

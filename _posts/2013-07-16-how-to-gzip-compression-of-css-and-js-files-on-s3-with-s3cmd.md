@@ -9,7 +9,7 @@ date: 2013-07-16 01:51:46
 
 Let me show you how many Kilobytes you can save by compressing files with Gzip (a real world example):
 
-<img data-echo="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2013/07/gzipCSS.png" alt="gzip css amazon s3" class="centered boxs"/>
+<img src="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2013/07/gzipCSS.png" alt="gzip css amazon s3" class="centered boxs"/>
 
 _________
 

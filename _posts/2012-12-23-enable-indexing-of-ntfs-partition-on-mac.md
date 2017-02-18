@@ -18,7 +18,7 @@ With a tool called `mdutil` you can check if indexing is enabled on a specific p
 ``` mdutil -s /Volumes/DRIVE_NAME ```
 
 The flag `-s` stands for **status**, so check if indexing is enabled on your desired partition:
-<img data-echo="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2012/12/mdutil.png">
+<img src="https://s3-eu-west-1.amazonaws.com/cf.img/posts/2012/12/mdutil.png">
 
 To turn indexing on just run the following command:
 

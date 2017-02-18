@@ -126,6 +126,10 @@ pre {
     display: block;
     float: none !important;
   }
+  .avatar-container {
+    width: 10em;
+    height: 10em;
+  }
 }
 
 @media all and (max-width: 50em) {
