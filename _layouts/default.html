@@ -70,20 +70,24 @@
 
       window.addEventListener('scroll', positionSocialLinks)
       function positionSocialLinks () {
-        var method = isScrolledIntoView(socialLinks) ? 'remove' : 'add'
-        console.log('positionSocialLinks', method)
+        var topPadding = 100
+        var inView = isScrolledIntoView(socialLinks, topPadding)
+        var method = inView ? 'remove' : 'add'
+        var invertColor = inView ? 'add' : 'remove'
         socialLinks.classList[method]('fixed')
-        // socialLinks.classList[method]('fade-in')
+        socialLinks.classList[method]('black')
+        socialLinks.classList[invertColor]('white')
       }
 
-      function isScrolledIntoView (element) {
-          var scrollTop = document.body.scrollTop
-          var height = scrollTop + window.innerHeight
+      function isScrolledIntoView (element, topPadding) {
+        topPadding = topPadding || 0
+        var scrollTop = document.body.scrollTop
+        var height = scrollTop + window.innerHeight
 
-          var elementTop = rect(element).top
-          var elemBottom = elementTop + rect(element).height
+        var elementTop = rect(element).top
+        var elemBottom = elementTop + rect(element).height
 
-          return ((elemBottom <= height) && (elementTop >= scrollTop))
+        return ((elemBottom <= height) && (elementTop + topPadding >= scrollTop))
       }
 
       var searchInput = document.getElementById('search-input')
@@ -91,8 +95,8 @@
       var searchBlinkTimer = 0
       var typingText = '...'
       var slashToSearchText = 'Type / to search'
-      searchInput.setAttribute('placeholder', slashToSearchText)
       var trackedKeys = []
+      searchInput.setAttribute('placeholder', slashToSearchText)
 
       window.addEventListener('keyup', function (event) {
         track(event.keyCode)

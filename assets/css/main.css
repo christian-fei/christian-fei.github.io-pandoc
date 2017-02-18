@@ -94,15 +94,18 @@ pre {
 }
 .social-links a {
   transition: opacity .3s ease-in-out;
+  color: inherit !important;
 }
 .social-links.fixed {
   position: fixed;
   top: 0;
-  left: 1em;
+  right: calc(100% - 80em - 4em);
   width: auto;
   height: 100%;
-  padding: 8em .5em 8em 5.3em;
-  margin-left: -5em;
+  padding-top: 2em;
+  padding-right: 5.3em;
+  padding-left: 0.5em;
+  margin-right: -5em;
   background-color: transparent;
   color: black;
   margin-top: 0;
@@ -110,8 +113,6 @@ pre {
 .social-links a {
   display: inline-block;
   padding: .25em;
-  /*margin-top: -.125em;
-  margin-bottom: -0.325em;*/
 }
 .social-links.fixed a {
   display: block;
@@ -127,7 +128,7 @@ pre {
   }
 }
 
-@media all and (max-width: 50em) {
+@media all and (max-width: 75em) {
   .social-links {
     display: none;
   }
@@ -152,9 +153,4 @@ pre {
   100% {
     opacity: 1;
   }
-}
-
-.pad-ns {
-  padding-left: 6rem;
-  padding-right: 6rem;
 }
