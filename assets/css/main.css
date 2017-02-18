@@ -18,66 +18,6 @@ pre {
   padding: 1em;
 }
 
-.separator {
-  display: inline-block;
-  margin-top: 0.5rem;
-  position: relative;
-}
-.separator::after {
-  display: block;
-  content: '';
-  height: 1em;
-  width: 1px;
-  background-color: #e0e0e0;
-  position: absolute;
-  top: -0.85rem;
-}
-
-#currently-working-on {
-  min-height: 1.15em;
-}
-.loader {
-  position: absolute;
-  left: 0%;
-  top: 50%;
-  margin: -10px 0 -10px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-  border-left: 1px solid rgba(0, 0, 0, 0);
-  border-right: 1px solid rgba(0, 0, 0, 0);
-  border-top: 1px solid rgba(0, 0, 0, .4);
-  border-radius: 100%;
-  height: 20px;
-  width: 20px;
-  -webkit-animation: rot .75s infinite ;
-  -moz-animation: rot .75s infinite ;
-  animation: rot .75s infinite ;
-}
-
-@keyframes rot {
-  10% {transform: rotate(10deg);}
-  30% {transform: rotate(30deg);}
-  60% {transform: rotate(70deg);}
-  70% {transform: rotate(100deg);}
-  90% {transform: rotate(200deg);}
-  100% {transform: rotate(359deg);}
-}
-
-@-webkit-keyframes rot {
-  10% {transform: rotate(10deg);}
-  30% {transform: rotate(30deg);}
-  60% {transform: rotate(70deg);}
-  70% {transform: rotate(100deg);}
-  90% {transform: rotate(200deg);}
-  100% {-webkit-transform: rotate(359deg);}
-}
-
-.giant-first-letter::first-letter {
-  font-size: 7em;
-}
-.giant-line-height::first-line {
-  line-height: 1em;
-}
-
 .hover-pop-out {
   position: relative;
   display: block;
@@ -120,36 +60,19 @@ pre {
   color: rgb(244, 244, 244);
 }
 
-#searchInput {
+#search-input {
   border: none;
   display: inline-block;
   width: 80%;
   width: calc(100% - 3em);
-  padding: 1em;
+  padding: 1rem 1.5rem;
   font-size: 1em;
   line-height: 1;
 }
 
-@keyframes diag {
-  0% {transform: rotate(0deg);}
-  25% {transform: rotate(2deg) translateX(2px);}
-  50% {transform: rotate(0deg);}
-  75% {transform: rotate(-2deg) translateX(-2px);}
-  100% {transform: rotate(0deg);}
-}
-
-@-webkit-keyframes diag {
-  0% {transform: rotate(0deg);}
-  25% {-webkit-transform: rotate(2deg) translateX(2px);}
-  50% {-webkit-transform: rotate(0deg);}
-  75% {-webkit-transform: rotate(-2deg) translateX(-2px);}
-  100% {-webkit-transform: rotate(0deg);}
-}
-
-@media all and (min-widtg: 30em) {
-  .float-right-desktop {
-    float: right;
-  }
+#search-input:focus {
+    font-size: 1.5em;
+    padding: 0.45em 1em;
 }
 
 .cf {
@@ -172,15 +95,8 @@ pre {
   background-color: white;
   color: black;
   transition: color .3s ease-in-out;
-  /* alternate style
-
-  top: 0;
-  height: 100%;
-  padding: 55% 0;
-  background: #222;
-  color: #fff;
-  */
 }
+
 @media all and (max-width: 478px) {
   .social-links.fixed {
     display: none;

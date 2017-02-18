@@ -55,7 +55,7 @@
       });
 
       SimpleJekyllSearch({
-        searchInput: document.getElementById('searchInput'),
+        searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '/search.json',
         searchResultTemplate: '<li><a class="pa" href="{{ site.url }}{url}">{title}</a></li>',
@@ -81,13 +81,35 @@
       }
     </script>
     <script>
+      var searchInput = document.getElementById('search-input')
+      var searchIsActive = false
+      var searchBlinkTimer = 0
+      var typingText = '...'
+      var slashToSearchText = 'Type / to search'
+      searchInput.setAttribute('placeholder', slashToSearchText)
       var trackedKeys = []
+
       window.addEventListener('keyup', function (event) {
         track(event.keyCode)
         if (searchActiveCombo()) {
-          window.searchInput.focus()
+          searchIsActive = true
+          searchInput.focus()
+        } else {
+          searchIsActive = false
         }
       })
+
+      searchInput.addEventListener('blur', function () {
+        clearInterval(searchBlinkTimer)
+        searchInput.setAttribute('placeholder', slashToSearchText)
+      })
+      searchInput.addEventListener('focus', function () {
+        updateWithNextText()
+
+        searchBlinkTimer = setInterval(updateWithNextText, 300)
+      })
+
+
 
       function track (key) {
         trackedKeys.unshift(key)
@@ -98,6 +120,15 @@
         var sevenKey = 55
         var shiftKey = 16
         return trackedKeys[0] === shiftKey && trackedKeys[1] === sevenKey
+      }
+
+      function nextText (currentText) {
+        var currentLength = currentText.length
+        var remainingText = typingText.slice(currentLength)
+        return remainingText.length === 0 ? '' : currentText + remainingText[0]
+      }
+      function updateWithNextText () {
+        searchInput.setAttribute('placeholder', nextText(searchInput.getAttribute('placeholder')))
       }
     </script>
     <script>
