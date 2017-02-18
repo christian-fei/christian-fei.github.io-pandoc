@@ -64,7 +64,7 @@ pre {
   display: inline-block;
   width: 80%;
   width: calc(100% - 3em);
-  padding: 1rem 1.5rem;
+  padding: 1.3rem 1.5rem;
   font-size: 0.825em;
   line-height: 1;
   letter-spacing: 0.05em;
