@@ -74,6 +74,9 @@ pre {
   overflow: hidden;
 }
 
+.me {
+  margin: 0 1em 1em 0;
+}
 .social-links {
   transition: top left 1s ease;
 }
