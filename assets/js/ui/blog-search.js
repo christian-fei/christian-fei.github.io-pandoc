@@ -1,6 +1,7 @@
-require('simple-jekyll-search')
+const SimpleJekyllSearch = require('simple-jekyll-search')
 
-var searchInput = document.getElementById('search-input')
+
+const searchInput = document.getElementById('search-input')
 
 window.SimpleJekyllSearch({
   searchInput: searchInput,
@@ -9,12 +10,15 @@ window.SimpleJekyllSearch({
   searchResultTemplate: '<li><a class="pa" href="{url}">{title}</a></li>'
 })
 
-var nextText = require('./utils/next-text')
-var typingText = 'Type / to search...'
-var updateTextInterval
+const nextText = require('./utils/next-text')
+const constants = require('./constants')
+const TYPING_INTERVAL = constants.TYPING_INTERVAL
+const INITIAL_DELAY = constants.INITIAL_DELAY
+const typingText = 'Type / to search...'
+let updateTextInterval
 
 searchInput.setAttribute('placeholder', '')
-setTimeout(startTyping, 1666)
+setTimeout(startTyping, INITIAL_DELAY)
 searchInput.addEventListener('blur', startTyping)
 searchInput.addEventListener('focus', function () {
   clearInterval(updateTextInterval)
@@ -23,12 +27,12 @@ searchInput.addEventListener('focus', function () {
 function startTyping () {
   searchInput.setAttribute('placeholder', '')
   updateWithNextText()
-  updateTextInterval = setInterval(updateWithNextText, 80)
+  updateTextInterval = setInterval(updateWithNextText, TYPING_INTERVAL)
 }
 
 function updateWithNextText () {
-  var currentPlaceholder = searchInput.getAttribute('placeholder')
-  var nextPlaceholder = nextText(currentPlaceholder, typingText)
+  const currentPlaceholder = searchInput.getAttribute('placeholder')
+  const nextPlaceholder = nextText(currentPlaceholder, typingText)
   if (nextPlaceholder === typingText) {
     clearInterval(updateTextInterval)
   }
