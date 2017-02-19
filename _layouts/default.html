@@ -32,5 +32,13 @@
     </script>
 
     <script async defer src="/dest/main.min.js"></script>
+    <script async defer>
+      document.body.className += ' fade-out';
+      window.onload = function () {
+        var className = document.body.className;
+        className = className.replace('fade-out','');
+        document.body.className = className;
+      }
+    </script>
   </body>
 </html>
