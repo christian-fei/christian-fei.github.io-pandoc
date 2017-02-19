@@ -1,9 +1,9 @@
-const nextText = require('./utils/next-text')
-const constants = require('./constants')
-const TYPING_INTERVAL = constants.TYPING_INTERVAL
-const searchInput = document.getElementById('search-input')
-let searchBlinkInterval
-const typingText = 'Type a keyword here...'
+var nextText = require('./utils/next-text')
+var constants = require('./constants')
+var TYPING_INTERVAL = constants.TYPING_INTERVAL
+var searchInput = document.getElementById('search-input')
+var searchBlinkInterval
+var typingText = 'Type a keyword here...'
 
 searchInput.addEventListener('blur', function () {
   clearInterval(searchBlinkInterval)
@@ -15,8 +15,8 @@ searchInput.addEventListener('focus', function () {
 })
 
 function updateWithNextText () {
-  const currentPlaceholder = searchInput.getAttribute('placeholder')
-  const nextPlaceholder = nextText(currentPlaceholder, typingText)
+  var currentPlaceholder = searchInput.getAttribute('placeholder')
+  var nextPlaceholder = nextText(currentPlaceholder, typingText)
   if (nextPlaceholder === typingText) {
     clearInterval(searchBlinkInterval)
   }
