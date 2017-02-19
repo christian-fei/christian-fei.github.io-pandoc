@@ -2,23 +2,44 @@ var nextText = require('./utils/next-text')
 var constants = require('./constants')
 var TYPING_INTERVAL = constants.TYPING_INTERVAL
 var searchInput = document.getElementById('search-input')
-var searchBlinkInterval
-var typingText = 'Type a keyword here...'
+var searchBlurTypingInterval = 0
+var searchFocusText = 'Type a keyword here...'
 
 searchInput.addEventListener('blur', function () {
-  clearInterval(searchBlinkInterval)
+  clearInterval(searchBlurTypingInterval)
 })
 searchInput.addEventListener('focus', function () {
   searchInput.setAttribute('placeholder', '')
-  updateWithNextText()
-  searchBlinkInterval = setInterval(updateWithNextText, TYPING_INTERVAL)
+  nextPlaceholderFor(searchInput, searchFocusText, searchBlurTypingInterval)
+  searchBlurTypingInterval = setInterval(function () {
+    nextPlaceholderFor(searchInput, searchFocusText, searchBlurTypingInterval)
+  }, TYPING_INTERVAL)
 })
 
-function updateWithNextText () {
+var INITIAL_DELAY = constants.INITIAL_DELAY
+var searchBlurText = 'Type / to search...'
+var searchFocusTypingInterval = 0
+
+searchInput.setAttribute('placeholder', '')
+setTimeout(startTyping, INITIAL_DELAY)
+searchInput.addEventListener('blur', startTyping)
+searchInput.addEventListener('focus', function () {
+  clearInterval(searchFocusTypingInterval)
+})
+
+function startTyping () {
+  searchInput.setAttribute('placeholder', '')
+  nextPlaceholderFor(searchInput, searchBlurText, searchFocusTypingInterval)
+  searchFocusTypingInterval = setInterval(function () {
+    nextPlaceholderFor(searchInput, searchBlurText, searchFocusTypingInterval)
+  }, TYPING_INTERVAL)
+}
+
+function nextPlaceholderFor (searchInput, text, intervalHandle) {
   var currentPlaceholder = searchInput.getAttribute('placeholder')
-  var nextPlaceholder = nextText(currentPlaceholder, typingText)
-  if (nextPlaceholder === typingText) {
-    clearInterval(searchBlinkInterval)
+  var nextPlaceholder = nextText(currentPlaceholder, text)
+  if (nextPlaceholder === text) {
+    clearInterval(intervalHandle)
   }
   searchInput.setAttribute('placeholder', nextPlaceholder)
 }
