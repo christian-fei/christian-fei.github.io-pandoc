@@ -59,7 +59,8 @@
 }
 
 *:focus {
-  animation: blink .2s infinite;
+  animation: blink .34s infinite;
+  animation-timing-function: ease-in-out;
   animation-direction: alternate;
 }
 
