@@ -9,7 +9,6 @@
 
 .social-links {
   transition: color .3s ease-in-out;
-  margin-top: 0.75em;
 }
 .social-links a{
   animation-duration: .3s;
@@ -21,7 +20,7 @@
 .social-links.fixed {
   position: fixed;
   top: 0;
-  right: calc(100% - 88em);
+  right: 4rem; /* calc(100% - 88em); */
   width: auto;
   height: 100%;
   padding-top: 2em;
@@ -59,22 +58,25 @@
   }
 }
 
-@keyframes blink-border {
-  0% {
-    background-color: transparent;
-  }
-  50% {
-    background-color: black;
-  }
-  100% {
-    background-color: transparent;
-  }
+*:focus {
+  animation: blink .2s infinite;
+  animation-direction: alternate;
 }
+
 @keyframes fade-in {
   0% {
     opacity: 0;
   }
 
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.3;
+  }
   100% {
     opacity: 1;
   }

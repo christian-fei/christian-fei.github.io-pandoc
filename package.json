@@ -36,6 +36,7 @@
     "webpack": "^2.2.1"
   },
   "dependencies": {
+    "next-text": "0.0.3",
     "normalize.css": "^5.0.0",
     "simple-jekyll-search": "^1.1.6",
     "tachyons": "^4.6.2"
