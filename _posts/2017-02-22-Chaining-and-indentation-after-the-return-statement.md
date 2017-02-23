@@ -40,7 +40,7 @@ assert.equal(7, '       .filter'.indexOf('.'))
 
 `return ` contains 6 letters and a space afterwards.
 
-So we can indent by aligning the dot of the chain call to the space after the return to match up it up horizontally.
+So we can indent by aligning the dot of the chain call to the space after the return to match it up horizontally.
 
 ```javascript
 return array
@@ -48,6 +48,21 @@ return array
       .map(...)
       .reduce(...)      
 ```
+
+## Ternary operator
+
+```javascript
+function hasThis () {  
+  const or = true
+  const that = false
+  return this
+        ? or
+        : that
+}
+```
+*Code from [has-this](https://github.com/christian-fei/has-this/blob/master/index.js#L3).*
+
+This is a personal choice, I follow it if I feel like it. Probably it feels more natural (read: less weird) if used with longer statements. But here again: does it really make my code more readable?
 
 ---
 
