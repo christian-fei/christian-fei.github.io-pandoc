@@ -19,13 +19,13 @@ Instead of replacing each '/' just replace the placeholders for the regular expr
 
 Like this :
 
-<br>
+<br/>
 
 ```
 $ sed -i.bak s#http://your-address.com/images/#https://s3-eu-west-1.amazonaws.com/cf.img/posts/#g *
 ```
 
-<br>
+<br/>
 
 Explanation:
 
@@ -33,7 +33,7 @@ Explanation:
 
 - * at the end means 'search all files'
 
-<br>
-<br>
-<br>
+<br/>
+<br/>
+<br/>
 I found the solution on this [forum](http://www.linuxforums.org/forum/newbie/102173-help-w-sed-parsing-special-characters.html)

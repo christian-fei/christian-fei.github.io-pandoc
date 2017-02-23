@@ -10,7 +10,7 @@ layout: default
   {% if post.category == 'posts' %}
   <a href="{{ post.url }}" title="{{ post.title}}" class="db link mv3 hover-pop-out post-list-title-hover">
     {{ post.title }}
-    </br>
+    <br/>
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="db black">
       {{ post.date | date_to_string }}
     </time>

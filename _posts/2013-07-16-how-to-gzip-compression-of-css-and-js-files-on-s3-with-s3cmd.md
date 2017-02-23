@@ -17,7 +17,7 @@ The uncompressed/deflated CSS file weights 25.1 KB, but from the server to the c
 
 Isn't that nice?!
 
-<br>
+<br/>
 
 As an example I will use the files <b>```main.css```</b> and <b>```main.gz.css```</b> to make the process clear, but this technique can be applied on JavaScript files too.
 
@@ -46,7 +46,7 @@ Now the steps to follow are:
 * setting the right MIME Type and Content-Encoding
 * making the files publicly accessible
 
-<br>
+<br/>
 
 It's nothing simpler than:
 
@@ -56,16 +56,16 @@ s3cmd -P -m text/css --add-header 'Content-Encoding:gzip' main.gz.css s3://best-
 
 <small>
 	Where
-	<br>
+	<br/>
 	-P is the 'make public' flag
-	<br>
+	<br/>
 	-m sets the MIME Type
-	<br>
+	<br/>
 	--add-header Add a given HTTP header to the upload request (for more info <b>```man s3cmd | grep header```</b>)
 </small>
 
 
-<br>
+<br/>
 
 Easy right?
 

@@ -79,7 +79,7 @@ To automount a partition on start up you need to make an entry for that in the f
 gedit /etc/fstab
 ```
 
-> I recommend to backup your fstab. <br> If you mess it up I will laugh at you. <br> &lt;/disclaimer&gt;
+> I recommend to backup your fstab. <br/> If you mess it up I will laugh at you. <br/> &lt;/disclaimer&gt;
 
 The syntax of a fstab entry is:
 <hr>

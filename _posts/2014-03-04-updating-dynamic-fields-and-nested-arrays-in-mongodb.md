@@ -9,7 +9,7 @@ category: articles
 <h4>
 	<a href="#tldr" class="info">tldr</a>
 </h4>
-<br>
+<br/>
 
 Let's take a simple example: a TicTacToe gamefield saved as a nested array in MongoDB.
 

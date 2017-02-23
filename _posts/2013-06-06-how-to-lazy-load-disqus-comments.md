@@ -143,8 +143,8 @@ if(window.location.hash.indexOf('#comments') > 0)
     loadDisqus();
 ```
 
-<br>
-<br>
+<br/>
+<br/>
 
 Was it helpful? Did you find a bug or a way to improve this method?
 Then please don't hesitate to tell me in the lazy loaded comments :)

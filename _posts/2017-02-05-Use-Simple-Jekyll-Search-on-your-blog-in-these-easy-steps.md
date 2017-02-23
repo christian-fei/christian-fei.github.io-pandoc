@@ -38,7 +38,7 @@ In your template add the following markup to define a placeholder for the search
 
 ```
 <input type="text" id="search-input" placeholder="search posts..">
-<br>
+<br/>
 <div id="results-container"></div>
 ```
 
