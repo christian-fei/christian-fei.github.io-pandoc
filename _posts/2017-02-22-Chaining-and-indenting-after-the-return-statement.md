@@ -35,7 +35,7 @@ Let's do some maths:
 
 ```javascript
 assert.equal(7, 'return '.length)
-assert.equal(7, '       .filter'.indexOf('.'))
+assert.equal(6, '      .filter'.indexOf('.'))
 ```
 
 `return ` contains 6 letters and a space afterwards.
@@ -46,13 +46,13 @@ So we can indent by aligning the dot of the chain call to the space after the re
 return array
       .filter(...)
       .map(...)
-      .reduce(...)      
+      .reduce(...)
 ```
 
 ## Ternary operator
 
 ```javascript
-function hasThis () {  
+function hasThis () {
   const or = true
   const that = false
   return this
