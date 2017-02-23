@@ -5,10 +5,14 @@ layout: default
 <article class="mv6 mb3 mw8">
   <header class="mv3">
     <h1 class="measure fw6 mt4 f1 lh-title">{{ page.title }}</h1>
-    <time datetime="{{ page.date | date:'%Y-%m-%d' }}" class="db f6">
-      <strong>{{ page.date | date_to_string }}</strong>
+    <aside>
+      <span>written on</span>
+      <time datetime="{{ page.date | time_tag }}" class="db f6">
+        <strong>{{ page.date | time_tag }}</strong>
+      </time>
+      <br>
       <i>by <a href="https://twitter.com/christian_fei">Christian Fei</a></i>
-    </time>
+    </aside>
   </header>
   <section class="mw7">
     {{content}}
@@ -16,4 +20,10 @@ layout: default
   <footer class="mt4">
     {% include share-twitter.html %}
   </footer>
+  <span>or copy this link</span>
+  <section>
+    <small>
+      <a href="{{page.url}}">{{site.url}}{{page.url}}</a>
+    </small>
+  </section>
 </article>
