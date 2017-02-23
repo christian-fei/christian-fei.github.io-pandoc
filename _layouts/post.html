@@ -2,19 +2,27 @@
 layout: default
 ---
 
-<article class="mv6 mb3 mw8">
+<article itemscope itemtype="http://schema.org/Article" class="mv6 mb3 mw8">
   <header class="mv3">
-    <h1 class="measure fw6 mt4 f1 lh-title">{{ page.title }}</h1>
+    <h1 itemprop="name" class="measure fw6 mt4 f1 lh-title">{{ page.title }}</h1>
     <aside>
-      <span>written on</span>
+      <span>written on </span>
       <time datetime="{{ page.date | time_tag }}" class="db f6">
-        <strong>{{ page.date | time_tag }}</strong>
+        <strong itemprop="datePublished" content="{{ page.date | time_tag }}">
+          {{ page.date | time_tag }}
+        </strong>
       </time>
       <br>
-      <i>by <a href="https://twitter.com/christian_fei">Christian Fei</a></i>
+      <i>by <a href="https://twitter.com/christian_fei">
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">
+            Christian Fei
+          </span>
+        </span>
+      </a></i>
     </aside>
   </header>
-  <section class="mw7">
+  <section itemprop="articleBody" class="mw7">
     {{content}}
   </section>
   <footer class="mt4">
@@ -23,7 +31,7 @@ layout: default
   <span>or copy this link</span>
   <section>
     <small>
-      <a href="{{page.url}}">{{site.url}}{{page.url}}</a>
+      <a itemprop="url" href="{{page.url}}">{{site.url}}{{page.url}}</a>
     </small>
   </section>
 </article>
