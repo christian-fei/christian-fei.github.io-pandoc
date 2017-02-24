@@ -35,7 +35,7 @@ Let's do some maths:
 
 ```javascript
 assert.equal(7, 'return '.length)
-assert.equal(6, '      .filter'.indexOf('.'))
+assert.equal(7, '      .filter'.indexOf('.'))
 ```
 
 `return ` contains 6 letters and a space afterwards.
