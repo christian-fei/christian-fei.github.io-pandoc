@@ -82,3 +82,19 @@
     opacity: 1;
   }
 }
+
+.fancy {
+  border-radius: 7px;
+  box-shadow: -1px 7px 88px -22px #d3d3d3;
+  width: 100%;
+}
+
+.fancy.small {
+  max-width: 25em;
+}
+.fancy.medium {
+  max-width: 35em;
+}
+.fancy.big {
+  max-width: 45em;
+}
