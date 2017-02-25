@@ -2,25 +2,23 @@
 layout: default
 ---
 
-<article itemscope itemtype="http://schema.org/BlogPosting" class="mv6 mb3 mw8">
-  <header class="mv3">
-    <h1 itemprop="name" class="measure fw6 mt4 f1 lh-title">{{ page.title }}</h1>
-    <aside>
-      <span>written on </span>
-      <time datetime="{{ page.date | time_tag }}" class="db f6">
-        <strong itemprop="datePublished" content="{{ page.date | time_tag }}">
-          {{ page.date | time_tag }}
-        </strong>
-      </time>
-      <br/>
-      <i>by <a href="https://twitter.com/christian_fei">
+<article itemscope itemtype="http://schema.org/BlogPosting" class="mw8">
+  <header class="mt4">
+    <h1 itemprop="name" class="measure fw6 lh-title">{{ page.title }}</h1>
+    <time datetime="{{ page.date | date: "%a, %b %d, %y" }}" class="f6 mb3">
+      written on <strong itemprop="datePublished" content="{{ page.date | date: "%a, %b %d, %y" }}">
+        {{ page.date | date: "%a, %b %d, %y" }}
+      </strong>
+    </time>, 
+    <address class="f6" style="display: inline;">
+      by <a href="https://twitter.com/christian_fei" rel="author">
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span itemprop="name">
             Christian Fei
           </span>
         </span>
-      </a></i>
-    </aside>
+      </a>
+    </address>
   </header>
   <section itemprop="articleBody" class="mw7">
     {{content}}

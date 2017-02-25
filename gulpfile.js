@@ -6,7 +6,7 @@ const autoprefixer = require('autoprefixer')
 const livereload = require('gulp-livereload')
 
 
-var cssFiles = [ './assets/css/*.css', './assets/fontello-cf/css/fontello.css' ]
+var cssFiles = [ './assets/css/tachyons-build-optimal.css', './assets/css/main.css', './assets/fontello-cf/css/fontello.css' ]
 
 gulp.task('default', ['css','css:watch'])
 
