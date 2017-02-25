@@ -18,9 +18,7 @@ self.addEventListener('install', e => {
         '/assets/fontello-cf/font/fontello.woff?47902381',
         '/assets/fontello-cf/font/fontello.ttf?47902381',
         '/assets/fontello-cf/font/fontello.ttf?47902381',
-        '/posts/Trying-out-Redash/',
-        {% for post in site.posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}
-        {% for page in site.pages %},"{{page.url}}"{% endfor %}
+        '/posts/Trying-out-Redash/'
       ])
       .then(() => self.skipWaiting())
     })
