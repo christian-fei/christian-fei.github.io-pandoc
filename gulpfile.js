@@ -5,12 +5,12 @@ const cssnano = require('gulp-cssnano')
 const autoprefixer = require('autoprefixer')
 const livereload = require('gulp-livereload')
 
-
 var cssFiles = [ './assets/css/tachyons-build-optimal.css', './assets/css/main.css', './assets/fontello-cf/css/fontello.css' ]
 
-gulp.task('default', ['css','css:watch'])
+gulp.task('default', ['css', 'css:watch'])
 
 gulp.task('css:watch', function () {
+  livereload({start: true})
   livereload.listen()
   return gulp.watch(cssFiles, ['css'])
 })
@@ -20,12 +20,12 @@ gulp.task('css', function () {
     require('precss'),
     require('cssnext'),
     require('postcss-clean'),
-    autoprefixer({browsers: ['last 10 version']})
+    autoprefixer({browsers: ['last 2 version']})
   ]
   return gulp.src(cssFiles)
   .pipe(concatCss('main.min.css'))
   .pipe(postcss(processors))
   .pipe(cssnano())
   .pipe(gulp.dest('./dest'))
-  .pipe(livereload({ start: true, reloadPage: true }))
+  .pipe(livereload({ reloadPage: true }))
 })

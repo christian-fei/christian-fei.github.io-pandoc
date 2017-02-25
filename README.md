@@ -9,6 +9,9 @@ npm i
 
 ```
 npm run build
+# or
+npm run build:js
+npm run build:css
 ```
 
 # development

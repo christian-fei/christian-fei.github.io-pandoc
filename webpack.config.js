@@ -10,6 +10,14 @@ module.exports = function (env) {
       filename: '[name].bundle.js',
       chunkFilename: '[id].chunk.js'
     },
+    module: {
+      loaders: [
+        {
+          test: /\.(jpe?g|png|gif|svg|ico)$/i,
+          loader: 'image?bypassOnDebug&optimizationLevel=9&interlaced=false'
+        }
+      ]
+    },
     plugins: [
       new CommonsChunkPlugin({
         filename: 'main.min.js',
