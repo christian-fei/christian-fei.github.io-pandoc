@@ -10,7 +10,7 @@ Today I installed [redash](https://redash.io/) with AWS EC2 and AWS SES, with th
 
 Take a look at [the public dashboard](http://ec2-35-157-99-204.eu-central-1.compute.amazonaws.com/public/dashboards/9vt14NRnDAxp6IujiYiJ1u4nsGbiAWJ1F59LJEGt?org_slug=default) that visualizes the current user count on my Redash instance!
 
-<img src="/assets/images/posts/redash.users.count.png" alt="redash.users.count.png" class="fancy"/>
+<img itemprop="image" src="/assets/images/posts/redash.users.count.png" alt="redash.users.count.png" class="fancy"/>
 
 The server runs on a t2.micro instance, backed by the Redash Ubuntu AMI.
 
