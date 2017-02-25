@@ -5,11 +5,11 @@ layout: default
 <article itemscope itemtype="http://schema.org/BlogPosting" class="mw8">
   <header class="mt4">
     <h1 itemprop="name" class="measure fw6 lh-title">{{ page.title }}</h1>
-    <time datetime="{{ page.date | date: "%a, %b %d, %y" }}" class="f6 mb3">
-      written on <strong itemprop="datePublished" content="{{ page.date | date: "%a, %b %d, %y" }}">
+    <time datetime="{{ page.date | time_tag }}" class="f6 mb3">
+      written on <strong itemprop="datePublished" content="{{ page.date | time_tag }}">
         {{ page.date | date: "%a, %b %d, %y" }}
       </strong>
-    </time>, 
+    </time>,
     <address class="f6" style="display: inline;">
       by <a href="https://twitter.com/christian_fei" rel="author">
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
