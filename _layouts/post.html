@@ -35,3 +35,8 @@ layout: default
     </small>
   </section>
 </article>
+
+{% if page.has_images %}
+<script src="https://rawgit.com/francoischalifour/medium-zoom/master/dist/medium-zoom.min.js"></script>
+<script>mediumZoom(document.querySelectorAll('img'));</script>
+{% endif %}

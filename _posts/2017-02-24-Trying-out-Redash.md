@@ -3,6 +3,7 @@ title: 'Trying out Redash'
 date: 2017-02-24
 layout: post
 category: posts
+has_images: true
 ---
 
 Today I installed [redash](https://redash.io/) with AWS EC2 and AWS SES, with the help of [the official guide](https://redash.io/help-onpremise/setup/setting-up-redash-instance.html#setup-redash-instance-setup).
