@@ -1,6 +1,3 @@
----
-layout: nil
----
 /* eslint-env serviceworker */
 
 self.addEventListener('install', e => {
@@ -18,7 +15,8 @@ self.addEventListener('install', e => {
         '/assets/fontello-cf/font/fontello.woff?47902381',
         '/assets/fontello-cf/font/fontello.ttf?47902381',
         '/assets/fontello-cf/font/fontello.ttf?47902381',
-        '/posts/Trying-out-Redash/'
+        '/posts/Trying-out-Redash/',
+        '/about/'
       ])
       .then(() => self.skipWaiting())
     })
