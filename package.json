@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm dest/*; npm run build:js; npm run build:css",
     "build:js": "NODE_ENV=production webpack --progress --colors",
-    "build:css": "node tachyons-build-optimal-css.js && gulp css"
+    "build:css": "gulp css"
   },
   "repository": {
     "type": "git",

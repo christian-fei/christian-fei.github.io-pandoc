@@ -8,8 +8,7 @@ const sass = require('gulp-sass')
 
 var cssFiles = [
   './assets/css/*.css',
-  './assets/css/*.scss',
-  './assets/fontello-cf/css/fontello.css'
+  './assets/css/*.scss'
 ]
 
 gulp.task('default', ['css', 'css:watch'])
