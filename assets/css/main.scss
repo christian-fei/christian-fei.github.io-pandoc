@@ -1,11 +1,49 @@
+html, body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  letter-spacing: .05em;
+  line-height: 1.75;
+}
+
+
+
+/* TYPOGRAPHY FROM TYPESCALE.COM */
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.157em;
+}
+
+h2 {font-size: 2.369em;}
+
+h3 {font-size: 1.777em;}
+
+h4 {font-size: 1.333em;}
+
+small, .font_small {font-size: 0.75em;}
+
+
+
+
+
+body > main {
+  padding-left:1rem;
+  padding-right:1rem;
+}
+
 .intro-line {
   opacity: 0.9;
   background-color: rgb(27, 27, 27);
   color: rgb(244, 244, 244);
 }
-
-
-
 
 .social-links {
   transition: color .3s ease-in-out;
@@ -41,22 +79,28 @@
   transition: inherit;
 }
 
-@media all and (max-width: 40em) {
-  header h1 {
+header h1 {
+  @media (max-width: 40em) {
     font-size: 2.5em;
   }
-  .me {
+}
+
+.me {
+  @media (max-width: 40em){
     display: block;
     float: none !important;
   }
-  .avatar-container {
+}
+
+.avatar-container {
+  @media (max-width: 40em){
     width: 15em;
     height: 15em;
   }
 }
 
-@media all and (max-width: 50em) {
-  .social-links {
+.social-links {
+  @media all and (max-width: 50em){
     display: none;
   }
 }
@@ -102,35 +146,24 @@
   max-width: 45em;
 }
 
-
-
-/* TYPOGRAPHY FROM TYPESCALE.COM */
-
-html {font-size: 1em;}
-
-body {
-  font-weight: 400;
-  line-height: 1.45;
-  color: #333;
+.avatar-container {
+  display: block;
+  width: 24em;
+  height: 24em;
+  background-image: url('/assets/images/cf.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-
-p {margin-bottom: 1.3em;}
-
-h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
-  font-weight: inherit;
-  line-height: 1.2;
+.avatar-container:hover {
+  background-image: url('/assets/images/cf.qr.cut.png');
 }
-
-h1 {
-  margin-top: 0;
-  font-size: 3.157em;
+.preload-cf-qr {
+  background-image: url('/assets/images/cf.qr.cut.png');
+  display: none;
+  height: 0;
+  width: 0;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 0;
 }
-
-h2 {font-size: 2.369em;}
-
-h3 {font-size: 1.777em;}
-
-h4 {font-size: 1.333em;}
-
-small, .font_small {font-size: 0.75em;}

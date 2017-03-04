@@ -8,13 +8,14 @@ layout: default
   </p>
   {% for post in site.posts %}
   {% if post.category == 'posts' %}
-  <a href="{{ post.url }}" title="{{ post.title}}" class="db link mv3 hover-pop-out post-list-title-hover">
-    {{ post.title }}
-    <br/>
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="db black">
+  <section class="db link mv3 post-list-title">
+    <a href="{{ post.url }}" title="{{ post.title}}">
+      {{ post.title }}
+    </a>
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="black">
       {{ post.date | date_to_string }}
     </time>
-  </a>
+  </section>
   {% endif %}
   {% endfor %}
 </section>

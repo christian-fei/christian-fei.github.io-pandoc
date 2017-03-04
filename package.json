@@ -28,6 +28,7 @@
     "gulp-cssnano": "^2.1.2",
     "gulp-livereload": "^3.8.1",
     "gulp-postcss": "^6.3.0",
+    "gulp-sass": "^3.1.0",
     "gulp-uncss": "^1.0.6",
     "html-webpack-plugin": "^2.28.0",
     "image-webpack-loader": "^3.2.0",
@@ -37,13 +38,11 @@
     "postcss-remove-unused": "^1.0.1",
     "precss": "^1.4.0",
     "stylus": "^0.54.5",
-    "tachyons-build-optimal-css": "^1.1.0",
     "webpack": "^2.2.1"
   },
   "dependencies": {
     "next-text": "0.0.3",
     "normalize.css": "^5.0.0",
-    "simple-jekyll-search": "^1.1.6",
-    "tachyons": "^4.6.2"
+    "simple-jekyll-search": "^1.1.6"
   }
 }

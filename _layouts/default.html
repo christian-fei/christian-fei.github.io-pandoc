@@ -4,18 +4,19 @@
     {% include main-head.html %}
     {% include critical.css.html %}
   </head>
-  <body class="avenir f5">
+  <body>
     {% include main-header.html %}
 
     {% include intro-line.html %}
 
-    <main {% unless page.free_layout %} class="ph3 ph5-ns" {% endunless %}>
+    <main {% if page.free_layout %} class="full" {% endif %}>
       {{ content }}
     </main>
 
     {% include main-footer.html %}
 
     <noscript id="deferred-styles">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="/dest/main.min.css" />
     </noscript>
     <script async defer>
@@ -34,7 +35,7 @@
 
     <script async defer src="/dest/main.min.js"></script>
 
-    <script>
+    <script async defer>
       if('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/cache.js', { scope: '/' })
           .then(function(registration) {
