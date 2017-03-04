@@ -1,21 +1,29 @@
 var searchInput = document.getElementById('search-input')
-var trackedKeys = []
+var sevenKeyCode = 55
+var shiftKeyCode = 16
 
-window.addEventListener('keydown', function (event) {
-  track(event.keyCode)
-  if (searchActiveCombo()) {
-    setTimeout(function () { searchInput.value = '' }, 0)
-    searchInput.focus()
+window.addEventListener('keydown', shiftKeyListener)
+function shiftKeyListener (event) {
+  window.removeEventListener('keydown', shiftKeyListener)
+  var keyCode = event.keyCode
+  if (shiftKeyCode === keyCode) {
+    window.addEventListener('keydown', sevenKeyListener)
   } else {
+    window.addEventListener('keydown', shiftKeyListener)
   }
-})
-
-function track (key) {
-  trackedKeys.unshift(key)
-  trackedKeys.length = 2
 }
-function searchActiveCombo () {
-  var sevenKey = 55
-  var shiftKey = 16
-  return trackedKeys[0] === sevenKey && trackedKeys[1] === shiftKey
+
+function sevenKeyListener (event) {
+  window.removeEventListener('keydown', sevenKeyListener)
+  var keyCode = event.keyCode
+  if (sevenKeyCode === keyCode) {
+    searchComboActivated()
+  } else {
+    window.addEventListener('keydown', shiftKeyListener)
+  }
+}
+
+function searchComboActivated () {
+  setTimeout(function () { searchInput.value = '' }, 0)
+  searchInput.focus()
 }
