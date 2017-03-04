@@ -1,101 +1,7 @@
-html, body {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px;
-  letter-spacing: .05em;
-  line-height: 1.75;
-}
-
-
-
-/* TYPOGRAPHY FROM TYPESCALE.COM */
-
-p {margin-bottom: 1.3em;}
-
-h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
-  font-weight: inherit;
-  line-height: 1.2;
-}
-
-h1 {
-  margin-top: 0;
-  font-size: 3.157em;
-}
-
-h2 {font-size: 2.369em;}
-
-h3 {font-size: 1.777em;}
-
-h4 {font-size: 1.333em;}
-
-small, .font_small {font-size: 0.75em;}
-
-
-
-
-
-body > main {
-  padding-left:1rem;
-  padding-right:1rem;
-}
-
-.intro-line {
-  opacity: 0.9;
-  background-color: rgb(27, 27, 27);
-  color: rgb(244, 244, 244);
-}
-
-.social-links {
-  transition: color .3s ease-in-out;
-}
-.social-links a{
-  animation-duration: .3s;
-  animation-name: fade-in;
-  animation-timing-function: ease-in-out;
-  transition: opacity .3s ease-in-out;
-  color: inherit !important;
-}
-.social-links.fixed {
-  position: fixed;
-  top: 0;
-  right: 4rem; /* calc(100% - 88em); */
-  width: auto;
-  height: 100%;
-  padding-top: 2em;
-  padding-right: 5.3em;
-  padding-left: 0.5em;
-  margin-right: -5em;
-  background-color: transparent;
-  color: black;
-  margin-top: 0;
-}
-.social-links a {
-  display: inline-block;
-  padding: .25em;
-}
-.social-links.fixed a {
-  display: block;
-  color: inherit;
-  transition: inherit;
-}
-
-header h1 {
-  @media (max-width: 40em) {
-    font-size: 2.5em;
-  }
-}
-
 .me {
   @media (max-width: 40em){
     display: block;
     float: none !important;
-  }
-}
-
-.avatar-container {
-  @media (max-width: 40em){
-    width: 15em;
-    height: 15em;
   }
 }
 
@@ -107,8 +13,9 @@ header h1 {
 
 *:focus {
   animation: blink .34s infinite;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
   animation-direction: alternate;
+  transition: all .34s linear;
 }
 
 @keyframes fade-in {
@@ -124,18 +31,20 @@ header h1 {
 @keyframes blink {
   0% {
     opacity: 0.3;
+    border-bottom: 2px solid black;
   }
   100% {
     opacity: 1;
+    border-bottom: 0;
   }
 }
+
 
 .fancy {
   border-radius: 7px;
   box-shadow: -1px 7px 88px -22px #d3d3d3;
   width: 100%;
 }
-
 .fancy.small {
   max-width: 25em;
 }
@@ -145,6 +54,7 @@ header h1 {
 .fancy.big {
   max-width: 45em;
 }
+
 
 .avatar-container {
   display: block;
@@ -156,6 +66,12 @@ header h1 {
 }
 .avatar-container:hover {
   background-image: url('/assets/images/cf.qr.cut.png');
+}
+.avatar-container {
+  @media (max-width: 40em){
+    width: 15em;
+    height: 15em;
+  }
 }
 .preload-cf-qr {
   background-image: url('/assets/images/cf.qr.cut.png');

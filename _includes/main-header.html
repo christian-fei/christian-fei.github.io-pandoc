@@ -1,5 +1,23 @@
-<header class="main-header ph3 ">
-  <a href="/" tabindex="1"><i class="icon-home-2 v-mid"></i></a>
-  <input type="text" tabindex="2" id="search-input" placeholder="Type / to search" class="f5 mh1 v-mid">
-  <div id="results-container" class="pa3x"></div>
-</header>
+<section class="pad pad-more-top">
+  <header>
+    <a href="/"><i class="icon-home-2"></i></a>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <input type="text" tabindex="2" id="search-input" placeholder="Type / to search">
+    <div id="results-container"></div>
+  </header>
+  {% unless page.title == 'about' %}
+  <section class="pad-more-top">
+    I'm an italian agile software developer, living in Trento (IT)
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <a href="/about" tabindex="3" class="">More about me</a>
+  </section>
+  <section class="social-links pad-more-top">
+    <a target="_blank" href="/rss.xml"><i class="icon-rss"></i></a>
+    <a target="_blank" href="https://github.com/christian-fei"><i class="icon-github"></i></a>
+    <a target="_blank" href="https://twitter.com/christian_fei"><i class="icon-twitter"></i></a>
+    <a target="_blank" href="https://www.instagram.com/christianfei/"><i class="icon-instagram"></i></a>
+    <a target="_blank" href="https://open.spotify.com/user/11183484356"><i class="icon-spotify"></i></a>
+    <a target="_blank" href="https://www.linkedin.com/in/christian-fei-6b72b5123?trk=hp-identity-name"><i class="icon-linkedin"></i></a>
+  </section>
+  {% endunless %}
+</section>
