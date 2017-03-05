@@ -1,15 +1,15 @@
-<section class="pad pad-more-top">
-  <header>
-    <a href="/"><i class="icon-home"></i></a>
-    <span>&nbsp;&nbsp;&nbsp;</span>
-    <input type="text" tabindex="2" id="search-input" placeholder="Type / to search">
-    <div id="results-container"></div>
-  </header>
+<header class="pad">
+  <a href="/"><i class="icon-home"></i></a>
+  <span>&nbsp;&nbsp;&nbsp;</span>
+  <input type="text" tabindex="2" id="search-input" placeholder="Type / to search">
+  <div id="results-container"></div>
   {% unless page.title == 'about' %}
-  <section class="pad-more-top">
-    <span class="typewriter-who-am-i"></span>
+  <section class="pad-top">
+    <span class="typewriter typewriter-who-am-i"></span>
     <br>
-    <a href="/about" tabindex="3" class="">More about me</a>
+    <a href="/about" tabindex="3" class="">
+      <span class="typewriter typewriter-more-about-me"></span>
+    </a>
   </section>
   {% endunless %}
-</section>
+</header>
