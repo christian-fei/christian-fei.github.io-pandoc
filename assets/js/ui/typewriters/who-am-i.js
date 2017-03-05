@@ -16,5 +16,5 @@ function nextPlaceholderFor (typewriter, text, intervalHandle) {
   if (nextPlaceholder == text) {
     clearInterval(intervalHandle)
   }
-  typewriter.innerHTML =  nextPlaceholder
+  typewriter.innerHTML = nextPlaceholder
 }
