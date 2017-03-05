@@ -14,35 +14,8 @@
     {% include main-footer.html %}
 
     <noscript id="deferred-styles">
-      <link rel="stylesheet" type="text/css" href="/dest/main.min.css" />
+      <link rel="stylesheet" type="text/css" href="/dest/main.min.css" async defer />
     </noscript>
-    <script async defer>
-      var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementById("deferred-styles");
-        var replacement = document.createElement("div");
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
-        addStylesNode.parentElement.removeChild(addStylesNode);
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-          webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
-    </script>
-
     <script async defer src="/dest/main.min.js"></script>
-
-    <script async defer>
-      if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/cache.js', { scope: '/' })
-          .then(function(registration) {
-            console.log('Service Worker Registered');
-          });
-
-        navigator.serviceWorker.ready.then(function(registration) {
-          console.log('Service Worker Ready');
-        });
-      }
-    </script>
   </body>
 </html>
