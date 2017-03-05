@@ -9,12 +9,6 @@ self.addEventListener('install', e => {
         '/dest/main.min.js',
         '/search.json',
         '/dest/main.min.css',
-        '/assets/fontello-cf/font/fontello.woff2?47902381',
-        '/assets/fontello-cf/font/fontello.woff2?47902381',
-        '/assets/fontello-cf/font/fontello.woff?47902381',
-        '/assets/fontello-cf/font/fontello.woff?47902381',
-        '/assets/fontello-cf/font/fontello.ttf?47902381',
-        '/assets/fontello-cf/font/fontello.ttf?47902381',
         '/posts/Trying-out-Redash/',
         '/about/'
       ])
