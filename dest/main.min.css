@@ -20,7 +20,6 @@ body > main {
 body > header,
 body > footer {
   background-color: #fbfbfb;
-  font-size: 1.1em;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
