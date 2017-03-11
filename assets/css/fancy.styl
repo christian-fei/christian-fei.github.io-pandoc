@@ -1,7 +1,16 @@
-body > main
-  background-color #fff
+body > header
+  background #333
+  color #fff
+
+  a
+    color inherit
+    border-bottom-color white
+  #search-input
+    background #fff
+    color #333
+    padding .3em 1em
 body
-  background #fdfdfd
+  background-color #fff
 
 .list-post-section
   margin-top unit
@@ -35,16 +44,24 @@ duration = 0.05s
   font-size 0.8em
 
   li
+    display block
     animation-name fly-in
     animation-duration duration * 2
-    transition all duration ease-in-out
     transform translateX(-10px)
     animation-fill-mode forwards
     opacity 0
     for num in 1..10
       &:nth-child({num}n)
+        transition all duration ease-in-out
         transition-delay num * duration
         animation-delay num * duration
+    &:hover, &:focus, &:active
+      animation none !important
+      animation-delay none !important
+      transition all duration ease-in-out
+      transition-delay 0s !important
+      opacity 1 !important
+      transform translateX(1em) !important
 
 @keyframes fly-in
   from

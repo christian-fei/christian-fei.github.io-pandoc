@@ -1,14 +1,13 @@
 <header>
   <div class="container">
-    <a href="/">Home</a>
-    <span>&nbsp;&nbsp;&nbsp;</span>
-    <input type="text" tabindex="2" id="search-input" placeholder="Type / to search">
+    <input tabindex="-1" autofocus type="text" id="search-input" placeholder="Type / to search">
+    <a href="/" class="home-link">Home<span>&nbsp;&nbsp;&nbsp;</span></a>
     <div id="results-container"></div>
     {% unless page.title == 'about' %}
     <section class="pad-top">
       <span class="typewriter typewriter-who-am-i"></span>
       <br>
-      <a href="/about" tabindex="3" class="">
+      <a href="/about" class="">
         <span class="typewriter typewriter-more-about-me"></span>
       </a>
     </section>
