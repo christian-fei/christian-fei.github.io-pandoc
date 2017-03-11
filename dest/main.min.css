@@ -126,6 +126,11 @@ body {
   animation-delay: 0.5s;
 }
 
+.typewriter {
+  display: inline-block;
+  min-height: 1em;
+}
+
 @-moz-keyframes fly-in {
   from {
     background: transparent;
