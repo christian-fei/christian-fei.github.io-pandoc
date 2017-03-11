@@ -1,10 +1,7 @@
-.base-container,
-body > header,
-body > main,
-body > footer {
-  padding-right: 1rem;
-  padding-left: 1rem;
-  max-width: 34em;
+.container {
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+  max-width: 42rem;
   margin: auto;
 }
 
@@ -14,8 +11,16 @@ body {
   height: 100%;
 }
 
+body > main {
+  background-color: #fff;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
 body > header,
 body > footer {
+  background-color: #fbfbfb;
+  font-size: 1.1em;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -28,7 +33,27 @@ body {
   background: #fdfdfd;
 }
 
+.list-post-section {
+  margin-top: 0.8rem;
+  position: relative;
+}
+
+.list-post-section time {
+  display: inline-block;
+  position: absolute;
+  top: -0.9em;
+  right: 0em;
+  margin-left: 2em;
+  opacity: 0.1;
+  font-size: 0.6em;
+}
+
+.list-post-section:hover time {
+  opacity: 0.35;
+}
+
 #search-input {
+  font-size: 0.95em;
   border: none;
   outline: none;
   border-bottom: 1px solid #000;
@@ -36,9 +61,9 @@ body {
 }
 
 #results-container {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  background-color: #fff;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  background-color: transparent;
   list-style-type: none;
   font-size: 0.8em;
 }

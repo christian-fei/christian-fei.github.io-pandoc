@@ -10,8 +10,10 @@
   <body>
     {% include main-header.html %}
 
-    <main {% if page.free_layout %} class="free" {% endif %}>
-      {{ content }}
+    <main>
+      <div class="container"  {% if page.free_layout %} class="free" {% endif %}>
+        {{ content }}
+      </div>
     </main>
 
     {% include main-footer.html %}
