@@ -1,4 +1,3 @@
-require('./blog-search')
-require('./slash-to-search')
+require('./interactions')
 require('./typewriters')
-require('./load-deferred-styles')
+// require('./load-deferred-styles')

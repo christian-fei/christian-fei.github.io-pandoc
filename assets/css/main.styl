@@ -1,0 +1,24 @@
+.base-container
+  padding-right 1rem
+  padding-left 1rem
+  max-width 42em
+
+body > header,
+body > main,
+body > footer
+  @extend .base-container
+
+body > header,
+body > footer
+  padding-top 2rem
+  padding-bottom 2rem
+
+body > main
+  &.free
+    max-width none
+
+#search-input
+  border none
+  outline none
+  border-bottom 1px solid black
+  background-color transparent

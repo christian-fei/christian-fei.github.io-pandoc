@@ -4,19 +4,26 @@ const concatCss = require('gulp-concat-css')
 const autoprefixer = require('autoprefixer')
 const livereload = require('gulp-livereload')
 const uncss = require('gulp-uncss')
-const sass = require('gulp-sass')
+const stylus = require('gulp-stylus')
 
-var cssFiles = [
-  './assets/css/*.css',
-  './assets/css/*.scss'
+const srcFiles = [
+  './assets/css/*.styl'
 ]
 
-gulp.task('default', ['css', 'css:watch'])
+gulp.task('default', ['css:watch'])
 
 gulp.task('css:watch', function () {
   livereload({start: true})
   livereload.listen()
-  return gulp.watch(cssFiles, ['css'])
+  return gulp.watch(srcFiles, ['stylus:watch'])
+})
+
+gulp.task('stylus:watch', function () {
+  return gulp.src(srcFiles)
+  .pipe(stylus())
+  .pipe(concatCss('main.min.css'))
+  .pipe(gulp.dest('./dest'))
+  .pipe(livereload({ reloadPage: '/' }))
 })
 
 gulp.task('css', function () {
@@ -24,13 +31,11 @@ gulp.task('css', function () {
     require('postcss-clean'),
     autoprefixer({browsers: ['last 2 version']})
   ]
-  return gulp.src(cssFiles)
-  .pipe(sass.sync().on('error', sass.logError))
-  .pipe(concatCss('main.min.css'))
+  return gulp.src(srcFiles)
   .pipe(postcss(processors))
   .pipe(uncss({
     html: ['index.html', '_site/**/*.html']
   }))
+  .pipe(concatCss('main.min.css'))
   .pipe(gulp.dest('./dest'))
-  .pipe(livereload({ reloadPage: true }))
 })

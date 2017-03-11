@@ -1,3 +1,8 @@
 require('./ui')
-require('./analytics')
-require('./workers')
+
+var production = /christianfei\.com/.test(window.location.href)
+
+if (production) {
+  require('./analytics')
+  require('./workers')
+}

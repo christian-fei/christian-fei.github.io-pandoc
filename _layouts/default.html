@@ -3,19 +3,21 @@
   <head>
     {% include main-head.html %}
     {% include critical.css.html %}
+    <link rel="stylesheet" type="text/css" href="/dest/main.min.css" async defer />
+    <!-- inject:css -->
+    <!-- endinject -->
   </head>
   <body>
     {% include main-header.html %}
 
-    <main class="pad" {% if page.free_layout %} class="full" {% endif %}>
+    <main {% if page.free_layout %} class="free" {% endif %}>
       {{ content }}
     </main>
 
     {% include main-footer.html %}
 
-    <noscript id="deferred-styles">
-      <link rel="stylesheet" type="text/css" href="/dest/main.min.css" async defer />
-    </noscript>
+    <!-- inject:js -->
+    <!-- endinject -->
     <script async defer src="/dest/main.min.js"></script>
   </body>
 </html>
