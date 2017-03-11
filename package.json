@@ -8,7 +8,7 @@
     "build": "rm dest/*; npm run build:js; npm run build:css",
     "build:js": "NODE_ENV=production webpack --progress --colors",
     "build:css": "gulp css",
-    "deploy": "aws s3 sync --recursive --acl public-read  --region eu-central-1 ./_site/ s3://christianfei.com"
+    "deploy": "aws s3 sync --acl public-read  --region eu-central-1 ./_site/ s3://christianfei.com"
   },
   "repository": {
     "type": "git",
