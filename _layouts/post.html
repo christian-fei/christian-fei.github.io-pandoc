@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<article itemscope itemtype="http://schema.org/BlogPosting" class="mw8">
-  <header class="mt4">
-    <h1 itemprop="name" class="measure fw6 lh-title">{{ page.title }}</h1>
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h1 itemprop="name">{{ page.title }}</h1>
     <time datetime="{{ page.date | time_tag }}" class="f6 mb3">
       written on <strong itemprop="datePublished" content="{{ page.date | time_tag }}">
         {{ page.date | date: "%a, %b %d, %y" }}
       </strong>
     </time>,
-    <address class="f6" style="display: inline;">
+    <address style="display: inline;">
       by <a href="https://twitter.com/christian_fei" rel="author">
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span itemprop="name">
@@ -20,10 +20,10 @@ layout: default
       </a>
     </address>
   </header>
-  <section itemprop="articleBody" class="mw7">
+  <section itemprop="articleBody">
     {{content}}
   </section>
-  <footer class="mt4">
+  <footer>
     {% include share-twitter.html %}
   </footer>
   <span>or</span>
