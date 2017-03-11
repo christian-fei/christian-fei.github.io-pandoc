@@ -22,11 +22,42 @@ body > main
   &.free
     max-width none
 
+body
+  background #fdfdfd
+
 #search-input
   border none
   outline none
   border-bottom 1px solid black
   background-color transparent
 
-body
-  background #fdfdfd
+
+duration = 0.05s
+#results-container
+  padding-top 1em
+  padding-bottom 1em
+  background-color #fff
+  list-style-type none
+
+  font-size 0.8em
+
+  li
+    animation-name fly-in
+    animation-duration duration * 2
+    transition all duration ease-in-out
+    transform translateX(-10px)
+    animation-fill-mode forwards
+    opacity 0
+    for num in 1..10
+      &:nth-child({num}n)
+        transition-delay num * duration
+        animation-delay num * duration
+
+
+@keyframes fly-in
+  from
+    background transparent
+  to
+    opacity 1
+    transform translateX(0)
+    background transparent

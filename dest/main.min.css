@@ -24,6 +24,10 @@ body > main.free {
   max-width: none;
 }
 
+body {
+  background: #fdfdfd;
+}
+
 #search-input {
   border: none;
   outline: none;
@@ -31,6 +35,117 @@ body > main.free {
   background-color: transparent;
 }
 
-body {
-  background: #fdfdfd;
+#results-container {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #fff;
+  list-style-type: none;
+  font-size: 0.8em;
+}
+
+#results-container li {
+  animation-name: fly-in;
+  animation-duration: 0.1s;
+  transition: all 0.05s ease-in-out;
+  transform: translateX(-10px);
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+#results-container li:nth-child(1n) {
+  transition-delay: 0.05s;
+  animation-delay: 0.05s;
+}
+
+#results-container li:nth-child(2n) {
+  transition-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+#results-container li:nth-child(3n) {
+  transition-delay: 0.15s;
+  animation-delay: 0.15s;
+}
+
+#results-container li:nth-child(4n) {
+  transition-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+#results-container li:nth-child(5n) {
+  transition-delay: 0.25s;
+  animation-delay: 0.25s;
+}
+
+#results-container li:nth-child(6n) {
+  transition-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+#results-container li:nth-child(7n) {
+  transition-delay: 0.35s;
+  animation-delay: 0.35s;
+}
+
+#results-container li:nth-child(8n) {
+  transition-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+#results-container li:nth-child(9n) {
+  transition-delay: 0.45s;
+  animation-delay: 0.45s;
+}
+
+#results-container li:nth-child(10n) {
+  transition-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+@-moz-keyframes fly-in {
+  from {
+    background: transparent;
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    background: transparent;
+  }
+}
+
+@-webkit-keyframes fly-in {
+  from {
+    background: transparent;
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    background: transparent;
+  }
+}
+
+@-o-keyframes fly-in {
+  from {
+    background: transparent;
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    background: transparent;
+  }
+}
+
+@keyframes fly-in {
+  from {
+    background: transparent;
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    background: transparent;
+  }
 }
