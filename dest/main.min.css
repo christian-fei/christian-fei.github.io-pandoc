@@ -140,6 +140,11 @@ body {
   min-height: 1em;
 }
 
+time,
+address {
+  font-size: 0.8em;
+}
+
 @-moz-keyframes fly-in {
   from {
     background: transparent;
@@ -398,6 +403,11 @@ body {
 .typewriter {
   display: inline-block;
   min-height: 1em;
+}
+
+time,
+address {
+  font-size: 0.8em;
 }
 
 @-moz-keyframes fly-in {
