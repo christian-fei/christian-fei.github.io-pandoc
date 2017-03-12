@@ -397,10 +397,11 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #161616;
+  color: #333;
 }
 
 p {
@@ -417,107 +418,31 @@ h4 {
 }
 
 h1 {
-  margin-top: 0.7em;
-  font-size: 5.063em;
+  margin-top: 0;
+  font-size: 3.998em;
 }
 
-h2,
-font-size 3.375em,
+h2 {
+  font-size: 2.827em;
+}
+
 h3 {
-  font-size: 2.25em;
+  font-size: 1.999em;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1.414em;
 }
 
 small,
-.font_smallfont-size 0.667em,
-b,
-strong {
-  font-weight: inherit;
-  font-weight: bolder;
+.font_small {
+  font-size: 0.707em;
 }
 
-input {
-  font-family: sans-serif;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-
-small {
-  font-size: 0.75em;
-}
-
-pre {
-  overflow: scroll;
-  padding: 1em;
-}
-
-code,
-pre {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-time,
-address {
-  font-size: 0.8em;
-}
-
-a {
-  display: inline-block;
-  font-weight: bold;
-  color: #161616;
-  outline: 0;
-  border: 0;
-  text-decoration: underline;
-}
-
-a:hover,
-a:focus,
-a:active {
-  background: #000;
-  color: #fff;
-}
-
-body > header {
-  background: #161616;
-  color: #fff;
-}
-
-body > header a {
-  color: inherit;
-}
-
-body > header a:hover,
-body > header a:focus,
-body > header a:active {
-  background: #fff !important;
-  color: #000 !important;
-}
-
-body > header .home-link {
-  text-decoration: none;
-}
-
-.post {
-  font-size: 0.8em;
-}
-
-#search-input {
-  font-size: 0.95em;
-  border: none;
-  outline: none;
-}
-
-#results-container {
-  font-size: 0.8em;
-  list-style-type: none;
-}
-html {
-  font-size: 1em;
+@media all and (min-width: 40em) {
+  html {
+    font-size: 1.2em;
+  }
 }
 
 body {
@@ -527,36 +452,57 @@ body {
   color: #161616;
 }
 
-p {
-  margin-bottom: 1.3em;
+a {
+  display: inline-block;
+  font-weight: bold;
+  color: #161616;
+  outline: 0;
+  border: 0;
+  text-decoration: underline;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  margin: 1.414em 0 0.5em;
-  font-weight: inherit;
-  line-height: 1.2;
+a:hover,
+a:focus,
+a:active {
+  background: #000;
+  color: #fff;
 }
 
-h1 {
-  margin-top: 0.7em;
-  font-size: 5.063em;
+body > header {
+  background: #161616;
+  color: #fff;
 }
 
-h2,
-font-size 3.375em,
-h3 {
-  font-size: 2.25em;
+body > header a {
+  color: inherit;
 }
 
-h4 {
-  font-size: 1.5em;
+body > header a:hover,
+body > header a:focus,
+body > header a:active {
+  background: #fff !important;
+  color: #000 !important;
 }
 
-small,
-.font_smallfont-size 0.667em,
+body > header .home-link {
+  text-decoration: none;
+}
+
+.post {
+  font-size: 0.8em;
+}
+
+#search-input {
+  font-size: 0.95em;
+  border: none;
+  outline: none;
+}
+
+#results-container {
+  font-size: 0.8em;
+  list-style-type: none;
+}
+
 b,
 strong {
   font-weight: inherit;
@@ -568,10 +514,6 @@ input {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
-}
-
-small {
-  font-size: 0.75em;
 }
 
 pre {
@@ -588,6 +530,65 @@ pre {
 time,
 address {
   font-size: 0.8em;
+}
+html {
+  font-size: 1em;
+}
+
+body {
+  background-color: white;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {
+  font-size: 2.827em;
+}
+
+h3 {
+  font-size: 1.999em;
+}
+
+h4 {
+  font-size: 1.414em;
+}
+
+small,
+.font_small {
+  font-size: 0.707em;
+}
+
+@media all and (min-width: 40em) {
+  html {
+    font-size: 1.2em;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #161616;
 }
 
 a {
@@ -639,4 +640,33 @@ body > header .home-link {
 #results-container {
   font-size: 0.8em;
   list-style-type: none;
+}
+
+b,
+strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+input {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+pre {
+  overflow: scroll;
+  padding: 1em;
+}
+
+code,
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+time,
+address {
+  font-size: 0.8em;
 }
