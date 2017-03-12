@@ -43,7 +43,7 @@ body > header #search-input {
 
 #results-container {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   background-color: transparent;
 }
 
@@ -52,9 +52,8 @@ body > header #search-input {
   margin-top: 1rem;
   opacity: 0;
   height: 0;
+  transition: all 0.05s linear;
   transform: translateY(-1em);
-  transition-duration: 0.1s;
-  transition-timing-function: linear;
   animation-name: fly-in;
   animation-duration: 0.05s;
   animation-timing-function: linear;
@@ -62,43 +61,43 @@ body > header #search-input {
 }
 
 #results-container li:nth-child(1n) {
-  animation-delay: 0.02s;
+  animation-delay: 0.05s;
 }
 
 #results-container li:nth-child(2n) {
-  animation-delay: 0.04s;
-}
-
-#results-container li:nth-child(3n) {
-  animation-delay: 0.06s;
-}
-
-#results-container li:nth-child(4n) {
-  animation-delay: 0.08s;
-}
-
-#results-container li:nth-child(5n) {
   animation-delay: 0.1s;
 }
 
+#results-container li:nth-child(3n) {
+  animation-delay: 0.15s;
+}
+
+#results-container li:nth-child(4n) {
+  animation-delay: 0.2s;
+}
+
+#results-container li:nth-child(5n) {
+  animation-delay: 0.25s;
+}
+
 #results-container li:nth-child(6n) {
-  animation-delay: 0.12s;
+  animation-delay: 0.3s;
 }
 
 #results-container li:nth-child(7n) {
-  animation-delay: 0.14s;
+  animation-delay: 0.35s;
 }
 
 #results-container li:nth-child(8n) {
-  animation-delay: 0.16s;
+  animation-delay: 0.4s;
 }
 
 #results-container li:nth-child(9n) {
-  animation-delay: 0.18s;
+  animation-delay: 0.45s;
 }
 
 #results-container li:nth-child(10n) {
-  animation-delay: 0.2s;
+  animation-delay: 0.5s;
 }
 
 .typewriter {
@@ -295,7 +294,7 @@ body > header #search-input {
 
 #results-container {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   background-color: transparent;
 }
 
@@ -304,9 +303,8 @@ body > header #search-input {
   margin-top: 1rem;
   opacity: 0;
   height: 0;
+  transition: all 0.05s linear;
   transform: translateY(-1em);
-  transition-duration: 0.1s;
-  transition-timing-function: linear;
   animation-name: fly-in;
   animation-duration: 0.05s;
   animation-timing-function: linear;
@@ -314,43 +312,43 @@ body > header #search-input {
 }
 
 #results-container li:nth-child(1n) {
-  animation-delay: 0.02s;
+  animation-delay: 0.05s;
 }
 
 #results-container li:nth-child(2n) {
-  animation-delay: 0.04s;
-}
-
-#results-container li:nth-child(3n) {
-  animation-delay: 0.06s;
-}
-
-#results-container li:nth-child(4n) {
-  animation-delay: 0.08s;
-}
-
-#results-container li:nth-child(5n) {
   animation-delay: 0.1s;
 }
 
+#results-container li:nth-child(3n) {
+  animation-delay: 0.15s;
+}
+
+#results-container li:nth-child(4n) {
+  animation-delay: 0.2s;
+}
+
+#results-container li:nth-child(5n) {
+  animation-delay: 0.25s;
+}
+
 #results-container li:nth-child(6n) {
-  animation-delay: 0.12s;
+  animation-delay: 0.3s;
 }
 
 #results-container li:nth-child(7n) {
-  animation-delay: 0.14s;
+  animation-delay: 0.35s;
 }
 
 #results-container li:nth-child(8n) {
-  animation-delay: 0.16s;
+  animation-delay: 0.4s;
 }
 
 #results-container li:nth-child(9n) {
-  animation-delay: 0.18s;
+  animation-delay: 0.45s;
 }
 
 #results-container li:nth-child(10n) {
-  animation-delay: 0.2s;
+  animation-delay: 0.5s;
 }
 
 .typewriter {

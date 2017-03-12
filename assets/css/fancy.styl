@@ -35,23 +35,22 @@ body > header
 
 #results-container
   padding-top space
-  padding-bottom space
+  padding-bottom 2 * space
   background-color transparent
   li
     display block
     margin-top space
     opacity 0
     height 0
+    transition all .05s linear
     transform translateY(-1em)
-    transition-duration .1s
-    transition-timing-function linear
     animation-name fly-in
     animation-duration .05s
     animation-timing-function linear
     animation-fill-mode forwards
     for num in 1..10
       &:nth-child({num}n)
-        animation-delay .02s * num
+        animation-delay .05s * num
 
 @keyframes fly-in
   to
