@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 body > header {
-  background: #333;
+  background: #161616;
   color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 body > header a {
@@ -12,7 +14,7 @@ body > header a {
 
 body > header #search-input {
   background: #fff;
-  color: #333;
+  color: #161616;
   padding: 0.3em 1em;
 }
 
@@ -21,7 +23,7 @@ body {
 }
 
 .list-post-section {
-  margin-top: unit;
+  margin-top: 1rem;
   position: relative;
 }
 
@@ -48,8 +50,8 @@ body {
 }
 
 #results-container {
-  padding-top: unit;
-  padding-bottom: unit;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: transparent;
   list-style-type: none;
   font-size: 0.8em;
@@ -62,77 +64,6 @@ body {
   transform: translateX(-10px);
   animation-fill-mode: forwards;
   opacity: 0;
-}
-
-#results-container li:nth-child(1n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.05s;
-  animation-delay: 0.05s;
-}
-
-#results-container li:nth-child(2n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.1s;
-  animation-delay: 0.1s;
-}
-
-#results-container li:nth-child(3n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.15s;
-  animation-delay: 0.15s;
-}
-
-#results-container li:nth-child(4n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-
-#results-container li:nth-child(5n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.25s;
-  animation-delay: 0.25s;
-}
-
-#results-container li:nth-child(6n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.3s;
-  animation-delay: 0.3s;
-}
-
-#results-container li:nth-child(7n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.35s;
-  animation-delay: 0.35s;
-}
-
-#results-container li:nth-child(8n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.4s;
-  animation-delay: 0.4s;
-}
-
-#results-container li:nth-child(9n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.45s;
-  animation-delay: 0.45s;
-}
-
-#results-container li:nth-child(10n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.5s;
-  animation-delay: 0.5s;
-}
-
-#results-container li:hover,
-#results-container li:focus,
-#results-container li:active {
-  animation: none !important;
-  animation-delay: none !important;
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0s !important;
-  opacity: 1 !important;
-  transform: translateX(1em) !important;
 }
 
 .typewriter {
@@ -266,8 +197,10 @@ body > main.free {
 }
 
 body > header {
-  background: #333;
+  background: #161616;
   color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 body > header a {
@@ -277,7 +210,7 @@ body > header a {
 
 body > header #search-input {
   background: #fff;
-  color: #333;
+  color: #161616;
   padding: 0.3em 1em;
 }
 
@@ -327,77 +260,6 @@ body {
   transform: translateX(-10px);
   animation-fill-mode: forwards;
   opacity: 0;
-}
-
-#results-container li:nth-child(1n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.05s;
-  animation-delay: 0.05s;
-}
-
-#results-container li:nth-child(2n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.1s;
-  animation-delay: 0.1s;
-}
-
-#results-container li:nth-child(3n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.15s;
-  animation-delay: 0.15s;
-}
-
-#results-container li:nth-child(4n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-
-#results-container li:nth-child(5n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.25s;
-  animation-delay: 0.25s;
-}
-
-#results-container li:nth-child(6n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.3s;
-  animation-delay: 0.3s;
-}
-
-#results-container li:nth-child(7n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.35s;
-  animation-delay: 0.35s;
-}
-
-#results-container li:nth-child(8n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.4s;
-  animation-delay: 0.4s;
-}
-
-#results-container li:nth-child(9n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.45s;
-  animation-delay: 0.45s;
-}
-
-#results-container li:nth-child(10n) {
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0.5s;
-  animation-delay: 0.5s;
-}
-
-#results-container li:hover,
-#results-container li:focus,
-#results-container li:active {
-  animation: none !important;
-  animation-delay: none !important;
-  transition: all 0.05s ease-in-out;
-  transition-delay: 0s !important;
-  opacity: 1 !important;
-  transform: translateX(1em) !important;
 }
 
 .typewriter {
@@ -466,7 +328,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #333;
+  color: #161616;
 }
 
 p {
@@ -483,14 +345,12 @@ h4 {
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: 0.7em;
   font-size: 5.063em;
 }
 
-h2 {
-  font-size: 3.375em;
-}
-
+h2,
+font-size 3.375em,
 h3 {
   font-size: 2.25em;
 }
@@ -500,10 +360,7 @@ h4 {
 }
 
 small,
-.font_small {
-  font-size: 0.667em;
-}
-
+.font_smallfont-size 0.667em,
 b,
 strong {
   font-weight: inherit;
@@ -535,10 +392,9 @@ pre {
 a {
   display: inline-block;
   font-weight: bold;
-  color: #222;
+  color: #161616;
   outline: 0;
   border: 0;
-  text-decoration: none;
   border-bottom: 2px solid #000;
 }
 
@@ -547,6 +403,7 @@ a:focus,
 a:active {
   background: #000;
   color: #fff;
+  transform: scaleX(1.1) scaleY(1.1);
 }
 
 body > header a:hover,
@@ -567,7 +424,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #333;
+  color: color_dark;
 }
 
 p {
@@ -584,14 +441,12 @@ h4 {
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: 0.7em;
   font-size: 5.063em;
 }
 
-h2 {
-  font-size: 3.375em;
-}
-
+h2,
+font-size 3.375em,
 h3 {
   font-size: 2.25em;
 }
@@ -601,10 +456,7 @@ h4 {
 }
 
 small,
-.font_small {
-  font-size: 0.667em;
-}
-
+.font_smallfont-size 0.667em,
 b,
 strong {
   font-weight: inherit;
@@ -636,10 +488,9 @@ pre {
 a {
   display: inline-block;
   font-weight: bold;
-  color: #222;
+  color: color_dark;
   outline: 0;
   border: 0;
-  text-decoration: none;
   border-bottom: 2px solid #000;
 }
 
@@ -648,6 +499,7 @@ a:focus,
 a:active {
   background: #000;
   color: #fff;
+  transform: scaleX(1.1) scaleY(1.1);
 }
 
 body > header a:hover,

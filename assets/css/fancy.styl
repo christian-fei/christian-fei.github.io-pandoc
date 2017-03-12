@@ -1,16 +1,22 @@
+unit = 1rem
+color_dark = #161616
+color_light = #fff
+
 body > header
-  background #333
-  color #fff
+  background color_dark
+  color color_light
+  padding-top 2 * unit
+  padding-bottom 2 * unit
 
   a
     color inherit
     border-bottom-color white
   #search-input
-    background #fff
-    color #333
+    background color_light
+    color color_dark
     padding .3em 1em
 body
-  background-color #fff
+  background-color color_light
 
 .list-post-section
   margin-top unit
@@ -50,18 +56,6 @@ duration = 0.05s
     transform translateX(-10px)
     animation-fill-mode forwards
     opacity 0
-    for num in 1..10
-      &:nth-child({num}n)
-        transition all duration ease-in-out
-        transition-delay num * duration
-        animation-delay num * duration
-    &:hover, &:focus, &:active
-      animation none !important
-      animation-delay none !important
-      transition all duration ease-in-out
-      transition-delay 0s !important
-      opacity 1 !important
-      transform translateX(1em) !important
 
 @keyframes fly-in
   from

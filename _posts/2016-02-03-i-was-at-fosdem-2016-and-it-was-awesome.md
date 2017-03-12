@@ -3,6 +3,7 @@ title: 'I was at fosdem 2016 and it was awesome!'
 date: 2016-02-03
 layout: post
 category: posts
+has_images: true
 ---
 
 I had a blast at this year's [FOSDEM](https://fosdem.org/2016/).
@@ -57,4 +58,3 @@ The host really made us feel at home!
 ---
 
 ![tiago and joe and cri](https://lh3.googleusercontent.com/xaC5IH_2FMV4gm8EGNiLnzP0puL0RY68lennN1B0WlwhrTZ6TXxpxSgFtYsSBp6kIuBNTXAOTXTM2jAumKOWEInhfH7U1KhWm8vxME4lxwNwckwoRaWxNJ7P3C_0ZgxifozTChfKlqLT3IU8lIGB0mLg37rMF0X_m93l6kcIvZ0pu2O7bN8dFJEhImGYjUnalekdnLm5VrdaL-jaEuhZpGDSj34UNpudZ6ltn7I-QAFeOwY9II18OANjstMVAFCw5o6L5RI63_UFzhWHiC-_lnuqKRrzp0gJKmF2WAI3jcQGrTuZD8PGr87A9Mp5cgsgzWOZX23rf9oC4RERLsmtnT_waA0wyStbXNMnXN7HtbWQikCUdhx3F4AeLuijjEDljMXctmK35K7vIF16wmqAK0vRJ7F63M-fMVLEbfceMkq1KVQGkJXEYDPfJoygbKWJYHxHN5QRKsTyU_hyc9sMOzGtlJoufZ1-RStUFVOjS_2iv6vqR8UOwZURO4npU2l9kcIyKzqM9VmVcSDH5kSE5uMgjdeAnJMJTQ1RI2bU-nJa--6xPzt8nr7mVYdoGkaPeeBB=w509-h678-no)
-
