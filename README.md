@@ -18,4 +18,7 @@ npm run build:css
 
 ```
 bundle exec jekyll serve --watch
+
+npm run build:js -- --watch
+npm run build:css:watch
 ```

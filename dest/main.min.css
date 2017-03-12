@@ -1,135 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-@import url("https://fonts.googleapis.com/css?family=Roboto");
-body > header {
-  background: #161616;
-  color: #fff;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-body > header a {
-  color: inherit;
-  border-bottom-color: #fff;
-}
-
-body > header #search-input {
-  background: #fff;
-  color: #161616;
-  padding: 0.3em 1em;
-}
-
-body {
-  background-color: #fff;
-}
-
-.list-post-section {
-  margin-top: 1rem;
-  position: relative;
-}
-
-.list-post-section time {
-  display: inline-block;
-  position: absolute;
-  top: -0.9em;
-  right: 0em;
-  margin-left: 2em;
-  opacity: 0.1;
-  font-size: 0.6em;
-}
-
-.list-post-section:hover time {
-  opacity: 0.35;
-}
-
-#search-input {
-  font-size: 0.95em;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid #000;
-  background-color: transparent;
-}
-
-#results-container {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: transparent;
-  list-style-type: none;
-  font-size: 0.8em;
-}
-
-#results-container li {
-  display: block;
-  animation-name: fly-in;
-  animation-duration: 0.1s;
-  transform: translateX(-10px);
-  animation-fill-mode: forwards;
-  opacity: 0;
-}
-
-.typewriter {
-  display: inline-block;
-  min-height: 1em;
-}
-
-time,
-address {
-  font-size: 0.8em;
-}
-
-@-moz-keyframes fly-in {
-  from {
-    background: transparent;
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0);
-    background: transparent;
-  }
-}
-
-@-webkit-keyframes fly-in {
-  from {
-    background: transparent;
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0);
-    background: transparent;
-  }
-}
-
-@-o-keyframes fly-in {
-  from {
-    background: transparent;
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0);
-    background: transparent;
-  }
-}
-
-@keyframes fly-in {
-  from {
-    background: transparent;
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0);
-    background: transparent;
-  }
-}
-.container {
-  padding-right: unit;
-  padding-left: unit;
-  max-width: 42rem;
-  margin: auto;
-}
-
 html,
 body {
   min-height: 100%;
@@ -139,8 +8,8 @@ body {
 }
 
 body > main {
-  padding-top: unit;
-  padding-bottom: unit;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 body > header,
@@ -157,8 +26,8 @@ body > main.free {
 .home-link {
   float: left;
   margin-right: 1em;
-  padding-left: 0.5em;
 }
+
 .container {
   padding-right: 1rem;
   padding-left: 1rem;
@@ -166,34 +35,9 @@ body > main.free {
   margin: auto;
 }
 
-html,
-body {
-  min-height: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-body > main {
+.content {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-body > header,
-body > footer {
-  background-color: #fbfbfb;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-body > main.free {
-  max-width: none;
-}
-
-.home-link {
-  float: left;
-  margin-right: 1em;
-  padding-left: 0.5em;
 }
 
 body > header {
@@ -204,8 +48,8 @@ body > header {
 }
 
 body > header a {
+  text-decoration: none;
   color: inherit;
-  border-bottom-color: #fff;
 }
 
 body > header #search-input {
@@ -395,103 +239,7 @@ a {
   color: #161616;
   outline: 0;
   border: 0;
-  border-bottom: 2px solid #000;
-}
-
-a:hover,
-a:focus,
-a:active {
-  background: #000;
-  color: #fff;
-  transform: scaleX(1.1) scaleY(1.1);
-}
-
-body > header a:hover,
-body > header a:focus,
-body > header a:active {
-  background: #fff !important;
-  color: #000 !important;
-}
-
-.list-post-section a {
-  border-bottom: none !important;
-}
-html {
-  font-size: 1em;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  line-height: 1.45;
-  color: color_dark;
-}
-
-p {
-  margin-bottom: 1.3em;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  margin: 1.414em 0 0.5em;
-  font-weight: inherit;
-  line-height: 1.2;
-}
-
-h1 {
-  margin-top: 0.7em;
-  font-size: 5.063em;
-}
-
-h2,
-font-size 3.375em,
-h3 {
-  font-size: 2.25em;
-}
-
-h4 {
-  font-size: 1.5em;
-}
-
-small,
-.font_smallfont-size 0.667em,
-b,
-strong {
-  font-weight: inherit;
-  font-weight: bolder;
-}
-
-input {
-  font-family: sans-serif;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-
-small {
-  font-size: 0.75em;
-}
-
-pre {
-  overflow: scroll;
-  padding: 1em;
-}
-
-code,
-pre {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-a {
-  display: inline-block;
-  font-weight: bold;
-  color: color_dark;
-  outline: 0;
-  border: 0;
-  border-bottom: 2px solid #000;
+  text-decoration: underline;
 }
 
 a:hover,

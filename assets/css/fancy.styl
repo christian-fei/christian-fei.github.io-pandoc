@@ -1,16 +1,15 @@
-unit = 1rem
 color_dark = #161616
 color_light = #fff
 
 body > header
   background color_dark
   color color_light
-  padding-top 2 * unit
-  padding-bottom 2 * unit
+  padding-top 2 * space
+  padding-bottom 2 * space
 
   a
+    text-decoration none
     color inherit
-    border-bottom-color white
   #search-input
     background color_light
     color color_dark
@@ -19,7 +18,7 @@ body
   background-color color_light
 
 .list-post-section
-  margin-top unit
+  margin-top space
   position relative
 
   time
@@ -43,8 +42,8 @@ body
 
 duration = 0.05s
 #results-container
-  padding-top unit
-  padding-bottom unit
+  padding-top space
+  padding-bottom space
   background-color transparent
   list-style-type none
   font-size 0.8em
