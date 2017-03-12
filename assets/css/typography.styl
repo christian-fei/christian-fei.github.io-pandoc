@@ -1,3 +1,4 @@
+@require 'variables'
 @import url('https://fonts.googleapis.com/css?family=Roboto')
 
 html
@@ -59,6 +60,8 @@ pre
   font-family monospace, monospace
   font-size 1em
 
+time, address
+  font-size 0.8em
 
 a
   display inline-block
@@ -71,12 +74,28 @@ a
 a:hover, a:focus, a:active
   background black
   color white
-  transform scaleX(1.1) scaleY(1.1)
 
 body > header
+  background color_dark
+  color color_light
+  a
+    color inherit
   a:hover, a:focus, a:active
     background white !important
     color black !important
 
-.list-post-section a
-  border-bottom none !important
+  .home-link
+    text-decoration none
+
+.post
+  font-size 0.8em
+
+
+#search-input
+  font-size 0.95em
+  border none
+  outline none
+
+#results-container
+  font-size 0.8em
+  list-style-type none

@@ -1,5 +1,7 @@
-color_dark = #161616
-color_light = #fff
+@require 'variables'
+
+body
+  background-color color_light
 
 body > header
   background color_dark
@@ -7,17 +9,12 @@ body > header
   padding-top 2 * space
   padding-bottom 2 * space
 
-  a
-    text-decoration none
-    color inherit
   #search-input
     background color_light
     color color_dark
     padding .3em 1em
-body
-  background-color color_light
 
-.list-post-section
+.post
   margin-top space
   position relative
 
@@ -33,40 +30,36 @@ body
     opacity 0.35
 
 #search-input
-  font-size 0.95em
-  border none
-  outline none
   border-bottom 1px solid black
   background-color transparent
 
-
-duration = 0.05s
 #results-container
   padding-top space
   padding-bottom space
   background-color transparent
-  list-style-type none
-  font-size 0.8em
-
   li
     display block
-    animation-name fly-in
-    animation-duration duration * 2
-    transform translateX(-10px)
-    animation-fill-mode forwards
+    margin-top space
     opacity 0
+    height 0
+    transform translateY(-1em)
+    transition-duration .1s
+    transition-timing-function linear
+    animation-name fly-in
+    animation-duration .05s
+    animation-timing-function linear
+    animation-fill-mode forwards
+    for num in 1..10
+      &:nth-child({num}n)
+        animation-delay .02s * num
 
 @keyframes fly-in
-  from
-    background transparent
   to
     opacity 1
-    transform translateX(0)
+    height 1em
     background transparent
+    transform translateY(0px)
 
 .typewriter
   display inline-block
   min-height 1em
-
-time, address
-  font-size 0.8em

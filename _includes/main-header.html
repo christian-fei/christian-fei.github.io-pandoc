@@ -1,7 +1,9 @@
 <header>
   <div class="container">
-    <input tabindex="-1" autofocus type="text" id="search-input" placeholder="Type / to search">
-    <a href="/" class="home-link">Home<span>&nbsp;&nbsp;&nbsp;</span></a>
+    <div class="flex-container">
+      <a href="/" class="home-link no-flex">Home<span>&nbsp;&nbsp;&nbsp;</span></a>
+      <input tabindex="-1" autofocus type="text" class="flex" id="search-input" placeholder="Type / to search">
+    </div>
     <div id="results-container"></div>
     {% unless page.title == 'about' %}
     <section class="pad-top">

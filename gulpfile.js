@@ -6,7 +6,7 @@ const livereload = require('gulp-livereload')
 const stylus = require('gulp-stylus')
 
 const srcFiles = [
-  './assets/css/main.styl'
+  './assets/css/*.styl'
 ]
 
 gulp.task('default', ['css:watch'])

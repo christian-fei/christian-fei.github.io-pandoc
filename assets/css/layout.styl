@@ -1,3 +1,4 @@
+@require 'variables'
 html, body
   min-height 100%
   height 100%
@@ -10,7 +11,6 @@ body > main
 
 body > header,
 body > footer
-  background-color #fbfbfb
   padding-top 2rem
   padding-bottom 2rem
 
@@ -20,8 +20,6 @@ body > main
 
 .home-link
   float left
-  margin-right 1em
-  // padding-left 0.5em
 
 .container
   padding-right space
@@ -32,3 +30,14 @@ body > main
 .content
   padding-top space
   padding-bottom space
+
+.home-link
+  font-size 26px
+  line-height 26px
+
+.flex-container
+  display flex
+  .no-flex
+    flex none
+  .flex
+    flex 1

@@ -5,15 +5,15 @@ layout: default
 <section class="content">
   You can read some of my post if you have time, lucky you:
   {% for post in site.posts %}
-  {% if post.category == 'posts' %}
-  <section class="db link mv3 list-post-section">
-    <a href="{{ post.url }}" title="{{ post.title}}">
-      {{ post.title }}
-    </a>
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="black">
-      {{ post.date | date_to_string }}
-    </time>
-  </section>
+    {% if post.category == 'posts' %}
+    <section class="db link mv3 post">
+      <a href="{{ post.url }}" title="{{ post.title}}">
+        {{ post.title }}
+      </a>
+      <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="black">
+        {{ post.date | date_to_string }}
+      </time>
+    </section>
   {% endif %}
   {% endfor %}
 </section>
