@@ -22,7 +22,7 @@ module.exports = function (env) {
       new CommonsChunkPlugin({
         filename: 'main.min.js',
         name: 'main',
-        mifify: true
+        minify: true
       }),
       new webpack.optimize.UglifyJsPlugin({
         minimize: true,

@@ -2,21 +2,23 @@
 @require 'type-scale'
 @import url('https://fonts.googleapis.com/css?family=Roboto')
 
-@media all and (min-width 40em)
+html
+  font-size 20px
+@media all and (max-width 40em)
   html
-    font-size 1.2em
+    font-size 0.95em
 
 body
   font-family 'Roboto', sans-serif
   font-weight 400
   line-height 1.45
-  color color_dark
+  color color_text
 
 
 a
   display inline-block
   font-weight bold
-  color color_dark
+  color color_text
   outline 0
   border 0
   text-decoration underline
@@ -30,6 +32,7 @@ a:hover, a:focus, a:active
 body > header
   background color_dark
   color color_light
+  font-size 0.95em
   a
     color inherit
   a:hover, a:focus, a:active
@@ -47,12 +50,11 @@ body > header
   font-size 0.95em
   border none
   outline none
+  color color_light
 
 #results-container
   font-size 0.8em
   list-style-type none
-
-
 
 
 b,

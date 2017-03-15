@@ -5,16 +5,10 @@ body {
 }
 
 body > header {
-  background: #161616;
+  background: #da522e;
   color: #fff;
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-body > header #search-input {
-  background: #fff;
-  color: #161616;
-  padding: 0.3em 1em;
 }
 
 .post {
@@ -37,14 +31,23 @@ body > header #search-input {
 }
 
 #search-input {
+  padding: 0.3em 1em;
   border-bottom: 1px solid #000;
   background-color: transparent;
+  transition: all 0.1s linear;
+  color: #fff;
+}
+
+#search-input:focus,
+#search-input:active,
+#search-input:hover {
+  color: #da522e;
+  background-color: #fff;
 }
 
 #results-container {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
   background-color: transparent;
+  margin-bottom: 1rem;
 }
 
 #results-container li {
@@ -103,6 +106,22 @@ body > header #search-input {
 .typewriter {
   display: inline-block;
   min-height: 1em;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+::-moz-placeholder {
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+:-moz-placeholder {
+  color: #fff;
 }
 
 @-moz-keyframes fly-in {
@@ -163,10 +182,6 @@ body > main.free {
   max-width: none;
 }
 
-.home-link {
-  float: left;
-}
-
 .container {
   padding-right: 1rem;
   padding-left: 1rem;
@@ -180,8 +195,7 @@ body > main.free {
 }
 
 .home-link {
-  font-size: 26px;
-  line-height: 26px;
+  float: left;
 }
 
 .flex-container {
@@ -218,10 +232,6 @@ body > main.free {
   max-width: none;
 }
 
-.home-link {
-  float: left;
-}
-
 .container {
   padding-right: 1rem;
   padding-left: 1rem;
@@ -235,8 +245,7 @@ body > main.free {
 }
 
 .home-link {
-  font-size: 26px;
-  line-height: 26px;
+  float: left;
 }
 
 .flex-container {
@@ -256,16 +265,10 @@ body {
 }
 
 body > header {
-  background: #161616;
+  background: #da522e;
   color: #fff;
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-body > header #search-input {
-  background: #fff;
-  color: #161616;
-  padding: 0.3em 1em;
 }
 
 .post {
@@ -288,14 +291,23 @@ body > header #search-input {
 }
 
 #search-input {
+  padding: 0.3em 1em;
   border-bottom: 1px solid #000;
   background-color: transparent;
+  transition: all 0.1s linear;
+  color: #fff;
+}
+
+#search-input:focus,
+#search-input:active,
+#search-input:hover {
+  color: #da522e;
+  background-color: #fff;
 }
 
 #results-container {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
   background-color: transparent;
+  margin-bottom: 1rem;
 }
 
 #results-container li {
@@ -354,6 +366,22 @@ body > header #search-input {
 .typewriter {
   display: inline-block;
   min-height: 1em;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+::-moz-placeholder {
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+:-moz-placeholder {
+  color: #fff;
 }
 
 @-moz-keyframes fly-in {
@@ -397,11 +425,9 @@ html {
 }
 
 body {
-  background-color: #fff;
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #333;
 }
 
 p {
@@ -439,9 +465,13 @@ small,
   font-size: 0.707em;
 }
 
-@media all and (min-width: 40em) {
+html {
+  font-size: 20px;
+}
+
+@media all and (max-width: 40em) {
   html {
-    font-size: 1.2em;
+    font-size: 0.95em;
   }
 }
 
@@ -449,13 +479,13 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #161616;
+  color: #333;
 }
 
 a {
   display: inline-block;
   font-weight: bold;
-  color: #161616;
+  color: #333;
   outline: 0;
   border: 0;
   text-decoration: underline;
@@ -469,8 +499,9 @@ a:active {
 }
 
 body > header {
-  background: #161616;
+  background: #da522e;
   color: #fff;
+  font-size: 0.95em;
 }
 
 body > header a {
@@ -496,6 +527,7 @@ body > header .home-link {
   font-size: 0.95em;
   border: none;
   outline: none;
+  color: #fff;
 }
 
 #results-container {
@@ -536,11 +568,9 @@ html {
 }
 
 body {
-  background-color: #fff;
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #333;
 }
 
 p {
@@ -582,11 +612,9 @@ html {
 }
 
 body {
-  background-color: #fff;
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #333;
 }
 
 p {
@@ -624,9 +652,13 @@ small,
   font-size: 0.707em;
 }
 
-@media all and (min-width: 40em) {
+html {
+  font-size: 20px;
+}
+
+@media all and (max-width: 40em) {
   html {
-    font-size: 1.2em;
+    font-size: 0.95em;
   }
 }
 
@@ -634,13 +666,13 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #161616;
+  color: #333;
 }
 
 a {
   display: inline-block;
   font-weight: bold;
-  color: #161616;
+  color: #333;
   outline: 0;
   border: 0;
   text-decoration: underline;
@@ -654,8 +686,9 @@ a:active {
 }
 
 body > header {
-  background: #161616;
+  background: #da522e;
   color: #fff;
+  font-size: 0.95em;
 }
 
 body > header a {
@@ -681,6 +714,7 @@ body > header .home-link {
   font-size: 0.95em;
   border: none;
   outline: none;
+  color: #fff;
 }
 
 #results-container {

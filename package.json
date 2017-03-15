@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm dest/*; npm run build:js; npm run build:css",
-    "build:js": "NODE_ENV=production webpack --progress --colors",
+    "build:js": "NODE_ENV=production webpack --progress --colors --display-modules",
     "build:js:watch": "npm run build:js -- --watch",
     "build:css": "gulp css",
     "build:css:watch": "gulp css:watch",
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/christian-fei/christian-fei.github.io#readme",
   "devDependencies": {
     "autoprefixer": "^6.7.2",
+    "css-loader": "^0.27.3",
     "gulp": "^3.9.1",
     "gulp-concat-css": "^2.3.0",
     "gulp-inject": "^4.2.0",
@@ -39,7 +40,9 @@
     "postcss-clean": "^1.0.2",
     "postcss-loader": "^1.3.2",
     "precss": "^1.4.0",
+    "style-loader": "^0.14.0",
     "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
     "webpack": "^2.2.1"
   },
   "dependencies": {

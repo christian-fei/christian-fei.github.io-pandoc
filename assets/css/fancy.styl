@@ -9,11 +9,6 @@ body > header
   padding-top 2 * space
   padding-bottom 2 * space
 
-  #search-input
-    background color_light
-    color color_dark
-    padding .3em 1em
-
 .post
   margin-top space
   position relative
@@ -30,13 +25,19 @@ body > header
     opacity 0.35
 
 #search-input
+  padding .3em 1em
   border-bottom 1px solid black
   background-color transparent
+  transition all .1s linear
+  color color_light
+
+  &:focus, &:active, &:hover
+    color color_dark
+    background-color white
 
 #results-container
-  padding-top space
-  padding-bottom 2 * space
   background-color transparent
+  margin-bottom space
   li
     display block
     margin-top space
@@ -62,3 +63,12 @@ body > header
 .typewriter
   display inline-block
   min-height 1em
+
+::-webkit-input-placeholder /* Chrome/Opera/Safari */
+  color color_light
+::-moz-placeholder /* Firefox 19+ */
+  color color_light
+:-ms-input-placeholder /* IE 10+ */
+  color color_light
+:-moz-placeholder /* Firefox 18- */
+  color color_light

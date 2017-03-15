@@ -1,4 +1,4 @@
-require('simple-jekyll-search')
+require('simple-jekyll-search/dest/jekyll-search.min.js')
 
 var searchInput = document.getElementById('search-input')
 
