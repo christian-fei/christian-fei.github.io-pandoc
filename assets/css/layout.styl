@@ -1,18 +1,19 @@
 @require 'variables'
+
 html, body
   min-height 100%
   height 100%
   padding 0
   margin 0
 
-body > main
+body > main > *
   padding-top space
   padding-bottom space
 
 body > header,
 body > footer
-  padding-top 2rem
-  padding-bottom 2rem
+  padding-top 2 * space
+  padding-bottom 2 * space
 
 body > main
   &.free
@@ -24,9 +25,9 @@ body > main
   max-width 42rem
   margin auto
 
-.content
-  padding-top space
-  padding-bottom space
+// .content
+//   padding-top space
+//   padding-bottom space
 
 .home-link
   float left
