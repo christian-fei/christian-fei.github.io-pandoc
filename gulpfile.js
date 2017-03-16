@@ -4,6 +4,7 @@ const concatCss = require('gulp-concat-css')
 const autoprefixer = require('autoprefixer')
 const livereload = require('gulp-livereload')
 const stylus = require('gulp-stylus')
+const cssmin = require('gulp-cssmin')
 
 const srcFiles = [
   './assets/css/*.styl'
@@ -27,11 +28,11 @@ gulp.task('stylus:watch', function () {
 
 gulp.task('css', function () {
   const processors = [
-    require('postcss-clean'),
     autoprefixer({browsers: ['last 2 version']})
   ]
   return gulp.src(srcFiles)
   .pipe(stylus())
+  .pipe(cssmin())
   .pipe(postcss(processors))
   .pipe(concatCss('main.min.css'))
   .pipe(gulp.dest('./dest'))
