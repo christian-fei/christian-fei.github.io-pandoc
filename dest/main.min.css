@@ -3,7 +3,7 @@ body {
 }
 
 body>header {
-  background-color: #254c7e;
+  background-color: #1e2729;
   color: #afbdce;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -239,7 +239,7 @@ body {
 }
 
 body>header {
-  background-color: #254c7e;
+  background-color: #1e2729;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -384,7 +384,7 @@ h4 {
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: .707em;
   font-size: 3.998em;
 }
 
@@ -409,17 +409,17 @@ html {
   font-size: 20px;
 }
 
+@media all and (max-width:40em) {
+  html {
+    font-size: 16px;
+  }
+}
+
 .post,
 .results-container,
 .search-input,
 body>header {
   font-size: .95em;
-}
-
-@media all and (max-width:40em) {
-  html {
-    font-size: .95em;
-  }
 }
 
 body {
@@ -437,19 +437,19 @@ a {
 a:active,
 a:focus,
 a:hover {
-  background: #254c7e;
+  background: #1e2729;
   color: #afbdce;
 }
 
 body a:active,
 body a:focus,
 body a:hover {
-  background-color: #254c7e!important;
+  background-color: #1e2729!important;
   color: #fff!important;
 }
 
 body>header {
-  background: #254c7e;
+  background: #1e2729;
   color: #afbdce;
 }
 
@@ -461,7 +461,7 @@ body>header a:active,
 body>header a:focus,
 body>header a:hover {
   background: #afbdce!important;
-  color: #254c7e!important;
+  color: #1e2729!important;
 }
 
 .home-link {
@@ -508,8 +508,6 @@ html {
 }
 
 body {
-  font-family: 'Libre Baskerville',serif;
-  font-weight: 400;
   line-height: 1.45;
 }
 
@@ -527,7 +525,7 @@ h4 {
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: .707em;
   font-size: 3.998em;
 }
 
@@ -571,7 +569,7 @@ h4 {
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: .707em;
   font-size: 3.998em;
 }
 
@@ -596,17 +594,17 @@ html {
   font-size: 20px;
 }
 
+@media all and (max-width:40em) {
+  html {
+    font-size: 16px;
+  }
+}
+
 .post,
 .results-container,
 .search-input,
 body>header {
   font-size: .95em;
-}
-
-@media all and (max-width:40em) {
-  html {
-    font-size: .95em;
-  }
 }
 
 body {
@@ -625,19 +623,19 @@ a {
 a:active,
 a:focus,
 a:hover {
-  background: #254c7e;
+  background: #1e2729;
   color: #afbdce;
 }
 
 body a:active,
 body a:focus,
 body a:hover {
-  background-color: #254c7e!important;
+  background-color: #1e2729!important;
   color: #fff!important;
 }
 
 body>header {
-  background: #254c7e;
+  background: #1e2729;
   color: #afbdce;
 }
 
@@ -649,7 +647,7 @@ body>header a:active,
 body>header a:focus,
 body>header a:hover {
   background: #afbdce!important;
-  color: #254c7e!important;
+  color: #1e2729!important;
 }
 
 .home-link {
