@@ -1,5 +1,5 @@
 var nextText = require('next-text')
-var searchInput = document.getElementById('search-input')
+var searchInput = document.querySelector('.search-input')
 var constants = require('../constants')
 var INITIAL_DELAY = constants.INITIAL_DELAY
 var TYPING_INTERVAL = constants.TYPING_INTERVAL

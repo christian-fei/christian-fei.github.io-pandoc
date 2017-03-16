@@ -18,41 +18,47 @@ body
 a
   display inline-block
   font-weight bold
-  color color_text
   outline 0
   border 0
   text-decoration underline
+  color color_text
 
 a:hover, a:focus, a:active
-  background black
-  color white
+  background color_theme
+  color color_light
 
 
+
+body
+  a:hover, a:focus, a:active
+    background-color color_theme !important
+    color #fff !important
 
 body > header
-  background color_dark
+  background color_theme
   color color_light
   font-size 0.95em
   a
     color inherit
+    text-decoration underline
   a:hover, a:focus, a:active
-    background white !important
-    color black !important
+    background color_light !important
+    color color_theme !important
 
-  .home-link
-    text-decoration none
+.home-link
+  text-decoration none
 
 .post
   font-size 0.8em
 
 
-#search-input
+.search-input
   font-size 0.95em
   border none
   outline none
   color color_light
 
-#results-container
+.results-container
   font-size 0.8em
   list-style-type none
 

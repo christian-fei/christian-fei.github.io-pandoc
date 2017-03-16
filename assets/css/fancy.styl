@@ -1,13 +1,51 @@
 @require 'variables'
 
 body
-  background-color color_light
+  background-color #fff
 
 body > header
-  background color_dark
+  background-color color_theme
   color color_light
   padding-top 2 * space
   padding-bottom 2 * space
+
+.search-input
+  padding .3em 1em
+  border-bottom 1px solid black
+  background-color transparent
+  transition all .2s ease-in-out
+  color color_light
+
+  &:focus, &:active, &:hover
+    color color_light
+    background-color rgba(white, 0.1)
+
+.results-container
+  background-color transparent
+  margin-bottom space
+  li
+    display block
+    margin-top space
+    opacity 0
+    height 0
+    transition all 0.2s linear
+    transform translateY(-1em)
+    animation-name fly-in
+    animation-duration 0.2s
+    animation-timing-function linear
+    animation-fill-mode forwards
+    for num in 1..10
+      &:nth-child({num}n)
+        animation-delay 0.06s * num
+
+@keyframes fly-in
+  to
+    opacity 1
+    height 1em
+    background transparent
+    transform translateY(0px)
+
+
 
 .post
   margin-top space
@@ -24,45 +62,25 @@ body > header
   &:hover time
     opacity 0.35
 
-#search-input
-  padding .3em 1em
-  border-bottom 1px solid black
-  background-color transparent
-  transition all .1s linear
-  color color_light
 
-  &:focus, &:active, &:hover
-    color color_dark
-    background-color white
 
-#results-container
-  background-color transparent
-  margin-bottom space
-  li
-    display block
-    margin-top space
-    opacity 0
-    height 0
-    transition all .05s linear
-    transform translateY(-1em)
-    animation-name fly-in
-    animation-duration .05s
-    animation-timing-function linear
-    animation-fill-mode forwards
-    for num in 1..10
-      &:nth-child({num}n)
-        animation-delay .05s * num
 
-@keyframes fly-in
-  to
-    opacity 1
-    height 1em
-    background transparent
-    transform translateY(0px)
 
-.typewriter
-  display inline-block
-  min-height 1em
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ::-webkit-input-placeholder /* Chrome/Opera/Safari */
   color color_light

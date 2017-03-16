@@ -5,10 +5,83 @@ body {
 }
 
 body > header {
-  background: #da522e;
+  background-color: #6988b1;
   color: #fff;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.search-input {
+  padding: 0.3em 1em;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+}
+
+.search-input:focus,
+.search-input:active,
+.search-input:hover {
+  color: #fff;
+  background-color: rgba(255,255,255,0.1);
+}
+
+.results-container {
+  background-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.results-container li {
+  display: block;
+  margin-top: 1rem;
+  opacity: 0;
+  height: 0;
+  transition: all 0.2s linear;
+  transform: translateY(-1em);
+  animation-name: fly-in;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.results-container li:nth-child(1n) {
+  animation-delay: 0.06s;
+}
+
+.results-container li:nth-child(2n) {
+  animation-delay: 0.12s;
+}
+
+.results-container li:nth-child(3n) {
+  animation-delay: 0.18s;
+}
+
+.results-container li:nth-child(4n) {
+  animation-delay: 0.24s;
+}
+
+.results-container li:nth-child(5n) {
+  animation-delay: 0.3s;
+}
+
+.results-container li:nth-child(6n) {
+  animation-delay: 0.36s;
+}
+
+.results-container li:nth-child(7n) {
+  animation-delay: 0.42s;
+}
+
+.results-container li:nth-child(8n) {
+  animation-delay: 0.48s;
+}
+
+.results-container li:nth-child(9n) {
+  animation-delay: 0.54s;
+}
+
+.results-container li:nth-child(10n) {
+  animation-delay: 0.6s;
 }
 
 .post {
@@ -28,84 +101,6 @@ body > header {
 
 .post:hover time {
   opacity: 0.35;
-}
-
-#search-input {
-  padding: 0.3em 1em;
-  border-bottom: 1px solid #000;
-  background-color: transparent;
-  transition: all 0.1s linear;
-  color: #fff;
-}
-
-#search-input:focus,
-#search-input:active,
-#search-input:hover {
-  color: #da522e;
-  background-color: #fff;
-}
-
-#results-container {
-  background-color: transparent;
-  margin-bottom: 1rem;
-}
-
-#results-container li {
-  display: block;
-  margin-top: 1rem;
-  opacity: 0;
-  height: 0;
-  transition: all 0.05s linear;
-  transform: translateY(-1em);
-  animation-name: fly-in;
-  animation-duration: 0.05s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-}
-
-#results-container li:nth-child(1n) {
-  animation-delay: 0.05s;
-}
-
-#results-container li:nth-child(2n) {
-  animation-delay: 0.1s;
-}
-
-#results-container li:nth-child(3n) {
-  animation-delay: 0.15s;
-}
-
-#results-container li:nth-child(4n) {
-  animation-delay: 0.2s;
-}
-
-#results-container li:nth-child(5n) {
-  animation-delay: 0.25s;
-}
-
-#results-container li:nth-child(6n) {
-  animation-delay: 0.3s;
-}
-
-#results-container li:nth-child(7n) {
-  animation-delay: 0.35s;
-}
-
-#results-container li:nth-child(8n) {
-  animation-delay: 0.4s;
-}
-
-#results-container li:nth-child(9n) {
-  animation-delay: 0.45s;
-}
-
-#results-container li:nth-child(10n) {
-  animation-delay: 0.5s;
-}
-
-.typewriter {
-  display: inline-block;
-  min-height: 1em;
 }
 
 ::-webkit-input-placeholder {
@@ -265,10 +260,83 @@ body {
 }
 
 body > header {
-  background: #da522e;
+  background-color: #6988b1;
   color: #fff;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.search-input {
+  padding: 0.3em 1em;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+}
+
+.search-input:focus,
+.search-input:active,
+.search-input:hover {
+  color: #fff;
+  background-color: rgba(255,255,255,0.1);
+}
+
+.results-container {
+  background-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.results-container li {
+  display: block;
+  margin-top: 1rem;
+  opacity: 0;
+  height: 0;
+  transition: all 0.2s linear;
+  transform: translateY(-1em);
+  animation-name: fly-in;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.results-container li:nth-child(1n) {
+  animation-delay: 0.06s;
+}
+
+.results-container li:nth-child(2n) {
+  animation-delay: 0.12s;
+}
+
+.results-container li:nth-child(3n) {
+  animation-delay: 0.18s;
+}
+
+.results-container li:nth-child(4n) {
+  animation-delay: 0.24s;
+}
+
+.results-container li:nth-child(5n) {
+  animation-delay: 0.3s;
+}
+
+.results-container li:nth-child(6n) {
+  animation-delay: 0.36s;
+}
+
+.results-container li:nth-child(7n) {
+  animation-delay: 0.42s;
+}
+
+.results-container li:nth-child(8n) {
+  animation-delay: 0.48s;
+}
+
+.results-container li:nth-child(9n) {
+  animation-delay: 0.54s;
+}
+
+.results-container li:nth-child(10n) {
+  animation-delay: 0.6s;
 }
 
 .post {
@@ -288,84 +356,6 @@ body > header {
 
 .post:hover time {
   opacity: 0.35;
-}
-
-#search-input {
-  padding: 0.3em 1em;
-  border-bottom: 1px solid #000;
-  background-color: transparent;
-  transition: all 0.1s linear;
-  color: #fff;
-}
-
-#search-input:focus,
-#search-input:active,
-#search-input:hover {
-  color: #da522e;
-  background-color: #fff;
-}
-
-#results-container {
-  background-color: transparent;
-  margin-bottom: 1rem;
-}
-
-#results-container li {
-  display: block;
-  margin-top: 1rem;
-  opacity: 0;
-  height: 0;
-  transition: all 0.05s linear;
-  transform: translateY(-1em);
-  animation-name: fly-in;
-  animation-duration: 0.05s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-}
-
-#results-container li:nth-child(1n) {
-  animation-delay: 0.05s;
-}
-
-#results-container li:nth-child(2n) {
-  animation-delay: 0.1s;
-}
-
-#results-container li:nth-child(3n) {
-  animation-delay: 0.15s;
-}
-
-#results-container li:nth-child(4n) {
-  animation-delay: 0.2s;
-}
-
-#results-container li:nth-child(5n) {
-  animation-delay: 0.25s;
-}
-
-#results-container li:nth-child(6n) {
-  animation-delay: 0.3s;
-}
-
-#results-container li:nth-child(7n) {
-  animation-delay: 0.35s;
-}
-
-#results-container li:nth-child(8n) {
-  animation-delay: 0.4s;
-}
-
-#results-container li:nth-child(9n) {
-  animation-delay: 0.45s;
-}
-
-#results-container li:nth-child(10n) {
-  animation-delay: 0.5s;
-}
-
-.typewriter {
-  display: inline-block;
-  min-height: 1em;
 }
 
 ::-webkit-input-placeholder {
@@ -485,37 +475,45 @@ body {
 a {
   display: inline-block;
   font-weight: bold;
-  color: #333;
   outline: 0;
   border: 0;
   text-decoration: underline;
+  color: #333;
 }
 
 a:hover,
 a:focus,
 a:active {
-  background: #000;
+  background: #6988b1;
   color: #fff;
 }
 
+body a:hover,
+body a:focus,
+body a:active {
+  background-color: #6988b1 !important;
+  color: #fff !important;
+}
+
 body > header {
-  background: #da522e;
+  background: #6988b1;
   color: #fff;
   font-size: 0.95em;
 }
 
 body > header a {
   color: inherit;
+  text-decoration: underline;
 }
 
 body > header a:hover,
 body > header a:focus,
 body > header a:active {
   background: #fff !important;
-  color: #000 !important;
+  color: #6988b1 !important;
 }
 
-body > header .home-link {
+.home-link {
   text-decoration: none;
 }
 
@@ -523,14 +521,14 @@ body > header .home-link {
   font-size: 0.8em;
 }
 
-#search-input {
+.search-input {
   font-size: 0.95em;
   border: none;
   outline: none;
   color: #fff;
 }
 
-#results-container {
+.results-container {
   font-size: 0.8em;
   list-style-type: none;
 }
@@ -672,37 +670,45 @@ body {
 a {
   display: inline-block;
   font-weight: bold;
-  color: #333;
   outline: 0;
   border: 0;
   text-decoration: underline;
+  color: #333;
 }
 
 a:hover,
 a:focus,
 a:active {
-  background: #000;
+  background: #6988b1;
   color: #fff;
 }
 
+body a:hover,
+body a:focus,
+body a:active {
+  background-color: #6988b1 !important;
+  color: #fff !important;
+}
+
 body > header {
-  background: #da522e;
+  background: #6988b1;
   color: #fff;
   font-size: 0.95em;
 }
 
 body > header a {
   color: inherit;
+  text-decoration: underline;
 }
 
 body > header a:hover,
 body > header a:focus,
 body > header a:active {
   background: #fff !important;
-  color: #000 !important;
+  color: #6988b1 !important;
 }
 
-body > header .home-link {
+.home-link {
   text-decoration: none;
 }
 
@@ -710,14 +716,14 @@ body > header .home-link {
   font-size: 0.8em;
 }
 
-#search-input {
+.search-input {
   font-size: 0.95em;
   border: none;
   outline: none;
   color: #fff;
 }
 
-#results-container {
+.results-container {
   font-size: 0.8em;
   list-style-type: none;
 }

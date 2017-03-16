@@ -1,7 +1,7 @@
 var nextText = require('next-text')
 var constants = require('../constants')
 var TYPING_INTERVAL = constants.TYPING_INTERVAL
-var searchInput = document.getElementById('search-input')
+var searchInput = document.querySelector('.search-input')
 var searchBlurTypingInterval = 0
 var searchFocusText = 'Type a keyword here...'
 
