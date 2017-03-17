@@ -2,22 +2,18 @@
 
 body
   background-color #fff
-
-body > header
-  background-color color_theme
-  color color_light
+  color color_text
 
 .search-input
   padding .3em 1em
   border-bottom 1px solid black
   background-color transparent
   transition all .2s ease-in-out
-  color color_light
-  background-color rgba(white, 0.05)
+  color color_text
 
   &:focus, &:active, &:hover
-    color color_light
-    background-color rgba(white, 0.15)
+    color color_text
+    background-color rgba(black, 0.02)
 
 .results-container
   background-color transparent
@@ -56,36 +52,6 @@ body > header
     top -0.9em
     right 0em
     margin-left 2em
-    opacity 0.1
-    font-size 0.6em
+    opacity 0.3
   &:hover time
-    opacity 0.35
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-::-webkit-input-placeholder /* Chrome/Opera/Safari */
-  color color_light
-::-moz-placeholder /* Firefox 19+ */
-  color color_light
-:-ms-input-placeholder /* IE 10+ */
-  color color_light
-:-moz-placeholder /* Firefox 18- */
-  color color_light
+    opacity 0.5

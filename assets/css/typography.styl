@@ -30,20 +30,15 @@ a:hover, a:focus, a:active
 
 body
   a:hover, a:focus, a:active
-    background-color color_theme !important
-    color #fff !important
+    background-color color_light !important
+    color lighten(color_text, 0.8) !important
 
 body > header
-  background color_theme
-  color color_light
   font-size 0.95em
   a
     color inherit
     text-decoration underline
-  a:hover, a:focus, a:active
-    background color_light !important
-    color color_theme !important
-
+    
 .home-link
   text-decoration none
 
@@ -52,7 +47,6 @@ body > header
   border none
   outline none
   color color_light
-
 
 .post,
 .results-container
