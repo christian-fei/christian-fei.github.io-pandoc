@@ -55,38 +55,18 @@ body
   vertical-align sub
   fill lighten(color_text, 20)
 
-.title-popover
-  position relative
-  display inline-block
-.title-popover:hover:before,
-.title-popover:active:before,
-.title-popover:focus:before
-  content attr(title)
-  transition all .3s ease-in-out
-  position absolute
-  top 100%
-  right 0
-  display inline-block
-  padding 0.5em 1em
-  min-width 270px
-  background color_text !important
-  color color_light !important
-  font-size 0.8em
-  text-align center
-  letter-spacing -1px
-  border-radius 2px
-
 .avatar
-  position absolute
-  top 3em
-  left -1 * space * 2
   border-radius 50%
   width 3em
   height 3em
-  vertical-align top
+
+.avatar-container
+  position absolute
+  top 3em
+  left -1 * space * 2
 
 @media all and (max-width: container_width * 1.5)
-  .avatar
+  .avatar-container
     display none
     visibility hidden
 

@@ -6,7 +6,7 @@ layout: default
   <p class="no-mt">You can read some of my articles:</p>
   {% for post in site.posts | limit:8 %}
     {% if post.category == 'posts' %}
-    <section class="db link mv3 post">
+    <section class="db link mv3 article-link">
       <a href="{{ post.url }}" title="{{ post.title}}">
         {{ post.title }}
       </a>

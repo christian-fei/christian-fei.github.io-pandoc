@@ -88,42 +88,20 @@ body {
   fill: #666;
 }
 
-.title-popover {
-  position: relative;
-  display: inline-block;
-}
-
-.title-popover:hover:before,
-.title-popover:active:before,
-.title-popover:focus:before {
-  content: attr(title);
-  transition: all 0.3s ease-in-out;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  display: inline-block;
-  padding: 0.5em 1em;
-  min-width: 270px;
-  background: #333 !important;
-  color: #dadada !important;
-  font-size: 0.8em;
-  text-align: center;
-  letter-spacing: -1px;
-  border-radius: 2px;
-}
-
 .avatar {
-  position: absolute;
-  top: 3em;
-  left: -3rem;
   border-radius: 50%;
   width: 3em;
   height: 3em;
-  vertical-align: top;
+}
+
+.avatar-container {
+  position: absolute;
+  top: 3em;
+  left: -3rem;
 }
 
 @media all and (max-width: 69rem) {
-  .avatar {
+  .avatar-container {
     display: none;
     visibility: hidden;
   }
@@ -369,42 +347,20 @@ body {
   fill: #666;
 }
 
-.title-popover {
-  position: relative;
-  display: inline-block;
-}
-
-.title-popover:hover:before,
-.title-popover:active:before,
-.title-popover:focus:before {
-  content: attr(title);
-  transition: all 0.3s ease-in-out;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  display: inline-block;
-  padding: 0.5em 1em;
-  min-width: 270px;
-  background: #333 !important;
-  color: #dadada !important;
-  font-size: 0.8em;
-  text-align: center;
-  letter-spacing: -1px;
-  border-radius: 2px;
-}
-
 .avatar {
-  position: absolute;
-  top: 3em;
-  left: -3rem;
   border-radius: 50%;
   width: 3em;
   height: 3em;
-  vertical-align: top;
+}
+
+.avatar-container {
+  position: absolute;
+  top: 3em;
+  left: -3rem;
 }
 
 @media all and (max-width: 69rem) {
-  .avatar {
+  .avatar-container {
     display: none;
     visibility: hidden;
   }
