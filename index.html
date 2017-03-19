@@ -4,7 +4,7 @@ layout: default
 
 <section class="content">
   <p class="no-mt">You can read some of my articles:</p>
-  {% for post in site.posts | limit:10 %}
+  {% for post in site.posts | limit:8 %}
     {% if post.category == 'posts' %}
     <section class="db link mv3 post">
       <a href="{{ post.url }}" title="{{ post.title}}">

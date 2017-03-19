@@ -1,8 +1,14 @@
-require('simple-jekyll-search/dest/jekyll-search.min.js')
+var allPosts = document.querySelectorAll('.article-link')
+var searchInput = document.querySelector('.search-input')
 
-window.SimpleJekyllSearch({
-  searchInput: document.querySelector('.search-input'),
-  resultsContainer: document.querySelector('.results-container'),
-  json: '/search.json',
-  searchResultTemplate: '<li><a class="pa" href="{url}">{title}</a></li>'
+searchInput.addEventListener('keyup', function () {
+  var query = (this.value || '').toLocaleLowerCase()
+  allPosts.forEach(function (post) {
+    var title = post.getAttribute('data-title').toLowerCase()
+    if (title.indexOf(query) >= 0) {
+      post.classList.remove('hidden')
+    } else {
+      post.classList.add('hidden')
+    }
+  })
 })

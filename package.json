@@ -43,7 +43,6 @@
   "dependencies": {
     "next-text": "^1.0.0",
     "normalize.css": "^5.0.0",
-    "simple-jekyll-search": "^1.1.8",
     "simple-typewriter": "0.0.1"
   }
 }

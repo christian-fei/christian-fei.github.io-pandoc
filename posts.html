@@ -4,9 +4,14 @@ layout: default
 
 <section class="content">
   <h3 class="no-mt">Blog posts</h3>
+  <section>
+    <input type="text" class="search-input" placeholder="Type / to search">
+    <div class="results-container"></div>
+  </section>
+
   {% for post in site.posts %}
     {% if post.category == 'posts' %}
-    <section class="db link mv3 post">
+    <section class="db link mv3 article-link" data-title="{{post.title}}">
       <a href="{{ post.url }}" title="{{ post.title}}">
         {{ post.title }}
       </a>
