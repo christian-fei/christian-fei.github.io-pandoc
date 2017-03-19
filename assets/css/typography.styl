@@ -23,20 +23,20 @@ a
   color color_text
 
   &:hover, &:focus, &:active
-    background-color color_light
-    color color_text
+    background-color color_text
+    color color_theme
+    // text-decoration none
     border-radius 2px
 
 
 .search-input
+  display block
   font-size 0.95em
   border none
   outline none
   border-radius 5px
   color color_light
-  padding .3em 1em
-  margin-left 0.3em
-  margin-right 0.3em
+  padding 0.5em 0
   transition all .2s ease-in-out
 
   &:focus, &:active, &:hover

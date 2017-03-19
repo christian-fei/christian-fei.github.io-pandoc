@@ -1,8 +1,7 @@
 <header>
   <div class="container">
-    <div class="flex-container">
-      <a href="/" class="home-link no-flex">Home</a>
-      <input type="text" class="flex search-input" placeholder="Type / to search">
+    <div>
+      <a href="/" class="home-link">Home</a>
       <aside class="social-links-container">
         <a href="https://twitter.com/christian_fei" class="title-popover twitter" target="_blank" title="Follow me on Twitter" tabindex="-1">
           {% include icons/twitter.html %}
@@ -10,22 +9,27 @@
         <a href="https://github.com/christian-fei" class="title-popover github" target="_blank" title="My projects on Github" tabindex="-1">
           {% include icons/github.html %}
         </a>
+        <a href="/rss.xml" class="title-popover rss" target="_blank" title="Subscribe to RSS feed" tabindex="-1">
+          {% include icons/rss.html %}
+        </a>
       </aside>
     </div>
-    <div class="results-container"></div>
+
     <section>
       <p>
-        Hi! My name is Christian, an italian Agile Developer, living in Trento (IT).
+        Hi! My name is Christian, an Agile Developer, living in Trento (IT).
         <br>
         I am currently working at <a href="http://www.xpeppers.com" target="_blank">XPeppers</a>.
+        {% unless page.permalink ~= %r{^\/about} %}
+        <br>
+        Read more <a href="/about">about me</a>.
+        {% endunless %}
       </p>
     </section>
-    {% unless page.permalink ~= %r{^\/about} %}
     <section>
-      <a href="/about">
-        More about me
-      </a>
+      <input type="text" style="width: 100%" class="search-input" placeholder="Type / to search">
+      <div class="results-container"></div>
     </section>
-    {% endunless %}
+    <img src="/assets/images/cf.png" class="avatar" alt="">
   </div>
 </header>

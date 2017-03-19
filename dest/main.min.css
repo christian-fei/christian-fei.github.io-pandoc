@@ -112,6 +112,23 @@ body {
   border-radius: 2px;
 }
 
+.avatar {
+  position: absolute;
+  top: 3em;
+  left: -3rem;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  vertical-align: top;
+}
+
+@media all and (max-width: 69rem) {
+  .avatar {
+    display: none;
+    visibility: hidden;
+  }
+}
+
 @-moz-keyframes fly-in {
   from {
     height: 0;
@@ -185,8 +202,9 @@ body > main.free {
 .container {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  max-width: 50rem;
+  max-width: 46rem;
   margin: auto;
+  position: relative;
 }
 
 .flex-container {
@@ -199,6 +217,10 @@ body > main.free {
 
 .flex-container .flex {
   flex: 1;
+}
+
+.social-links-container {
+  float: right;
 }
 html,
 body {
@@ -222,8 +244,9 @@ body > main.free {
 .container {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  max-width: 50rem;
+  max-width: 46rem;
   margin: auto;
+  position: relative;
 }
 
 .flex-container {
@@ -236,6 +259,10 @@ body > main.free {
 
 .flex-container .flex {
   flex: 1;
+}
+
+.social-links-container {
+  float: right;
 }
 
 body {
@@ -350,6 +377,23 @@ body {
   text-align: center;
   letter-spacing: -1px;
   border-radius: 2px;
+}
+
+.avatar {
+  position: absolute;
+  top: 3em;
+  left: -3rem;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  vertical-align: top;
+}
+
+@media all and (max-width: 69rem) {
+  .avatar {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 @-moz-keyframes fly-in {
@@ -476,20 +520,19 @@ a {
 a:hover,
 a:focus,
 a:active {
-  background-color: #dadada;
-  color: #333;
+  background-color: #333;
+  color: #fff;
   border-radius: 2px;
 }
 
 .search-input {
+  display: block;
   font-size: 0.95em;
   border: none;
   outline: none;
   border-radius: 5px;
   color: #dadada;
-  padding: 0.3em 1em;
-  margin-left: 0.3em;
-  margin-right: 0.3em;
+  padding: 0.5em 0;
   transition: all 0.2s ease-in-out;
 }
 
@@ -666,20 +709,19 @@ a {
 a:hover,
 a:focus,
 a:active {
-  background-color: #dadada;
-  color: #333;
+  background-color: #333;
+  color: #fff;
   border-radius: 2px;
 }
 
 .search-input {
+  display: block;
   font-size: 0.95em;
   border: none;
   outline: none;
   border-radius: 5px;
   color: #dadada;
-  padding: 0.3em 1em;
-  margin-left: 0.3em;
-  margin-right: 0.3em;
+  padding: 0.5em 0;
   transition: all 0.2s ease-in-out;
 }
 
