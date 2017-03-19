@@ -11,12 +11,7 @@ module.exports = function (env) {
       chunkFilename: '[id].chunk.js'
     },
     module: {
-      loaders: [
-        {
-          test: /\.(jpe?g|png|gif|svg|ico)$/i,
-          loader: 'image?bypassOnDebug&optimizationLevel=9&interlaced=false'
-        }
-      ]
+      loaders: []
     },
     plugins: [
       new CommonsChunkPlugin({

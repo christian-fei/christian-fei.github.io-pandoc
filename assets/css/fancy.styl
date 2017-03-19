@@ -4,17 +4,6 @@ body
   background-color #fff
   color color_text
 
-.search-input
-  padding .3em 1em
-  border-bottom 1px solid black
-  background-color transparent
-  transition all .2s ease-in-out
-  color color_text
-
-  &:focus, &:active, &:hover
-    color color_text
-    background-color rgba(black, 0.02)
-
 .results-container
   background-color transparent
   margin-bottom space
@@ -34,6 +23,8 @@ body
         animation-delay 0.06s * num
 
 @keyframes fly-in
+  from
+    height 0
   to
     opacity 1
     height 1em
@@ -55,3 +46,32 @@ body
     opacity 0.3
   &:hover time
     opacity 0.5
+
+.icon
+  box-sizing content-box
+  width 1.1em
+  height 1.1em
+  padding 0.1em 0.3em
+  vertical-align sub
+  fill lighten(color_text, 20)
+
+.title-popover
+  position relative
+  display inline-block
+.title-popover:hover:before,
+.title-popover:active:before,
+.title-popover:focus:before
+  content attr(title)
+  transition all .3s ease-in-out
+  position absolute
+  top 100%
+  right 0
+  display inline-block
+  padding 0.5em 1em
+  min-width 270px
+  background color_text !important
+  color color_light !important
+  font-size 0.8em
+  text-align center
+  letter-spacing -1px
+  border-radius 2px

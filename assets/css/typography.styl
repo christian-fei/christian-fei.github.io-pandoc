@@ -2,13 +2,13 @@
 @require 'type-scale'
 
 html
-  font-size 20px
+  font-size 18px
 @media all and (max-width 40em)
   html
     font-size 16px
 
 body
-  font-family 'Roboto', sans-serif
+  font-family sans-serif
   font-weight 400
   line-height 1.45
   color color_text
@@ -22,31 +22,27 @@ a
   text-decoration underline
   color color_text
 
-a:hover, a:focus, a:active
-  background color_theme
-  color color_light
+  &:hover, &:focus, &:active
+    background-color color_light
+    color color_text
+    border-radius 2px
 
-
-
-body
-  a:hover, a:focus, a:active
-    background-color color_light !important
-    color lighten(color_text, 0.8) !important
-
-body > header
-  font-size 0.95em
-  a
-    color inherit
-    text-decoration underline
-    
-.home-link
-  text-decoration none
 
 .search-input
   font-size 0.95em
   border none
   outline none
+  border-radius 5px
   color color_light
+  padding .3em 1em
+  margin-left 0.3em
+  margin-right 0.3em
+  transition all .2s ease-in-out
+
+  &:focus, &:active, &:hover
+    color color_text
+    background-color rgba(black, 0.02)
+
 
 .post,
 .results-container
@@ -80,3 +76,10 @@ pre
 
 time, address
   font-size 0.8em
+
+
+article > header > h1
+  font-size 3.57em
+
+body > footer
+  font-size 0.9em

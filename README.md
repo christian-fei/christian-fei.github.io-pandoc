@@ -5,6 +5,12 @@ bundle
 npm i
 ```
 
+# build site
+
+```
+bundle exec jekyll build
+```
+
 # build assets
 
 ```
@@ -17,8 +23,8 @@ npm run build:css
 # development
 
 ```
-bundle exec jekyll serve --watch
+bundle exec jekyll serve
 
-npm run build:js -- --watch
+npm run build:js:watch
 npm run build:css:watch
 ```

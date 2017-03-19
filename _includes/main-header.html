@@ -1,20 +1,29 @@
-<header class="main-header">
+<header>
   <div class="container">
     <div class="flex-container">
-      <a href="/" class="home-link no-flex">Home<span>&nbsp;&nbsp;&nbsp;</span></a>
+      <a href="/" class="home-link no-flex">Home</a>
       <input type="text" class="flex search-input" placeholder="Type / to search">
+      <aside class="social-links-container">
+        <a href="https://twitter.com/christian_fei" class="title-popover twitter" target="_blank" title="Follow me on Twitter" tabindex="-1">
+          {% include icons/twitter.html %}
+        </a>
+        <a href="https://github.com/christian-fei" class="title-popover github" target="_blank" title="My projects on Github" tabindex="-1">
+          {% include icons/github.html %}
+        </a>
+      </aside>
     </div>
     <div class="results-container"></div>
-    {% unless page.title == 'about' %}
-    <section class="pad-top">
-      <span class="typewriter typewriter-who-am-i">
-        I'm an italian agile software developer, living in Trento (IT)
-      </span>
-      <br>
-      <a href="/about" class="">
-        <span class="typewriter typewriter-more-about-me">
-          More about me
-        </span>
+    <section>
+      <p>
+        Hi! My name is Christian, an italian Agile Developer, living in Trento (IT).
+        <br>
+        I am currently working at <a href="http://www.xpeppers.com" target="_blank">XPeppers</a>.
+      </p>
+    </section>
+    {% unless page.permalink ~= %r{^\/about} %}
+    <section>
+      <a href="/about">
+        More about me
       </a>
     </section>
     {% endunless %}

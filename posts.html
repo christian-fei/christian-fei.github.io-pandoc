@@ -3,10 +3,8 @@ layout: default
 ---
 
 <section class="content">
-  <p class="no-mt">
-    You can read some of my articles:
-  </p>
-  {% for post in site.posts | limit:10 %}
+  <h3 class="no-mt">Blog posts</h3>
+  {% for post in site.posts %}
     {% if post.category == 'posts' %}
     <section class="db link mv3 post">
       <a href="{{ post.url }}" title="{{ post.title}}">
@@ -18,10 +16,4 @@ layout: default
     </section>
   {% endif %}
   {% endfor %}
-
-  <p>
-    <a href="/posts">
-      All articles <small>▶︎</small>
-    </a>
-  </p>
 </section>

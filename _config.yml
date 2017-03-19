@@ -4,16 +4,16 @@ meta_description: A blog about my programming ramblings and other weird stuff
 
 markdown: kramdown
 redcarpet:
-  extensions: ["strikethrough","with_toc_data"]
+  extensions: []
 # highlighter: pygments
 
-baseurl: 
-domain_name: 'http://christianfei.com'
+baseurl:
+domain_name: 'https://christianfei.com'
 google_analytics: 'UA-57238829-1'
 disqus_shortname: 'christianfei'
 
 # Details for the RSS feed generator
-url:            'http://christianfei.com'
+url:            'https://christianfei.com'
 author:         'Christian Fei'
 authorTwitter:  'christian_fei'
 
