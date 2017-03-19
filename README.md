@@ -1,3 +1,8 @@
+# requirements
+
+- bundle (ruby)
+- npm (node)
+
 # setup
 
 ```
@@ -8,7 +13,7 @@ npm i
 # build site
 
 ```
-bundle exec jekyll build
+npm run build:site
 ```
 
 # build assets
