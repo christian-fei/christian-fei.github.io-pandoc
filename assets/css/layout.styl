@@ -7,10 +7,15 @@ html, body
   margin 0
 
 body > main,
-body > header,
+body > header > section,
 body > footer
   padding-top space
   padding-bottom space
+
+body > header > nav
+  padding-top space
+  padding-bottom space
+
 
 body > main
   &.free
@@ -36,3 +41,21 @@ body > main
 .search-input
   display block
   width 100%
+
+.avatar-container
+  position absolute
+  top 0.75em
+  left -1 * space * 2
+
+@media all and (max-width: container_width * 1.5)
+  .avatar-container
+    display none
+    visibility hidden
+  .avatar
+    display none
+    visibility hidden
+
+.avatar
+  border-radius 50%
+  width 3em
+  height 3em

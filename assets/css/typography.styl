@@ -23,9 +23,17 @@ a
   color color_text
 
   &:hover, &:focus, &:active
-    background-color color_text
+    background-color color_theme_inverted
     color color_theme
     border-radius 2px
+
+body > header > section a
+  background-color transparent
+  color color_theme_inverted
+  &:hover, &:focus, &:active
+    background-color color_theme_inverted
+    color color_theme
+
 
 
 .search-input

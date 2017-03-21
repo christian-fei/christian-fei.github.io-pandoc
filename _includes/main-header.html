@@ -1,7 +1,9 @@
 <header>
-  <div class="container">
-    <div>
-      <a href="/" class="home-link">Home</a>
+  <nav>
+    <div class="container">
+      <a href="/" class="home-link">Home</a>&nbsp;
+      <a href="/posts">Posts</a>&nbsp;
+      <a href="/about">About</a>&nbsp;
       <aside class="social-links-container">
         <a href="https://twitter.com/christian_fei" class="title-popover twitter" target="_blank" title="Follow me on Twitter" tabindex="-1">
           {% include icons/twitter.html %}
@@ -14,8 +16,9 @@
         </a>
       </aside>
     </div>
-
-    <section>
+  </nav>
+  <section>
+    <div class="container">
       <p>
         Hi! My name is Christian, an Agile Software Developer, living in Trento (IT).
         <br>
@@ -25,9 +28,9 @@
         Read more <a href="/about">about me</a>.
         {% endunless %}
       </p>
-    </section>
-    <a href="/about" class="avatar-container" tabindex="-1">
-      <img src="/assets/images/cf.png" class="avatar" alt="">
-    </a>
-  </div>
+      <a href="/about" class="avatar-container" tabindex="-1">
+        <img src="/assets/images/cf.png" class="avatar" alt="">
+      </a>
+    </div>
+  </section>
 </header>
