@@ -43,9 +43,12 @@ body > main
   width 100%
 
 .avatar-container
+  display block
   position absolute
-  top 0.75em
+  top calc(50% + -1.5rem)
   left -1 * space * 2
+  & > div
+    position relative
 
 @media all and (max-width: container_width * 1.5)
   .avatar-container
