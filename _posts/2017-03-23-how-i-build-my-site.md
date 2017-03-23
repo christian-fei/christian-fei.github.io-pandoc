@@ -90,7 +90,7 @@ Note: I want to upgrade to Webpack 2 as soon as I find some time.
 
 [gulp.js](http://gulpjs.com/) is used for the CSS files. I use the preprocessor [stylus](http://stylus-lang.com/), so I can write less nasty CSS and more fancy Stylus.
 
-<img src="http://stylus-lang.com/img/stylus-logo.svg" alt="stylus lang"/>
+<img src="/assets/images/posts/stylus-logo.svg" alt="stylus lang"/>
 
 Similarly, `npm run build:css` compiles the Stylus stylesheets and bundles them into [main.min.css](https://github.com/christian-fei/christian-fei.github.io/blob/master/dest/main.min.css).
 
@@ -102,7 +102,7 @@ Gulp can also watch my files during development: `npm run build:css:watch`.
 
 I love it.
 
-<img src="https://jekyllrb.com/img/logo-2x.png" alt="jekyll"/>
+<img src="/assets/images/posts/jekyll.png" alt="jekyll"/>
 
 I use [bundler](https://github.com/bundler/bundler) to manage the Ruby gems.
 

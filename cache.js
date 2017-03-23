@@ -1,3 +1,6 @@
+---
+layout: nil
+---
 /* eslint-env serviceworker */
 
 self.addEventListener('install', e => {
@@ -7,10 +10,11 @@ self.addEventListener('install', e => {
         '/',
         '/index.html',
         '/dest/main.min.js',
-        '/search.json',
         '/dest/main.min.css',
-        '/posts/Trying-out-Redash/',
-        '/about/'
+        '/about/',
+        '/posts',
+        {% for post in site.posts | limit:5 %}'{{post.url}}'{% unless forloop.last %},{% endunless %}
+        {% endfor %}
       ])
       .then(() => self.skipWaiting())
     })
