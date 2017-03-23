@@ -195,6 +195,10 @@ body > header > nav {
   padding-bottom: 1.5rem;
 }
 
+article > footer {
+  margin-top: 3rem;
+}
+
 body > main.free {
   max-width: none;
 }
@@ -274,6 +278,10 @@ body > footer {
 body > header > nav {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+article > footer {
+  margin-top: 3rem;
 }
 
 body > main.free {
@@ -538,7 +546,6 @@ h4 {
 }
 
 h1 {
-  margin-top: 0;
   font-size: 3.157em;
 }
 
@@ -683,7 +690,6 @@ h4 {
 }
 
 h1 {
-  margin-top: 0;
   font-size: 3.157em;
 }
 
@@ -725,7 +731,6 @@ h4 {
 }
 
 h1 {
-  margin-top: 0;
   font-size: 3.157em;
 }
 

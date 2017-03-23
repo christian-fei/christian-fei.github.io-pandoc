@@ -25,13 +25,9 @@ layout: default
   </section>
   <footer>
     {% include share-twitter.html %}
+    <span>&nbsp;or&nbsp;</span>
+    <a itemprop="url" href="{{page.url}}">copy this link</a>
   </footer>
-  <span>or</span>
-  <section>
-    <small>
-      <a itemprop="url" href="{{page.url}}">copy this link</a>
-    </small>
-  </section>
 </article>
 
 {% if page.has_images %}

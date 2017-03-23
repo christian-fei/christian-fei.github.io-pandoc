@@ -25,7 +25,6 @@ The whole build consists of small *individual builds* of *different types of ass
 
 A [webpack](https://webpack.github.io/) build parses and concatenas the JavaScript assets.
 
-
 <div class="logo-container" style="overflow: hidden;">
 <div class="logo" style="-webkit-transform:scale(3);-ms-transform:scale(3);transform:scale(3);height:660px;z-index:-1">
 <ul class="cube-inner">
@@ -81,7 +80,9 @@ As you can see, this allows me to make use of [node](https://nodejs.org)'s modul
 
 My [webpack config](https://github.com/christian-fei/christian-fei.github.io/blob/master/webpack.config.js) minifies the assets and bundles them in a browser compatible packet called [`main.min.js`](https://github.com/christian-fei/christian-fei.github.io/blob/master/dest/main.min.js).
 
-During development I run the `npm run assets:js:watch` command to make my workflow easier. A change to a JavaScript file triggers a new build, so i just have to switch to the browser and reload the page.
+During development I run the `npm run build:js:watch` command to make my workflow easier. A change to a JavaScript file triggers a new build, so i just have to switch to the browser and reload the page.
+
+To build the production asset I run the command `npm run build:js`.
 
 Note: I want to upgrade to Webpack 2 as soon as I find some time.
 
@@ -90,6 +91,55 @@ Note: I want to upgrade to Webpack 2 as soon as I find some time.
 [gulp.js](http://gulpjs.com/) is used for the CSS files. I use the preprocessor [stylus](http://stylus-lang.com/), so I can write less nasty CSS and more fancy Stylus.
 
 <img src="http://stylus-lang.com/img/stylus-logo.svg" alt="stylus lang"/>
+
+Similarly, `npm run build:css` compiles the Stylus stylesheets and bundles them into [main.min.css](https://github.com/christian-fei/christian-fei.github.io/blob/master/dest/main.min.css).
+
+Gulp can also watch my files during development: `npm run build:css:watch`.
+
+# Jekyll - HTML build step
+
+[Jekyll](https://jekyllrb.com) is a static site generator, most often used for blogs.
+
+I love it.
+
+<img src="https://jekyllrb.com/img/logo-2x.png" alt="jekyll"/>
+
+I use [bundler](https://github.com/bundler/bundler) to manage the Ruby gems.
+
+My only dependency is the Jekyll gem.
+
+Once i have them installed, I run `bundle exec jekyll serve` during development, and `bundle exec jekyll build` for production.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <style>
 .logo {
