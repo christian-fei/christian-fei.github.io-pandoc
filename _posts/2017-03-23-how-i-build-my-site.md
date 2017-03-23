@@ -96,6 +96,22 @@ Similarly, `npm run build:css` compiles the Stylus stylesheets and bundles them 
 
 Gulp can also watch my files during development: `npm run build:css:watch`.
 
+My [`assets/css`](https://github.com/christian-fei/christian-fei.github.io/tree/master/assets/css) folder has the following structure:
+
+```
+~/D/p/christian-fei.github.io (master ⚡) tree assets/css
+assets/css
+├── fancy.styl
+├── layout.styl
+├── main.styl
+├── modifiers.styl
+├── type-scale.styl
+├── typography.styl
+└── variables.styl
+
+0 directories, 7 files
+```
+
 # Jekyll - HTML build step
 
 [Jekyll](https://jekyllrb.com) is a static site generator, most often used for blogs.

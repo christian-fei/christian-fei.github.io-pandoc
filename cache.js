@@ -13,7 +13,7 @@ self.addEventListener('install', e => {
         '/dest/main.min.css',
         '/about/',
         '/posts',
-        {% for post in site.posts | limit:5 %}'{{post.url}}'{% unless forloop.last %},{% endunless %}
+        {% for post in site.posts limit:5 %}'{{post.url}}'{% unless forloop.last %},{% endunless %}
         {% endfor %}
       ])
       .then(() => self.skipWaiting())
