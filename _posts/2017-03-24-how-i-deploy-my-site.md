@@ -18,3 +18,5 @@ With the [aws-cli](https://github.com/aws/aws-cli) I deploy the static assets wi
 ```
 npm run deploy
 ```
+
+This command takes the files in the `_site` directory, where Jekyll spits out the compiled assets, and I sync them to the remote S3 bucket.
