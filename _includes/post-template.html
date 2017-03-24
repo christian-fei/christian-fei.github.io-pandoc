@@ -1,0 +1,8 @@
+<section class="db link mv3 article-link" data-title="{{post.title}}">
+  <a href="{{ post.url }}" title="{{ post.title}}">
+    {{ post.title }}
+  </a>
+  <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="black">
+    {{ post.date | date_to_string }}
+  </time>
+</section>
