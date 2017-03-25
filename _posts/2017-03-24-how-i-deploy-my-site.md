@@ -20,3 +20,9 @@ npm run deploy
 ```
 
 This command takes the files in the `_site` directory, where Jekyll spits out the compiled assets, and I sync them to the remote S3 bucket.
+
+`npm run deploy` is the script defined in [`package.json`](https://github.com/christian-fei/christian-fei.github.io/tree/master/package.json) as:
+
+```
+aws s3 sync --acl public-read  --region eu-central-1 ./_site/ s3://christianfei.com
+```

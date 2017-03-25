@@ -14,12 +14,9 @@ a
     color color_light
     border-radius 2px
 
-body > header
-  & > section
+body > header > section
     padding-left 4.5em
     border-left 0.5em solid color_yellow
-
-  & > section
     background color_theme
     color color_theme_inverted
     a
@@ -27,6 +24,7 @@ body > header
       color inherit
       &:hover, &:focus, &:active
         background-color color_light
+        color color_theme
 
 .results-container
   background-color transparent
