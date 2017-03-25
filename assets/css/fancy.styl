@@ -10,22 +10,23 @@ a
   color inherit
 
   &:hover, &:focus, &:active
-    background-color color_theme_inverted
-    color color_theme
+    background-color color_dark
+    color color_light
     border-radius 2px
 
-body > header > section a
-  background-color transparent
-  color inherit
-  &:hover, &:focus, &:active
-    background-color color_theme_inverted
-    color color_theme
+body > header
+  & > section
+    padding-left 4.5em
+    border-left 0.5em solid color_yellow
 
-
-
-body > header > section
-  background color_theme
-  color color_theme_inverted
+  & > section
+    background color_theme
+    color color_theme_inverted
+    a
+      background-color transparent
+      color inherit
+      &:hover, &:focus, &:active
+        background-color color_light
 
 .results-container
   background-color transparent
