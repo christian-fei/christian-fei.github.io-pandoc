@@ -1,8 +1,27 @@
 @require 'variables'
 
 body
-  background-color #fff
+  background-color color_theme_inverted
+  background-color white
   color color_text
+
+a
+  display inline-block
+  color inherit
+
+  &:hover, &:focus, &:active
+    background-color color_theme_inverted
+    color color_theme
+    border-radius 2px
+
+body > header > section a
+  background-color transparent
+  color inherit
+  &:hover, &:focus, &:active
+    background-color color_theme_inverted
+    color color_theme
+
+
 
 body > header > section
   background color_theme
@@ -44,12 +63,13 @@ body > header > section
   time
     display inline-block
     position absolute
-    top -0.9em
+    font-size 0.75em
+    top 0.1em
     right 0em
     margin-left 2em
-    opacity 0.3
+    opacity 0.2
   &:hover time
-    opacity 0.5
+    opacity 0.3
 
 .icon
   box-sizing content-box
@@ -65,20 +85,24 @@ body > header > section
     display none
 
 pre
-  background-color color_light
+  position relative
+  background-color color_theme
+  color color_theme_inverted
+  border-left 5px solid color_yellow
+
 
 
 pre
   overflow scroll
   padding 2em 1em
 
-@media all and (min-width 46rem)
+@media all and (min-width: 60rem)
   .highlight
     margin-left -5rem
     margin-right -5rem
     padding-left 5rem
     padding-right 5rem
-@media all and (max-width 46rem)
+@media all and (max-width 60rem)
   .highlight
     margin-left -1.5rem
     margin-right -1.5rem
