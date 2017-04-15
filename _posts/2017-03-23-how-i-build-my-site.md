@@ -5,6 +5,10 @@ layout: post
 category: posts
 ---
 
+Related: Read [how I deploy my site](/posts/how-i-deploy-my-site/).
+
+---
+
 # tl;dr
 
 ```
