@@ -2,8 +2,8 @@ name: Christian Fei's Blog
 description: A blog about my programming ramblings and other weird stuff
 meta_description: A blog about my programming ramblings and other weird stuff
 
-markdown: kramdown
-
+redcarpet:
+    extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
 baseurl:
 domain_name: 'https://christianfei.com'
 google_analytics: 'UA-57238829-1'
