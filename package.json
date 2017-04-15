@@ -42,6 +42,7 @@
     "webpack": "^2.2.1"
   },
   "dependencies": {
+    "anchor-js": "^3.2.2",
     "next-text": "^1.0.0",
     "normalize.css": "^5.0.0",
     "simple-typewriter": "0.0.1"

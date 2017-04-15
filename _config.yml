@@ -3,9 +3,6 @@ description: A blog about my programming ramblings and other weird stuff
 meta_description: A blog about my programming ramblings and other weird stuff
 
 markdown: kramdown
-redcarpet:
-  extensions: []
-# highlighter: pygments
 
 baseurl:
 domain_name: 'https://christianfei.com'

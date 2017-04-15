@@ -6,7 +6,7 @@ permalink: /today-i-discovered/
 ---
 
 <section class="content">
-  {% for tid in site.data.tid limit:8 %}
+  {% for tid in site.data.tid %}
     {% include tid-template.html %}
   {% endfor %}
 </section>
