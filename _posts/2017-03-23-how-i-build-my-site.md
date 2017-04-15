@@ -130,7 +130,9 @@ My only dependency is the Jekyll gem.
 
 Once i have them installed, I run `bundle exec jekyll serve` during development, and `bundle exec jekyll build` for production.
 
+---
 
+It's not over yet. I still need [to deploy my site](/posts/how-i-deploy-my-site/).
 
 
 
@@ -162,157 +164,157 @@ Once i have them installed, I run `bundle exec jekyll serve` during development,
 
 
 <style>
-.logo {
-  width: 100%;
-  height: 220px;
-  position: relative;
-  overflow: hidden;
-  -webkit-transform: scale(3);
-  -ms-transform: scale(3);
-  transform: scale(3);
-  z-index: -1;
-}
+  .logo {
+    width: 100%;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: scale(3);
+    -ms-transform: scale(3);
+    transform: scale(3);
+    z-index: -1;
+  }
 
 
-.cube-inner, .cube-inner li {
-  position: absolute;
-  display: block;
-}
-
-.cube-inner {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: -25px 0;
-  top: 50%;
-  left: 50%;
-  transform-origin: 25px 25px;
-  margin: -25px 0 0 -25px;
-  transform: rotateX(-33.5deg) rotateY(45deg);
-  transform-style: preserve-3d;
-  animation: fastspin 10s ease-in-out infinite 2s;
-}
-
-
-.cube-inner .front {
-    transform: translateZ(25px);
-}
-.cube-inner .back, .cube-inner .front, .cube-inner .left, .cube-inner .right, .cube-inner .top {
-    background: radial-gradient(transparent 30%,rgba(5,17,53,.2) 100%);
-}
-.cube-inner li {
-    width: 50px;
-    height: 50px;
-    transition: transform 1s ease-in-out;
-}
-.cube-inner, .cube-inner li {
+  .cube-inner, .cube-inner li {
     position: absolute;
     display: block;
-}
-.cube-inner .right {
-    transform: rotateY(90deg) translateZ(25px);
-}
-.cube-inner .back {
-    transform: rotateX(-180deg) translateZ(25px);
-}
-.cube-inner .left {
-    transform: rotateY(-90deg) translateZ(25px);
-}
-.cube-inner .top {
-    transform: rotateX(90deg) translateZ(25px);
-}
-.cube-inner .bottom {
-    transform: rotateX(-90deg) translateZ(25px);
-}
+  }
 
-.cube, .cube li {
-    position: absolute;
-    display: block;
-}
-.cube {
+  .cube-inner {
     width: 100%;
     height: 100%;
     padding: 0;
-    margin: -50px 0;
-    transform-origin: 50px 50px;
-    transform: rotateX(-33.5deg) rotateY(45deg);
-    transform-style: preserve-3d;
-    animation: slowspin 10s ease-in-out infinite 2s;
-    margin: -50px 0 0 -50px;
+    margin: -25px 0;
     top: 50%;
     left: 50%;
-}
+    transform-origin: 25px 25px;
+    margin: -25px 0 0 -25px;
+    transform: rotateX(-33.5deg) rotateY(45deg);
+    transform-style: preserve-3d;
+    animation: fastspin 10s ease-in-out infinite 2s;
+  }
 
-.cube .front {
-    transform: translateZ(50px);
-}
-.cube .back, .cube .front, .cube .left, .cube .right, .cube .top {
-    background: radial-gradient(transparent 30%,rgba(16,47,91,.2) 100%);
-}
-.cube li {
-    width: 75pt;
-    height: 75pt;
-    transition: transform 1s ease-in-out;
-}
-.cube .back {
-    transform: rotateX(-180deg) translateZ(50px);
-}
-.cube .right {
-    transform: rotateY(90deg) translateZ(50px);
-}
-.cube .left {
-    transform: rotateY(-90deg) translateZ(50px);
-}
-.cube .top {
-    transform: rotateX(90deg) translateZ(50px);
-}
-.cube .bottom {
-    transform: rotateX(-90deg) translateZ(50px);
-}
-.cube .floor {
-    box-shadow: -300px 0 50px rgba(0,0,0,.3);
-    backface-visibility: visible;
-    width: 110px;
-    height: 110px;
-    left: 295px;
-    background-color: transparent;
-    transform: rotateX(-90deg) translateZ(60px);
-}
-.cube-inner li:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    backface-visibility: hidden;
-    background-color: rgba(16,58,177,.5);
-    transition: transform 1s ease-in-out;
-}
-.cube .top:after {
-    background-color: rgba(152,186,237,.5);
-}
-.cube li:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 75pt;
-    height: 75pt;
-    backface-visibility: hidden;
-    background-color: rgba(126,169,232,.5);
-    transition: transform 1s ease-in-out;
-}
-@keyframes slowspin {
-  0%{transform:rotateX(-33.5deg) rotateY(45deg)}
-  10%,to{transform:rotateX(-33.5deg) rotateY(225deg)}
-}
 
-@keyframes fastspin {
-  0%{transform:rotateX(-33.5deg) rotateY(45deg)}
-  10%,to{transform:rotateX(-33.5deg) rotateY(-315deg)}
-}
+  .cube-inner .front {
+      transform: translateZ(25px);
+  }
+  .cube-inner .back, .cube-inner .front, .cube-inner .left, .cube-inner .right, .cube-inner .top {
+      background: radial-gradient(transparent 30%,rgba(5,17,53,.2) 100%);
+  }
+  .cube-inner li {
+      width: 50px;
+      height: 50px;
+      transition: transform 1s ease-in-out;
+  }
+  .cube-inner, .cube-inner li {
+      position: absolute;
+      display: block;
+  }
+  .cube-inner .right {
+      transform: rotateY(90deg) translateZ(25px);
+  }
+  .cube-inner .back {
+      transform: rotateX(-180deg) translateZ(25px);
+  }
+  .cube-inner .left {
+      transform: rotateY(-90deg) translateZ(25px);
+  }
+  .cube-inner .top {
+      transform: rotateX(90deg) translateZ(25px);
+  }
+  .cube-inner .bottom {
+      transform: rotateX(-90deg) translateZ(25px);
+  }
 
-.cube .floor:after {
-    display: none !important;
-}
+  .cube, .cube li {
+      position: absolute;
+      display: block;
+  }
+  .cube {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: -50px 0;
+      transform-origin: 50px 50px;
+      transform: rotateX(-33.5deg) rotateY(45deg);
+      transform-style: preserve-3d;
+      animation: slowspin 10s ease-in-out infinite 2s;
+      margin: -50px 0 0 -50px;
+      top: 50%;
+      left: 50%;
+  }
+
+  .cube .front {
+      transform: translateZ(50px);
+  }
+  .cube .back, .cube .front, .cube .left, .cube .right, .cube .top {
+      background: radial-gradient(transparent 30%,rgba(16,47,91,.2) 100%);
+  }
+  .cube li {
+      width: 75pt;
+      height: 75pt;
+      transition: transform 1s ease-in-out;
+  }
+  .cube .back {
+      transform: rotateX(-180deg) translateZ(50px);
+  }
+  .cube .right {
+      transform: rotateY(90deg) translateZ(50px);
+  }
+  .cube .left {
+      transform: rotateY(-90deg) translateZ(50px);
+  }
+  .cube .top {
+      transform: rotateX(90deg) translateZ(50px);
+  }
+  .cube .bottom {
+      transform: rotateX(-90deg) translateZ(50px);
+  }
+  .cube .floor {
+      box-shadow: -300px 0 50px rgba(0,0,0,.3);
+      backface-visibility: visible;
+      width: 110px;
+      height: 110px;
+      left: 295px;
+      background-color: transparent;
+      transform: rotateX(-90deg) translateZ(60px);
+  }
+  .cube-inner li:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      backface-visibility: hidden;
+      background-color: rgba(16,58,177,.5);
+      transition: transform 1s ease-in-out;
+  }
+  .cube .top:after {
+      background-color: rgba(152,186,237,.5);
+  }
+  .cube li:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 75pt;
+      height: 75pt;
+      backface-visibility: hidden;
+      background-color: rgba(126,169,232,.5);
+      transition: transform 1s ease-in-out;
+  }
+  @keyframes slowspin {
+    0%{transform:rotateX(-33.5deg) rotateY(45deg)}
+    10%,to{transform:rotateX(-33.5deg) rotateY(225deg)}
+  }
+
+  @keyframes fastspin {
+    0%{transform:rotateX(-33.5deg) rotateY(45deg)}
+    10%,to{transform:rotateX(-33.5deg) rotateY(-315deg)}
+  }
+
+  .cube .floor:after {
+      display: none !important;
+  }
 
 </style>
