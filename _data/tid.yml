@@ -1,0 +1,7 @@
+-
+  title: tid - today i discovered
+  date: 2017-04-15
+  content: |
+    i want to try tracking things i discover (like time based bookmarks, ideas, findings)
+    in a data structure, simple enough to be used daily.
+    Here is my [tid.yml](https://github.com/christian-fei/christian-fei.github.io/blob/master/_data/tid.yml) with which this site is created (kinda meta, isn't it?).

@@ -1,0 +1,9 @@
+<div>
+  <h1>{{tid.title}}</h1>
+  <time datetime="{{ tid.date | time_tag }}" class="f6 mb3">
+    written on <strong itemprop="datePublished" content="{{ tid.date | time_tag }}">
+      {{ tid.date | date: "%a, %b %d, %Y" }}
+    </strong>
+  </time>
+  <p>{{tid.content | markdownify}}</p>
+</div>

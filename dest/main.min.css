@@ -426,6 +426,11 @@ img {
   max-width: 100%;
 }
 
+.extreme {
+  font-size: 30vw;
+  margin: 0;
+}
+
 html,
 body {
   min-height: 100%;
@@ -897,4 +902,9 @@ body > footer {
 
 img {
   max-width: 100%;
+}
+
+.extreme {
+  font-size: 30vw;
+  margin: 0;
 }

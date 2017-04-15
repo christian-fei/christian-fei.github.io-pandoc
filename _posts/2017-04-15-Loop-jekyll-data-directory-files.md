@@ -12,9 +12,11 @@ Working with yml files is as easy as adding a file in this directory, and Jekyll
 In this example, rendering a list of authors listed in a YML file is as easy as:
 
 ```
+{% raw %}
 {% for authors in site.data.authors limit:8 %}
   {{ authors.name }}
 {% endfor %}
+{% endraw %}
 ```
 
 The related Data file is located in `_data/authors.yml` with the following contents:

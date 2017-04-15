@@ -1,0 +1,12 @@
+---
+layout: page
+free_layout: true
+title: Today I Discovered
+permalink: /today-i-discovered/
+---
+
+<section class="content">
+  {% for tid in site.data.tid limit:8 %}
+    {% include tid-template.html %}
+  {% endfor %}
+</section>
