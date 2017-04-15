@@ -1,0 +1,10 @@
+-
+  title: Loop jekyll data directory files
+  content: |
+    Jekyll will look into the `_data` directory
+
+    ```
+    {% for authors in site.data.authors limit:8 %}
+      {{authors.name}}
+    {% endfor %}
+    ```

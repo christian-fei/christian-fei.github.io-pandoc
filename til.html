@@ -1,0 +1,12 @@
+---
+layout: page
+free_layout: true
+title: Today I Learned
+permalink: /til/
+---
+
+<section class="content">
+  {% for til in site.data.til limit:8 %}
+    {% include til-template.html %}
+  {% endfor %}
+</section>
