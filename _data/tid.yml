@@ -1,4 +1,8 @@
 -
+  title: ignore code in istanbul
+  date: 2017-04-16
+  url: https://github.com/gotwarlost/istanbul#ignoring-code-for-coverage
+-
   title: tid - today i discovered
   date: 2017-04-15
   content: |
