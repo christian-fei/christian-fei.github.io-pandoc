@@ -6,7 +6,11 @@
     </strong>
   </time>
   <p>
-    {% if tid.url %}
+    {% if tid.url and tid.content %}
+      {{ tid.content | markdownify }}
+      <br/>
+      Reference: <a target="_blank" href="{{ tid.url }}">{{ tid.url }}</a>
+    {% elsif tid.url %}
       <a target="_blank" href="{{ tid.url }}">{{ tid.url }}</a>
     {% else %}
       {{ tid.content | markdownify }}
