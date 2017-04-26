@@ -1,3 +1,11 @@
+- 
+  title: Action Controller Parameters
+  date: 2017-04-26
+  url: http://api.rubyonrails.org/classes/ActionController/Parameters.html
+  content: |
+    [`require`](http://api.rubyonrails.org/classes/ActionController/Parameters.html#method-i-require) ensures that the defined parameters are present, else it throws an error.
+
+    [`permit`](http://api.rubyonrails.org/classes/ActionController/Parameters.html#method-i-permit) on the other hand "filters" the parameters and permits/whitelists only the specified ones.
 -
   title: ignore code in istanbul
   date: 2017-04-16
