@@ -1,25 +1,9 @@
 ---
 layout: default
 ---
-
 <section class="content">
-  <p class="no-mt">You can read some of my posts:</p>
-  {% for post in site.posts limit:8 %}
-    {% include post-template.html %}
-  {% endfor %}
+  <h1>Projects</h1>
 
-  <p>
-    <a href="/posts" class="fr">
-      All posts <small>▶︎</small>
-    </a>
-  </p>
-</section>
-
-<br>
-<br>
-<br>
-
-<section class="content">
   Check out what I'm currently building on Github:
 
   <div class="github-projects-gallery">
@@ -36,12 +20,23 @@ layout: default
       <p>A JavaScript library to add search functionality to any Jekyll blog</p>
     </div>
     <div class="github-project">
-      <a class="github-project-link" target="_blank" href="https://github.com/christian-fei/next-text">next-text</a>
-      <p>nextText is a small utility function to get the next letter from a partial string</p>
-    </div>
-    <div class="github-project">
       <a class="github-project-link" target="_blank" href="https://github.com/christian-fei/dotfiles">dotfiles</a>
       <p>.cfrc</p>
     </div>
   </div>
 </section>
+
+</section>
+<section class="content">
+  <h1>Posts</h1>
+
+  <p class="no-mt">You can read some of my posts:</p>
+  {% for post in site.posts limit:15 %}
+    {% include post-template.html %}
+  {% endfor %}
+
+  <p>
+    <a href="/posts" class="fr">
+      All posts <small>▶︎</small>
+    </a>
+  </p>
