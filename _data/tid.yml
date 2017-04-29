@@ -1,4 +1,31 @@
-- 
+-
+  title: Always add a Foreign Key Constraint ON DELETE CASCADE
+  date: 2017-04-29
+  url: http://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-add_foreign_key
+  content: |
+    Today at work I encountered an interesting topic and I want to document it a bit.
+    We couldn't delete the associations of associations because we got the following error:
+
+    ```
+      PG::ForeignKeyViolation at /authors/2
+      ERROR:  update or delete on table "posts" violates foreign key constraint "fk_rails_5653572c8a" on table "comments"
+      DETAIL:  Key (id)=(1) is still referenced from table "comments".
+    ```
+
+    This means that ActiveRecord tried to delete the posts, while the comments still references the posts.
+    This violates the referential integrity we defined in the migration.
+    We didn't update it to `CASCADE`, but `RESTRICT` as default.
+
+    If you're encountering the same error in Rails, you'll need to add the remove the foreign key and add it again with the referential integrity options set to `CASCADE`:
+
+    ```
+    remove_foreign_key :comments, :posts
+    remove_foreign_key :posts, :authors
+    add_foreign_key :comments, :posts, on_delete: :cascade
+    add_foreign_key :posts, :authors, on_delete: :cascade
+    ```
+
+-
   title: Action Controller Parameters
   date: 2017-04-26
   url: http://api.rubyonrails.org/classes/ActionController/Parameters.html
