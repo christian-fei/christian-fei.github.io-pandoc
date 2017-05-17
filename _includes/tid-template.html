@@ -4,7 +4,16 @@
     written on <strong itemprop="datePublished" content="{{ tid.date | time_tag }}">
       {{ tid.date | date: "%a, %b %d, %Y" }}
     </strong>
-  </time>
+  </time>,
+  <address style="display: inline;">
+    by <a href="https://twitter.com/christian_fei" rel="author">
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">
+          Christian Fei
+        </span>
+      </span>
+    </a>
+  </address>
   <p>
     {% if tid.url and tid.content %}
       {{ tid.content | markdownify }}

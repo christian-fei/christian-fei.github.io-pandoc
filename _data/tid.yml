@@ -1,8 +1,13 @@
 -
-  title: Always add a Foreign Key Constraint ON DELETE CASCADE
+  title: "ForeignKeyViolation: update or delete on table violates foreign key constraint"
   date: 2017-04-29
   url: http://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-add_foreign_key
   content: |
+    # tldr;
+    Add a Foreign Key Constraint ON DELETE CASCADE
+
+    ---
+
     Today at work I encountered an interesting topic and I want to document it a bit.
     We couldn't delete the associations of associations because we got the following error:
 

@@ -2,36 +2,39 @@
 layout: default
 ---
 <section class="content">
-  <h1>Projects</h1>
-
-  Check out what I'm currently building on Github:
-
   <div class="github-projects-gallery">
-    <div class="github-project">
-      <a class="github-project-link" target="_blank" href="https://github.com/christian-fei/sentinel-functions">sentinel-functions</a>
-      <p>collect metrics about a webservice</p>
-    </div>
-    <div class="github-project">
-      <a class="github-project-link" target="_blank" href="https://github.com/christian-fei/sentinel-dashboard">sentinel-dashboard</a>
-      <p>dashboard to view collected metrics about a webservice</p>
-    </div>
-    <div class="github-project">
-      <a class="github-project-link" target="_blank" href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple-Jekyll-Search</a>
-      <p>A JavaScript library to add search functionality to any Jekyll blog</p>
-    </div>
-    <div class="github-project">
-      <a class="github-project-link" target="_blank" href="https://github.com/christian-fei/dotfiles">dotfiles</a>
-      <p>.cfrc</p>
-    </div>
+    <a class="github-project" target="_blank" href="https://github.com/christian-fei/sentinel-functions">
+      <span class="link">sentinel-functions</span>
+      <br>
+      <br>
+      <small>collect metrics about a webservice</small>
+    </a>
+    <a class="github-project" target="_blank" href="https://github.com/christian-fei/sentinel-dashboard">
+      <span class="link">sentinel-dashboard</span>
+      <br>
+      <br>
+      <small>dashboard to view collected metrics about a webservice</small>
+    </a>
+    <a class="github-project" target="_blank" href="https://github.com/christian-fei/Simple-Jekyll-Search">
+      <span class="link">Simple-Jekyll-Search</span>
+      <br>
+      <br>
+      <small>A JavaScript library to add search functionality to any Jekyll blog</small>
+      </a>
+    <a class="github-project" target="_blank" href="https://github.com/christian-fei/dotfiles">
+      <span class="link">dotfiles</span>
+      <br>
+      <br>
+      <small>.cfrc</small>
+    </a>
   </div>
 </section>
 
 </section>
-<section class="content">
-  <h1>Posts</h1>
 
+<section class="content mt-l">
   <p class="no-mt">You can read some of my posts:</p>
-  {% for post in site.posts limit:15 %}
+  {% for post in site.posts limit:7 %}
     {% include post-template.html %}
   {% endfor %}
 
@@ -40,3 +43,17 @@ layout: default
       All posts <small>▶︎</small>
     </a>
   </p>
+</section>
+
+<section class="content mt-l tid">
+  <p class="no-mt">and some of the things I discovered</p>
+  {% for tid in site.data.tid limit:7  %}
+    {% include tid-small-template.html %}
+  {% endfor %}
+
+  <p>
+    <a href="/tid" class="fr">
+      All TID's <small>▶︎</small>
+    </a>
+  </p>
+</section>
