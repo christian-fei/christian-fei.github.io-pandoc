@@ -1,5 +1,4 @@
 body {
-  background-color: #d5d5d5;
   background-color: #fff;
   color: #333;
 }
@@ -9,27 +8,27 @@ a {
   color: inherit;
 }
 
-a:hover,
+a:active,
 a:focus,
-a:active {
+a:hover {
   background-color: #2a2a2a;
   color: #d5d5d5;
   border-radius: 2px;
 }
 
-body > header {
+body>header {
   background: #2a2a2a;
   color: #d5d5d5;
 }
 
-body > header a {
+body>header a {
   background-color: transparent;
   color: inherit;
 }
 
-body > header a:hover,
-body > header a:focus,
-body > header a:active {
+body>header a:active,
+body>header a:focus,
+body>header a:hover {
   background-color: #ededed;
   color: #2a2a2a;
 }
@@ -44,52 +43,52 @@ body > header a:active {
   margin-top: 1.5rem;
   opacity: 0;
   height: 0;
-  transition: all 0.2s linear;
+  transition: all .2s linear;
   transform: translateY(-1em);
   animation-name: fly-in;
-  animation-duration: 0.2s;
+  animation-duration: .2s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
 
 .results-container li:nth-child(1n) {
-  animation-delay: 0.06s;
+  animation-delay: 60ms;
 }
 
 .results-container li:nth-child(2n) {
-  animation-delay: 0.12s;
+  animation-delay: .12s;
 }
 
 .results-container li:nth-child(3n) {
-  animation-delay: 0.18s;
+  animation-delay: .18s;
 }
 
 .results-container li:nth-child(4n) {
-  animation-delay: 0.24s;
+  animation-delay: .24s;
 }
 
 .results-container li:nth-child(5n) {
-  animation-delay: 0.3s;
+  animation-delay: .3s;
 }
 
 .results-container li:nth-child(6n) {
-  animation-delay: 0.36s;
+  animation-delay: .36s;
 }
 
 .results-container li:nth-child(7n) {
-  animation-delay: 0.42s;
+  animation-delay: .42s;
 }
 
 .results-container li:nth-child(8n) {
-  animation-delay: 0.48s;
+  animation-delay: .48s;
 }
 
 .results-container li:nth-child(9n) {
-  animation-delay: 0.54s;
+  animation-delay: .54s;
 }
 
 .results-container li:nth-child(10n) {
-  animation-delay: 0.6s;
+  animation-delay: .6s;
 }
 
 .article-link {
@@ -100,22 +99,22 @@ body > header a:active {
 .article-link time {
   display: inline-block;
   position: absolute;
-  font-size: 0.75em;
-  top: 0.1em;
-  right: 0em;
+  font-size: .75em;
+  top: .1em;
+  right: 0;
   margin-left: 2em;
-  opacity: 0.2;
+  opacity: .2;
 }
 
 .article-link:hover time {
-  opacity: 0.3;
+  opacity: .3;
 }
 
 .icon {
   box-sizing: content-box;
   width: 1.1em;
   height: 1.1em;
-  padding: 0.1em 0.3em;
+  padding: .1em .3em;
   vertical-align: sub;
   fill: #666;
 }
@@ -128,14 +127,11 @@ pre {
   position: relative;
   background-color: #2a2a2a;
   color: #d5d5d5;
-}
-
-pre {
   overflow: scroll;
   padding: 2em 1em;
 }
 
-@media all and (min-width: 60rem) {
+@media all and (min-width:60rem) {
   .highlight {
     margin-left: -5rem;
     margin-right: -5rem;
@@ -144,51 +140,12 @@ pre {
   }
 }
 
-@media all and (max-width: 60rem) {
+@media all and (max-width:60rem) {
   .highlight {
     margin-left: -1.5rem;
     margin-right: -1.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-}
-
-@-moz-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
-@-webkit-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
-@-o-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
   }
 }
 
@@ -200,12 +157,14 @@ pre {
   to {
     opacity: 1;
     height: 1em;
-    background: transparent;
-    transform: translateY(0px);
+    background: 0 0;
+    transform: translateY(0);
   }
 }
 .github-projects-gallery {
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -214,18 +173,19 @@ pre {
 .github-projects-gallery .github-project {
   text-align: center;
   display: block;
+  -ms-flex: auto;
   flex: auto;
   width: 50%;
   min-height: 150px;
-  padding: 0.5em 0.7em;
-  transition: all 0.3s ease-in-out;
+  padding: .5em .7em;
+  transition: all .3s ease-in-out;
   text-decoration: none;
   background: #f2f2f2;
 }
 
-.github-projects-gallery .github-project:hover,
 .github-projects-gallery .github-project:active,
-.github-projects-gallery .github-project:focus {
+.github-projects-gallery .github-project:focus,
+.github-projects-gallery .github-project:hover {
   color: color_light;
   background-color: color_dark;
 }
@@ -234,31 +194,32 @@ pre {
   font-size: 1.3em;
   text-decoration: underline;
 }
-html,
-body {
+.fr,
+.social-links-container {
+  float: right;
+}
+
+body,
+html {
   min-height: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
-body > main,
-body > header > section,
-body > footer {
+body>footer,
+body>header>nav,
+body>header>section,
+body>main {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
 
-body > header > nav {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-article > footer {
+article>footer {
   margin-top: 3rem;
 }
 
-body > main.free {
+body>main.free {
   max-width: none;
 }
 
@@ -271,19 +232,18 @@ body > main.free {
 }
 
 .flex-container {
+  display: -ms-flexbox;
   display: flex;
 }
 
 .flex-container .no-flex {
+  -ms-flex: none;
   flex: none;
 }
 
 .flex-container .flex {
+  -ms-flex: 1;
   flex: 1;
-}
-
-.social-links-container {
-  float: right;
 }
 
 .search-input {
@@ -298,11 +258,11 @@ body > main.free {
   left: -3rem;
 }
 
-.avatar-container > div {
+.avatar-container>div {
   position: relative;
 }
 
-@media all and (max-width: 950px) {
+@media all and (max-width:950px) {
   .avatar-container {
     display: none;
   }
@@ -314,14 +274,10 @@ body > main.free {
   height: 3em;
 }
 
-@media all and (max-width: 50rem) {
+@media all and (max-width:50rem) {
   .hide-mobile {
     display: none;
   }
-}
-
-.fr {
-  float: right;
 }
 
 .article-link {
@@ -339,16 +295,18 @@ body > main.free {
 .spaced-list li {
   margin-bottom: 1.5em;
 }
+body,
+input {
+  font-family: sans-serif;
+}
+
+.fr,
+.social-links-container {
+  float: right;
+}
+
 .no-mt {
   margin-top: 0;
-}
-
-html {
-  font-size: 1em;
-}
-
-body {
-  line-height: 1.45;
 }
 
 p {
@@ -359,7 +317,7 @@ h1,
 h2,
 h3,
 h4 {
-  margin: 1.414em 0 0.5em;
+  margin: 1.414em 0 .5em;
   font-weight: inherit;
   line-height: 1.2;
 }
@@ -380,55 +338,48 @@ h4 {
   font-size: 1.333em;
 }
 
-small,
-.font_small {
-  font-size: 0.75em;
-}
-
-.fr {
-  float: right;
+.font_small,
+small {
+  font-size: .75em;
 }
 
 html {
   font-size: 16px;
 }
 
-@media all and (max-width: 40em) {
+@media all and (max-width:40em) {
   html {
     font-size: 15px;
   }
 }
 
 body {
-  font-family: sans-serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #333;
 }
 
 a {
-  font-weight: bold;
+  font-weight: 700;
   outline: 0;
   border: 0;
   text-decoration: underline;
 }
 
 .search-input {
-  display: block;
-  font-size: 0.95em;
+  font-size: .95em;
   border: none;
-  outline: none;
+  outline: 0;
   border-radius: 5px;
   color: #333;
-  padding: 0.5em 0;
-  transition: all 0.2s ease-in-out;
+  padding: .5em 0;
+  transition: all .2s ease-in-out;
 }
 
-.search-input:focus,
 .search-input:active,
+.search-input:focus,
 .search-input:hover {
   color: #333;
-  background-color: rgba(0,0,0,0.02);
+  background-color: rgba(0,0,0,.02);
 }
 
 b,
@@ -438,7 +389,6 @@ strong {
 }
 
 input {
-  font-family: sans-serif;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
@@ -446,25 +396,25 @@ input {
 
 code,
 pre {
-  font-family: monospace, monospace;
+  font-family: monospace,monospace;
   font-size: 1em;
 }
 
-time,
-address {
-  font-size: 0.8em;
+address,
+time {
+  font-size: .8em;
 }
 
-article > header > h1 {
+article>header>h1 {
   font-size: 3.57em;
 }
 
-body > footer {
-  font-size: 0.9em;
+body>footer {
+  font-size: .9em;
 }
 
 .opaque {
-  opacity: 0.3;
+  opacity: .3;
 }
 
 img {
@@ -477,41 +427,37 @@ img {
 }
 
 .anchorjs-link {
-  opacity: 0.1 !important;
-  transition: all 0.25s ease-in-out;
+  opacity: .1!important;
+  transition: all .25s ease-in-out;
 }
 
-*:hover > .anchorjs-link,
-.anchorjs-link:hover {
-  opacity: 1 !important;
-  background-color: transparent !important;
+.anchorjs-link:hover,
+:hover>.anchorjs-link {
+  opacity: 1!important;
+  background-color: transparent!important;
 }
 
-html,
-body {
+body,
+html {
   min-height: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
-body > main,
-body > header > section,
-body > footer {
+body>footer,
+body>header>nav,
+body>header>section,
+body>main {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
 
-body > header > nav {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-article > footer {
+article>footer {
   margin-top: 3rem;
 }
 
-body > main.free {
+body>main.free {
   max-width: none;
 }
 
@@ -524,19 +470,18 @@ body > main.free {
 }
 
 .flex-container {
+  display: -ms-flexbox;
   display: flex;
 }
 
 .flex-container .no-flex {
+  -ms-flex: none;
   flex: none;
 }
 
 .flex-container .flex {
+  -ms-flex: 1;
   flex: 1;
-}
-
-.social-links-container {
-  float: right;
 }
 
 .search-input {
@@ -551,11 +496,12 @@ body > main.free {
   left: -3rem;
 }
 
-.avatar-container > div {
+.article-link,
+.avatar-container>div {
   position: relative;
 }
 
-@media all and (max-width: 950px) {
+@media all and (max-width:950px) {
   .avatar-container {
     display: none;
   }
@@ -567,14 +513,10 @@ body > main.free {
   height: 3em;
 }
 
-@media all and (max-width: 50rem) {
+@media all and (max-width:50rem) {
   .hide-mobile {
     display: none;
   }
-}
-
-.fr {
-  float: right;
 }
 
 .article-link {
@@ -594,7 +536,6 @@ body > main.free {
 }
 
 body {
-  background-color: #d5d5d5;
   background-color: #fff;
   color: #333;
 }
@@ -604,27 +545,27 @@ a {
   color: inherit;
 }
 
-a:hover,
+a:active,
 a:focus,
-a:active {
+a:hover {
   background-color: #2a2a2a;
   color: #d5d5d5;
   border-radius: 2px;
 }
 
-body > header {
+body>header {
   background: #2a2a2a;
   color: #d5d5d5;
 }
 
-body > header a {
+body>header a {
   background-color: transparent;
   color: inherit;
 }
 
-body > header a:hover,
-body > header a:focus,
-body > header a:active {
+body>header a:active,
+body>header a:focus,
+body>header a:hover {
   background-color: #ededed;
   color: #2a2a2a;
 }
@@ -639,78 +580,77 @@ body > header a:active {
   margin-top: 1.5rem;
   opacity: 0;
   height: 0;
-  transition: all 0.2s linear;
+  transition: all .2s linear;
   transform: translateY(-1em);
   animation-name: fly-in;
-  animation-duration: 0.2s;
+  animation-duration: .2s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
 
 .results-container li:nth-child(1n) {
-  animation-delay: 0.06s;
+  animation-delay: 60ms;
 }
 
 .results-container li:nth-child(2n) {
-  animation-delay: 0.12s;
+  animation-delay: .12s;
 }
 
 .results-container li:nth-child(3n) {
-  animation-delay: 0.18s;
+  animation-delay: .18s;
 }
 
 .results-container li:nth-child(4n) {
-  animation-delay: 0.24s;
+  animation-delay: .24s;
 }
 
 .results-container li:nth-child(5n) {
-  animation-delay: 0.3s;
+  animation-delay: .3s;
 }
 
 .results-container li:nth-child(6n) {
-  animation-delay: 0.36s;
+  animation-delay: .36s;
 }
 
 .results-container li:nth-child(7n) {
-  animation-delay: 0.42s;
+  animation-delay: .42s;
 }
 
 .results-container li:nth-child(8n) {
-  animation-delay: 0.48s;
+  animation-delay: .48s;
 }
 
 .results-container li:nth-child(9n) {
-  animation-delay: 0.54s;
+  animation-delay: .54s;
 }
 
 .results-container li:nth-child(10n) {
-  animation-delay: 0.6s;
+  animation-delay: .6s;
 }
 
 .article-link {
   margin-top: 1.5rem;
-  position: relative;
 }
 
 .article-link time {
   display: inline-block;
   position: absolute;
-  font-size: 0.75em;
-  top: 0.1em;
-  right: 0em;
+  font-size: .75em;
+  top: .1em;
+  right: 0;
   margin-left: 2em;
-  opacity: 0.2;
+  opacity: .2;
 }
 
 .article-link:hover time {
-  opacity: 0.3;
+  opacity: .3;
 }
 
 .icon {
   box-sizing: content-box;
   width: 1.1em;
   height: 1.1em;
-  padding: 0.1em 0.3em;
+  padding: .1em .3em;
   vertical-align: sub;
   fill: #666;
 }
@@ -723,14 +663,11 @@ pre {
   position: relative;
   background-color: #2a2a2a;
   color: #d5d5d5;
-}
-
-pre {
   overflow: scroll;
   padding: 2em 1em;
 }
 
-@media all and (min-width: 60rem) {
+@media all and (min-width:60rem) {
   .highlight {
     margin-left: -5rem;
     margin-right: -5rem;
@@ -739,51 +676,12 @@ pre {
   }
 }
 
-@media all and (max-width: 60rem) {
+@media all and (max-width:60rem) {
   .highlight {
     margin-left: -1.5rem;
     margin-right: -1.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-}
-
-@-moz-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
-@-webkit-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
-@-o-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
   }
 }
 
@@ -795,13 +693,15 @@ pre {
   to {
     opacity: 1;
     height: 1em;
-    background: transparent;
-    transform: translateY(0px);
+    background: 0 0;
+    transform: translateY(0);
   }
 }
 
 .github-projects-gallery {
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -810,18 +710,19 @@ pre {
 .github-projects-gallery .github-project {
   text-align: center;
   display: block;
+  -ms-flex: auto;
   flex: auto;
   width: 50%;
   min-height: 150px;
-  padding: 0.5em 0.7em;
-  transition: all 0.3s ease-in-out;
+  padding: .5em .7em;
+  transition: all .3s ease-in-out;
   text-decoration: none;
   background: #f2f2f2;
 }
 
-.github-projects-gallery .github-project:hover,
 .github-projects-gallery .github-project:active,
-.github-projects-gallery .github-project:focus {
+.github-projects-gallery .github-project:focus,
+.github-projects-gallery .github-project:hover {
   color: #ededed;
   background-color: #333;
 }
@@ -850,7 +751,7 @@ h1,
 h2,
 h3,
 h4 {
-  margin: 1.414em 0 0.5em;
+  margin: 1.414em 0 .5em;
   font-weight: inherit;
   line-height: 1.2;
 }
@@ -871,20 +772,17 @@ h4 {
   font-size: 1.333em;
 }
 
-small,
-.font_small {
-  font-size: 0.75em;
+.font_small,
+small {
+  font-size: .75em;
 }
 
 .fr {
   float: right;
 }
-html {
-  font-size: 1em;
-}
-
-body {
-  line-height: 1.45;
+body,
+input {
+  font-family: sans-serif;
 }
 
 p {
@@ -895,7 +793,7 @@ h1,
 h2,
 h3,
 h4 {
-  margin: 1.414em 0 0.5em;
+  margin: 1.414em 0 .5em;
   font-weight: inherit;
   line-height: 1.2;
 }
@@ -916,9 +814,9 @@ h4 {
   font-size: 1.333em;
 }
 
-small,
-.font_small {
-  font-size: 0.75em;
+.font_small,
+small {
+  font-size: .75em;
 }
 
 .fr {
@@ -929,21 +827,20 @@ html {
   font-size: 16px;
 }
 
-@media all and (max-width: 40em) {
+@media all and (max-width:40em) {
   html {
     font-size: 15px;
   }
 }
 
 body {
-  font-family: sans-serif;
   font-weight: 400;
   line-height: 1.45;
   color: #333;
 }
 
 a {
-  font-weight: bold;
+  font-weight: 700;
   outline: 0;
   border: 0;
   text-decoration: underline;
@@ -951,20 +848,20 @@ a {
 
 .search-input {
   display: block;
-  font-size: 0.95em;
+  font-size: .95em;
   border: none;
-  outline: none;
+  outline: 0;
   border-radius: 5px;
   color: #333;
-  padding: 0.5em 0;
-  transition: all 0.2s ease-in-out;
+  padding: .5em 0;
+  transition: all .2s ease-in-out;
 }
 
-.search-input:focus,
 .search-input:active,
+.search-input:focus,
 .search-input:hover {
   color: #333;
-  background-color: rgba(0,0,0,0.02);
+  background-color: rgba(0,0,0,.02);
 }
 
 b,
@@ -974,7 +871,6 @@ strong {
 }
 
 input {
-  font-family: sans-serif;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
@@ -982,25 +878,25 @@ input {
 
 code,
 pre {
-  font-family: monospace, monospace;
+  font-family: monospace,monospace;
   font-size: 1em;
 }
 
-time,
-address {
-  font-size: 0.8em;
+address,
+time {
+  font-size: .8em;
 }
 
-article > header > h1 {
+article>header>h1 {
   font-size: 3.57em;
 }
 
-body > footer {
-  font-size: 0.9em;
+body>footer {
+  font-size: .9em;
 }
 
 .opaque {
-  opacity: 0.3;
+  opacity: .3;
 }
 
 img {
@@ -1013,12 +909,12 @@ img {
 }
 
 .anchorjs-link {
-  opacity: 0.1 !important;
-  transition: all 0.25s ease-in-out;
+  opacity: .1!important;
+  transition: all .25s ease-in-out;
 }
 
-*:hover > .anchorjs-link,
-.anchorjs-link:hover {
-  opacity: 1 !important;
-  background-color: transparent !important;
+.anchorjs-link:hover,
+:hover>.anchorjs-link {
+  opacity: 1!important;
+  background-color: transparent!important;
 }
