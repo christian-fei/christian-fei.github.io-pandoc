@@ -1,29 +1,22 @@
 @require 'variables'
 
 body
-  background-color color_theme_inverted
-  background-color white
+  background-color color_theme
   color color_text
 
 a
   display inline-block
+  background-color transparent
   color inherit
-
   &:hover, &:focus, &:active
-    background-color color_theme
-    color color_theme_inverted
     border-radius 2px
+    background-color color_dark !important
+    color color_light !important
 
 body > header
-    background color_theme
-    color color_theme_inverted
+  background color_theme
+  color color_text
 
-    a
-      background-color transparent
-      color inherit
-      &:hover, &:focus, &:active
-        background-color color_light
-        color color_theme
 
 .results-container
   background-color transparent
@@ -85,7 +78,7 @@ body > header
 pre
   position relative
   background-color color_theme
-  color color_theme_inverted
+  color color_text
 
 
 

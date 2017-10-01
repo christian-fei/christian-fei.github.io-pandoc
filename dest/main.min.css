@@ -1,37 +1,25 @@
 body {
-  background-color: #d5d5d5;
   background-color: #fff;
   color: #333;
 }
 
 a {
   display: inline-block;
+  background-color: transparent;
   color: inherit;
 }
 
 a:hover,
 a:focus,
 a:active {
-  background-color: #2a2a2a;
-  color: #d5d5d5;
   border-radius: 2px;
+  background-color: #333 !important;
+  color: #fff !important;
 }
 
 body > header {
-  background: #2a2a2a;
-  color: #d5d5d5;
-}
-
-body > header a {
-  background-color: transparent;
-  color: inherit;
-}
-
-body > header a:hover,
-body > header a:focus,
-body > header a:active {
-  background-color: #ededed;
-  color: #2a2a2a;
+  background: #fff;
+  color: #333;
 }
 
 .results-container {
@@ -126,8 +114,8 @@ body > header a:active {
 
 pre {
   position: relative;
-  background-color: #2a2a2a;
-  color: #d5d5d5;
+  background-color: #fff;
+  color: #333;
 }
 
 pre {
@@ -204,36 +192,6 @@ pre {
     transform: translateY(0px);
   }
 }
-.github-projects-gallery {
-  flex-flow: row wrap;
-  display: flex;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
-.github-projects-gallery .github-project {
-  text-align: center;
-  display: block;
-  flex: auto;
-  width: 50%;
-  min-height: 150px;
-  padding: 0.5em 0.7em;
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
-  background: #f2f2f2;
-}
-
-.github-projects-gallery .github-project:hover,
-.github-projects-gallery .github-project:active,
-.github-projects-gallery .github-project:focus {
-  color: color_light;
-  background-color: color_dark;
-}
-
-.github-projects-gallery .github-project .link {
-  font-size: 1.3em;
-  text-decoration: underline;
-}
 html,
 body {
   min-height: 100%;
@@ -245,13 +203,14 @@ body {
 body > main,
 body > header > section,
 body > footer {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1.5rem/2;
+  padding-bottom: 1.5rem/2;
 }
 
 body > header > nav {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  border-bottom: 2px solid rgba(33,33,33,0.33);
 }
 
 article > footer {
@@ -498,13 +457,14 @@ body {
 body > main,
 body > header > section,
 body > footer {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1.5rem/2;
+  padding-bottom: 1.5rem/2;
 }
 
 body > header > nav {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  border-bottom: 2px solid rgba(33,33,33,0.33);
 }
 
 article > footer {
@@ -594,39 +554,27 @@ body > main.free {
 }
 
 body {
-  background-color: #d5d5d5;
   background-color: #fff;
   color: #333;
 }
 
 a {
   display: inline-block;
+  background-color: transparent;
   color: inherit;
 }
 
 a:hover,
 a:focus,
 a:active {
-  background-color: #2a2a2a;
-  color: #d5d5d5;
   border-radius: 2px;
+  background-color: #333 !important;
+  color: #fff !important;
 }
 
 body > header {
-  background: #2a2a2a;
-  color: #d5d5d5;
-}
-
-body > header a {
-  background-color: transparent;
-  color: inherit;
-}
-
-body > header a:hover,
-body > header a:focus,
-body > header a:active {
-  background-color: #ededed;
-  color: #2a2a2a;
+  background: #fff;
+  color: #333;
 }
 
 .results-container {
@@ -721,8 +669,8 @@ body > header a:active {
 
 pre {
   position: relative;
-  background-color: #2a2a2a;
-  color: #d5d5d5;
+  background-color: #fff;
+  color: #333;
 }
 
 pre {
@@ -798,37 +746,6 @@ pre {
     background: transparent;
     transform: translateY(0px);
   }
-}
-
-.github-projects-gallery {
-  flex-flow: row wrap;
-  display: flex;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
-.github-projects-gallery .github-project {
-  text-align: center;
-  display: block;
-  flex: auto;
-  width: 50%;
-  min-height: 150px;
-  padding: 0.5em 0.7em;
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
-  background: #f2f2f2;
-}
-
-.github-projects-gallery .github-project:hover,
-.github-projects-gallery .github-project:active,
-.github-projects-gallery .github-project:focus {
-  color: #ededed;
-  background-color: #333;
-}
-
-.github-projects-gallery .github-project .link {
-  font-size: 1.3em;
-  text-decoration: underline;
 }
 .no-mt {
   margin-top: 0;
