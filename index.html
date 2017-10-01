@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<section class="content mt-l">
-  <p class="no-mt">You can read some of my posts:</p>
+<section class="content">
+  <h1>Posts</h1>
   {% for post in site.posts limit:7 %}
     {% include post-template.html %}
   {% endfor %}
