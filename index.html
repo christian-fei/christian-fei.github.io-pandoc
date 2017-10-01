@@ -44,16 +44,3 @@ layout: default
     </a>
   </p>
 </section>
-
-<section class="content mt-l tid">
-  <p class="no-mt">and some of the things I discovered</p>
-  {% for tid in site.data.tid limit:7  %}
-    {% include tid-small-template.html %}
-  {% endfor %}
-
-  <p>
-    <a href="/tid" class="fr">
-      All TID's <small>▶︎</small>
-    </a>
-  </p>
-</section>
