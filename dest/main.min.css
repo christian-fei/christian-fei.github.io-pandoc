@@ -266,19 +266,13 @@ body > footer {
 
 .avatar-container {
   display: block;
-  position: absolute;
-  top: calc(50% + -1.5rem);
-  left: -3rem;
+  float: right;
 }
 
-.avatar-container > div {
-  position: relative;
-}
-
-@media all and (max-width: 950px) {
-  .avatar-container {
-    display: none;
-  }
+.avatar-container img {
+  height: 6em;
+  width: 6em;
+  margin-left: 0.75em;
 }
 
 .avatar {
@@ -360,10 +354,6 @@ small,
 
 .fr {
   float: right;
-}
-
-html {
-  font-size: 16px;
 }
 
 @media all and (max-width: 40em) {
@@ -534,19 +524,13 @@ body > footer {
 
 .avatar-container {
   display: block;
-  position: absolute;
-  top: calc(50% + -1.5rem);
-  left: -3rem;
+  float: right;
 }
 
-.avatar-container > div {
-  position: relative;
-}
-
-@media all and (max-width: 950px) {
-  .avatar-container {
-    display: none;
-  }
+.avatar-container img {
+  height: 6em;
+  width: 6em;
+  margin-left: 0.75em;
 }
 
 .avatar {
@@ -867,10 +851,6 @@ small,
 
 .fr {
   float: right;
-}
-
-html {
-  font-size: 16px;
 }
 
 @media all and (max-width: 40em) {

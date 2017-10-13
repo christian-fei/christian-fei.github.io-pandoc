@@ -57,15 +57,11 @@ body > footer
 
 .avatar-container
   display block
-  position absolute
-  top calc(50% + -1.5rem)
-  left -1 * space * 2
-  & > div
-    position relative
-
-@media all and (max-width 950px)
-  .avatar-container
-    display none
+  float right
+  img
+    height 6em
+    width 6em
+    margin-left 0.75em
 
 .avatar
   border-radius 50%
