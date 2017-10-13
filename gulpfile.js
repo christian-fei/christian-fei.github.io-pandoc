@@ -33,7 +33,7 @@ gulp.task('css', function () {
   return gulp.src(srcFiles)
   .pipe(stylus())
   .pipe(postcss(processors))
-  .pipe(cssmin())
+  // .pipe(cssmin())
   .pipe(concatCss('main.min.css'))
   .pipe(gulp.dest('./dest'))
 })

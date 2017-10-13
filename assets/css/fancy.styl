@@ -6,12 +6,16 @@ body
 
 a
   display inline-block
-  background-color transparent
   color inherit
+  border-bottom 2px solid red
+  // transition all .1s ease-in
+  text-decoration none
+
   &:hover, &:focus, &:active
-    border-radius 2px
-    background-color color_dark !important
-    color color_light !important
+    // border-radius 2px
+    // border-bottom 2px solid color_dark
+    color color_light
+    background-color color_dark
 
 body > header
   background color_theme
