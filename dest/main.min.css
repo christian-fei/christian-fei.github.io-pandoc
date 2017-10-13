@@ -233,7 +233,7 @@ body > main.free {
 .container {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  max-width: 50rem;
+  max-width: 42rem;
   margin: auto;
   position: relative;
 }
@@ -281,7 +281,7 @@ body > footer {
   height: 3em;
 }
 
-@media all and (max-width: 50rem) {
+@media all and (max-width: 42rem) {
   .hide-mobile {
     display: none;
   }
@@ -491,7 +491,7 @@ body > main.free {
 .container {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  max-width: 50rem;
+  max-width: 42rem;
   margin: auto;
   position: relative;
 }
@@ -539,7 +539,7 @@ body > footer {
   height: 3em;
 }
 
-@media all and (max-width: 50rem) {
+@media all and (max-width: 42rem) {
   .hide-mobile {
     display: none;
   }
