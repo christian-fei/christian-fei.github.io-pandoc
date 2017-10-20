@@ -30,4 +30,4 @@ defaults:
         values:
             layout: post
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'webpack.config.js', 'package.json', 'deploy.changed.sh','gulpfile.js','jekyll-new-post', 'assets/js', 'assets/css', 'node_modules']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'webpack.config.js', 'package.json', 'package-lock.json', 'deploy.changed.sh','gulpfile.js','jekyll-new-post', 'assets/js', 'assets/css', 'node_modules']
