@@ -11,7 +11,7 @@
     "build:js:watch": "npm run build:js -- --watch",
     "build:css": "gulp css",
     "build:css:watch": "gulp css:watch",
-    "deploy": "aws s3 sync --acl public-read --region eu-central-1 ./_site/ s3://christianfei.com",
+    "deploy": "aws s3 cp --recursive --acl public-read --region eu-central-1 ./_site/ s3://christianfei.com",
     "deploy:changed": "./deploy.changed.sh"
   },
   "repository": {
