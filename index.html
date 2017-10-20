@@ -2,15 +2,31 @@
 layout: default
 ---
 
-<section class="content">
-  <h1>Posts</h1>
-  {% for post in site.posts limit:7 %}
-    {% include post-template.html %}
-  {% endfor %}
+Some <span class="fancy-highlight">projects</span> i'm currently working on:
 
-  <p>
-    <a href="/posts" class="fr">
-      All posts <small>▶︎</small>
-    </a>
-  </p>
-</section>
+<div class="project">
+  <h4><a href="https://pomodoro.cc" target="_blank">pomodoro.cc</a></h4>
+  <p>Pomodoro.cc helps you to stay focused and get things done by leveraging the Pomodoro Technique ®.</p>
+</div>
+
+<div class="project">
+  <h4><a href="https://github.com/christian-fei/dotfiles" target="_blank">dotfiles</a></h4>
+  <p>my dotfiles, maintained daily.</p>
+</div>
+
+<div class="project">
+  <h4><a href="https://github.com/christian-fei/Simple-Jekyll-Search" target="_blank">Simple-Jekyll-Search</a></h4>
+  <p>A JavaScript library to add search functionality to any Jekyll blog.</p>
+</div>
+
+<h4>
+  Other projects I am proud of
+</h4>
+
+<ul>
+  {% for project in site.data.projects %}
+    <li>
+      <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
+    </li>
+  {% endfor %}
+</ul>
