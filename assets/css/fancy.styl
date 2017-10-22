@@ -121,3 +121,15 @@ pre
 .fancy-highlight
   color #848484
 
+@keyframes wiggle
+  from
+    transform rotateZ(-15deg) scaleY(1.4) scaleX(1.4)
+  to
+    transform rotateZ(25deg) scaleY(1.5) scaleX(1.5)
+
+.hand
+  display inline-block
+  padding-left 0.2em
+  padding-right 0.2em
+  animation wiggle 1s ease 0s infinite
+  animation-direction alternate-reverse

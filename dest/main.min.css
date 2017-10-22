@@ -162,6 +162,14 @@ pre {
   color: #848484;
 }
 
+.hand {
+  display: inline-block;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  animation: wiggle 1s ease 0s infinite;
+  animation-direction: alternate-reverse;
+}
+
 @-moz-keyframes fly-in {
   from {
     height: 0;
@@ -211,6 +219,46 @@ pre {
     height: 1em;
     background: transparent;
     transform: translateY(0px);
+  }
+}
+
+@-moz-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
+
+@-webkit-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
+
+@-o-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
   }
 }
 html,
@@ -332,7 +380,7 @@ body > footer {
 }
 
 html {
-  font-size: 1em;
+  font-size: 18px;
 }
 
 body {
@@ -379,7 +427,7 @@ small,
 
 @media all and (max-width: 40em) {
   html {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -750,6 +798,14 @@ pre {
   color: #848484;
 }
 
+.hand {
+  display: inline-block;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  animation: wiggle 1s ease 0s infinite;
+  animation-direction: alternate-reverse;
+}
+
 @-moz-keyframes fly-in {
   from {
     height: 0;
@@ -801,11 +857,51 @@ pre {
     transform: translateY(0px);
   }
 }
+
+@-moz-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
+
+@-webkit-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
+
+@-o-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
 .no-mt {
   margin-top: 0;
 }
 html {
-  font-size: 1em;
+  font-size: 18px;
 }
 
 body {
@@ -850,7 +946,7 @@ small,
   float: right;
 }
 html {
-  font-size: 1em;
+  font-size: 18px;
 }
 
 body {
@@ -897,7 +993,7 @@ small,
 
 @media all and (max-width: 40em) {
   html {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
