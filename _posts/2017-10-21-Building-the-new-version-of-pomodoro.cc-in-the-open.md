@@ -45,6 +45,15 @@ additionally i have in mind to make a service that users want to pay for what th
 
 in the meantime i built [`payments`](https://github.com/christian-fei/payments), which should be a simple way to manage stripe payment with minimal infrastructure costs.
 
+### project & metrics
+
+waffle.io is used to keep track of [project metrics](https://waffle.io/christian-fei/pomodoro.cc/metrics).
+
+which gives me nice charts like this:
+
+![waffle.io pomodoro.cc metrics](/assets/images/posts/waffle.io.pomodoro.cc.png)
+
+
 
 ## where to go from here
 
