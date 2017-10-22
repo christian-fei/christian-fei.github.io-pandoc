@@ -145,45 +145,6 @@ pre {
   color: #848484;
 }
 
-@-moz-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
-@-webkit-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
-@-o-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
 @keyframes fly-in {
   from {
     height: 0;
@@ -243,14 +204,17 @@ body > main.free {
 }
 
 .flex-container {
+  display: -ms-flexbox;
   display: flex;
 }
 
 .flex-container .no-flex {
+  -ms-flex: none;
   flex: none;
 }
 
 .flex-container .flex {
+  -ms-flex: 1;
   flex: 1;
 }
 
@@ -501,14 +465,17 @@ body > main.free {
 }
 
 .flex-container {
+  display: -ms-flexbox;
   display: flex;
 }
 
 .flex-container .no-flex {
+  -ms-flex: none;
   flex: none;
 }
 
 .flex-container .flex {
+  -ms-flex: 1;
   flex: 1;
 }
 
@@ -714,45 +681,6 @@ pre {
 
 .fancy-highlight {
   color: #848484;
-}
-
-@-moz-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
-@-webkit-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
-@-o-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
 }
 
 @keyframes fly-in {
