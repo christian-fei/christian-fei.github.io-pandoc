@@ -2,7 +2,19 @@
 layout: default
 ---
 
-Some <span class="fancy-highlight">projects</span> i'm currently working on:
+<h2>My latest blog posts</h2>
+
+{% for post in site.posts limit:3 %}
+  {% include post-template.html %}
+{% endfor %}
+
+<br />
+
+And if you're interested, <a href="/posts">here</a> you can read more of them :)
+
+<h2>
+  Some <span class="fancy-highlight">projects</span> i'm currently working on:
+</h2>
 
 <div class="project">
   <h4><a href="https://pomodoro.cc" target="_blank">pomodoro.cc</a></h4>
