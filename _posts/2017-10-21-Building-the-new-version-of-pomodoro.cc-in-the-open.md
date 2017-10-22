@@ -13,7 +13,7 @@ using [github projects](https://github.com/christian-fei/pomodoro.cc/projects/1)
 
 in the next sections you'll understand what changed.
 
-## cheaper maintainance costs
+## cheaper maintainance costs
 
 pomodoro.cc was hosted on [digitalocean.com](https://www.digitalocean.com/) and costed about 7€ a month to keep running. This includes domain costs, ssl certificates and hosting.
 
