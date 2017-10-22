@@ -1,6 +1,9 @@
 <a href="{{ post.url }}" title="{{ post.title}}" class="article-link" data-title="{{post.title}}">
-  {{ post.title }}
+  <span class="text">{{ post.title }}</span>
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="black">
     {{ post.date | date_to_string }}
   </time>
+  {% if post.bg_image %}
+    <img src="{{ post.bg_image }}" class="background-image">
+  {% endif %}
 </a>

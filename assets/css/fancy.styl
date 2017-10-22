@@ -52,8 +52,9 @@ body > header
 
 
 .article-link
-  margin-top space
   position relative
+  // display inline-block
+  margin-top space
 
   time
     display inline-block
@@ -65,6 +66,8 @@ body > header
     opacity 0.2
   &:hover time
     opacity 0.3
+  &:hover .text
+    background transparent
 
 .icon
   box-sizing content-box
@@ -74,10 +77,25 @@ body > header
   vertical-align sub
   fill lighten(color_text, 20)
 
+.article-link .text
+  display inline-block
+  background-color color_light
+  // margin-left 2em
+  padding 1em 0
+
 
 .article-link
   &.hidden
     display none
+
+.article-link .background-image
+  display inline-block
+  height 2em
+  position absolute
+  top 20%
+  bottom 0
+  left 24%
+  z-index -1
 
 pre
   position relative
@@ -105,3 +123,4 @@ pre
 
 .fancy-highlight
   color #848484
+

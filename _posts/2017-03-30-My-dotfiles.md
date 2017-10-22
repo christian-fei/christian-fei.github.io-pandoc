@@ -3,6 +3,7 @@ title: 'My dotfiles'
 date: 2017-03-30
 layout: post
 category: posts
+bg_image: /assets/images/posts/fork_count.png
 ---
 
 I want to talk a little bit about my `dotfiles`.
