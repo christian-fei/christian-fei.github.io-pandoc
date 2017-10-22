@@ -125,11 +125,8 @@ body > header {
 .article-link .background-image {
   display: inline-block;
   height: 2em;
-  position: absolute;
-  top: 20%;
-  bottom: 0;
-  left: 24%;
-  z-index: -1;
+  margin-left: 2em;
+  vertical-align: middle;
 }
 
 pre {
@@ -716,11 +713,8 @@ body > header {
 .article-link .background-image {
   display: inline-block;
   height: 2em;
-  position: absolute;
-  top: 20%;
-  bottom: 0;
-  left: 24%;
-  z-index: -1;
+  margin-left: 2em;
+  vertical-align: middle;
 }
 
 pre {
