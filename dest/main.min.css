@@ -99,10 +99,6 @@ body > header {
   opacity: 0.3;
 }
 
-.article-link:hover .text {
-  background: transparent;
-}
-
 .icon {
   box-sizing: content-box;
   width: 1.1em;
@@ -170,45 +166,6 @@ pre {
   animation-direction: alternate-reverse;
 }
 
-@-moz-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
-@-webkit-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
-@-o-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
 @keyframes fly-in {
   from {
     height: 0;
@@ -219,36 +176,6 @@ pre {
     height: 1em;
     background: transparent;
     transform: translateY(0px);
-  }
-}
-
-@-moz-keyframes wiggle {
-  from {
-    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
-  }
-
-  to {
-    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
-  }
-}
-
-@-webkit-keyframes wiggle {
-  from {
-    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
-  }
-
-  to {
-    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
-  }
-}
-
-@-o-keyframes wiggle {
-  from {
-    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
-  }
-
-  to {
-    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
   }
 }
 
@@ -308,14 +235,17 @@ body > main.free {
 }
 
 .flex-container {
+  display: -ms-flexbox;
   display: flex;
 }
 
 .flex-container .no-flex {
+  -ms-flex: none;
   flex: none;
 }
 
 .flex-container .flex {
+  -ms-flex: 1;
   flex: 1;
 }
 
@@ -570,14 +500,17 @@ body > main.free {
 }
 
 .flex-container {
+  display: -ms-flexbox;
   display: flex;
 }
 
 .flex-container .no-flex {
+  -ms-flex: none;
   flex: none;
 }
 
 .flex-container .flex {
+  -ms-flex: 1;
   flex: 1;
 }
 
@@ -739,10 +672,6 @@ body > header {
   opacity: 0.3;
 }
 
-.article-link:hover .text {
-  background: transparent;
-}
-
 .icon {
   box-sizing: content-box;
   width: 1.1em;
@@ -810,45 +739,6 @@ pre {
   animation-direction: alternate-reverse;
 }
 
-@-moz-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
-@-webkit-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
-@-o-keyframes fly-in {
-  from {
-    height: 0;
-  }
-
-  to {
-    opacity: 1;
-    height: 1em;
-    background: transparent;
-    transform: translateY(0px);
-  }
-}
-
 @keyframes fly-in {
   from {
     height: 0;
@@ -859,36 +749,6 @@ pre {
     height: 1em;
     background: transparent;
     transform: translateY(0px);
-  }
-}
-
-@-moz-keyframes wiggle {
-  from {
-    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
-  }
-
-  to {
-    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
-  }
-}
-
-@-webkit-keyframes wiggle {
-  from {
-    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
-  }
-
-  to {
-    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
-  }
-}
-
-@-o-keyframes wiggle {
-  from {
-    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
-  }
-
-  to {
-    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
   }
 }
 

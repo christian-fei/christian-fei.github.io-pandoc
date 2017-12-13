@@ -3,11 +3,16 @@ title: 'Mapping historic market data'
 date: 2017-12-11
 layout: post
 category: posts
+bg_image: /assets/images/posts/market-data.png
 ---
+
 
 Market data is generally represented as an array of arrays, and each entry is a data point that represents a "snapshot" of the market in a given period of time.
 
+
 Each data point contains information like the timestamp, open/close price, high/low price and the volume of transactions in this period.
+
+![market data](/assets/images/posts/market-data.full.png)
 
 Here is a recent sample of a few data points for the currency pair `LTC-EUR` on the market [`gdax`](https://www.gdax.com/):
 
