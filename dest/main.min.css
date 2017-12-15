@@ -166,6 +166,45 @@ pre {
   animation-direction: alternate-reverse;
 }
 
+@-moz-keyframes fly-in {
+  from {
+    height: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: 1em;
+    background: transparent;
+    transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes fly-in {
+  from {
+    height: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: 1em;
+    background: transparent;
+    transform: translateY(0px);
+  }
+}
+
+@-o-keyframes fly-in {
+  from {
+    height: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: 1em;
+    background: transparent;
+    transform: translateY(0px);
+  }
+}
+
 @keyframes fly-in {
   from {
     height: 0;
@@ -176,6 +215,36 @@ pre {
     height: 1em;
     background: transparent;
     transform: translateY(0px);
+  }
+}
+
+@-moz-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
+
+@-webkit-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
+
+@-o-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
   }
 }
 
@@ -199,13 +268,14 @@ body {
 body > main,
 body > header > section,
 body > footer {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 body > header > nav {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  background-color: #f1f1f1;
 }
 
 body > header > nav a {
@@ -235,17 +305,14 @@ body > main.free {
 }
 
 .flex-container {
-  display: -ms-flexbox;
   display: flex;
 }
 
 .flex-container .no-flex {
-  -ms-flex: none;
   flex: none;
 }
 
 .flex-container .flex {
-  -ms-flex: 1;
   flex: 1;
 }
 
@@ -265,12 +332,12 @@ body > footer {
 
 .avatar-container {
   display: block;
-  float: right;
+  float: left;
 }
 
 .avatar-container img {
   height: 128px;
-  margin-left: 0.75em;
+  margin-right: 1em;
 }
 
 @media all and (max-width: 42rem) {
@@ -414,6 +481,10 @@ address {
   font-size: 0.8em;
 }
 
+body > header {
+  font-size: 1.1em;
+}
+
 article > header > h1 {
   font-size: 3.57em;
 }
@@ -431,7 +502,7 @@ img {
 }
 
 .extreme {
-  font-size: 30vw;
+  font-size: 20vw;
   margin: 0;
 }
 
@@ -457,13 +528,14 @@ body {
 body > main,
 body > header > section,
 body > footer {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 body > header > nav {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  background-color: #f1f1f1;
 }
 
 body > header > nav a {
@@ -493,17 +565,14 @@ body > main.free {
 }
 
 .flex-container {
-  display: -ms-flexbox;
   display: flex;
 }
 
 .flex-container .no-flex {
-  -ms-flex: none;
   flex: none;
 }
 
 .flex-container .flex {
-  -ms-flex: 1;
   flex: 1;
 }
 
@@ -523,12 +592,12 @@ body > footer {
 
 .avatar-container {
   display: block;
-  float: right;
+  float: left;
 }
 
 .avatar-container img {
   height: 128px;
-  margin-left: 0.75em;
+  margin-right: 1em;
 }
 
 @media all and (max-width: 42rem) {
@@ -725,6 +794,45 @@ pre {
   animation-direction: alternate-reverse;
 }
 
+@-moz-keyframes fly-in {
+  from {
+    height: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: 1em;
+    background: transparent;
+    transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes fly-in {
+  from {
+    height: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: 1em;
+    background: transparent;
+    transform: translateY(0px);
+  }
+}
+
+@-o-keyframes fly-in {
+  from {
+    height: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: 1em;
+    background: transparent;
+    transform: translateY(0px);
+  }
+}
+
 @keyframes fly-in {
   from {
     height: 0;
@@ -735,6 +843,36 @@ pre {
     height: 1em;
     background: transparent;
     transform: translateY(0px);
+  }
+}
+
+@-moz-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
+
+@-webkit-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
+
+@-o-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
   }
 }
 
@@ -907,6 +1045,10 @@ address {
   font-size: 0.8em;
 }
 
+body > header {
+  font-size: 1.1em;
+}
+
 article > header > h1 {
   font-size: 3.57em;
 }
@@ -924,7 +1066,7 @@ img {
 }
 
 .extreme {
-  font-size: 30vw;
+  font-size: 20vw;
   margin: 0;
 }
 

@@ -4,13 +4,17 @@ title: 404
 permalink: /404.html
 ---
 
-<small>it seems what you were searching doesn't exist anymore :(</small>
 <h1 class="extreme">404</h1>
+<p>it seems what you were searching doesn't exist anymore :(</p>
 
 <section class="content mv4">
   <p>
     Here you can read some things I wrote:
   </p>
+  <section>
+    <input type="text" class="search-input" placeholder="Type / to search">
+    <div class="results-container"></div>
+  </section>
   {% for post in site.posts %}
     {% include post-template.html %}
   {% endfor %}
