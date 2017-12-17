@@ -13,8 +13,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #fff;
-  background-color: #333;
+  background-color: #ff0;
 }
 
 body > header {
@@ -166,6 +165,22 @@ pre {
   animation-direction: alternate-reverse;
 }
 
+svg.twitter path {
+  fill: #0084b4;
+}
+
+svg.github path {
+  fill: #333;
+}
+
+::-moz-selection {
+  background-color: #ff0;
+}
+
+::selection {
+  background-color: #ff0;
+}
+
 @keyframes fly-in {
   from {
     height: 0;
@@ -270,7 +285,7 @@ body > footer {
 }
 
 .avatar-container img {
-  height: 128px;
+  height: 7.1em;
   margin-right: 1em;
 }
 
@@ -533,7 +548,7 @@ body > footer {
 }
 
 .avatar-container img {
-  height: 128px;
+  height: 7.1em;
   margin-right: 1em;
 }
 
@@ -578,8 +593,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #fff;
-  background-color: #333;
+  background-color: #ff0;
 }
 
 body > header {
@@ -729,6 +743,22 @@ pre {
   padding-right: 0.2em;
   animation: wiggle 1s ease 0s infinite;
   animation-direction: alternate-reverse;
+}
+
+svg.twitter path {
+  fill: #0084b4;
+}
+
+svg.github path {
+  fill: #333;
+}
+
+::-moz-selection {
+  background-color: #ff0;
+}
+
+::selection {
+  background-color: #ff0;
 }
 
 @keyframes fly-in {

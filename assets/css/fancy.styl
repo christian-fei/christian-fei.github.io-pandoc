@@ -12,10 +12,11 @@ a
   text-decoration none
 
   &:hover, &:focus, &:active
+    background-color yellow
     // border-radius 2px
     // border-bottom 2px solid color_dark
-    color color_light
-    background-color color_dark
+    // color color_light
+    // background-color color_dark
 
 body > header
   background color_theme
@@ -133,3 +134,12 @@ pre
   padding-right 0.2em
   animation wiggle 1s ease 0s infinite
   animation-direction alternate-reverse
+
+svg.twitter path
+  fill #0084b4
+svg.github path
+  fill #333
+
+::selection {
+  background-color: yellow;
+}
