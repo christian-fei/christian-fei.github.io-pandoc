@@ -181,6 +181,11 @@ svg.github path {
   background-color: #ff0;
 }
 
+.bitcoin-address:hover {
+  width: 400px;
+  max-width: 100%;
+}
+
 @keyframes fly-in {
   from {
     height: 0;
@@ -759,6 +764,11 @@ svg.github path {
 
 ::selection {
   background-color: #ff0;
+}
+
+.bitcoin-address:hover {
+  width: 400px;
+  max-width: 100%;
 }
 
 @keyframes fly-in {
