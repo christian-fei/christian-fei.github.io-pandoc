@@ -45,7 +45,6 @@ exclude: [
     '_drafts',
     '_includes',
     '_layouts',
-    '_posts',
     'package.json',
     'package-lock.json'
     ]
