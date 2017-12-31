@@ -47,7 +47,7 @@ In your template add the following markup to define a placeholder for the search
 Add the following script tag to your base/default `_layout`:
 
 ```
-<script src="https://unpkg.com/simple-jekyll-search@1.1.6/dest/jekyll-search.min.js"></script>
+<script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
 ```
 
 And in a separate script tag:
