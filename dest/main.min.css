@@ -1,5 +1,4 @@
 body {
-  background-color: #fff;
   color: #333;
 }
 
@@ -17,7 +16,6 @@ a:active {
 }
 
 body > header {
-  background: #fff;
   color: #333;
 }
 
@@ -173,10 +171,6 @@ svg.github path {
   fill: #333;
 }
 
-::-moz-selection {
-  background-color: #ff0;
-}
-
 ::selection {
   background-color: #ff0;
 }
@@ -184,6 +178,45 @@ svg.github path {
 .bitcoin-address:hover {
   width: 400px;
   max-width: 100%;
+}
+
+@-moz-keyframes fly-in {
+  from {
+    height: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: 1em;
+    background: transparent;
+    transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes fly-in {
+  from {
+    height: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: 1em;
+    background: transparent;
+    transform: translateY(0px);
+  }
+}
+
+@-o-keyframes fly-in {
+  from {
+    height: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: 1em;
+    background: transparent;
+    transform: translateY(0px);
+  }
 }
 
 @keyframes fly-in {
@@ -196,6 +229,36 @@ svg.github path {
     height: 1em;
     background: transparent;
     transform: translateY(0px);
+  }
+}
+
+@-moz-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
+
+@-webkit-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
+
+@-o-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
   }
 }
 
@@ -226,7 +289,6 @@ body > footer {
 body > header > nav {
   padding-top: 3rem;
   padding-bottom: 1.5rem;
-  background-color: #f1f1f1;
 }
 
 body > header > nav a {
@@ -256,17 +318,14 @@ body > main.free {
 }
 
 .flex-container {
-  display: -ms-flexbox;
   display: flex;
 }
 
 .flex-container .no-flex {
-  -ms-flex: none;
   flex: none;
 }
 
 .flex-container .flex {
-  -ms-flex: 1;
   flex: 1;
 }
 
@@ -489,7 +548,6 @@ body > footer {
 body > header > nav {
   padding-top: 3rem;
   padding-bottom: 1.5rem;
-  background-color: #f1f1f1;
 }
 
 body > header > nav a {
@@ -519,17 +577,14 @@ body > main.free {
 }
 
 .flex-container {
-  display: -ms-flexbox;
   display: flex;
 }
 
 .flex-container .no-flex {
-  -ms-flex: none;
   flex: none;
 }
 
 .flex-container .flex {
-  -ms-flex: 1;
   flex: 1;
 }
 
@@ -584,7 +639,6 @@ body > footer {
 }
 
 body {
-  background-color: #fff;
   color: #333;
 }
 
@@ -602,7 +656,6 @@ a:active {
 }
 
 body > header {
-  background: #fff;
   color: #333;
 }
 
@@ -758,10 +811,6 @@ svg.github path {
   fill: #333;
 }
 
-::-moz-selection {
-  background-color: #ff0;
-}
-
 ::selection {
   background-color: #ff0;
 }
@@ -769,6 +818,45 @@ svg.github path {
 .bitcoin-address:hover {
   width: 400px;
   max-width: 100%;
+}
+
+@-moz-keyframes fly-in {
+  from {
+    height: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: 1em;
+    background: transparent;
+    transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes fly-in {
+  from {
+    height: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: 1em;
+    background: transparent;
+    transform: translateY(0px);
+  }
+}
+
+@-o-keyframes fly-in {
+  from {
+    height: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: 1em;
+    background: transparent;
+    transform: translateY(0px);
+  }
 }
 
 @keyframes fly-in {
@@ -781,6 +869,36 @@ svg.github path {
     height: 1em;
     background: transparent;
     transform: translateY(0px);
+  }
+}
+
+@-moz-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
+
+@-webkit-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+  }
+}
+
+@-o-keyframes wiggle {
+  from {
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
   }
 }
 

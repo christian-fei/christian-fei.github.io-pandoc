@@ -1,25 +1,18 @@
 @require 'variables'
 
 body
-  background-color color_theme
   color color_text
 
 a
   display inline-block
   color inherit
   border-bottom 2px solid red
-  // transition all .1s ease-in
   text-decoration none
 
   &:hover, &:focus, &:active
     background-color yellow
-    // border-radius 2px
-    // border-bottom 2px solid color_dark
-    // color color_light
-    // background-color color_dark
 
 body > header
-  background color_theme
   color color_text
 
 
@@ -50,8 +43,6 @@ body > header
     background transparent
     transform translateY(0px)
 
-
-
 .article-link
   position relative
   // display inline-block
@@ -67,8 +58,6 @@ body > header
     opacity 0.2
   &:hover time
     opacity 0.3
-  //&:hover .text
-  //  background transparent
 
 .icon
   box-sizing content-box
@@ -81,7 +70,6 @@ body > header
 .article-link .text
   display inline-block
   background-color color_light
-  // margin-left 2em
   padding 1em 0
 
 
