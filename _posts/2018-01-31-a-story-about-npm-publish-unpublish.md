@@ -65,3 +65,12 @@ is there a prepublish hook that could check that the usernames from a github rep
 I don't know. Maybe one day I'll find it out and report back.
 
 Do you know if there is a way to have multiple npm accounts on the same shell? (e.g. ~/.aws/credentials)
+
+
+## ⚡️ it worked!
+
+[![NPM](https://nodei.co/npm/wait-for-user-input.png)](https://npmjs.org/package/wait-for-user-input)
+
+[wait-for-user-input](https://www.npmjs.com/package/wait-for-user-input) is available on npm!
+
+(under the correct account this time 😅)
