@@ -51,10 +51,12 @@ In fact, on [docs.npmjs.com](https://docs.npmjs.com/cli/unpublish) it's clearly 
 
 So, now I need to:
 
-- wait 24 hours
-- publish again under the correct npm account
+- ~wait 24 hours~
+- ~publish again under the correct npm account~
 
-Tomorrow I'll update the article.
+[~Tomorrow I'll update the article.~](#it-worked)
+
+Check out [the updated section](#it-worked)!
 
 ## how to avoid
 
