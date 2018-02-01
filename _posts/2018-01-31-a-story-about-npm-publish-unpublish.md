@@ -47,8 +47,7 @@ In fact, on [docs.npmjs.com](https://docs.npmjs.com/cli/unpublish) it's clearly 
 
 > with the default registry (registry.npmjs.org), unpublish is only allowed with versions published in the last 24 hours. If you are trying to unpublish a version published longer ago than that, contact support@npmjs.com.
 
-
-## next steps
+## next steps
 
 So, now I need to:
 
@@ -57,7 +56,6 @@ So, now I need to:
 
 Tomorrow I'll update the article.
 
-
 ## how to avoid
 
 is there a prepublish hook that could check that the usernames from a github repo match the one on npm?
@@ -65,7 +63,6 @@ is there a prepublish hook that could check that the usernames from a github rep
 I don't know. Maybe one day I'll find it out and report back.
 
 Do you know if there is a way to have multiple npm accounts on the same shell? (e.g. ~/.aws/credentials)
-
 
 ## ⚡️ it worked!
 
