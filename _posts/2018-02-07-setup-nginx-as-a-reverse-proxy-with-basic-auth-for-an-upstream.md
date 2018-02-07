@@ -11,11 +11,12 @@ this is the most barebones nginx configuration that you'll ever need.
 
 this snippet makes nginx listen on port `80` of your server, indipendent if you want to access to your server via IP or domain name.
 
+additionally it acts as [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy) for your application, listening on the HTTP Port `8080`.
+
 just setup an `/etc/nginx/.htpasswd` file with your basic auth credentials.
 
-Additionally it acts as [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy) for your application, listening on the HTTP Port `8080`.
 
-Change these values at will.
+change these values at will.
 
 ```
 worker_processes 4;
