@@ -1,0 +1,24 @@
+---
+layout: page
+free_layout: true
+title: Discover
+permalink: /discover/
+---
+
+<h3>things i found on the interwebz</h3>
+
+<ul>
+  {% for discover in site.data.discover %}
+    <li class="discover">
+      <span>{{ discover.date }}</span>
+      {% if discover.url %}
+        <a href="{{ discover.url }}" target="_blank">{{ discover.title }}</a>
+        {% if discover.what %}
+          <p>{{ discover.what }}</p>
+        {% endif %}
+      {% else%}
+        <pre>not implemented</pre>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

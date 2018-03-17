@@ -1,0 +1,33 @@
+- title: hyperboot
+  url: https://github.com/substack/hyperboot
+  date: '2018-03-17'
+  what: offline webapp bootloader
+- title: toml
+  url: https://github.com/toml-lang/toml
+  date: '2018-03-17'
+  what: Tom's Obvious, Minimal Language. minimal configuration file format that's easy to read due to obvious semantics.
+- title: ReactiveX
+  url: http://reactivex.io/
+  date: '2018-03-16'
+  what: An API for asynchronous programming with observable streams.
+- title: Tom Preston Werner Website
+  url: http://tom.preston-werner.com/
+  date: '2018-03-16'
+  what: I liked his website
+- title: substack/html-version-spec
+  url: https://github.com/substack/html-version-spec
+  date: '2018-03-16'
+  what: Track html file revisions with semver and inline metadata.
+- title: array-extras
+  url: https://blogs.msdn.microsoft.com/ie/2010/12/13/ecmascript-5-part-2-array-extras/
+  date: '2018-03-16'
+  what: ES5 adds a set of new functions to make common tasks easier and less error-prone.
+- title: semver.org
+  url: https://semver.org/
+  date: '2018-03-16'
+  what: Escape dependency hell.
+- title: http://emptystat.es/
+  url: http://emptystat.es/
+  date: '2018-03-16'
+  what: Inspiration for empty states &num;UX
+
