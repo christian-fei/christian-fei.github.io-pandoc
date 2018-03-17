@@ -1,3 +1,19 @@
+- title: Getting to Philosophy
+  url: https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy
+  date: '2018-03-18'
+  what: 97% of all articles in Wikipedia eventually led to the article Philosophy
+- title: kamranahmedse/driver.js
+  url: https://github.com/kamranahmedse/driver.js
+  date: '2018-03-17'
+  what: drive the user's focus across the page
+- title: nhnent/tui.chart
+  url: https://github.com/nhnent/tui.chart
+  date: '2018-03-17'
+  what: Beautiful chart for data visualization
+- title: webtask.io
+  url: https://webtask.io/
+  date: '2018-03-17'
+  what: Make serverless endpoints
 - title: hyperboot
   url: https://github.com/substack/hyperboot
   date: '2018-03-17'
