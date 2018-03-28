@@ -1,22 +1,35 @@
-# requirements
+## requirements
 
 - bundle (ruby)
 - npm (node)
 
-# setup
+## setup
 
 ```
 bundle
 npm i
 ```
 
-# build site
+## add new post
+
+```
+./jekyll-new-post Title of the blog post
+```
+
+## add new discover
+
+```
+./new-discover "title" "description" "url"
+./new-discover "title" "url"
+```
+
+## build site
 
 ```
 npm run build:site
 ```
 
-# build assets
+## build assets
 
 ```
 npm run build
@@ -25,7 +38,7 @@ npm run build:js
 npm run build:css
 ```
 
-# development
+## development
 
 ```
 bundle exec jekyll serve
