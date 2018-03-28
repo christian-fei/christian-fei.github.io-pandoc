@@ -24,7 +24,7 @@ const newDiscover = `
 - title: ${title}${description ? `
   description: ${description}` : ''}${url ? `
   url: ${url}` : ''}
-  date: ${date}
+  date: '${date}'
 `.trim()
 
 writeFileSync(discoverPath, `${newDiscover}\n${discoverContents}`, {encoding: 'utf-8'})
