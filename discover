@@ -9,11 +9,16 @@ const discoverContents = readFileSync(discoverPath, {encoding: 'utf-8'})
 
 const args = process.argv.slice(2)
 const title = args[0]
-const description = args[1]
-const url = args[2]
+let description = args[1]
+let url = args[2]
 const date = new Date().toISOString().substring(0, 10)
 
 if (!title) throw new Error('"title" are required, see `discover` for more info')
+
+if (/^http/.test(description)) {
+  url = description + ''
+  description = null
+}
 
 const newDiscover = `
 - title: ${title}${description ? `
@@ -24,4 +29,4 @@ const newDiscover = `
 
 writeFileSync(discoverPath, `${newDiscover}\n${discoverContents}`, {encoding: 'utf-8'})
 
-process.stdout.write(discoverContents)
+process.stdout.write(readFileSync(discoverPath, {encoding: 'utf-8'}))
