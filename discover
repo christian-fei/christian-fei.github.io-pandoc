@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+
+const {readFileSync, writeFileSync} = require('fs')
+const {resolve} = require('path')
+
+const discoverPath = resolve(__dirname, '_data', 'discover.yml')
+
+const discoverContents = readFileSync(discoverPath, {encoding: 'utf-8'})
+
+const args = process.argv.slice(2)
+const title = args[0]
+const description = args[1]
+const url = args[2]
+const date = new Date().toISOString().substring(0, 10)
+
+if (!title) throw new Error('"title" are required, see `discover` for more info')
+
+const newDiscover = `
+- title: ${title}${description ? `
+  description: ${description}` : ''}${url ? `
+  url: ${url}` : ''}
+  date: ${date}
+`.trim()
+
+writeFileSync(discoverPath, `${newDiscover}\n${discoverContents}`, {encoding: 'utf-8'})
+
+process.stdout.write(discoverContents)
