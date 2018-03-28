@@ -13,8 +13,8 @@ permalink: /discover/
       <span>{{ discover.date }}</span>
       {% if discover.url %}
         <a href="{{ discover.url }}" target="_blank">{{ discover.title }}</a>
-        {% if discover.what %}
-          <p>{{ discover.what }}</p>
+        {% if discover.description %}
+          <p>{{ discover.description }}</p>
         {% endif %}
       {% else%}
         <pre>not implemented</pre>

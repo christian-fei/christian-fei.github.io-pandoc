@@ -1,53 +1,53 @@
 - title: Understanding the Limitations of HTTPS
   url: https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/
   date: '2018-03-18'
-  what: HTTPS only works if you use it.
+  description: HTTPS only works if you use it.
 - title: Getting to Philosophy
   url: https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy
   date: '2018-03-18'
-  what: 97% of all articles in Wikipedia eventually led to the article Philosophy
+  description: 97% of all articles in Wikipedia eventually led to the article Philosophy
 - title: kamranahmedse/driver.js
   url: https://github.com/kamranahmedse/driver.js
   date: '2018-03-17'
-  what: drive the user's focus across the page
+  description: drive the user's focus across the page
 - title: nhnent/tui.chart
   url: https://github.com/nhnent/tui.chart
   date: '2018-03-17'
-  what: Beautiful chart for data visualization
+  description: Beautiful chart for data visualization
 - title: webtask.io
   url: https://webtask.io/
   date: '2018-03-17'
-  what: Make serverless endpoints
+  description: Make serverless endpoints
 - title: hyperboot
   url: https://github.com/substack/hyperboot
   date: '2018-03-17'
-  what: offline webapp bootloader
+  description: offline webapp bootloader
 - title: toml
   url: https://github.com/toml-lang/toml
   date: '2018-03-17'
-  what: Tom's Obvious, Minimal Language. minimal configuration file format that's easy to read due to obvious semantics.
+  description: Tom's Obvious, Minimal Language. minimal configuration file format that's easy to read due to obvious semantics.
 - title: ReactiveX
   url: http://reactivex.io/
   date: '2018-03-16'
-  what: An API for asynchronous programming with observable streams.
+  description: An API for asynchronous programming with observable streams.
 - title: Tom Preston Werner Website
   url: http://tom.preston-werner.com/
   date: '2018-03-16'
-  what: I liked his website
+  description: I liked his website
 - title: substack/html-version-spec
   url: https://github.com/substack/html-version-spec
   date: '2018-03-16'
-  what: Track html file revisions with semver and inline metadata.
+  description: Track html file revisions with semver and inline metadata.
 - title: array-extras
   url: https://blogs.msdn.microsoft.com/ie/2010/12/13/ecmascript-5-part-2-array-extras/
   date: '2018-03-16'
-  what: ES5 adds a set of new functions to make common tasks easier and less error-prone.
+  description: ES5 adds a set of new functions to make common tasks easier and less error-prone.
 - title: semver.org
   url: https://semver.org/
   date: '2018-03-16'
-  what: Escape dependency hell.
+  description: Escape dependency hell.
 - title: emptystat.es
   url: http://emptystat.es/
   date: '2018-03-16'
-  what: Inspiration for empty states &num;UX
+  description: Inspiration for empty states &num;UX
 
