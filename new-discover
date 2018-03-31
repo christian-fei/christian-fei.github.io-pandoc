@@ -25,11 +25,17 @@ if (/^http/.test(description)) {
   description = null
 }
 
-const newDiscover = `
--${title ? ` title: "${title}"` : ''}${description ? ` description: "${description}"` : ''}${url ? ` url: "${url}"` : ''}
-  date: "${date}"
-`.trim()
+const newDiscover = []
+if (title) newDiscover.push(`title: "${title}"`)
+if (description) newDiscover.push(`description: "${description}"`)
+if (url) newDiscover.push(`url: "${url}"`)
+newDiscover.push(`date: "${date}"`)
 
-writeFileSync(discoverPath, `${newDiscover}\n${discoverContents}`, {encoding: 'utf-8'})
+const newDiscoverContents = newDiscover.reduce((acc, curr, index) => {
+  const line = `${(index === 0) ? '-' : ' '} ${curr}\n`
+  return acc + line
+}, '')
+
+writeFileSync(discoverPath, `${newDiscoverContents}${discoverContents}`, {encoding: 'utf-8'})
 
 process.stdout.write(readFileSync(discoverPath, {encoding: 'utf-8'}))
