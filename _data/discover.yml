@@ -1,3 +1,6 @@
+- title: "cron npm package!"
+  url: "https://www.npmjs.com/package/cron"
+  date: "2018-03-31"
 - url: "http://crontab.org"
   date: "2018-03-31"
 - title: "AirTable: part spreadsheet, part database"
