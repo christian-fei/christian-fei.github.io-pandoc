@@ -45,10 +45,13 @@ body > header
 
 .article-link
   position relative
-  // display inline-block
   margin-top space
   border-left #f1efef 0.5em solid;
   padding-left 1em
+
+  .text
+    display inline-block
+    padding 1em 0
 
   time
     display inline-block
@@ -58,8 +61,13 @@ body > header
     right 0em
     margin-left 2em
     opacity 0.2
-  &:hover time
+
+  &:hover time, &:active time, &:focus time
     opacity 0.3
+
+  &:hover, &:active, &:focus
+    border-left color_dark 0.5em solid;
+
 
 .icon
   box-sizing content-box
@@ -68,12 +76,6 @@ body > header
   padding 0.1em 0.3em
   vertical-align sub
   fill lighten(color_text, 20)
-
-.article-link .text
-  display inline-block
-  background-color color_light
-  padding 1em 0
-
 
 .article-link
   &.hidden

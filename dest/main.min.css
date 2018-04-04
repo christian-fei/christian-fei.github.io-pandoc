@@ -84,6 +84,11 @@ body > header {
   padding-left: 1em;
 }
 
+.article-link .text {
+  display: inline-block;
+  padding: 1em 0;
+}
+
 .article-link time {
   display: inline-block;
   position: absolute;
@@ -94,8 +99,16 @@ body > header {
   opacity: 0.2;
 }
 
-.article-link:hover time {
+.article-link:hover time,
+.article-link:active time,
+.article-link:focus time {
   opacity: 0.3;
+}
+
+.article-link:hover,
+.article-link:active,
+.article-link:focus {
+  border-left: #333 0.5em solid;
 }
 
 .icon {
@@ -105,12 +118,6 @@ body > header {
   padding: 0.1em 0.3em;
   vertical-align: sub;
   fill: #666;
-}
-
-.article-link .text {
-  display: inline-block;
-  background-color: #fff;
-  padding: 1em 0;
 }
 
 .article-link.hidden {
@@ -303,7 +310,7 @@ body > header > nav a {
 }
 
 body > header > nav a:first-child {
-  padding-left: 0;
+  margin-left: -1em;
 }
 
 article > footer {
@@ -574,7 +581,7 @@ body > header > nav a {
 }
 
 body > header > nav a:first-child {
-  padding-left: 0;
+  margin-left: -1em;
 }
 
 article > footer {
@@ -749,6 +756,11 @@ body > header {
   padding-left: 1em;
 }
 
+.article-link .text {
+  display: inline-block;
+  padding: 1em 0;
+}
+
 .article-link time {
   display: inline-block;
   position: absolute;
@@ -759,8 +771,16 @@ body > header {
   opacity: 0.2;
 }
 
-.article-link:hover time {
+.article-link:hover time,
+.article-link:active time,
+.article-link:focus time {
   opacity: 0.3;
+}
+
+.article-link:hover,
+.article-link:active,
+.article-link:focus {
+  border-left: #333 0.5em solid;
 }
 
 .icon {
@@ -770,12 +790,6 @@ body > header {
   padding: 0.1em 0.3em;
   vertical-align: sub;
   fill: #666;
-}
-
-.article-link .text {
-  display: inline-block;
-  background-color: #fff;
-  padding: 1em 0;
 }
 
 .article-link.hidden {
