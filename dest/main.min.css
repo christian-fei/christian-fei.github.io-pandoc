@@ -353,6 +353,7 @@ body > footer {
 .avatar-container img {
   height: 7.1em;
   margin-right: 1em;
+  border-radius: 50%;
 }
 
 @media all and (max-width: 42rem) {
@@ -622,6 +623,7 @@ body > footer {
 .avatar-container img {
   height: 7.1em;
   margin-right: 1em;
+  border-radius: 50%;
 }
 
 @media all and (max-width: 42rem) {
