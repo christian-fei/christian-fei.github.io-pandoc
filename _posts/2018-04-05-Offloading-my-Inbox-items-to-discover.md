@@ -24,7 +24,7 @@ The script can be found [here](https://github.com/christian-fei/christian-fei.gi
 
 ---
 
-It is very much inspired by the work of my good friend [joebew42](https://github.com/joebew42), namely his [activity-log](https://github.com/joebew42/daily-activity) and [concept](https://github.com/joebew42/daily-activity-log-concept).
+It is very much inspired by the work of my good friend [joebew42](https://github.com/joebew42), namely his [activity-log](https://github.com/joebew42/daily-activity-log) and [concept](https://github.com/joebew42/daily-activity-log-concept).
 
 You should definitely check it out if you're interested in keeping track of notes, study topics etc.
 
