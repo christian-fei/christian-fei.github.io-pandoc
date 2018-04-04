@@ -18,5 +18,15 @@
     {% include main-footer.html %}
 
     <script async defer src="/dest/main.min.js"></script>
+    <script>
+      var links = document.querySelectorAll( 'a' );
+      for (var i = 0, length = links.length; i < length; i++) {
+        console.log('link', links[i])
+        if (links[i].hostname != window.location.hostname) {
+          links[i].target = '_blank';
+        }
+      }
+  </script>
+
   </body>
 </html>
