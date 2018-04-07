@@ -7,3 +7,4 @@ if (searchInput) {
 }
 
 require('./active-nav-link')
+require('./nav-burger')
