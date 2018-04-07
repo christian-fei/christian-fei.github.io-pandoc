@@ -7,9 +7,14 @@ permalink: /discover/
 
 <h3>things i found on the interwebz</h3>
 
+<section>
+  <input type="text" class="search-input" placeholder="Type / to search">
+  <div class="results-container"></div>
+</section>
+
 <ul>
   {% for discover in site.data.discover %}
-    <li class="discover">
+    <li class="discover blog-search" data-title="{{discover.title}} {{discover.description}}">
       <span>{{ discover.date }}</span>
       {% if discover.url %}
         {% if discover.title %}

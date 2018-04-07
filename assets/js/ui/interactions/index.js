@@ -1,4 +1,4 @@
-var allPosts = document.querySelectorAll('.article-link')
+var allPosts = document.querySelectorAll('.blog-search')
 var searchInput = document.querySelector('.search-input')
 
 if (searchInput) {
