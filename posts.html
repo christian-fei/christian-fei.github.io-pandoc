@@ -5,10 +5,10 @@ layout: default
 <section class="container">
   <h1>Posts</h1>
 
-  <div class="section is-small">
+  <section>
     <input type="text" class="search-input input" placeholder="Type / to search">
     <div class="results-container"></div>
-  </div>
+  </section>
 
   {% for post in site.posts %}
     {% include post-template.html %}
