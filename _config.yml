@@ -45,8 +45,6 @@ exclude: [
     'gulpfile.js',
     '_data',
     '_drafts',
-    '_includes',
-    '_layouts',
     'package.json',
     'package-lock.json'
     ]
