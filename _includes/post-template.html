@@ -3,11 +3,11 @@
   <div class="column is-three-quarters">
     <span class="text has-text-weight-bold has-text-dark">{{ post.title }}</span>
   </div>
-  <div class="column">
+  <!-- <div class="column">
     {% if post.bg_image %}
       <img src="{{ post.bg_image }}" class="background-image is-64x64">
     {% endif %}
-  </div>
+  </div> -->
   <div class="column">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="has-text-weight-light has-text-dark">
       {{ post.date | date_to_string }}

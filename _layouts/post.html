@@ -19,19 +19,13 @@ layout: default
         </span>
       </a>
     </address>
-    <div>
-      <br>
-      {% include share-twitter.html %}
-      <br>
-    </div>
+    {% include share-twitter.html %}
   </header>
   <section itemprop="articleBody">
     {{content}}
   </section>
   <footer>
     {% include share-twitter.html %}
-    <span>&nbsp;or&nbsp;</span>
-    <a itemprop="url" href="{{page.url}}">copy this link</a>
   </footer>
 </article>
 
