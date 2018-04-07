@@ -1,5 +1,4 @@
 module.exports = function (allPosts, searchInput) {
-  console.log('allPosts', allPosts)
   searchInput.addEventListener('keyup', function (event) {
     var query = (this.value || '').toLowerCase()
 
