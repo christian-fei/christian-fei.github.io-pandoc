@@ -6,11 +6,9 @@ module.exports = function (allPosts, searchInput) {
     allPosts.forEach(function (post) {
       var title = post.getAttribute('data-title').toLowerCase()
       if (title.indexOf(query) >= 0) {
-        // post.classList.remove('hidden')
-        post.style.display = 'inherit'
+        post.classList.remove('hidden')
       } else {
-        // post.classList.add('hidden')
-        post.style.display = 'none'
+        post.classList.add('hidden')
       }
     })
   })
