@@ -1,3 +1,7 @@
+- title: "shellcheck"
+  description: "Static analysis for your shell scripts"
+  url: "https://github.com/koalaman/shellcheck"
+  date: "2018-04-07"
 - title: "Learn Bulma in 5 minutes"
   description: "An introductory tutorial to the popular CSS framework"
   url: "https://medium.freecodecamp.org/learn-bulma-in-5-minutes-ec5188c53e83"
