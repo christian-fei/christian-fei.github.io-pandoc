@@ -5,28 +5,18 @@ title: Discover
 permalink: /discover/
 ---
 
-<h3>things i found on the interwebz</h3>
+<section class="container">
 
-<section>
-  <input type="text" class="search-input input" placeholder="Type / to search">
-  <div class="results-container"></div>
-</section>
+  <h3>things i found on the interwebz</h3>
 
-<ul>
+  <section>
+    <input type="text" class="search-input input" placeholder="Type / to search">
+    <div class="results-container"></div>
+  </section>
+
+  <div class="box is-shadowless"></div>
+
   {% for discover in site.data.discover %}
-    <li class="discover blog-search" data-title="{{discover.title}} {{discover.description}}">
-      <span>{{ discover.date }}</span>
-      {% if discover.url %}
-        {% if discover.title %}
-          <a href="{{ discover.url }}" target="_blank">{{ discover.title }}</a>
-        {% else %}
-          <a href="{{ discover.url }}" target="_blank">{{ discover.url | remove:'http://' | remove:'https://' | split:'/' | first }}</a>
-        {% endif %}
-        {% if discover.description %}
-          <p>{{ discover.description }}</p>
-        {% endif %}
-      {% else%}
-      {% endif %}
-    </li>
+    {% include discover-template.html %}
   {% endfor %}
-</ul>
+</section>

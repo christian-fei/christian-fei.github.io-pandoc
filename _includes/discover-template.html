@@ -1,0 +1,19 @@
+<div class="box blog-search" data-title="{{discover.title}} {{discover.description}}">
+  <div class="columns">
+    <a href="{{ discover.url }}" target="_blank" class="column is-three-quarters">
+      {% if discover.title %}
+        {{ discover.title }}
+      {% else %}
+        {{ discover.url | remove:'http://' | remove:'https://' | split:'/' | first }}
+      {% endif %}
+    </a>
+    <div class="column">
+      <time datetime="{{ discover.date | date:"%Y-%m-%d" }}" class="has-text-weight-light has-text-dark">
+        {{ discover.date | date_to_string }}
+      </time>
+    </div>
+  </div>
+  {% if discover.description %}
+    <blockquote>{{ discover.description }}</blockquote>
+  {% endif %}
+</div>

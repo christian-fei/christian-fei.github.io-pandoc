@@ -1,17 +1,10 @@
-<a href="{{ post.url }}" title="{{ post.title}}" class="article-link blog-search container columns block post-template" data-title="{{post.title}}">
-<!-- <div class="columns post-template"> -->
+<a href="{{ post.url }}" title="{{ post.title}}" class="article-link blog-search container columns block" data-title="{{post.title}}">
   <div class="column is-three-quarters">
     <span class="text has-text-weight-bold has-text-dark">{{ post.title }}</span>
   </div>
-  <!-- <div class="column">
-    {% if post.bg_image %}
-      <img src="{{ post.bg_image }}" class="background-image is-64x64">
-    {% endif %}
-  </div> -->
   <div class="column">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="has-text-weight-light has-text-dark">
       {{ post.date | date_to_string }}
     </time>
   </div>
-<!-- </div> -->
 </a>
