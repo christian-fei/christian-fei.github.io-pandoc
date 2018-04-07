@@ -5,3 +5,5 @@ if (searchInput) {
   require('./slash-to-search')(searchInput)
   require('./blog-search')(allPosts, searchInput)
 }
+
+require('./active-nav-link')
