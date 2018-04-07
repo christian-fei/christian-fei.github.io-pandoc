@@ -2,12 +2,13 @@
 layout: default
 ---
 
-<section class="content">
+<section class="container">
   <h1>Posts</h1>
-  <section>
-    <input type="text" class="search-input" placeholder="Type / to search">
+
+  <div class="section is-small">
+    <input type="text" class="search-input input" placeholder="Type / to search">
     <div class="results-container"></div>
-  </section>
+  </div>
 
   {% for post in site.posts %}
     {% include post-template.html %}

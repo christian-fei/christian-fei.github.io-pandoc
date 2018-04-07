@@ -1,6 +1,6 @@
-<header>
-  <div class="container is-fixed-top">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+<header class="container">
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container">
       <div class="navbar-brand">
         <div class="navbar-burger" data-target="nav-menu">
           <span></span>
@@ -23,11 +23,13 @@
           <a class="button is-white" href="/discover/">Discover</a>&nbsp;
         </li>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
+
+  <div class="box is-shadowless"></div>
 
   <section class="container">
-    <div class="box">
+    <div class="box is-shadowless">
       <article class="media">
         <div class="media-left">
           <figure class="image is-128x128">
@@ -41,7 +43,7 @@
               <br>
               My name is Christian, an Agile Software Developer, living in Trento (IT)
               <br>
-              I write good code at <a href="https://wonderflow.co" target="_blank">Wonderflow <img src="/assets/images/wonderflow.png" width="16px" alt=""></a>
+              I write good code at <a href="https://www.wonderflow.co/" target="_blank">Wonderflow <img src="/assets/images/wonderflow.png" width="16px" alt=""></a>
               <br>
               You can follow me on
               <a href="https://twitter.com/christian_fei" class="twitter" target="_blank" title="Follow me on Twitter" tabindex="-1">
@@ -61,35 +63,5 @@
       </article>
     </div>
   </section>
-
-  <!--
-    <div class="columns">
-      <div class="column is-one-fifth">
-        <img src="/assets/images/cf1.128x128.png" class="avatar" alt="">
-      </div>
-      <div class="column">
-        <strong>Hey
-          <span class="hand">👋🏻</span>
-        </strong>
-        <br> My name is Christian, an Agile Software Developer, living in Trento (IT).
-        <br> I write good code at
-        <a href="https://wonderflow.co" target="_blank">Wonderflow
-          <img src="/assets/images/wonderflow.png" width="16px" alt="">
-        </a>.
-        <br> Follow me on
-        <a href="https://twitter.com/christian_fei" class="twitter" target="_blank" title="Follow me on Twitter" tabindex="-1">
-          Twitter {% include icons/twitter.html %}
-        </a>
-        and
-        <a href="https://github.com/christian-fei" class="github" target="_blank" title="My projects on Github" tabindex="-1">
-          Github {% include icons/github.html %}
-        </a>
-
-        {% unless page.url == '/about/' %}
-        <br>
-        <a href="/about">More about me</a>. {% endunless %}
-      </div>
-    </div>
-    -->
   </section>
 </header>
