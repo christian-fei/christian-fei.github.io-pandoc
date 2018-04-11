@@ -1,3 +1,7 @@
+- title: "Sheetsee.js"
+  description: "Visualize Data from a Google Spreadsheet"
+  url: "https://github.com/jlord/sheetsee.js"
+  date: "2018-04-11"
 - title: "Filtered positional operator in MongoDB"
   url: "https://docs.mongodb.com/manual/reference/operator/update/positional-filtered/"
   date: "2018-04-11"
