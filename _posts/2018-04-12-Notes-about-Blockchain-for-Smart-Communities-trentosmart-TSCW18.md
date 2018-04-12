@@ -19,6 +19,8 @@ The topics discussed are:
 
 # notes
 
+![written notes](/assets/images/posts/notes.jpg)
+
 ```
 - community is necessary to empower blockchain
 - trust is essential
@@ -43,5 +45,3 @@ PANTA REI (everything flows)
 - think of gas counters, they are already small embedded devices
   that apply rules about consumption & cost autonomously, but without being transparent
 ```
-
-![written notes](/assets/images/posts/notes.jpg)
