@@ -11,7 +11,7 @@ Today I attended an event about ["Blockchain for Smart Communities"](https://www
 
 The topics discussed are:
 
-- the impact on citizens, businessed &amp; public administration
+- the impact on citizens, businesses &amp; public administration
 - new opportunities offered by blockchain technology and smart contracts
 - use cases like automating insurances, providing transparency and resilience on administrative tasks and much more
 
