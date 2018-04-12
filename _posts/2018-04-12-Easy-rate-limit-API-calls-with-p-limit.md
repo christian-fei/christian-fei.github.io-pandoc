@@ -13,7 +13,7 @@ A simple way to achieve this (and that I use all the time) is to combine `Promis
 
 ## example
 
-let's say we have a list of urls we want to make a request to, making at most 5 at a time.
+In the code below I want to make concurrent calls to an api (which can be an HTTP API, library call, pretty much anything that returns a `Promise`), at most 5 at a time.
 
 ```
 const pLimit = require('p-limit')
@@ -25,10 +25,6 @@ return Promise.all(
   urls.map(url => limit(() => request(url)))
 )
 ```
-
-### explanation
-
-In this example I want to make concurrent calls to an api (which can be an HTTP API, library call, pretty much anything that returns a `Promise`), at most 5 at a time.
 
 ---
 
