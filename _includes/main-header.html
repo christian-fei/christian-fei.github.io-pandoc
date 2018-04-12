@@ -28,6 +28,7 @@
 
   <div class="box is-shadowless"></div>
 
+  {% if page.url == '/' or page.url == '/about/'  %}
   <section class="container">
     <div class="box is-shadowless">
       <article class="media">
@@ -64,4 +65,5 @@
       </article>
     </div>
   </section>
+  {% endif %}
 </header>
