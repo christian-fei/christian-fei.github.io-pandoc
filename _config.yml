@@ -1,6 +1,6 @@
 name: Christian Fei's Blog
-description: A blog about my programming ramblings and other weird stuff
-meta_description: A blog about my programming ramblings and other weird stuff
+description: A blog about my programming adventures
+meta_description: A blog about my programming adventures
 
 redcarpet:
     extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
