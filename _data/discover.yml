@@ -1,3 +1,7 @@
+- title: "upterm"
+  description: "A terminal emulator for the 21st century"
+  url: "https://github.com/railsware/upterm"
+  date: "2018-05-01"
 - title: "ReLaXed"
   description: "Create PDF documents using web technologies"
   url: "https://github.com/RelaxedJS/ReLaXed"
