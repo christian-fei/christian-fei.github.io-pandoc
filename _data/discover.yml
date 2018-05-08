@@ -1,3 +1,6 @@
+- title: "stop-microspending"
+  url: "https://stop-microspending.now.sh"
+  date: "2018-05-08"
 - title: "corral"
   description: "A serverless MapReduce framework written for AWS Lambda"
   url: "https://github.com/bcongdon/corral"
