@@ -1,4 +1,7 @@
+{% assign wordCount = post.content | number_of_words %}
+
 <a href="{{ post.url }}" title="{{ post.title}}" class="article-link blog-search container columns block" data-title="{{post.title}}">
+
   <div class="column is-three-quarters">
     <span class="text has-text-weight-bold has-text-dark">{{ post.title }}</span>
   </div>
@@ -7,4 +10,12 @@
       {{ post.date | date_to_string }}
     </time>
   </div>
+  <span class="has-text-weight-light has-text-dark" style="display: flex; align-items: center;">
+    <span class="tag" style="font-size: 0.6rem!important; margin-right: 0.5rem;">
+      {{ post.content | number_of_words | append: " words" }}
+    </span>
+    <span class="tag" style="font-size: 0.6rem!important;">
+      {{ wordCount | divided_by: 150 | append: " min"}}
+    </span>
+  </span>
 </a>
