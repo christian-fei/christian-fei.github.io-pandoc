@@ -1,3 +1,7 @@
+- title: "easy-tensorflow"
+  description: "Simple and comprehensive tutorials in TensorFlow"
+  url: "https://github.com/easy-tensorflow/easy-tensorflow"
+  date: "2018-05-18"
 - title: "stats-analysis"
   description: "javascript statistics library"
   url: "https://www.npmjs.com/package/stats-analysis"
