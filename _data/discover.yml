@@ -1,3 +1,7 @@
+- title: "packagephobia.now.sh"
+  description: "Find the cost of adding a new dev dependency to your project"
+  url: "https://packagephobia.now.sh/"
+  date: "2018-05-30"
 - title: "javascript-algorithms"
   description: "Algorithms and data structures implemented in JavaScript with explanations and links to further readings"
   url: "https://github.com/trekhleb/javascript-algorithms"
