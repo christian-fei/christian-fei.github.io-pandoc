@@ -25,13 +25,9 @@
       google.charts.load('current', {packages: ['corechart', 'line']})
       google.charts.setOnLoadCallback(draw => {
         let data1 = google.visualization.arrayToDataTable([['year', 'contributions']].concat([
-          [2018, 2689],
-          [2017, 2574],
-          [2016, 1469],
-          [2015, 2832],
-          [2014, 363],
-          [2013, 21],
-          [2012, 1],
+        {% for contrib in site.data.years %}
+          [{{contrib.year}}, {{contrib.total}}],
+        {% endfor %}
         ]), false)
         var chart = new google.visualization.LineChart(document.getElementById('chart'));
         chart.draw(data1, {
