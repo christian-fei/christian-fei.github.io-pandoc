@@ -38,6 +38,26 @@ I write code for a living.
   <a href="bitcoin:35Hy1xYjsuGF47frqA9a8HJKhJQ9rcSV4j">donate bitcoins</a>
 </p>
 
+<br>
+<br>
+
+
+<h1 class="title is-4">
+  My open-source contributions in the past years
+</h1>
+
+<div class="columns is-multiline">
+  {% for contrib in site.data.years %}
+  <div class="column is-one-quarter">
+    <h4>{{contrib.year}}</h4>
+    <p>{{contrib.total}} contributions</p>
+  </div>
+  {% endfor %}
+</div>
+
+<div id="chart"></div>
+
 <figure class="image is-square1">
   <img src="/assets/images/cf.ams.jpg"/>
 </figure>
+

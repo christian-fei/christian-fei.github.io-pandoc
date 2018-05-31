@@ -19,6 +19,37 @@
 
     {% include main-footer.html %}
 
+    {% if page.url == '/about/' %}
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {packages: ['corechart', 'line']})
+      google.charts.setOnLoadCallback(draw => {
+        let data1 = google.visualization.arrayToDataTable([['year', 'contributions']].concat([
+          [2018, 2689],
+          [2017, 2574],
+          [2016, 1469],
+          [2015, 2832],
+          [2014, 363],
+          [2013, 21],
+          [2012, 1],
+        ]), false)
+        var chart = new google.visualization.LineChart(document.getElementById('chart'));
+        chart.draw(data1, {
+          title: 'contributions by year',
+          interpolateNulls: true,
+          hAxis: {
+            title: 'Time'
+          },
+          vAxis: {
+            title: 'Contributions'
+          },
+          legend: {position: 'none'}
+        })
+      })
+    </script>
+
+    {% endif %}
+
     <script async defer src="/dest/main.min.js"></script>
     <script>
       var links = document.querySelectorAll( 'a' );
