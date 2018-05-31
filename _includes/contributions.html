@@ -1,0 +1,15 @@
+<h1 class="title is-4">
+  My open-source contributions in the past years
+</h1>
+
+<div class="columns is-multiline">
+  {% for contrib in site.data.years %}
+  <div class="column is-one-quarter">
+    <h4>{{contrib.year}}</h4>
+    <p>{{contrib.total}} contributions</p>
+  </div>
+  {% endfor %}
+</div>
+
+<div id="chart"></div>
+
