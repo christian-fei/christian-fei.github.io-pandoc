@@ -1,3 +1,6 @@
+- title: "ES6 Overview in 350 Bullet Points"
+  url: "https://ponyfoo.com/articles/es6"
+  date: "2018-06-12"
 - title: "taskell"
   description: "Command-line Kanban board/task manager with support for Trello"
   url: "https://github.com/smallhadroncollider/taskell"
