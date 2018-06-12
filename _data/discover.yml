@@ -1,3 +1,7 @@
+- title: "taskell"
+  description: "Command-line Kanban board/task manager with support for Trello"
+  url: "https://github.com/smallhadroncollider/taskell"
+  date: "2018-06-12"
 - title: "amazon-scraper-python"
   url: "https://github.com/tducret/amazon-scraper-python"
   date: "2018-06-11"
