@@ -79,3 +79,4 @@ Here is GIF as a quick how-to:
 
 This is one way to make use of the raw data Cryptosheet.cc provides you!
 
+[Signup today](https://cryptosheet.cc) to get control over your cryptocurrency assets!
