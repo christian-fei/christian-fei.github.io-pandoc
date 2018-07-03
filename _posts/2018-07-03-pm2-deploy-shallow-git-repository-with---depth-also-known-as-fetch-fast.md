@@ -1,5 +1,5 @@
 ---
-title: 'pm2 deploy with shallow git repository with --depth, also known as fetch: fast'
+title: 'pm2 deploy shallow git repository with --depth, also known as fetch: fast'
 date: 2018-07-03
 layout: post
 category: posts
