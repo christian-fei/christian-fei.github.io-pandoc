@@ -1,7 +1,133 @@
 [
   {
+    "date": "2018-07-11",
+    "count": 10,
+    "color": "#c6e48b",
+    "intensity": 1
+  },
+  {
+    "date": "2018-07-10",
+    "count": 77,
+    "color": "#196127",
+    "intensity": 4
+  },
+  {
+    "date": "2018-07-09",
+    "count": 1,
+    "color": "#c6e48b",
+    "intensity": 1
+  },
+  {
+    "date": "2018-07-08",
+    "count": 2,
+    "color": "#c6e48b",
+    "intensity": 1
+  },
+  {
+    "date": "2018-07-07",
+    "count": 4,
+    "color": "#c6e48b",
+    "intensity": 1
+  },
+  {
+    "date": "2018-07-06",
+    "count": 24,
+    "color": "#7bc96f",
+    "intensity": 2
+  },
+  {
+    "date": "2018-07-05",
+    "count": 5,
+    "color": "#c6e48b",
+    "intensity": 1
+  },
+  {
+    "date": "2018-07-04",
+    "count": 0,
+    "color": "#ebedf0",
+    "intensity": 0
+  },
+  {
+    "date": "2018-07-03",
+    "count": 3,
+    "color": "#c6e48b",
+    "intensity": 1
+  },
+  {
+    "date": "2018-07-02",
+    "count": 2,
+    "color": "#c6e48b",
+    "intensity": 1
+  },
+  {
+    "date": "2018-07-01",
+    "count": 27,
+    "color": "#7bc96f",
+    "intensity": 2
+  },
+  {
+    "date": "2018-06-30",
+    "count": 32,
+    "color": "#7bc96f",
+    "intensity": 2
+  },
+  {
+    "date": "2018-06-29",
+    "count": 4,
+    "color": "#c6e48b",
+    "intensity": 1
+  },
+  {
+    "date": "2018-06-28",
+    "count": 11,
+    "color": "#c6e48b",
+    "intensity": 1
+  },
+  {
+    "date": "2018-06-27",
+    "count": 3,
+    "color": "#c6e48b",
+    "intensity": 1
+  },
+  {
+    "date": "2018-06-26",
+    "count": 0,
+    "color": "#ebedf0",
+    "intensity": 0
+  },
+  {
+    "date": "2018-06-25",
+    "count": 2,
+    "color": "#c6e48b",
+    "intensity": 1
+  },
+  {
+    "date": "2018-06-24",
+    "count": 23,
+    "color": "#7bc96f",
+    "intensity": 2
+  },
+  {
+    "date": "2018-06-23",
+    "count": 28,
+    "color": "#7bc96f",
+    "intensity": 2
+  },
+  {
+    "date": "2018-06-22",
+    "count": 12,
+    "color": "#c6e48b",
+    "intensity": 1
+  },
+  {
+    "date": "2018-06-21",
+    "count": 25,
+    "color": "#7bc96f",
+    "intensity": 2
+  },
+  {
     "date": "2018-06-20",
-    "count": 8,
+    "count": 11,
     "color": "#c6e48b",
     "intensity": 1
   },
@@ -74,8 +200,8 @@
   {
     "date": "2018-06-08",
     "count": 18,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2018-06-07",
@@ -98,8 +224,8 @@
   {
     "date": "2018-06-04",
     "count": 35,
-    "color": "#239a3b",
-    "intensity": 3
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2018-06-03",
@@ -164,14 +290,14 @@
   {
     "date": "2018-05-24",
     "count": 18,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2018-05-23",
     "count": 19,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2018-05-22",
@@ -302,8 +428,8 @@
   {
     "date": "2018-05-01",
     "count": 36,
-    "color": "#239a3b",
-    "intensity": 3
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2018-04-30",
@@ -320,8 +446,8 @@
   {
     "date": "2018-04-28",
     "count": 19,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2018-04-27",
@@ -362,8 +488,8 @@
   {
     "date": "2018-04-21",
     "count": 35,
-    "color": "#239a3b",
-    "intensity": 3
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2018-04-20",
@@ -446,8 +572,8 @@
   {
     "date": "2018-04-07",
     "count": 19,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2018-04-06",
@@ -506,8 +632,8 @@
   {
     "date": "2018-03-28",
     "count": 18,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2018-03-27",
@@ -800,8 +926,8 @@
   {
     "date": "2018-02-07",
     "count": 38,
-    "color": "#239a3b",
-    "intensity": 3
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2018-02-06",
@@ -842,8 +968,8 @@
   {
     "date": "2018-01-31",
     "count": 19,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2018-01-30",
@@ -974,8 +1100,8 @@
   {
     "date": "2018-01-09",
     "count": 19,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2018-01-08",
@@ -1292,20 +1418,20 @@
   {
     "date": "2017-12-09",
     "count": 20,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2017-12-09",
     "count": 20,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2017-12-08",
     "count": 55,
-    "color": "#196127",
-    "intensity": 4
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2017-12-08",
@@ -1610,8 +1736,8 @@
   {
     "date": "2017-11-13",
     "count": 19,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2017-11-12",
@@ -1634,8 +1760,8 @@
   {
     "date": "2017-11-11",
     "count": 19,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2017-11-10",
@@ -1952,8 +2078,8 @@
   {
     "date": "2017-10-15",
     "count": 18,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2017-10-15",
@@ -2306,8 +2432,8 @@
   {
     "date": "2017-09-16",
     "count": 18,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2017-09-15",
@@ -2360,8 +2486,8 @@
   {
     "date": "2017-09-11",
     "count": 18,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2017-09-11",
@@ -3144,25 +3270,7 @@
     "intensity": 0
   },
   {
-    "date": "2017-07-08",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
     "date": "2017-07-07",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2017-07-07",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2017-07-06",
     "count": 0,
     "color": "#ebedf0",
     "intensity": 0
@@ -3180,18 +3288,6 @@
     "intensity": 0
   },
   {
-    "date": "2017-07-05",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2017-07-04",
-    "count": 4,
-    "color": "#c6e48b",
-    "intensity": 1
-  },
-  {
     "date": "2017-07-04",
     "count": 4,
     "color": "#c6e48b",
@@ -3199,18 +3295,6 @@
   },
   {
     "date": "2017-07-03",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2017-07-03",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2017-07-02",
     "count": 0,
     "color": "#ebedf0",
     "intensity": 0
@@ -3228,25 +3312,7 @@
     "intensity": 0
   },
   {
-    "date": "2017-07-01",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
     "date": "2017-06-30",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2017-06-30",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2017-06-29",
     "count": 0,
     "color": "#ebedf0",
     "intensity": 0
@@ -3264,25 +3330,7 @@
     "intensity": 0
   },
   {
-    "date": "2017-06-28",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
     "date": "2017-06-27",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2017-06-27",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2017-06-26",
     "count": 0,
     "color": "#ebedf0",
     "intensity": 0
@@ -3300,18 +3348,6 @@
     "intensity": 0
   },
   {
-    "date": "2017-06-25",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2017-06-24",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
     "date": "2017-06-24",
     "count": 0,
     "color": "#ebedf0",
@@ -3324,25 +3360,7 @@
     "intensity": 1
   },
   {
-    "date": "2017-06-23",
-    "count": 1,
-    "color": "#c6e48b",
-    "intensity": 1
-  },
-  {
     "date": "2017-06-22",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2017-06-22",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2017-06-21",
     "count": 0,
     "color": "#ebedf0",
     "intensity": 0
@@ -3360,25 +3378,7 @@
     "intensity": 0
   },
   {
-    "date": "2017-06-20",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
     "date": "2017-06-19",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2017-06-19",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2017-06-18",
     "count": 0,
     "color": "#ebedf0",
     "intensity": 0
