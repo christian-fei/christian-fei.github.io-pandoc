@@ -18,7 +18,7 @@ Here the methods I follow to clean my Android device in 2018.
 
 ## Files To SD Card
 
-##### move to sd-card
+##### move to sd-card
 
 [Download from Google Play Store](https://play.google.com/store/apps/details?id=cz.bukacek.filestosdcard)
 
