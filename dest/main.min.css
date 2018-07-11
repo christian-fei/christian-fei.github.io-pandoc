@@ -196,7 +196,7 @@ svg.github path {
   max-width: 100%;
 }
 
-/*
+/***/
 
 #carbonads {
   --width: 180px;
@@ -204,63 +204,63 @@ svg.github path {
 }
 
 #carbonads {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  display: block;
-  overflow: hidden;
-  margin-bottom: 20px;
-  max-width: var(--width);
-  border-radius: 4px;
-  text-align: center;
-  box-shadow: 0 0 0 1px hsla(0, 0%, 0%, .1);
-  background-color: hsl(0, 0%, 98%);
-  font-size: var(--font-size);
-  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  display: block !important;
+  overflow: hidden !important;
+  margin-bottom: 20px !important;
+  max-width: var(--width) !important;
+  border-radius: 4px !important;
+  text-align: center !important;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.1) !important;
+  background-color: #fafafa !important;
+  font-size: var(--font-size) !important;
+  line-height: 1.5 !important;
 }
 
 #carbonads a {
-  color: inherit;
-  text-decoration: none;
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 #carbonads a:hover {
-  color: inherit;
+  color: inherit !important;
 }
 
 #carbonads span {
-  position: relative;
-  display: block;
-  overflow: hidden;
+  position: relative !important;
+  display: block !important;
+  overflow: hidden !important;
 }
 
 .carbon-img {
-  display: block;
-  margin-bottom: 8px;
-  max-width: var(--width);
-  line-height: 1;
+  display: block !important;
+  margin-bottom: 8px !important;
+  max-width: var(--width) !important;
+  line-height: 1 !important;
 }
 
 .carbon-img img {
-  display: block;
-  margin: 0 auto;
-  max-width: var(--width) !important;
-  width: var(--width);
-  height: auto;
+  display: block !important;
+  margin: 0 auto !important;
+  max-width: var(--width) !important !important;
+  width: var(--width) !important;
+  height: auto !important;
 }
 
 .carbon-text {
-  display: block;
-  padding: 0 1em 8px;
+  display: block !important;
+  padding: 0 1em 8px !important;
 }
 
 .carbon-poweredby {
-  display: block;
-  padding: 10px var(--font-size);
-  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .025) 5px, hsla(0, 0%, 0%, .025) 10px) hsla(203, 11%, 95%, .4);
-  text-transform: uppercase;
-  letter-spacing: .5px;
-  font-weight: 600;
-  font-size: 9px;
-  line-height: 0;
+  display: block !important;
+  padding: 10px var(--font-size) !important;
+  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(0,0,0,0.025) 5px, rgba(0,0,0,0.025) 10px) rgba(241,243,244,0.4) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  font-weight: 600 !important;
+  font-size: 9px !important;
+  line-height: 0 !important;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 759px) {
@@ -269,12 +269,15 @@ svg.github path {
     margin: 0 auto;
     max-width: 330px;
   }
+
   #carbonads span {
     position: relative;
   }
+
   #carbonads > span {
     max-width: none;
   }
+
   .carbon-img {
     float: left;
     margin: 0;
@@ -283,6 +286,7 @@ svg.github path {
   .carbon-img img {
     max-width: 130px !important;
   }
+
   .carbon-text {
     float: left;
     margin-bottom: 0;
@@ -290,6 +294,7 @@ svg.github path {
     text-align: left;
     max-width: calc(100% - 130px - 3em);
   }
+
   .carbon-poweredby {
     left: 130px;
     bottom: 0;
@@ -297,7 +302,8 @@ svg.github path {
     width: 100%;
   }
 }
-*/
+
+/**/
 
 @keyframes fly-in {
   from {
@@ -445,6 +451,48 @@ body > footer {
 }
 .hidden {
   display: none;
+}
+
+#carbonads {
+  display: block;
+  overflow: hidden;
+  padding: 1em;
+  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+#carbonads span {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.carbon-img {
+  float: left;
+  margin-right: 1em;
+}
+
+.carbon-img img {
+  display: block;
+  line-height: 1;
+}
+
+.carbon-text {
+  display: block;
+  float: left;
+  max-width: calc(100% - 130px - 1em);
+  text-align: left;
+}
+
+.carbon-poweredby {
+  display: block !important;
+  right: 0;
+  bottom: 0;
+  display: block;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 1px;
 }
 .no-mt {
   margin-top: 0;
