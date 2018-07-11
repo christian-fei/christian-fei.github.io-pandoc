@@ -10,9 +10,14 @@
   display: block;
   overflow: hidden;
   padding: 1em;
-  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+  max-width: 400px;
+  border: solid 1px hsl(0, 0%, 94%);
+  border-radius: 3px;
+  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .01) 5px, hsla(0, 0%, 0%, .01) 10px) #fff;
+  font-size: 14px;
   line-height: 1.5;
 }
+
 
 #carbonads span {
   position: relative;
@@ -27,7 +32,6 @@
 
 .carbon-img img {
   display: block;
-  line-height: 1;
 }
 
 .carbon-text {
@@ -39,13 +43,13 @@
 
 .carbon-poweredby {
   position: absolute;
-  right: 0; // You can also set the position to the "left" with the value of calc(130px + carbon-text’s font size). If the font-size is 12px, you’ll want to set the left value as 142px. It’ll align the .carbon-text with .carbon-poweredby
   bottom: 0;
+  left: 144px;
   display: block;
-  font-size: .8em;
   text-transform: uppercase;
-  line-height: 1;
   letter-spacing: 1px;
+  font-size: 9px;
+  line-height: 1;
 }
     </style>
   </head>
