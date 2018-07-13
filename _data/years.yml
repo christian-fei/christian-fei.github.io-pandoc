@@ -1,9 +1,9 @@
 
   - year: "2018"
-    total: 3208
+    total: 1938
     range:
-      start: "2017-07-09"
-      end: "2018-07-11"
+      start: "2017-12-31"
+      end: "2018-12-31"
   - year: "2017"
     total: 2574
     range:
