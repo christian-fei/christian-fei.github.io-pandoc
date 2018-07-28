@@ -60,3 +60,21 @@ Enter `=FILTER(TRANSACTIONS!A:M, TRANSACTIONS!C:C = $A$1)` and you'll be amazed.
 
 ![cryptosheet-filter-transactions.png](/assets/images/posts/cryptosheet-filter-transactions.png)
 
+# Visualize historic cumulative wallet size and value
+
+The results are good, but **this** is what we are after:
+
+![cryptosheet-cumulative-historic-wallet.png](/assets/images/posts/cryptosheet-cumulative-historic-wallet.png)
+
+## Define `cumulative execSize`	and `cumulative execPrice`
+
+We choose columns `P2` and `Q2` as the header rows for the cumulative calculations.
+
+![cryptosheet.cumulative-columns.png](/assets/images/posts/cryptosheet.cumulative-columns.png)
+
+In cell `P3` enter `=SUM($G$3:$G3)` and drag down.
+In cell `Q3` enter `=P3*E3` and drag down.
+
+And there you have the historic size of your wallet!
+
+Let me know on Twitter [@christian_fei](https://twitter.com/christian_fei)!
