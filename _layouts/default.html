@@ -64,36 +64,6 @@
 
     {% include main-footer.html %}
 
-    {% if page.url == '/about/' %}
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      window.contributionsAsArray = [
-      {% for contrib in site.data.years %}
-        [{{contrib.year}}, {{contrib.total}}],
-      {% endfor %}
-      ]
-    </script>
-    <script type="text/javascript">
-      google.charts.load('current', {packages: ['corechart', 'line']})
-      google.charts.setOnLoadCallback(draw => {
-        let data1 = google.visualization.arrayToDataTable([['year', 'contributions']].concat(window.contributionsAsArray), false)
-        var chart = new google.visualization.LineChart(document.getElementById('chart'));
-        chart.draw(data1, {
-          title: 'contributions by year',
-          interpolateNulls: true,
-          hAxis: {
-            title: 'Time'
-          },
-          vAxis: {
-            title: 'Contributions'
-          },
-          legend: {position: 'none'}
-        })
-      })
-    </script>
-
-    {% endif %}
-
     <script async defer src="/dest/main.min.js"></script>
     <script>
       var links = document.querySelectorAll( 'a' );
