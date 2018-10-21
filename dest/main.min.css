@@ -29,51 +29,67 @@ body > header {
   margin-top: 1.5rem;
   opacity: 0;
   height: 0;
+  -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  -webkit-transform: translateY(-1em);
   transform: translateY(-1em);
+  -webkit-animation-name: fly-in;
   animation-name: fly-in;
+  -webkit-animation-duration: 0.2s;
   animation-duration: 0.2s;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
 
 .results-container li:nth-child(1n) {
+  -webkit-animation-delay: 0.06s;
   animation-delay: 0.06s;
 }
 
 .results-container li:nth-child(2n) {
+  -webkit-animation-delay: 0.12s;
   animation-delay: 0.12s;
 }
 
 .results-container li:nth-child(3n) {
+  -webkit-animation-delay: 0.18s;
   animation-delay: 0.18s;
 }
 
 .results-container li:nth-child(4n) {
+  -webkit-animation-delay: 0.24s;
   animation-delay: 0.24s;
 }
 
 .results-container li:nth-child(5n) {
+  -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
 
 .results-container li:nth-child(6n) {
+  -webkit-animation-delay: 0.36s;
   animation-delay: 0.36s;
 }
 
 .results-container li:nth-child(7n) {
+  -webkit-animation-delay: 0.42s;
   animation-delay: 0.42s;
 }
 
 .results-container li:nth-child(8n) {
+  -webkit-animation-delay: 0.48s;
   animation-delay: 0.48s;
 }
 
 .results-container li:nth-child(9n) {
+  -webkit-animation-delay: 0.54s;
   animation-delay: 0.54s;
 }
 
 .results-container li:nth-child(10n) {
+  -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s;
 }
 
@@ -112,6 +128,7 @@ body > header {
 }
 
 .icon {
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   width: 1.1em;
   height: 1.1em;
@@ -171,6 +188,7 @@ pre {
   display: inline-block;
   padding-left: 0.2em;
   padding-right: 0.2em;
+  -webkit-animation: wiggle 1s ease 0s infinite;
   animation: wiggle 1s ease 0s infinite;
   animation-direction: alternate-reverse;
 }
@@ -211,6 +229,7 @@ svg.github path {
   max-width: var(--width) !important;
   border-radius: 4px !important;
   text-align: center !important;
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.1) !important;
   box-shadow: 0 0 0 1px rgba(0,0,0,0.1) !important;
   background-color: #fafafa !important;
   font-size: var(--font-size) !important;
@@ -305,6 +324,20 @@ svg.github path {
 
 /**/
 
+@-webkit-keyframes fly-in {
+  from {
+    height: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: 1em;
+    background: transparent;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
 @keyframes fly-in {
   from {
     height: 0;
@@ -314,16 +347,31 @@ svg.github path {
     opacity: 1;
     height: 1em;
     background: transparent;
+    -webkit-transform: translateY(0px);
     transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes wiggle {
+  from {
+    -webkit-transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+    transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
+  }
+
+  to {
+    -webkit-transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
+    transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
   }
 }
 
 @keyframes wiggle {
   from {
+    -webkit-transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
     transform: rotateZ(-15deg) scaleY(1.4) scaleX(1.4);
   }
 
   to {
+    -webkit-transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
     transform: rotateZ(25deg) scaleY(1.5) scaleX(1.5);
   }
 }
@@ -374,16 +422,19 @@ body > main.free {
 }
 
 .flex-container {
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .flex-container .no-flex {
+  -webkit-box-flex: 0;
   -ms-flex: none;
   flex: none;
 }
 
 .flex-container .flex {
+  -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
@@ -620,6 +671,7 @@ a {
   border-radius: 5px;
   color: #333;
   padding: 0.5em 0;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -685,6 +737,7 @@ img {
 
 .anchorjs-link {
   opacity: 0.1 !important;
+  -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
 
