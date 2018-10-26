@@ -1,0 +1,3 @@
+#!/bin/bash
+
+pandoc --quiet --output=index.html --to=html5 --standalone index.md
