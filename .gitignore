@@ -1,4 +1,7 @@
 node_modules
+dist/
+posts/*.html
+posts/**/*.html
 posts/*.html
 posts/**/*.html
 index.html
