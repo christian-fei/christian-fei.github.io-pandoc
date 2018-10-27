@@ -105,3 +105,8 @@
   }
 }
 
+
+
+.content .posts {
+  list-style-type: none;
+}

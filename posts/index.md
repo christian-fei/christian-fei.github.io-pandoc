@@ -1,4 +1,4 @@
 ---
-title: Christian Fei's blog
+title: "Posts"
 ---
 

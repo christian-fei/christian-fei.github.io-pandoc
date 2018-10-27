@@ -36,5 +36,8 @@ do
   fi
 done
 
-echo "⛏ copyinh assets"
+echo "⛏ copying assets"
 cp -r assets dist/
+
+echo "⛏ copying styles"
+cp -r main.css dist/main.css
