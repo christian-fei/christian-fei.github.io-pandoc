@@ -1,3 +1,8 @@
+---
+posts:
+  - hello-world-v2
+---
+
 <!DOCTYPE html>
 <html$if(lang)$ lang="$lang$"$endif$>
   <head>
@@ -23,49 +28,22 @@
     $for(include-before)$
       $include-before$
     $endfor$
-    <!--
-    $if(title)$
-      <header>
-        <h1 class="title">$title$</h1>
-      </header>
-    $endif$
-    -->
 
     <article class="content is-medium" itemscope itemtype="http://schema.org/BlogPosting">
-      <!--
-        <header>
-          <h1 itemprop="name">{{ page.title }}</h1>
-          <time datetime="{{ page.date | time_tag }}" class="f6 mb3">
-            written on <strong itemprop="datePublished" content="{{ page.date | time_tag }}">
-              {{ page.date | date: "%a, %b %d, %Y" }}
-            </strong>
-          </time>,
-          <address style="display: inline;">
-            by <a href="https://twitter.com/christian_fei" rel="author">
-              <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span itemprop="name">
-                  Christian Fei
-                </span>
-              </span>
-            </a>
-          </address>
-          {% include share-twitter.html %}
-        </header>
-        <section itemprop="articleBody">
-          {{content}}
-        </section>
-        <footer>
-          {% include share-twitter.html %}
-        </footer>
-      -->
-
       <main class="section">
         <div class="container content">
           $body$
+
+          <br>
+          <h1 class="title is-2">Posts</h1>
+
+          <ul>
+            $for(posts)$
+              <li><a href="/posts/$posts$/">$posts$</a></li>
+            $endfor$
+          </ul>
         </div>
       </main>
-
     </article>
-
   </body>
 </html>
