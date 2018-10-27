@@ -3,7 +3,7 @@
 BULMA_CSS_MIN=https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css
 MAIN_CSS=main.css
 HTML_TEMPLATE=templates/html.template
-PANDOC_PARAMS="--atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS --template=./$HTML_TEMPLATE --from markdown --to=html5 --standalone -H header.html --metadata-file=posts/index.yml"
+PANDOC_PARAMS="--atx-headers --css=$BULMA_CSS_MIN --css=/$MAIN_CSS --template=./$HTML_TEMPLATE --from markdown --to=html5 --standalone -H header.html --metadata-file=posts/index.yml"
 
 pandoc $PANDOC_PARAMS index.md -o index.html
 pandoc $PANDOC_PARAMS about.md -o about.html
