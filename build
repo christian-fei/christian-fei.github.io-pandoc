@@ -6,10 +6,16 @@ HTML_TEMPLATE=templates/html.template
 
 PANDOC_PARAMS="--atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS --template=./$HTML_TEMPLATE --from markdown --to=html5 --standalone -H header.html"
 
-mkdir -p posts
 pandoc $PANDOC_PARAMS index.md -o index.html
 pandoc $PANDOC_PARAMS about.md -o about.html
 mkdir -p about
 pandoc $PANDOC_PARAMS about.md -o about/index.html
-pandoc $PANDOC_PARAMS posts/index.md -o posts/index.html
-pandoc $PANDOC_PARAMS posts/hello-world-v2.md -o posts/hello-world-v2.html
+mkdir -p posts
+
+for file in posts/*.md
+do
+  if [[ -f $file ]]; then
+    name=$(basename ${file%.*})
+    pandoc $PANDOC_PARAMS posts/$name.md -o posts/$name.html
+  fi
+done
