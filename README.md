@@ -7,5 +7,14 @@ for https://christianfei.com
 with
 
 ```
-pandoc --output=index.html --to=html5 --standalone index.md
+./build
 ```
+
+## deploy
+
+with
+
+```
+./deploy
+```
+
