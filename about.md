@@ -68,7 +68,3 @@ permalink: /about/
 <p>
   <a class="button is-small is-primary is-outlined" href="bitcoin:35Hy1xYjsuGF47frqA9a8HJKhJQ9rcSV4j">donate bitcoins</a> 35Hy1xYjsuGF47frqA9a8HJKhJQ9rcSV4j
 </p>
-
-<figure class="image is-square1">
-  <img src="/assets/images/cf.ams.jpg"/>
-</figure>
