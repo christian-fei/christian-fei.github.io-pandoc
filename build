@@ -4,10 +4,12 @@ BULMA_CSS_MIN=https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.c
 MAIN_CSS=main.css
 HTML_TEMPLATE=templates/html.template
 
+PANDOC_PARAMS="--atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS --template=./$HTML_TEMPLATE --from markdown --to=html5 --standalone -H header.html"
+
 mkdir -p posts
-pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS --template=./$HTML_TEMPLATE index.md --from markdown --to=html5 --standalone -H header.html -o index.html
-pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS --template=./$HTML_TEMPLATE about.md --from markdown --to=html5 --standalone -H header.html -o about.html
+pandoc $PANDOC_PARAMS index.md -o index.html
+pandoc $PANDOC_PARAMS about.md -o about.html
 mkdir -p about
-pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS --template=./$HTML_TEMPLATE about.md --from markdown --to=html5 --standalone -H header.html -o ./about/index.html
-pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS --template=./$HTML_TEMPLATE posts/index.md --from markdown --to=html5 --standalone -H header.html -o posts/index.html
-pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS --template=./$HTML_TEMPLATE posts/hello-world-v2.md --from markdown --to=html5 --standalone -H header.html -o posts/hello-world-v2.html
+pandoc $PANDOC_PARAMS about.md -o about/index.html
+pandoc $PANDOC_PARAMS posts/index.md -o posts/index.html
+pandoc $PANDOC_PARAMS posts/hello-world-v2.md -o posts/hello-world-v2.html
