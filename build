@@ -35,3 +35,6 @@ do
     cp $DIST/posts/$name.html $DIST/posts/$name/index.html
   fi
 done
+
+echo "⛏ copyinh assets"
+cp -r assets dist/
