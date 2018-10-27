@@ -2,11 +2,12 @@
 
 BULMA_CSS_MIN=https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css
 MAIN_CSS=main.css
+HTML_TEMPLATE=templates/html.template
 
 mkdir -p posts
-pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS index.md --from markdown --to=html5 --standalone -H header.html -o index.html
-pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS about.md --from markdown --to=html5 --standalone -H header.html -o about.html
+pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS --template=./$HTML_TEMPLATE index.md --from markdown --to=html5 --standalone -H header.html -o index.html
+pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS --template=./$HTML_TEMPLATE about.md --from markdown --to=html5 --standalone -H header.html -o about.html
 mkdir -p about
-pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS about.md --from markdown --to=html5 --standalone -H header.html -o ./about/index.html
-pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS posts/index.md --from markdown --to=html5 --standalone -H header.html -o posts/index.html
-pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS posts/hello-world-v2.md --from markdown --to=html5 --standalone -H header.html -o posts/hello-world-v2.html
+pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS --template=./$HTML_TEMPLATE about.md --from markdown --to=html5 --standalone -H header.html -o ./about/index.html
+pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS --template=./$HTML_TEMPLATE posts/index.md --from markdown --to=html5 --standalone -H header.html -o posts/index.html
+pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS --template=./$HTML_TEMPLATE posts/hello-world-v2.md --from markdown --to=html5 --standalone -H header.html -o posts/hello-world-v2.html
