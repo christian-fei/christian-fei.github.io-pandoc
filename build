@@ -1,3 +1,8 @@
 #!/bin/bash
 
-pandoc --quiet --output=index.html --to=html5 --standalone index.md
+BULMA_CSS_MIN=https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css
+MAIN_CSS=main.css
+
+mkdir -p posts
+pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS index.md --from markdown --to=html5 --standalone -H header.html -o index.html
+pandoc --atx-headers --css=$BULMA_CSS_MIN --css=./$MAIN_CSS posts/hello-world-v2.md --from markdown --to=html5 --standalone -H header.html -o posts/hello-world-v2.html
