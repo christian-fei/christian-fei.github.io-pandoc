@@ -5,17 +5,20 @@ HTML_TEMPLATE=templates/html.template
 PANDOC_PARAMS="--atx-headers --css=/$MAIN_CSS --template=./$HTML_TEMPLATE --from markdown --to=html5 --standalone -H head.html -B header.html --metadata-file=posts/index.yml"
 DIST=dist
 
+printf "⛏ index page"
 mkdir -p $DIST
 pandoc $PANDOC_PARAMS index.md -o $DIST/index.html
 
+printf "\n⛏ about page"
 mkdir -p $DIST/about
 pandoc $PANDOC_PARAMS about.md -o $DIST/about.html
 cp $DIST/about.html $DIST/about/index.html
 
 mkdir -p $DIST/posts
 
-echo "posts: " > $DIST/posts/index.yml
+echo "\nposts: " > $DIST/posts/index.yml
 
+# create posts/index.yml
 for file in posts/*.md
 do
   if [[ -f $file ]]; then
@@ -24,11 +27,14 @@ do
   fi
 done
 
+# build each post
+printf "\n⛏ building posts\n"
 for file in posts/*.md
 do
   if [[ -f $file ]]; then
     name=$(basename ${file%.*})
-    echo "⛏ $name"
+    # echo "⛏ $name"
+    printf "."
     mkdir -p $DIST/posts/$name
     pandoc -t=$HTML_TEMPLATE --metadata-file=$DIST/posts/index.yml $PANDOC_PARAMS posts/$name.md -o $DIST/posts/$name.html &
   fi
@@ -36,18 +42,21 @@ done
 
 wait
 
+# nice /posts/abc/ urls
+printf "\n⛏  nice posts urls\n"
 for file in posts/*.md
 do
   if [[ -f $file ]]; then
     name=$(basename ${file%.*})
-    echo "🔗  $name"
+    # echo "🔗  $name"
+    printf "."
     cp $DIST/posts/$name.html $DIST/posts/$name/index.html
   fi
 done
 
 
-echo "⛏ copying assets"
+printf "\n⛏ copying assets"
 cp -r assets dist/
 
-echo "⛏ copying styles"
+printf "\n⛏ copying styles"
 cp -r main.css dist/main.css
