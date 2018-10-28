@@ -5,7 +5,8 @@ HTML_TEMPLATE=templates/html.template
 PANDOC_PARAMS="--atx-headers --css=/$MAIN_CSS --template=./$HTML_TEMPLATE --from markdown --to=html5 --standalone -H head.html -B header.html --metadata-file=posts/index.yml"
 DIST=dist
 
-printf "⛏ index page"
+printf "\n💯  build\n"
+printf "\n⛏ index page"
 mkdir -p $DIST
 pandoc $PANDOC_PARAMS index.md -o $DIST/index.html
 
@@ -58,5 +59,5 @@ done
 printf "\n⛏ copying assets"
 cp -r assets dist/
 
-printf "\n⛏ copying styles"
+printf "\n⛏ copying styles\n"
 cp -r main.css dist/main.css
