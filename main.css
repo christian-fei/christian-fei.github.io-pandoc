@@ -107,14 +107,14 @@
 
 
 
+html, body {
+  font-size: 0.9rem;
+}
+
 .content .posts {
   list-style-type: none;
 }
 
 .content .posts li {
-  font-size: 0.9rem;
-}
-
-html, body {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
