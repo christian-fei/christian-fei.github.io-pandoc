@@ -3,14 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="generator" content="pandoc">
-    $for(author-meta)$
-      <meta name="author" content="$author-meta$">
-    $endfor$
-    $if(date-meta)$
-      <meta name="dcterms.date" content="$date-meta$">
-    $endif$
-    <title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
-    <style type="text/css">code{white-space: pre;}</style>
     $for(header-includes)$
       $header-includes$
     $endfor$
