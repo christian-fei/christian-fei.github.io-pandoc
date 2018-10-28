@@ -7,7 +7,9 @@ DIST=dist
 
 printf "\n💯  build\n"
 printf "\n⛏ index page"
+
 mkdir -p $DIST
+rm -rf $DIST/*
 pandoc $PANDOC_PARAMS index.md -o $DIST/index.html
 
 printf "\n⛏ about page"
@@ -17,14 +19,14 @@ cp $DIST/about.html $DIST/about/index.html
 
 mkdir -p $DIST/posts
 
-echo "\nposts: " > $DIST/posts/index.yml
+echo "posts: " > posts/index.yml
 
 # create posts/index.yml
 for file in posts/*.md
 do
   if [[ -f $file ]]; then
     name=$(basename ${file%.*})
-    echo "  - $name" >> $DIST/posts/index.yml
+    echo "  - $name" >> posts/index.yml
   fi
 done
 
@@ -37,7 +39,7 @@ do
     # echo "⛏ $name"
     printf "."
     mkdir -p $DIST/posts/$name
-    pandoc -t=$HTML_TEMPLATE --metadata-file=$DIST/posts/index.yml $PANDOC_PARAMS posts/$name.md -o $DIST/posts/$name.html &
+    pandoc -t=$HTML_TEMPLATE --metadata-file=posts/index.yml $PANDOC_PARAMS posts/$name.md -o $DIST/posts/$name.html &
   fi
 done
 
