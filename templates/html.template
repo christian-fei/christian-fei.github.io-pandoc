@@ -1,8 +1,3 @@
----
-posts:
-  - hello-world-v2
----
-
 <!DOCTYPE html>
 <html$if(lang)$ lang="$lang$"$endif$>
   <head>
