@@ -9,6 +9,13 @@ for https://christianfei.com
 ```
 
 
+## develop
+
+```
+npx serve dist/
+npx watch ./build --ignoreDotFiles --ignoreDirectoryPattern="/dist/"
+```
+
 ## build
 
 with

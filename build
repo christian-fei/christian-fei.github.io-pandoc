@@ -30,10 +30,21 @@ do
     name=$(basename ${file%.*})
     echo "⛏ $name"
     mkdir -p $DIST/posts/$name
-    pandoc -t=$HTML_TEMPLATE --metadata-file=$DIST/posts/index.yml $PANDOC_PARAMS posts/$name.md -o $DIST/posts/$name.html
+    pandoc -t=$HTML_TEMPLATE --metadata-file=$DIST/posts/index.yml $PANDOC_PARAMS posts/$name.md -o $DIST/posts/$name.html &
+  fi
+done
+
+wait
+
+for file in posts/*.md
+do
+  if [[ -f $file ]]; then
+    name=$(basename ${file%.*})
+    echo "🔗  $name"
     cp $DIST/posts/$name.html $DIST/posts/$name/index.html
   fi
 done
+
 
 echo "⛏ copying assets"
 cp -r assets dist/
