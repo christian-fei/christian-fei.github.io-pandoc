@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source secrets
+echo "CF_API_KEY: $CF_API_KEY"
+echo "CF_ZONE: $CF_ZONE"
+echo "CF_EMAIL: $CF_EMAIL"
+
+curl -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE/purge_cache" \
+     -H "X-Auth-Email: $CF_EMAIL" \
+     -H "X-Auth-Key: $CF_API_KEY" \
+     -H "Content-Type: application/json" \
+     --data '{"purge_everything":true}'
