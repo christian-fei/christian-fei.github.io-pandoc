@@ -1,0 +1,20 @@
+#!/bin/bash
+
+args=$@
+post_file_name_leading_dash=""
+
+for arg in ${args[@]}; do
+  post_file_name_leading_dash="$post_file_name_leading_dash-$arg"
+done
+
+post_file_name="$(date +%Y-%m-%d)$post_file_name_leading_dash.md"
+post_full_path="posts/$post_file_name"
+
+echo "> creating $post_full_path"
+
+touch $post_full_path
+
+echo "---" >> $post_full_path
+echo "title: $args" >> $post_full_path
+echo "---" >> $post_full_path
+open $post_full_path

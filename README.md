@@ -16,6 +16,12 @@ npx serve dist/
 npx watch ./build --ignoreDotFiles --ignoreDirectoryPattern="/dist/"
 ```
 
+## write
+
+```
+./write this is a test
+```
+
 ## build
 
 with
