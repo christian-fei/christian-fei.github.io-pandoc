@@ -27,7 +27,7 @@ here is where the above mentioned bash scripts come in:
 
 ## `./write hello world`
 
-now, whenever i come up with a decent blog post i start with concise title to focus on the topic.
+now, whenever i come up with a decent blog post i start with a concise title to focus on the topic.
 
 i can execute this on my terminal and it will pop up my editor for the new blog post under the [`posts/`](https://github.com/christian-fei/christian-fei.github.io/tree/master/posts) folder:
 
@@ -105,10 +105,10 @@ this is used to purge the cache for the domain [`christianfei.com`](https://chri
 
 [check out `purge` here](https://github.com/christian-fei/christian-fei.github.io/tree/master/purge)
 
-# wrapping up
+# wrapping it up
 
-i am really happy for decision, it's super lightweight and smooth, once you figure out how to include a html template in your posts and understand the full potential of `pandoc`.
+i am glad of the results. it's super lightweight and smooth (once you figure out how to include a html template in your posts and understand the full potential of `pandoc`).
 
-it's a lightweight setup, with the bare minimum that i need, so I encourage you to fork away and give me feedback.
+it's a lightweight setup, with the bare minimum that i need, so I encourage you to fork away and give me feedback [on twitter](https://twitter.com/christian_fei)!
 
 ✌️
