@@ -105,10 +105,27 @@
   }
 }
 
-
+@media all and (max-width: 1000px) {
+  .ad-container {
+    float: left;
+    padding: 0;
+  }
+}
+@media all and (min-width: 1000px) {
+  .ad-container {
+    padding-left: 0;
+    padding-top: 0;
+    position: fixed;
+    top: 90px;
+    z-index: 9999;
+  }
+}
 
 html, body {
   font-size: 1rem;
+}
+body {
+  padding: 0.5em 1em;
 }
 
 .content .posts {

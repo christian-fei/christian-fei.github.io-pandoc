@@ -30,18 +30,15 @@
       </main>
     </article>
 
-    <hr>
-    <br>
+    <div class="box is-shadowless"></div>
 
     <div class="content">
-      <section class="section">
-        <h1 class="title is-2">Posts</h1>
-        <ul class="posts">
-          $for(posts)$
-            <li><a href="/posts/$posts$/">$posts$</a></li>
-          $endfor$
-        </ul>
-      </section>
+      <h1 class="title is-2">Posts</h1>
+      <ul class="posts">
+        $for(posts)$
+          <li><a href="/posts/$posts$/">$posts$</a></li>
+        $endfor$
+      </ul>
     </div>
   </body>
 </html>
