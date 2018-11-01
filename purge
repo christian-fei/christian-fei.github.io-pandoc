@@ -2,6 +2,7 @@
 
 source secrets
 printf "\n💥  purge cache for https://$CF_DOMAIN\n"
+printf "\n"
 # echo "CF_API_KEY: $CF_API_KEY"
 # echo "CF_ZONE: $CF_ZONE"
 # echo "CF_EMAIL: $CF_EMAIL"

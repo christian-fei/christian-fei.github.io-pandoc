@@ -1,4 +1,5 @@
 #!/bin/bash
 
 printf "\n🚀  deploy\n"
+printf "\n"
 aws s3 cp --recursive --acl public-read --region eu-central-1 ./dist/ s3://christianfei.com
