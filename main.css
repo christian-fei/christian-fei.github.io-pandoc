@@ -113,8 +113,9 @@ html, body {
 
 .content .posts {
   list-style-type: none;
+  margin-left: 0;
 }
 
 .content .posts li {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }

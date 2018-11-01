@@ -16,7 +16,7 @@
       $include-before$
     $endfor$
 
-    <article class="content is-medium" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="content" itemscope itemtype="http://schema.org/BlogPosting">
       <main class="section">
         <div class="container content">
           $if(title)$
@@ -30,12 +30,18 @@
       </main>
     </article>
 
+    <hr>
+    <br>
+
     <div class="content">
-      <ul class="posts">
-        $for(posts)$
-          <li><a href="/posts/$posts$/">$posts$</a></li>
-        $endfor$
-      </ul>
+      <section class="section">
+        <h1 class="title is-2">Posts</h1>
+        <ul class="posts">
+          $for(posts)$
+            <li><a href="/posts/$posts$/">$posts$</a></li>
+          $endfor$
+        </ul>
+      </section>
     </div>
   </body>
 </html>
