@@ -32,9 +32,13 @@ now, whenever i come up with a decent blog post i start with a concise title to 
 i can execute this on my terminal and it will pop up my editor for the new blog post under the [`posts/`](https://github.com/christian-fei/christian-fei.github.io/tree/master/posts) folder:
 
 ```
-~/D/p/christian-fei.github.io (master ⚡) ./write hello world
-> creating posts/2018-10-31-hello-world.md
-```
+~/D/p/christian-fei.github.io (master) ./write hello world
+
+📝  write
+
+> creating posts/2018-11-01-hello-world.md
+
+~/D/p/christian-fei.github.io (master)```
 
 [check out `write` here](https://github.com/christian-fei/christian-fei.github.io/tree/master/write)
 
@@ -72,6 +76,7 @@ it puts the files under the `dist/` folder to my s3 bucket, hooked up with my dn
 ~/D/p/christian-fei.github.io (master ⚡) ./deploy
 
 🚀  deploy
+
 upload: dist/index.html to s3://christianfei.com/index.html
 upload: dist/about.html to s3://christianfei.com/about.html
 upload: dist/about/index.html to s3://christianfei.com/about/index.html
@@ -93,6 +98,7 @@ this is used to purge the cache for the domain [`christianfei.com`](https://chri
 ~/D/p/christian-fei.github.io (master ⚡) ./purge
 
 💥  purge cache for https://christianfei.com
+
 {
   "result": {
     "id": "5309943dc0a486cbf246fe039a1f7277"
