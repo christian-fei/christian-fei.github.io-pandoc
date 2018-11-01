@@ -39,7 +39,6 @@ do
     name=$(basename ${file%.*})
     # echo "⛏ $name"
     printf "."
-    mkdir -p $DIST/posts/$name
     pandoc -t=$HTML_TEMPLATE --metadata-file=posts/index.yml $PANDOC_PARAMS posts/$name.md -o $DIST/posts/$name.html &
   fi
 done
@@ -54,6 +53,7 @@ do
     name=$(basename ${file%.*})
     # echo "🔗  $name"
     printf "."
+    mkdir -p $DIST/posts/$name
     cp $DIST/posts/$name.html $DIST/posts/$name/index.html
   fi
 done
