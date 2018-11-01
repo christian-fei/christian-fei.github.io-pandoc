@@ -22,10 +22,11 @@ mkdir -p $DIST/posts
 echo "posts: " > posts/index.yml
 
 # create posts/index.yml
-for file in posts/*.md
+for file in $(ls -lr posts/*.md)
 do
   if [[ -f $file ]]; then
     name=$(basename ${file%.*})
+    # echo "$name"
     echo "  - $name" >> posts/index.yml
   fi
 done
