@@ -16,17 +16,17 @@
       $include-before$
     $endfor$
 
-    <article class="content" itemscope itemtype="http://schema.org/BlogPosting">
-      <main class="section">
-        <div class="container content">
-          $if(title)$
-            <div class="content">
-              <h1 class="title is-1">$title$</h1>
-            </div>
-          $endif$
+    <div class="box is-shadowless"></div>
 
-          $body$
-        </div>
+    <article class="content" itemscope itemtype="http://schema.org/BlogPosting">
+      <main class="container content">
+        $if(title)$
+          <div class="content">
+            <h1 class="title is-1">$title$</h1>
+          </div>
+        $endif$
+
+        $body$
       </main>
     </article>
 

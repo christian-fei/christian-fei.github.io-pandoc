@@ -119,3 +119,8 @@ html, body {
 .content .posts li {
   font-size: 0.9rem;
 }
+
+header .button {
+  padding-left: 0 !important;
+  padding-right: 2.75em !important;
+}
