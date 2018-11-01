@@ -38,7 +38,8 @@ i can execute this on my terminal and it will pop up my editor for the new blog 
 
 > creating posts/2018-11-01-hello-world.md
 
-~/D/p/christian-fei.github.io (master)```
+~/D/p/christian-fei.github.io (master)
+```
 
 [check out `write` here](https://github.com/christian-fei/christian-fei.github.io/tree/master/write)
 
