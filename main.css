@@ -124,3 +124,8 @@ header .button {
   padding-left: 0 !important;
   padding-right: 2.75em !important;
 }
+
+main.container.content {
+  max-width: 900px;
+  margin-left: 0;
+}
