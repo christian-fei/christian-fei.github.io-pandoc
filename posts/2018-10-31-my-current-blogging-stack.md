@@ -4,11 +4,11 @@ title: my current blogging stack
 
 ## tldr;
 
+- jekyll 👉 pandoc
 - pandoc + bash (see [`./write`](https://github.com/christian-fei/christian-fei.github.io/blob/master/write), [`./build`](https://github.com/christian-fei/christian-fei.github.io/blob/master/build), [`./deploy`](https://github.com/christian-fei/christian-fei.github.io/blob/master/deploy) and [`./purge`](https://github.com/christian-fei/christian-fei.github.io/blob/master/purge))
 - aws s3
 - cloudflare dns + ssl
 
-jekyll 👉 pandoc
 
 
 # keep it simple, stupid
