@@ -17,7 +17,7 @@ In the Collection a gamefield document has the following structure:
 
 __________________
 
-```javascript
+```
 {
 	"_id" : ObjectId("5316267e427d71bf192dce61"),
 	"board" : [

@@ -33,7 +33,7 @@ What I found to be a sane approach to indenting when chaining method calls is in
 
 Let's do some maths:
 
-```javascript
+```
 assert.equal(7, 'return '.length)
 assert.equal(7, '      .filter'.indexOf('.'))
 ```
@@ -42,7 +42,7 @@ assert.equal(7, '      .filter'.indexOf('.'))
 
 So we can indent by aligning the dot of the chain call to the space after the return to match it up horizontally.
 
-```javascript
+```
 return array
       .filter(...)
       .map(...)
@@ -51,7 +51,7 @@ return array
 
 ## Ternary operator
 
-```javascript
+```
 function hasThis () {
   const or = true
   const that = false

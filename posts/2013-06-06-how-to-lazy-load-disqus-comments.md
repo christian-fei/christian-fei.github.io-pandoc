@@ -41,7 +41,7 @@ This way the user gets to read the article 'much' (a few seconds maybe) faster.
 
 You won't believe how easy it is, until you see this sweet flavoured Javascript code:
 
-```javascript
+```
 var comments = document.getElementsByClassName('comments')[0],
 	coff = findTop(comments),
     disqusLoaded = false;
@@ -57,7 +57,7 @@ window.onscroll = function() {
 
 Of course ```findTop(element)``` is a custom function (that does exactly what it says), so here you can take a look at it:
 
-```javascript
+```
 /* from here
 	http://www.quirksmode.org/js/findpos.html
 */
@@ -74,7 +74,7 @@ function findTop(obj) {
 
 and ```loadDisqus()``` is a super simple function that appends the embed.js script from Disqus to the head:
 
-```javascript
+```
 function loadDisqus() {
     var disqus_shortname = 'your_disqus_shortname';
     var dsq = document.createElement('script');
@@ -95,7 +95,7 @@ In your markup write an empty div with a class ```comments```, like this:
 ```
 Then in your Javascript file add these lines of code to make Disqus load lazily:
 
-```javascript
+```
 var comments = document.getElementsByClassName('comments')[0],
     disqusLoaded=false;
 
@@ -138,7 +138,7 @@ if(comments) {
 [Michael](http://christian-fei.com/tutorials/how-to-lazy-load-disqus-comments/#comments) pointed out that if someone visited the page with ```#comments``` in the page URL, this won't work very well..
 In the source code above I already updated it, here the simple code to make it work:
 
-```javascript
+```
 if(window.location.hash.indexOf('#comments') > 0)
     loadDisqus();
 ```

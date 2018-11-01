@@ -25,7 +25,7 @@ You have a JSON file/object that contains the data you want to parse (in this ex
 
 Something similar to this:
 
-```javascript
+```
 var data =
 [
 	{
@@ -65,7 +65,7 @@ I take this example again from [my jQuery plugin](/simple-jekyll-search-jquery-p
 
 You could loop through the JSON object and replace each occurency of a property inside curly braces with the property that corresponds to the current item of the JSON object.
 
-```javascript
+```
 var template='<a href="{url}" title="{description}">{title}</a>';
 for (var i = 0; i < data.length; i++) {
     var obj = data[i];
@@ -93,7 +93,7 @@ See the [discussion](https://twitter.com/toddmotto/status/391850946999115776) on
 
 [Dillon de Voor](http://www.crocodillon.com/) suggested another solution in the [comments](#comment-1090158632). Pretty genius idea, I have to say:
 
-```javascript
+```
 var template='<a href="{url}" title="{description}">{title}</a>';
 for (var i = 0; i < data.length; i++) {
     var obj = data[i];

@@ -9,7 +9,7 @@ desc: "DRY dependency injection in Angular with gulp-ng-annotate"
 In a previous post I dug into [Angular DI and how it's done](/a-closer-look-at-angular-s-dependency-injection/).
 The most common way how you'll see dependencies annotated is with the inline array notation, like this:
 
-```javascript
+```
 angular.module('app').service('TheService',['$http',function($http){
 	// a-ok
 }]);
@@ -45,7 +45,7 @@ With [**ng-annotate**](https://github.com/sindresorhus/gulp-ngAnnotate()) the in
 
 With ngAnnotate() you would simply write the dependencies as function arguments without further annotation, like this:
 
-```javascript
+```
 angular.module('app').service('TheService',function($http){
 	// a-ok
 });

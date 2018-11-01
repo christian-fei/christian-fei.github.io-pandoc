@@ -31,7 +31,7 @@ function FooCtrl($scope){
 
 You can save yourself headaches by not needing to inject the $scope for testing purposes in each test, but simply makes the assertions on the instance of the controller (that is represented by the Viewmodel):
 
-```javascript
+```
 // implementation
 function FooCtrl(){
    this.foo = 'bar'
