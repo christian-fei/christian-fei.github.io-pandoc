@@ -1,8 +1,9 @@
 #!/bin/bash
 
 MAIN_CSS=main.css
+MAIN_JS=main.js
 HTML_TEMPLATE=templates/html.template
-PANDOC_PARAMS="--atx-headers --css=/$MAIN_CSS --template=./$HTML_TEMPLATE --from markdown --to=html5 --standalone -H head.html -B header.html --metadata-file=posts/index.yml"
+PANDOC_PARAMS="--atx-headers --template=$HTML_TEMPLATE --from markdown --to=html5 --standalone -H head.html -B header.html --metadata-file=posts/index.yml"
 DIST=dist
 
 printf "\n💯  build\n"
@@ -39,7 +40,7 @@ do
     name=$(basename ${file%.*})
     # echo "⛏ $name"
     printf "."
-    pandoc -t=$HTML_TEMPLATE --metadata-file=posts/index.yml $PANDOC_PARAMS posts/$name.md -o $DIST/posts/$name.html &
+    pandoc $PANDOC_PARAMS posts/$name.md -o $DIST/posts/$name.html &
   fi
 done
 
@@ -63,4 +64,7 @@ printf "\n⛏ copying assets"
 cp -r assets dist/
 
 printf "\n⛏ copying styles\n"
-cp -r main.css dist/main.css
+cp -r $MAIN_CSS dist/$MAIN_CSS
+
+printf "\n⛏ copying scripts\n"
+cp -r $MAIN_JS dist/$MAIN_JS
