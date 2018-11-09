@@ -1,0 +1,51 @@
+#!/usr/bin/env node
+
+const http = require('http')
+const Websocket = require('ws')
+const fs = require('fs')
+const path = require('path')
+const { POCKET_CONSUMER_KEY } = require('./secrets.json')
+
+const pocketItemsFilePath = path.join(__dirname, 'pocket.json')
+
+main()
+.catch(err => { console.error(err); process.exit(1) })
+
+async function main () {
+  const httpServer = http.createServer()
+  httpServer.on('request', requestHandler)
+  httpServer.listen(4000)
+
+  console.log('http server listening on http://localhost:4000')
+
+  const wsServer = new Websocket.Server({ server: httpServer })
+
+  wsServer.on('connection', (ws) => {
+    console.log('ws client connected  🤖')
+    ws.on('message', message => {
+      console.log('ws client sent message  ✍️ ', message)
+      ws.send(message)
+    })
+  })
+
+
+  process.on('uncaughtException', console.error)
+}
+
+
+function requestHandler (req, res) {
+  if (req.url === '/') {
+    console.log('serving index', req.url)
+    res.write(index())
+    return res.end()
+  }
+  if (req.url === '/favicon.ico') return res.end()
+
+  console.log('⛔️  unhandled', req.url)
+
+  res.end()
+}
+
+function index () {
+  return fs.readFileSync(path.join(__dirname, 'index.html'), 'utf-8')
+}
