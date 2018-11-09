@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/christian-fei/christian-fei.github.io#readme",
   "dependencies": {
+    "got": "^9.3.2",
+    "wait-for-user-input": "^1.0.0",
     "ws": "^6.1.0"
   }
 }

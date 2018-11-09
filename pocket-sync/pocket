@@ -4,7 +4,9 @@ const http = require('http')
 const Websocket = require('ws')
 const fs = require('fs')
 const path = require('path')
-const { POCKET_CONSUMER_KEY } = require('./secrets.json')
+
+const initPocket = require('./init-pocket')
+const getPocketItems = require('./get-pocket-items')
 
 const pocketItemsFilePath = path.join(__dirname, 'pocket.json')
 
@@ -24,10 +26,24 @@ async function main () {
     console.log('ws client connected  🤖')
     ws.on('message', message => {
       console.log('ws client sent message  ✍️ ', message)
+      const parsedMessage = JSON.parse(message)
+      if (parsedMessage === 'get:items') {
+        const type = parsedMessage
+        const payload = []
+        return ws.send(JSON.stringify({ type, payload }))
+      }
+
       ws.send(message)
     })
   })
 
+  const POCKET_ACCESS_TOKEN = await initPocket()
+
+  console.log('POCKET_ACCESS_TOKEN', POCKET_ACCESS_TOKEN)
+
+  const pocketItems = await getPocketItems(POCKET_ACCESS_TOKEN)
+
+  console.log('pocketItems', pocketItems)
 
   process.on('uncaughtException', console.error)
 }
