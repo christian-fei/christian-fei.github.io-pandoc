@@ -1,5 +1,6 @@
 ---
 title: my current blogging stack
+image: /assets/images/posts/blogging.jpg
 ---
 
 ## tldr;

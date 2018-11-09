@@ -25,6 +25,12 @@
             </div>
           $endif$
 
+          $if(image)$
+            <figure class="image">
+              <img src="$image$"/>
+            </figure>
+          $endif$
+
           $body$
         </main>
       </article>
