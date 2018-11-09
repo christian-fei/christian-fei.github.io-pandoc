@@ -36,29 +36,15 @@ done
 printf "\n⛏ building posts\n"
 for file in posts/*.md
 do
-  if [[ -f $file ]]; then
+  if [ -f $file ] && [ "$file" != "posts/index.md" ]; then
     name=$(basename ${file%.*})
     # echo "⛏ $name"
     printf "."
     pandoc $PANDOC_PARAMS posts/$name.md -o $DIST/posts/$name.html
-  fi
-done
-
-wait
-
-# nice /posts/abc/ urls
-printf "\n⛏  nice posts urls\n"
-for file in posts/*.md
-do
-  if [[ -f $file ]]; then
-    name=$(basename ${file%.*})
-    # echo "🔗  $name"
-    printf "."
     mkdir -p $DIST/posts/$name
     cp $DIST/posts/$name.html $DIST/posts/$name/index.html
   fi
 done
-
 
 printf "\n⛏ copying assets"
 cp -r assets dist/
