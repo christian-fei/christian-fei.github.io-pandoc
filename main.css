@@ -146,7 +146,7 @@ main.container.content {
 
 #carbonads {
   --width: 180px;
-  --font-size: 14px;
+  --font-size: 10px;
 }
 
 #carbonads {
@@ -189,7 +189,7 @@ main.container.content {
 .carbon-img img {
   display: block !important;
   margin: 0 auto !important;
-  max-width: var(--width) !important !important;
+  max-width: var(--width) !important;
   width: var(--width) !important;
   height: auto !important;
 }
@@ -210,13 +210,3 @@ main.container.content {
   line-height: 0 !important;
 }
 
-@media all and (min-width: 769px) {
-  .ad-container {
-    padding-left: 0;
-    padding-top: 0;
-    position: fixed;
-    top: 18em;
-    right: 2em;
-    z-index: 9999;
-  }
-}
