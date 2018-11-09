@@ -38,7 +38,7 @@ module.exports = async () => {
 
   const POCKET_URL = `https://getpocket.com/auth/authorize?request_token=${POCKET_REQUEST_TOKEN}&redirect_uri=http://localhost:4000`
 
-  await waitForUserInput(`Open the following url in a browser and log in with your pocket account: ${POCKET_URL}`)
+  await waitForUserInput(`Open the following url in a browser and log in with your pocket account: ${POCKET_URL}\nPRESS ENTER TO CONTINUE AFTER LOGGING IN\n`)
 
   const { body: oauthAuthorizeBody } = await got.post('https://getpocket.com/v3/oauth/authorize', {
     headers,

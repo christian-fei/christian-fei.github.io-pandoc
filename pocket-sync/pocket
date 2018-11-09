@@ -18,19 +18,19 @@ async function main (POCKET_ACCESS_TOKEN) {
   httpServer.on('request', requestHandler)
   httpServer.listen(4000)
 
-  console.log('http server listening on http://localhost:4000')
+  // console.log('http server listening on http://localhost:4000')
 
   const wsServer = new Websocket.Server({ server: httpServer })
 
   let pocketItems = []
 
   wsServer.on('connection', (ws) => {
-    console.log('ws client connected  🤖')
+    console.log('🤖  ws client connected')
 
     wsServer.clients.forEach((client) => client.send(JSON.stringify({ type: 'items', payload: pocketItems })))
 
     ws.on('message', message => {
-      console.log('ws client sent message  ✍️ ', message)
+      console.log('✍️  ws client sent message', message)
       const parsedMessage = JSON.parse(message)
       if (parsedMessage === 'get:items') {
         const type = parsedMessage
@@ -48,7 +48,8 @@ async function main (POCKET_ACCESS_TOKEN) {
 
   pocketItems = await getPocketItems(POCKET_ACCESS_TOKEN)
 
-  console.log('pocketItems.length', pocketItems.length)
+  console.log('received pocketItems.length', pocketItems.length)
+  console.log('👉  visit http://localhost:4000')
 
   wsServer.clients.forEach((client) => client.send(JSON.stringify({ type: 'items', payload: pocketItems })))
 
