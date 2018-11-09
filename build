@@ -40,7 +40,7 @@ do
     name=$(basename ${file%.*})
     # echo "⛏ $name"
     printf "."
-    pandoc $PANDOC_PARAMS posts/$name.md -o $DIST/posts/$name.html &
+    pandoc $PANDOC_PARAMS posts/$name.md -o $DIST/posts/$name.html
   fi
 done
 
