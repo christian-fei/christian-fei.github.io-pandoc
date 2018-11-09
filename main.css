@@ -1,3 +1,55 @@
+html, body {
+  font-size: 1rem;
+}
+body {
+  padding: 0.5em 1em;
+}
+
+.content .posts {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.content .posts li {
+  font-size: 0.9rem;
+}
+
+header .button {
+  padding-left: 0 !important;
+  padding-right: 2.75em !important;
+}
+
+main.container.content {
+  max-width: 900px;
+  margin-left: 0;
+}
+
+.search-posts {
+  font-size: 0.8rem;
+  padding: 0.75em;
+  width: 250px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* AD */
 
 #carbonads {
   --width: 180px;
@@ -65,92 +117,13 @@
   line-height: 0 !important;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 759px) {
-  #carbonads {
-    float: none;
-    margin: 0 auto;
-    max-width: 330px;
-  }
-
-  #carbonads span {
-    position: relative;
-  }
-
-  #carbonads > span {
-    max-width: none;
-  }
-
-  .carbon-img {
-    float: left;
-    margin: 0;
-  }
-
-  .carbon-img img {
-    max-width: 130px !important;
-  }
-
-  .carbon-text {
-    float: left;
-    margin-bottom: 0;
-    padding: 8px 20px;
-    text-align: left;
-    max-width: calc(100% - 130px - 3em);
-  }
-
-  .carbon-poweredby {
-    left: 130px;
-    bottom: 0;
-    display: block;
-    width: 100%;
-  }
-}
-
-@media all and (max-width: 1000px) {
-  .ad-container {
-    float: left;
-    padding: 0;
-  }
-}
-@media all and (min-width: 1000px) {
+@media all and (min-width: 769px) {
   .ad-container {
     padding-left: 0;
     padding-top: 0;
     position: fixed;
-    top: 90px;
+    top: 18em;
+    right: 2em;
     z-index: 9999;
   }
-}
-
-html, body {
-  font-size: 1rem;
-}
-body {
-  padding: 0.5em 1em;
-}
-
-.content .posts {
-  list-style-type: none;
-  margin-left: 0;
-}
-
-.content .posts li {
-  font-size: 0.9rem;
-}
-
-header .button {
-  padding-left: 0 !important;
-  padding-right: 2.75em !important;
-}
-
-main.container.content {
-  max-width: 900px;
-  margin-left: 0;
-}
-
-.search-posts {
-  font-size: 0.8rem;
-  padding: 0.75em;
-  width: 250px;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
