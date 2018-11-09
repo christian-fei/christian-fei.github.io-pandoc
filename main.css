@@ -46,7 +46,13 @@ main.container.content {
 
 
 
-
+/* github contributions chart */
+.wday {
+  font-size: 0.6rem;
+}
+.month {
+  font-size: 0.6rem;
+}
 
 
 

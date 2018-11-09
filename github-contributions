@@ -1,0 +1,5 @@
+#!/bin/bash
+
+curl 'https://github.com/christian-fei' --silent > github-christian-fei.html
+
+cat github-christian-fei.html | pup 'svg.js-calendar-graph-svg' > github-contributions.svg

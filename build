@@ -52,6 +52,7 @@ cp -r assets dist/
 
 printf "\n⛏ copying styles\n"
 cp -r $MAIN_CSS dist/$MAIN_CSS
+cp github-contributions.svg  dist/github-contributions.svg
 
 printf "\n⛏ copying scripts\n"
 cp -r $MAIN_JS dist/$MAIN_JS
