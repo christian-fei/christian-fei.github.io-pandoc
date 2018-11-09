@@ -25,7 +25,8 @@ echo "posts: " > posts/index.yml
 # create posts/index.yml
 for file in $(ls -lr posts/*.md)
 do
-  if [[ -f $file ]]; then
+  if [ -f $file ] && [ "$file" != "posts/index.md" ]; then
+    echo "$file"
     name=$(basename ${file%.*})
     # echo "$name"
     echo "  - $name" >> posts/index.yml
