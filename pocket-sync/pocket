@@ -10,10 +10,10 @@ const getPocketItems = require('./get-pocket-items')
 
 const pocketItemsFilePath = path.join(__dirname, 'pocket.json')
 
-main()
+main(process.argv.slice(2)[0])
 .catch(err => { console.error(err); process.exit(1) })
 
-async function main () {
+async function main (POCKET_ACCESS_TOKEN) {
   const httpServer = http.createServer()
   httpServer.on('request', requestHandler)
   httpServer.listen(4000)
@@ -22,8 +22,13 @@ async function main () {
 
   const wsServer = new Websocket.Server({ server: httpServer })
 
+  let pocketItems = []
+
   wsServer.on('connection', (ws) => {
     console.log('ws client connected  🤖')
+
+    wsServer.clients.forEach((client) => client.send(JSON.stringify({ type: 'items', payload: pocketItems })))
+
     ws.on('message', message => {
       console.log('ws client sent message  ✍️ ', message)
       const parsedMessage = JSON.parse(message)
@@ -37,13 +42,15 @@ async function main () {
     })
   })
 
-  const POCKET_ACCESS_TOKEN = await initPocket()
+  if (!POCKET_ACCESS_TOKEN) {
+    POCKET_ACCESS_TOKEN = await initPocket()
+  }
 
-  console.log('POCKET_ACCESS_TOKEN', POCKET_ACCESS_TOKEN)
+  pocketItems = await getPocketItems(POCKET_ACCESS_TOKEN)
 
-  const pocketItems = await getPocketItems(POCKET_ACCESS_TOKEN)
+  console.log('pocketItems.length', pocketItems.length)
 
-  console.log('pocketItems', pocketItems)
+  wsServer.clients.forEach((client) => client.send(JSON.stringify({ type: 'items', payload: pocketItems })))
 
   process.on('uncaughtException', console.error)
 }

@@ -34,6 +34,8 @@ module.exports = async () => {
 
   const { code: POCKET_REQUEST_TOKEN } = JSON.parse(oauthRequestBody)
 
+  console.log('POCKET_REQUEST_TOKEN', POCKET_REQUEST_TOKEN)
+
   const POCKET_URL = `https://getpocket.com/auth/authorize?request_token=${POCKET_REQUEST_TOKEN}&redirect_uri=http://localhost:4000`
 
   await waitForUserInput(`Open the following url in a browser and log in with your pocket account: ${POCKET_URL}`)
