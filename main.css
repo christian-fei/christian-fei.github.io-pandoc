@@ -8,6 +8,7 @@ body {
 header {
   padding: 1em;
   background: #efefef;
+  background: rgb(203, 207, 220);
   margin-right: -1rem;
   margin-left: -1rem;
   margin-top: -0.5rem;
@@ -42,6 +43,87 @@ main.container.content {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+}
+
+	.flip-container:hover .flipper,
+  .flip-container.hover .flipper {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 128px;
+	height: 128px;
+}
+
+.flipper {
+	-webkit-transition: 0.5s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transition: 0.5s;
+	-moz-transform-style: preserve-3d;
+  -o-transition: 0.5s;
+	-o-transform-style: preserve-3d;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+}
+
+.back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
 
 
 
