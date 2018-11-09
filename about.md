@@ -1,7 +1,7 @@
 ---
 layout: page
 free_layout: true
-title: About me
+title:
 permalink: /about/
 ---
 
