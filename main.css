@@ -5,6 +5,17 @@ body {
   padding: 0.5em 1em;
 }
 
+header {
+  padding: 1em;
+  background: #efefef;
+  margin-right: -1rem;
+  margin-left: -1rem;
+  margin-top: -0.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+
 .content .posts {
   list-style-type: none;
   margin-left: 0;
