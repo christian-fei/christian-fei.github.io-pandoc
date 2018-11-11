@@ -44,8 +44,6 @@ async function main (POCKET_ACCESS_TOKEN) {
   console.log('👉  visit http://localhost:4000')
 
   broadcastMessageOn(wsServer, JSON.stringify({ type: 'items', payload: pocketItems }))
-
-  process.on('uncaughtException', console.error)
 }
 
 function handleWsMessage (ws) {
@@ -58,8 +56,7 @@ function handleWsMessage (ws) {
       console.log('add:item', payload)
       let pocketItems = fs.readFileSync(pocketItemsFilePath)
       pocketItems = JSON.parse(pocketItems)
-      let updatedPocketItems = Object.assign({}, pocketItems)
-      const item = pocketItems.find(({item_id}) => item_id === payload)
+      const item = pocketItems.find(({item_id: itemId}) => itemId === payload)
 
       pocketItems.lastAdded = new Date().toISOString()
       pocketItems.items = Array.isArray(pocketItems.items) ? pocketItems.items : []
