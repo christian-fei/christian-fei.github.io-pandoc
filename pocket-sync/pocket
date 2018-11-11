@@ -8,7 +8,8 @@ const path = require('path')
 const initPocket = require('./init-pocket')
 const getPocketItems = require('./get-pocket-items')
 
-const pocketItemsFilePath = path.join(__dirname, 'pocket.json')
+const pocketItemsFilePath = path.join(__dirname, 'state', 'pocket.json')
+const blackListedItemsFilePath = path.join(__dirname, 'state', 'blacklisted-items.json')
 
 main(process.argv.slice(2)[0])
 .catch(err => { console.error(err); process.exit(1) })
@@ -32,10 +33,24 @@ async function main (POCKET_ACCESS_TOKEN) {
     ws.on('message', message => {
       console.log('✍️  ws client sent message', message)
       const parsedMessage = JSON.parse(message)
-      if (parsedMessage === 'get:items') {
-        const type = parsedMessage
-        const payload = []
-        return ws.send(JSON.stringify({ type, payload }))
+      if (parsedMessage && parsedMessage.type === 'add:item') {
+        const {payload} = parsedMessage
+        console.log('add:item', payload)
+      }
+      if (parsedMessage && parsedMessage.type === 'blacklist:item') {
+        const {payload} = parsedMessage
+        console.log('blacklist:item', payload)
+        let blackListedItems = fs.readFileSync(blackListedItemsFilePath)
+        blackListedItems = JSON.parse(blackListedItems)
+        const updatedBlacklistedItems = blackListedItems.reduce((acc, id) => id === payload ? acc : acc.concat([id]), [payload])
+        fs.writeFileSync(blackListedItemsFilePath, JSON.stringify(updatedBlacklistedItems))
+        return ws.send(JSON.stringify({
+          type: 'blacklist:item',
+          payload: {
+            item_id: payload,
+            status: 'success'
+          }
+        }))
       }
 
       ws.send(message)
