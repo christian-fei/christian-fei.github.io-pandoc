@@ -6,7 +6,6 @@ curl "https://getpocket.com/v3/oauth/request" -H "Content-Type: application/json
 
 open "https://getpocket.com/auth/authorize?request_token=POCKET_REQUEST_TOKEN&redirect_uri=http://localhost:4000"
 
-
 curl "https://getpocket.com/v3/oauth/authorize" -H "Content-Type: application/json; charset=UTF-8" -H "X-Accept: application/json" --data '{"consumer_key":"POCKET_CONSUMER_KEY","code":"POCKET_REQUEST_TOKEN"}'
 
 > {"access_token":"POCKET_ACCESS_TOKEN","username":"crifei93"}
@@ -19,9 +18,8 @@ curl "https://getpocket.com/v3/get" -H "Content-Type: application/json; charset=
 
 const got = require('got')
 const waitForUserInput = require('wait-for-user-input')
-const { POCKET_CONSUMER_KEY } = require('./secrets.json')
 
-module.exports = async () => {
+module.exports = async (POCKET_CONSUMER_KEY) => {
   const headers = { 'Content-Type': 'application/json', 'X-Accept': 'application/json' }
 
   const { body: oauthRequestBody } = await got.post('https://getpocket.com/v3/oauth/request', {

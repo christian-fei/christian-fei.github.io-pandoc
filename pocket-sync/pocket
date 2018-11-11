@@ -10,6 +10,7 @@ const getPocketItems = require('./get-pocket-items')
 
 const pocketItemsFilePath = path.join(__dirname, 'state', 'pocket.json')
 const blackListedItemsFilePath = path.join(__dirname, 'state', 'blacklisted-items.json')
+const { POCKET_CONSUMER_KEY } = require('./secrets.json')
 
 main(process.argv.slice(2)[0])
 .catch(err => { console.error(err); process.exit(1) })
@@ -34,7 +35,7 @@ async function main (POCKET_ACCESS_TOKEN) {
   })
 
   if (!POCKET_ACCESS_TOKEN) {
-    POCKET_ACCESS_TOKEN = await initPocket()
+    POCKET_ACCESS_TOKEN = await initPocket(POCKET_CONSUMER_KEY)
   }
 
   pocketItems = await getPocketItems(POCKET_ACCESS_TOKEN)
@@ -45,7 +46,6 @@ async function main (POCKET_ACCESS_TOKEN) {
   broadcastMessageOn(wsServer, JSON.stringify({ type: 'items', payload: pocketItems }))
 
   process.on('uncaughtException', console.error)
-
 }
 
 function handleWsMessage (ws) {
