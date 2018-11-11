@@ -28,7 +28,7 @@ async function main (POCKET_ACCESS_TOKEN) {
   wsServer.on('connection', (ws) => {
     console.log('🤖  ws client connected')
 
-    wsServer.clients.forEach((client) => client.send(JSON.stringify({ type: 'items', payload: pocketItems })))
+    broadcast(JSON.stringify({ type: 'items', payload: pocketItems }))
 
     ws.on('message', message => {
       console.log('✍️  ws client sent message', message)
@@ -83,9 +83,13 @@ async function main (POCKET_ACCESS_TOKEN) {
   console.log('received pocketItems.length', pocketItems.length)
   console.log('👉  visit http://localhost:4000')
 
-  wsServer.clients.forEach((client) => client.send(JSON.stringify({ type: 'items', payload: pocketItems })))
+  broadcast(JSON.stringify({ type: 'items', payload: pocketItems }))
 
   process.on('uncaughtException', console.error)
+
+  function broadcast (message) {
+    wsServer.clients.forEach((client) => client.send(message))
+  }
 }
 
 
