@@ -19,59 +19,18 @@ async function main (POCKET_ACCESS_TOKEN) {
   httpServer.on('request', requestHandler)
   httpServer.listen(4000)
 
-  // console.log('http server listening on http://localhost:4000')
-
   const wsServer = new Websocket.Server({ server: httpServer })
 
-  let pocketItems = []
+  let pocketItems = fs.readFileSync(pocketItemsFilePath)
+  pocketItems = JSON.parse(pocketItems)
 
   wsServer.on('connection', (ws) => {
-    console.log('🤖  ws client connected')
-
-    broadcast(JSON.stringify({ type: 'items', payload: pocketItems }))
-
-    ws.on('message', message => {
-      console.log('✍️  ws client sent message', message)
-      const parsedMessage = JSON.parse(message)
-
-      if (parsedMessage && parsedMessage.type === 'add:item') {
-        const {payload} = parsedMessage
-        console.log('add:item', payload)
-        let addedPocketItems = fs.readFileSync(pocketItemsFilePath)
-        addedPocketItems = JSON.parse(addedPocketItems)
-        let updatedPocketItems = Object.assign({}, addedPocketItems)
-        addedPocketItems.lastAdded = new Date().toISOString()
-        addedPocketItems.items = Array.isArray(addedPocketItems.items) ? addedPocketItems.items : []
-        const item = pocketItems.find(({item_id}) => item_id === payload)
-        addedPocketItems.items = addedPocketItems.items.reduce((acc, item) => item.item_id === payload ? acc : acc.concat([item]), [item])
-        // pocketItems.reduce((acc, id) => id === payload ? acc : acc.concat([id]), [payload])
-        fs.writeFileSync(pocketItemsFilePath, JSON.stringify(addedPocketItems))
-        return ws.send(JSON.stringify({
-          type: 'add:item',
-          payload: {
-            item_id: payload,
-            status: 'success'
-          }
-        }))
-      }
-      if (parsedMessage && parsedMessage.type === 'blacklist:item') {
-        const {payload} = parsedMessage
-        console.log('blacklist:item', payload)
-        let blackListedItems = fs.readFileSync(blackListedItemsFilePath)
-        blackListedItems = JSON.parse(blackListedItems)
-        const updatedBlacklistedItems = blackListedItems.reduce((acc, id) => id === payload ? acc : acc.concat([id]), [payload])
-        fs.writeFileSync(blackListedItemsFilePath, JSON.stringify(updatedBlacklistedItems))
-        return ws.send(JSON.stringify({
-          type: 'blacklist:item',
-          payload: {
-            item_id: payload,
-            status: 'success'
-          }
-        }))
-      }
-
-      ws.send(message)
-    })
+    console.log('🤖  [ws] connected')
+    broadcastMessageOn(wsServer, JSON.stringify({
+      type: 'items',
+      payload: pocketItems
+    }))
+    ws.on('message', handleWsMessage(ws))
   })
 
   if (!POCKET_ACCESS_TOKEN) {
@@ -80,22 +39,71 @@ async function main (POCKET_ACCESS_TOKEN) {
 
   pocketItems = await getPocketItems(POCKET_ACCESS_TOKEN)
 
-  console.log('received pocketItems.length', pocketItems.length)
+  console.log('📩  [server] pocketItems.length', pocketItems.length)
   console.log('👉  visit http://localhost:4000')
 
-  broadcast(JSON.stringify({ type: 'items', payload: pocketItems }))
+  broadcastMessageOn(wsServer, JSON.stringify({ type: 'items', payload: pocketItems }))
 
   process.on('uncaughtException', console.error)
 
-  function broadcast (message) {
-    wsServer.clients.forEach((client) => client.send(message))
+}
+
+function handleWsMessage (ws) {
+  return (message) => {
+    console.log('✍️  [ws] sent message', message)
+    const parsedMessage = JSON.parse(message) || {}
+    const {type, payload} = parsedMessage
+
+    if (type === 'add:item') {
+      console.log('add:item', payload)
+      let pocketItems = fs.readFileSync(pocketItemsFilePath)
+      pocketItems = JSON.parse(pocketItems)
+      let updatedPocketItems = Object.assign({}, pocketItems)
+      const item = pocketItems.find(({item_id}) => item_id === payload)
+
+      pocketItems.lastAdded = new Date().toISOString()
+      pocketItems.items = Array.isArray(pocketItems.items) ? pocketItems.items : []
+      pocketItems.items = pocketItems.items.reduce((acc, item) => item.item_id === payload ? acc : acc.concat([item]), [item])
+
+      fs.writeFileSync(pocketItemsFilePath, JSON.stringify(pocketItems, null, 2))
+      console.log('✍️  [ws] send message', message)
+
+      return ws.send(JSON.stringify({
+        type: 'added:item',
+        payload: {
+          item_id: payload,
+          status: 'success'
+        }
+      }))
+    }
+    if (type === 'blacklist:item') {
+      console.log('blacklist:item', payload)
+      let blackListedItems = fs.readFileSync(blackListedItemsFilePath)
+      blackListedItems = JSON.parse(blackListedItems)
+
+      const updatedBlacklistedItems = blackListedItems.reduce((acc, id) => id === payload ? acc : acc.concat([id]), [payload])
+      fs.writeFileSync(blackListedItemsFilePath, JSON.stringify(updatedBlacklistedItems))
+
+      return ws.send(JSON.stringify({
+        type: 'blacklisted:item',
+        payload: {
+          item_id: payload,
+          status: 'success'
+        }
+      }))
+    }
+
+    ws.send(message)
   }
 }
 
+function broadcastMessageOn (wsServer, message) {
+  wsServer.clients.forEach((client) => client.send(message))
+}
 
 function requestHandler (req, res) {
   if (req.url === '/') {
-    console.log('serving index', req.url)
+    console.log('📖  [serve] index', req.url)
     res.write(index())
     return res.end()
   }
