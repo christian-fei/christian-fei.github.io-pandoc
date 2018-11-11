@@ -22,7 +22,7 @@ const waitForUserInput = require('wait-for-user-input')
 module.exports = async (POCKET_CONSUMER_KEY) => {
   const headers = { 'Content-Type': 'application/json', 'X-Accept': 'application/json' }
 
-  const { body: oauthRequestBody } = await got.post('https://getpocket.com/v3/oauth/request', {
+  const { body: oauthRequestBody } = await got.post('https://getpocket.com/v3/oauth/request', {
     headers,
     body: JSON.stringify({
       consumer_key: POCKET_CONSUMER_KEY,
