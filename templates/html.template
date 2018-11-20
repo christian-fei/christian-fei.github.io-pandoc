@@ -48,6 +48,10 @@
       </div>
     </div>
 
+    <footer class="footer">
+      &copy; Christian Fei 2018
+    </footer>
+
     <script src="/main.js"></script>
   </body>
 </html>
