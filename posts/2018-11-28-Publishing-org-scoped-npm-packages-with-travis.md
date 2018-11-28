@@ -2,7 +2,7 @@
 title: Publishing org scoped npm packages with travis
 ---
 
-If you stumbled upon this article, you are probably experience the following error message on travis in the deployment stage:
+If you stumbled upon this article, you are probably seeing the following error message on travis in the deployment stage:
 
 <pre>
 Deploying application
