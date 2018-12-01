@@ -1,7 +1,7 @@
 ---
 layout: page
 free_layout: true
-title:
+title: About Christian
 permalink: /about/
 ---
 

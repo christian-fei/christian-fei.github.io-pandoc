@@ -1,6 +1,30 @@
 {
-  "lastSynced": "2018-11-28T20:52:50.157Z",
+  "lastSynced": "2018-12-01T11:03:59.383Z",
   "items": [
+    {
+      "id": "2402670859",
+      "title": "Revolut, the UK's $1.7 billion star fintech, has big dreams as it takes on the American market",
+      "url": "https://www.businessinsider.com/revolut-a-17-billion-uk-fintech-has-big-plans-to-enter-us-market-2018-11",
+      "date": "2018-12-01"
+    },
+    {
+      "id": "2402436983",
+      "title": "GraphQL: A Retrospective",
+      "url": "https://verve.co/engineering/graphql-a-retrospective/",
+      "date": "2018-11-30"
+    },
+    {
+      "id": "2403533218",
+      "title": "Amazon officially joins the blockchain party",
+      "url": "https://thenextweb.com/hardfork/2018/11/29/amazon-blockchain-web-services/",
+      "date": "2018-11-29"
+    },
+    {
+      "id": "2404147698",
+      "title": "World War II Vet Sees Haunting Signs of War in Modern America",
+      "url": "https://www.wnycstudios.org/story/world-war-ii-veteran-remembers-haunting-signs-war",
+      "date": "2018-11-29"
+    },
     {
       "id": "2402712603",
       "title": "How to Survive the Next Era of Tech (Slow Down and Be Mindful)",
@@ -14,9 +38,21 @@
       "date": "2018-11-28"
     },
     {
-      "id": "2401442532",
-      "title": "We are Google employees. Google must drop Dragonfly.",
-      "url": "https://medium.com/@googlersagainstdragonfly/we-are-google-employees-google-must-drop-dragonfly-4c8a30c5e5eb",
+      "id": "2401838777",
+      "title": "Details about the event-stream incident",
+      "url": "https://blog.npmjs.org/post/180565383195/details-about-the-event-stream-incident",
+      "date": "2018-11-28"
+    },
+    {
+      "id": "2403003282",
+      "title": "How Postgres is more than a relational database: Extensions",
+      "url": "https://www.citusdata.com/blog/2018/11/27/postgres-more-than-a-relational-database/",
+      "date": "2018-11-28"
+    },
+    {
+      "id": "1500202992",
+      "title": "We don't need a Tech Lead",
+      "url": "http://vvgomes.com/we-dont-need-tech-leads/",
       "date": "2018-11-27"
     },
     {
@@ -26,15 +62,15 @@
       "date": "2018-11-27"
     },
     {
-      "id": "2401647206",
-      "title": "Pony Foo on Twitter",
-      "url": "https://twitter.com/ponyfoo/status/1067502581289758721",
+      "id": "2400569685",
+      "title": "Fortran is still a thing",
+      "url": "https://wordsandbuttons.online/fortran_is_still_a_thing.html",
       "date": "2018-11-27"
     },
     {
-      "id": "1500202992",
-      "title": "We don't need a Tech Lead",
-      "url": "http://vvgomes.com/we-dont-need-tech-leads/",
+      "id": "2401647206",
+      "title": "Pony Foo on Twitter",
+      "url": "https://twitter.com/ponyfoo/status/1067502581289758721",
       "date": "2018-11-27"
     },
     {
@@ -44,15 +80,9 @@
       "date": "2018-11-27"
     },
     {
-      "id": "2400831362",
-      "title": "A tale about not-so-much-dead JavaScript",
-      "url": "https://dev.to/areknawo/a-tale-about-not-so-much-dead-javascript-fha",
-      "date": "2018-11-27"
-    },
-    {
-      "id": "2400569685",
-      "title": "Fortran is still a thing",
-      "url": "https://wordsandbuttons.online/fortran_is_still_a_thing.html",
+      "id": "2401442532",
+      "title": "We are Google employees. Google must drop Dragonfly.",
+      "url": "https://medium.com/@googlersagainstdragonfly/we-are-google-employees-google-must-drop-dragonfly-4c8a30c5e5eb",
       "date": "2018-11-27"
     },
     {
@@ -62,15 +92,21 @@
       "date": "2018-11-27"
     },
     {
+      "id": "2400831362",
+      "title": "A tale about not-so-much-dead JavaScript",
+      "url": "https://dev.to/areknawo/a-tale-about-not-so-much-dead-javascript-fha",
+      "date": "2018-11-27"
+    },
+    {
       "id": "2400412462",
       "title": "ncc: Node.js Compiler Collection",
       "url": "https://zeit.co/blog/ncc",
       "date": "2018-11-26"
     },
     {
-      "id": "2397172106",
-      "title": "The entire cryptocurrency market is now worth less than McDonald’s",
-      "url": "https://thenextweb.com/hardfork/2018/11/23/mcdonalds-cryptocurrency-blockchain-bitcoin/",
+      "id": "2397042229",
+      "title": "...And Monads for (Almost) All: The State Monad",
+      "url": "http://rcardin.github.io/design/programming/fp/monad/2018/11/22/and-monads-for-all-state-monad.html",
       "date": "2018-11-24"
     },
     {
@@ -80,9 +116,9 @@
       "date": "2018-11-24"
     },
     {
-      "id": "2397042229",
-      "title": "...And Monads for (Almost) All: The State Monad",
-      "url": "http://rcardin.github.io/design/programming/fp/monad/2018/11/22/and-monads-for-all-state-monad.html",
+      "id": "2397172106",
+      "title": "The entire cryptocurrency market is now worth less than McDonald’s",
+      "url": "https://thenextweb.com/hardfork/2018/11/23/mcdonalds-cryptocurrency-blockchain-bitcoin/",
       "date": "2018-11-24"
     },
     {
