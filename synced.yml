@@ -3,6 +3,10 @@ pocket_items:
     url: https://www.businessinsider.com/revolut-a-17-billion-uk-fintech-has-big-plans-to-enter-us-market-2018-11
     date: 2018-12-01
     id: 2402670859
+  - title: "Fetch"
+    url: https://github.github.io/fetch/#response-body
+    date: 2018-12-01
+    id: 1182080913
   - title: "GraphQL: A Retrospective"
     url: https://verve.co/engineering/graphql-a-retrospective/
     date: 2018-11-30
@@ -31,10 +35,6 @@ pocket_items:
     url: https://www.citusdata.com/blog/2018/11/27/postgres-more-than-a-relational-database/
     date: 2018-11-28
     id: 2403003282
-  - title: "We don't need a Tech Lead"
-    url: http://vvgomes.com/we-dont-need-tech-leads/
-    date: 2018-11-27
-    id: 1500202992
   - title: "Google employees: We no longer believe the company places values over profits"
     url: https://www.cnbc.com/2018/11/27/read-google-employees-open-letter-protesting-project-dragonfly.html
     date: 2018-11-27
@@ -59,6 +59,10 @@ pocket_items:
     url: https://anaxi.com/blog/2018/11/25/do-not-measure-developers-measure-projects/
     date: 2018-11-27
     id: 2399614171
+  - title: "We don't need a Tech Lead"
+    url: http://vvgomes.com/we-dont-need-tech-leads/
+    date: 2018-11-27
+    id: 1500202992
   - title: "A tale about not-so-much-dead JavaScript"
     url: https://dev.to/areknawo/a-tale-about-not-so-much-dead-javascript-fha
     date: 2018-11-27
@@ -67,38 +71,38 @@ pocket_items:
     url: https://zeit.co/blog/ncc
     date: 2018-11-26
     id: 2400412462
-  - title: "...And Monads for (Almost) All: The State Monad"
-    url: http://rcardin.github.io/design/programming/fp/monad/2018/11/22/and-monads-for-all-state-monad.html
-    date: 2018-11-24
-    id: 2397042229
-  - title: "Going to university does not broaden the mind"
-    url: https://www.economist.com/science-and-technology/2018/11/24/going-to-university-does-not-broaden-the-mind
-    date: 2018-11-24
-    id: 2396241797
   - title: "The entire cryptocurrency market is now worth less than McDonald’s"
     url: https://thenextweb.com/hardfork/2018/11/23/mcdonalds-cryptocurrency-blockchain-bitcoin/
     date: 2018-11-24
     id: 2397172106
+  - title: "Going to university does not broaden the mind"
+    url: https://www.economist.com/science-and-technology/2018/11/24/going-to-university-does-not-broaden-the-mind
+    date: 2018-11-24
+    id: 2396241797
+  - title: "...And Monads for (Almost) All: The State Monad"
+    url: http://rcardin.github.io/design/programming/fp/monad/2018/11/22/and-monads-for-all-state-monad.html
+    date: 2018-11-24
+    id: 2397042229
   - title: "Tumblr was removed from Apple’s App Store over child pornography issues"
     url: https://www.theverge.com/2018/11/20/18104366/tumblr-ios-app-child-pornography-removed-from-app-store
     date: 2018-11-22
     id: 2393621011
-  - title: "Developer eXperience - Pietro Campagnano - Crafted Software Milan 15/11/2018"
-    url: https://www.youtube.com/watch?v=eDKWRpVUVPE
-    date: 2018-11-21
-    id: 2395261058
   - title: "Products Over Projects"
     url: https://martinfowler.com/articles/products-over-projects.html
     date: 2018-11-21
     id: 2306191594
-  - title: "A look at a small Elm application"
-    url: https://dev.to/nimmo/a-look-at-a-small-elm-application-2loh
-    date: 2018-11-20
-    id: 2393268940
+  - title: "Developer eXperience - Pietro Campagnano - Crafted Software Milan 15/11/2018"
+    url: https://www.youtube.com/watch?v=eDKWRpVUVPE
+    date: 2018-11-21
+    id: 2395261058
   - title: "Sousveillance"
     url: https://en.wikipedia.org/wiki/Sousveillance
     date: 2018-11-20
     id: 35361
+  - title: "A look at a small Elm application"
+    url: https://dev.to/nimmo/a-look-at-a-small-elm-application-2loh
+    date: 2018-11-20
+    id: 2393268940
   - title: "How I got my startup to #1 on both Product Hunt and Hacker News by accident"
     url: https://levels.io/product-hunt-hacker-news-number-one/
     date: 2018-11-09
