@@ -2,12 +2,13 @@
 
 MAIN_CSS=main.css
 MAIN_JS=main.js
-PANDOC_PARAMS="--atx-headers --template=templates/html.template --from markdown --to=html5 -H head.html -B header.html --metadata-file=main.yml"
+PANDOC_PARAMS="--atx-headers --template=templates/html.template --from markdown --to=html5 -H head.html -B header.html --metadata-file=index.yml"
 DIST=dist
 
 printf "\n💯  build\n"
-printf "\n⛏ index page"
 
+
+printf "\n⛏ index page"
 mkdir -p $DIST
 rm -rf $DIST/*
 pandoc $PANDOC_PARAMS index.md -o $DIST/index.html
@@ -24,22 +25,29 @@ cp $DIST/pocket-items.html $DIST/pocket-items/index.html
 
 mkdir -p $DIST/posts
 
-echo "posts: " > index.yml
+printf "\n⛏ copying assets"
+cp -r assets dist/
 
-# create index.yml
+printf "\n⛏ copying styles\n"
+cp -r $MAIN_CSS dist/$MAIN_CSS
+cp github-contributions.svg  dist/github-contributions.svg
+
+printf "\n⛏ copying scripts\n"
+cp -r $MAIN_JS dist/$MAIN_JS
+
+printf "\n⛏ copying synced.json\n"
+cp synced.json dist/synced.json
+
+printf "\n⛏ building index.yml\n"
+echo "posts: " > index.yml
 for file in $(ls -lr posts/*.md)
 do
   if [ -f $file ] && [ "$file" != "posts/index.md" ]; then
-    # echo "$file"
     name=$(basename ${file%.*})
-    # echo "$name"
     echo "  - $name" >> index.yml
   fi
 done
 
-cat index.yml synced.yml > main.yml
-
-# build each post
 printf "\n⛏ building posts\n"
 for file in posts/*.md
 do
@@ -52,15 +60,3 @@ do
     cp $DIST/posts/$name.html $DIST/posts/$name/index.html
   fi
 done
-
-printf "\n⛏ copying assets"
-cp -r assets dist/
-
-printf "\n⛏ copying styles\n"
-cp -r $MAIN_CSS dist/$MAIN_CSS
-cp github-contributions.svg  dist/github-contributions.svg
-
-printf "\n⛏ copying scripts\n"
-cp -r $MAIN_JS dist/$MAIN_JS
-
-cp synced.json dist/synced.json
