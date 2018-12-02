@@ -1,4 +1,12 @@
 pocket_items:
+  - title: "DevOps in 3 Sentences"
+    url: https://dev.to/ashokisaac/devops-in-3-sentences-17c4
+    date: 2018-12-02
+    id: 2405783674
+  - title: "Machine Learning in Node.js With TensorFlow.js"
+    url: http://jamesthom.as/blog/2018/08/07/machine-learning-in-node-dot-js-with-tensorflow-dot-js/
+    date: 2018-12-02
+    id: 2283371367
   - title: "Revolut, the UK's $1.7 billion star fintech, has big dreams as it takes on the American market"
     url: https://www.businessinsider.com/revolut-a-17-billion-uk-fintech-has-big-plans-to-enter-us-market-2018-11
     date: 2018-12-01
@@ -11,18 +19,14 @@ pocket_items:
     url: https://verve.co/engineering/graphql-a-retrospective/
     date: 2018-11-30
     id: 2402436983
-  - title: "Amazon officially joins the blockchain party"
-    url: https://thenextweb.com/hardfork/2018/11/29/amazon-blockchain-web-services/
-    date: 2018-11-29
-    id: 2403533218
   - title: "World War II Vet Sees Haunting Signs of War in Modern America"
     url: https://www.wnycstudios.org/story/world-war-ii-veteran-remembers-haunting-signs-war
     date: 2018-11-29
     id: 2404147698
-  - title: "How to Survive the Next Era of Tech (Slow Down and Be Mindful)"
-    url: https://www.nytimes.com/2018/11/28/technology/how-to-survive-the-next-era-of-tech-slow-down-and-be-mindful.html
-    date: 2018-11-28
-    id: 2402712603
+  - title: "Amazon officially joins the blockchain party"
+    url: https://thenextweb.com/hardfork/2018/11/29/amazon-blockchain-web-services/
+    date: 2018-11-29
+    id: 2403533218
   - title: "Building a company is fucking hard."
     url: https://nvdk.co/2018/11/28/entrepreneurship/building-a-company-is-fucking-hard/
     date: 2018-11-28
@@ -35,14 +39,10 @@ pocket_items:
     url: https://www.citusdata.com/blog/2018/11/27/postgres-more-than-a-relational-database/
     date: 2018-11-28
     id: 2403003282
-  - title: "Google employees: We no longer believe the company places values over profits"
-    url: https://www.cnbc.com/2018/11/27/read-google-employees-open-letter-protesting-project-dragonfly.html
-    date: 2018-11-27
-    id: 2401647842
-  - title: "Fortran is still a thing"
-    url: https://wordsandbuttons.online/fortran_is_still_a_thing.html
-    date: 2018-11-27
-    id: 2400569685
+  - title: "How to Survive the Next Era of Tech (Slow Down and Be Mindful)"
+    url: https://www.nytimes.com/2018/11/28/technology/how-to-survive-the-next-era-of-tech-slow-down-and-be-mindful.html
+    date: 2018-11-28
+    id: 2402712603
   - title: "Pony Foo on Twitter"
     url: https://twitter.com/ponyfoo/status/1067502581289758721
     date: 2018-11-27
@@ -67,34 +67,42 @@ pocket_items:
     url: https://dev.to/areknawo/a-tale-about-not-so-much-dead-javascript-fha
     date: 2018-11-27
     id: 2400831362
+  - title: "Google employees: We no longer believe the company places values over profits"
+    url: https://www.cnbc.com/2018/11/27/read-google-employees-open-letter-protesting-project-dragonfly.html
+    date: 2018-11-27
+    id: 2401647842
+  - title: "Fortran is still a thing"
+    url: https://wordsandbuttons.online/fortran_is_still_a_thing.html
+    date: 2018-11-27
+    id: 2400569685
   - title: "ncc: Node.js Compiler Collection"
     url: https://zeit.co/blog/ncc
     date: 2018-11-26
     id: 2400412462
-  - title: "The entire cryptocurrency market is now worth less than McDonald’s"
-    url: https://thenextweb.com/hardfork/2018/11/23/mcdonalds-cryptocurrency-blockchain-bitcoin/
-    date: 2018-11-24
-    id: 2397172106
-  - title: "Going to university does not broaden the mind"
-    url: https://www.economist.com/science-and-technology/2018/11/24/going-to-university-does-not-broaden-the-mind
-    date: 2018-11-24
-    id: 2396241797
   - title: "...And Monads for (Almost) All: The State Monad"
     url: http://rcardin.github.io/design/programming/fp/monad/2018/11/22/and-monads-for-all-state-monad.html
     date: 2018-11-24
     id: 2397042229
+  - title: "Going to university does not broaden the mind"
+    url: https://www.economist.com/science-and-technology/2018/11/24/going-to-university-does-not-broaden-the-mind
+    date: 2018-11-24
+    id: 2396241797
+  - title: "The entire cryptocurrency market is now worth less than McDonald’s"
+    url: https://thenextweb.com/hardfork/2018/11/23/mcdonalds-cryptocurrency-blockchain-bitcoin/
+    date: 2018-11-24
+    id: 2397172106
   - title: "Tumblr was removed from Apple’s App Store over child pornography issues"
     url: https://www.theverge.com/2018/11/20/18104366/tumblr-ios-app-child-pornography-removed-from-app-store
     date: 2018-11-22
     id: 2393621011
-  - title: "Products Over Projects"
-    url: https://martinfowler.com/articles/products-over-projects.html
-    date: 2018-11-21
-    id: 2306191594
   - title: "Developer eXperience - Pietro Campagnano - Crafted Software Milan 15/11/2018"
     url: https://www.youtube.com/watch?v=eDKWRpVUVPE
     date: 2018-11-21
     id: 2395261058
+  - title: "Products Over Projects"
+    url: https://martinfowler.com/articles/products-over-projects.html
+    date: 2018-11-21
+    id: 2306191594
   - title: "Sousveillance"
     url: https://en.wikipedia.org/wiki/Sousveillance
     date: 2018-11-20

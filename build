@@ -38,6 +38,9 @@ cp -r $MAIN_JS dist/$MAIN_JS
 printf "\n⛏ copying synced.json\n"
 cp synced.json dist/synced.json
 
+printf "\n⛏ copying github-contributions.svg\n"
+cp github-contributions.svg dist/github-contributions.svg
+
 printf "\n⛏ building index.yml\n"
 echo "posts: " > index.yml
 for file in $(ls -lr posts/*.md)
