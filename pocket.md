@@ -5,6 +5,8 @@ title: My pocket items
 permalink: /pocket/
 ---
 
+You can skim through the articles I bookmarked on [pocket](http://getpocket.com) since 2014.
+
 <div id="pocket-items">
 </div>
 
