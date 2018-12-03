@@ -160,6 +160,7 @@ div:hover .hover-container {
   background-color: #fafafa !important;
   font-size: var(--font-size) !important;
   line-height: 1.5 !important;
+  min-height: 220px;
 }
 
 #carbonads a {
