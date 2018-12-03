@@ -22,6 +22,12 @@ npx watch ./build --ignoreDotFiles --ignoreDirectoryPattern="/dist/"
 ./write this is a test
 ```
 
+# sync getpocket.com items
+
+```
+npx @christian_fei/pocket-sync [pocket_consumer_key] <pocket_access_token>
+```
+
 ## build
 
 with
