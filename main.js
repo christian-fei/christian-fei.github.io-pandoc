@@ -10,7 +10,15 @@ const $search = document.createElement('input')
 $search.setAttribute('type', 'test')
 $search.setAttribute('class', 'search-posts')
 $search.setAttribute('placeholder', 'Search posts...')
-$search.onkeyup = function (e) {
+$search.onkeyup = handleSearchKeyUp
+
+if ($posts) {
+  $posts.prepend($search)
+} else {
+  console.log('no .posts')
+}
+
+function handleSearchKeyUp (e) {
   const searchTerm = e.target.value
   const searchRegExp = new RegExp(searchTerm, 'i')
   const noMatch = postTitles.filter(t => searchRegExp.test(t)).length === 0
@@ -32,10 +40,4 @@ $search.onkeyup = function (e) {
     const show = noMatch || !searchTerm || searchRegExp.test($postLi.innerText)
     $postLi.style.display = show ? 'inherit' : 'none'
   })
-}
-
-if ($posts) {
-  $posts.prepend($search)
-} else {
-  console.log('no .posts')
 }
