@@ -21,7 +21,7 @@ window.fetch('/synced.json')
     <ul>
       ${pocketItems.items.map(item => `
       <li>
-        <b><a href="${item.url}">${item.title}</a></b> &nbsp; ${item.date}<br/>
+        <b><a target="_blank" href="${item.url}">${item.title}</a></b> &nbsp; ${item.date}<br/>
       </li>
       `).join('')}
     </ul>
