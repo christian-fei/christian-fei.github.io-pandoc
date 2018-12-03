@@ -1,10 +1,58 @@
 {
-  "lastSynced": "2018-12-02T10:38:13.620Z",
+  "lastSynced": "2018-12-03T02:05:21.739Z",
   "items": [
+    {
+      "id": "2388440190",
+      "title": "Why Don’t We Forget How to Ride a Bike?",
+      "url": "https://www.scientificamerican.com/article/why-dont-we-forget-how-to-ride-a-bike/",
+      "date": "2018-12-03"
+    },
     {
       "id": "2405783674",
       "title": "DevOps in 3 Sentences",
       "url": "https://dev.to/ashokisaac/devops-in-3-sentences-17c4",
+      "date": "2018-12-02"
+    },
+    {
+      "id": "2406254340",
+      "title": "DevTernity 2018: Surviving Legacy Code",
+      "url": "https://notes.jbrains.ca/20181201-devternity.html",
+      "date": "2018-12-02"
+    },
+    {
+      "id": "2405409158",
+      "title": "Streamlabs CEO describes building money-making tools for Twitch & YouTube",
+      "url": "https://thenextweb.com/gaming/2018/11/30/streamlabs-ceo-describes-building-money-making-tools-for-twitch-youtube/",
+      "date": "2018-12-02"
+    },
+    {
+      "id": "2403961735",
+      "title": "Cambridge Analytica Used Fashion Tastes to Identify Right-Wing Voters",
+      "url": "https://www.nytimes.com/2018/11/29/style/cambridge-analytica-fashion-data.html",
+      "date": "2018-12-02"
+    },
+    {
+      "id": "2406833718",
+      "title": "The deepest problem with deep learning",
+      "url": "https://medium.com/@GaryMarcus/the-deepest-problem-with-deep-learning-91c5991f5695",
+      "date": "2018-12-02"
+    },
+    {
+      "id": "2356369919",
+      "title": "Easy apps with hyperHTML — 7",
+      "url": "https://medium.com/easy-apps-with-hyperhtml/easy-apps-with-hyperhtml-7-73d9057e1666",
+      "date": "2018-12-02"
+    },
+    {
+      "id": "2274780880",
+      "title": "People leave managers, not companies. Don’t let that manager be you.",
+      "url": "https://www.intercom.com/blog/people-leave-managers-not-companies/",
+      "date": "2018-12-02"
+    },
+    {
+      "id": "21414955",
+      "title": "Paperclip maximizer",
+      "url": "https://wiki.lesswrong.com/wiki/Paperclip_maximizer",
       "date": "2018-12-02"
     },
     {
@@ -44,18 +92,6 @@
       "date": "2018-11-29"
     },
     {
-      "id": "2401838777",
-      "title": "Details about the event-stream incident",
-      "url": "https://blog.npmjs.org/post/180565383195/details-about-the-event-stream-incident",
-      "date": "2018-11-28"
-    },
-    {
-      "id": "2403003282",
-      "title": "How Postgres is more than a relational database: Extensions",
-      "url": "https://www.citusdata.com/blog/2018/11/27/postgres-more-than-a-relational-database/",
-      "date": "2018-11-28"
-    },
-    {
       "id": "2402712603",
       "title": "How to Survive the Next Era of Tech (Slow Down and Be Mindful)",
       "url": "https://www.nytimes.com/2018/11/28/technology/how-to-survive-the-next-era-of-tech-slow-down-and-be-mindful.html",
@@ -68,33 +104,21 @@
       "date": "2018-11-28"
     },
     {
-      "id": "2401313201",
-      "title": "GDPR complaints against Google’s deceptive practices to track user location",
-      "url": "https://www.beuc.eu/press-media/news-events/gdpr-complaints-against-google%E2%80%99s-deceptive-practices-track-user-location",
-      "date": "2018-11-27"
+      "id": "2401838777",
+      "title": "Details about the event-stream incident",
+      "url": "https://blog.npmjs.org/post/180565383195/details-about-the-event-stream-incident",
+      "date": "2018-11-28"
     },
     {
-      "id": "2401442532",
-      "title": "We are Google employees. Google must drop Dragonfly.",
-      "url": "https://medium.com/@googlersagainstdragonfly/we-are-google-employees-google-must-drop-dragonfly-4c8a30c5e5eb",
-      "date": "2018-11-27"
-    },
-    {
-      "id": "2399614171",
-      "title": "Do NOT Measure Developers – Measure Projects",
-      "url": "https://anaxi.com/blog/2018/11/25/do-not-measure-developers-measure-projects/",
-      "date": "2018-11-27"
+      "id": "2403003282",
+      "title": "How Postgres is more than a relational database: Extensions",
+      "url": "https://www.citusdata.com/blog/2018/11/27/postgres-more-than-a-relational-database/",
+      "date": "2018-11-28"
     },
     {
       "id": "1500202992",
       "title": "We don't need a Tech Lead",
       "url": "http://vvgomes.com/we-dont-need-tech-leads/",
-      "date": "2018-11-27"
-    },
-    {
-      "id": "2400831362",
-      "title": "A tale about not-so-much-dead JavaScript",
-      "url": "https://dev.to/areknawo/a-tale-about-not-so-much-dead-javascript-fha",
       "date": "2018-11-27"
     },
     {
@@ -104,9 +128,21 @@
       "date": "2018-11-27"
     },
     {
-      "id": "2400569685",
-      "title": "Fortran is still a thing",
-      "url": "https://wordsandbuttons.online/fortran_is_still_a_thing.html",
+      "id": "2399614171",
+      "title": "Do NOT Measure Developers – Measure Projects",
+      "url": "https://anaxi.com/blog/2018/11/25/do-not-measure-developers-measure-projects/",
+      "date": "2018-11-27"
+    },
+    {
+      "id": "2400831362",
+      "title": "A tale about not-so-much-dead JavaScript",
+      "url": "https://dev.to/areknawo/a-tale-about-not-so-much-dead-javascript-fha",
+      "date": "2018-11-27"
+    },
+    {
+      "id": "2401313201",
+      "title": "GDPR complaints against Google’s deceptive practices to track user location",
+      "url": "https://www.beuc.eu/press-media/news-events/gdpr-complaints-against-google%E2%80%99s-deceptive-practices-track-user-location",
       "date": "2018-11-27"
     },
     {
@@ -116,10 +152,16 @@
       "date": "2018-11-27"
     },
     {
-      "id": "2400412462",
-      "title": "ncc: Node.js Compiler Collection",
-      "url": "https://zeit.co/blog/ncc",
-      "date": "2018-11-26"
+      "id": "2400569685",
+      "title": "Fortran is still a thing",
+      "url": "https://wordsandbuttons.online/fortran_is_still_a_thing.html",
+      "date": "2018-11-27"
+    },
+    {
+      "id": "2401442532",
+      "title": "We are Google employees. Google must drop Dragonfly.",
+      "url": "https://medium.com/@googlersagainstdragonfly/we-are-google-employees-google-must-drop-dragonfly-4c8a30c5e5eb",
+      "date": "2018-11-27"
     },
     {
       "id": "2395546666",
@@ -128,9 +170,15 @@
       "date": "2018-11-26"
     },
     {
-      "id": "2397172106",
-      "title": "The entire cryptocurrency market is now worth less than McDonald’s",
-      "url": "https://thenextweb.com/hardfork/2018/11/23/mcdonalds-cryptocurrency-blockchain-bitcoin/",
+      "id": "2400412462",
+      "title": "ncc: Node.js Compiler Collection",
+      "url": "https://zeit.co/blog/ncc",
+      "date": "2018-11-26"
+    },
+    {
+      "id": "2396241797",
+      "title": "Going to university does not broaden the mind",
+      "url": "https://www.economist.com/science-and-technology/2018/11/24/going-to-university-does-not-broaden-the-mind",
       "date": "2018-11-24"
     },
     {
@@ -140,9 +188,9 @@
       "date": "2018-11-24"
     },
     {
-      "id": "2396241797",
-      "title": "Going to university does not broaden the mind",
-      "url": "https://www.economist.com/science-and-technology/2018/11/24/going-to-university-does-not-broaden-the-mind",
+      "id": "2397172106",
+      "title": "The entire cryptocurrency market is now worth less than McDonald’s",
+      "url": "https://thenextweb.com/hardfork/2018/11/23/mcdonalds-cryptocurrency-blockchain-bitcoin/",
       "date": "2018-11-24"
     },
     {
@@ -182,16 +230,22 @@
       "date": "2018-11-20"
     },
     {
+      "id": "2393995672",
+      "title": "Ask HN: Resources for introverted devs to learn workplace politics?",
+      "url": "https://news.ycombinator.com/item?id=18495093",
+      "date": "2018-11-20"
+    },
+    {
       "id": "2393268940",
       "title": "A look at a small Elm application",
       "url": "https://dev.to/nimmo/a-look-at-a-small-elm-application-2loh",
       "date": "2018-11-20"
     },
     {
-      "id": "2393995672",
-      "title": "Ask HN: Resources for introverted devs to learn workplace politics?",
-      "url": "https://news.ycombinator.com/item?id=18495093",
-      "date": "2018-11-20"
+      "id": "2362184201",
+      "title": "This Strategy Makes Procrastination Impossible",
+      "url": "https://medium.com/darius-foroux/this-strategy-makes-procrastination-impossible-783f667c32b3",
+      "date": "2018-11-09"
     },
     {
       "id": "691518863",
@@ -203,12 +257,6 @@
       "id": "2375169054",
       "title": "Why Big Tech pays poor Kenyans to teach self-driving cars",
       "url": "https://www.bbc.com/news/technology-46055595",
-      "date": "2018-11-09"
-    },
-    {
-      "id": "2362184201",
-      "title": "This Strategy Makes Procrastination Impossible",
-      "url": "https://medium.com/darius-foroux/this-strategy-makes-procrastination-impossible-783f667c32b3",
       "date": "2018-11-09"
     },
     {
@@ -248,15 +296,15 @@
       "date": "2017-01-21"
     },
     {
-      "id": "1571296403",
-      "title": "A Look Back at the Memes of the Obama Administration",
-      "url": "https://www.vice.com/en_us/article/a-look-back-at-the-memes-of-the-obama-administration",
-      "date": "2017-01-19"
-    },
-    {
       "id": "1563629135",
       "title": "The End of Enterprise IT",
       "url": "http://www.leanessays.com/2017/01/the-end-of-enterprise-it.html",
+      "date": "2017-01-19"
+    },
+    {
+      "id": "1571296403",
+      "title": "A Look Back at the Memes of the Obama Administration",
+      "url": "https://www.vice.com/en_us/article/a-look-back-at-the-memes-of-the-obama-administration",
       "date": "2017-01-19"
     },
     {
@@ -308,16 +356,22 @@
       "date": "2016-12-03"
     },
     {
+      "id": "1500883898",
+      "title": "Agile Has Failed. A Peek at the Future of Programming",
+      "url": "https://www.codingame.com/blog/agile-failed-peek-future-programming/",
+      "date": "2016-12-02"
+    },
+    {
       "id": "1496517268",
       "title": "I don’t belong in tech",
       "url": "https://medium.com/startup-grind/i-dont-belong-in-tech-3d73d8fd6f34",
       "date": "2016-12-02"
     },
     {
-      "id": "1500883898",
-      "title": "Agile Has Failed. A Peek at the Future of Programming",
-      "url": "https://www.codingame.com/blog/agile-failed-peek-future-programming/",
-      "date": "2016-12-02"
+      "id": "1486460986",
+      "title": "Programming Has Changed My Life",
+      "url": "http://blog.professorbeekums.com/2016/11/programming-has-changed-my-life.html",
+      "date": "2016-11-28"
     },
     {
       "id": "1485863879",
@@ -332,10 +386,10 @@
       "date": "2016-11-28"
     },
     {
-      "id": "1486460986",
-      "title": "Programming Has Changed My Life",
-      "url": "http://blog.professorbeekums.com/2016/11/programming-has-changed-my-life.html",
-      "date": "2016-11-28"
+      "id": "1375702903",
+      "title": "20 Ways to Improve Your Presentation Skills",
+      "url": "https://medium.com/marketing-and-entrepreneurship/20-ways-to-improve-your-presentation-skills-c9618b4090cd",
+      "date": "2016-11-25"
     },
     {
       "id": "1477982482",
@@ -344,15 +398,21 @@
       "date": "2016-11-25"
     },
     {
-      "id": "1375702903",
-      "title": "20 Ways to Improve Your Presentation Skills",
-      "url": "https://medium.com/marketing-and-entrepreneurship/20-ways-to-improve-your-presentation-skills-c9618b4090cd",
+      "id": "1485364861",
+      "title": "The Ultimate Guide to Minimum Viable Product",
+      "url": "https://hackernoon.com/the-ultimate-guide-to-minimum-viable-product-59218ce738f8",
       "date": "2016-11-25"
     },
     {
       "id": "1364562510",
       "title": "Here’s Why Ambiverts Are More Influential and Successful Than Extroverts",
       "url": "https://readthink.com/heres-why-ambiverts-are-more-influential-and-successful-than-extroverts-2e3d5346448d?gi=182546f02f2b",
+      "date": "2016-11-25"
+    },
+    {
+      "id": "1476561920",
+      "title": "Harmonious Typography and Grids",
+      "url": "https://medium.com/tradecraft-traction/harmonious-typography-and-grids-10da490a17d",
       "date": "2016-11-25"
     },
     {
@@ -368,16 +428,10 @@
       "date": "2016-11-25"
     },
     {
-      "id": "1476561920",
-      "title": "Harmonious Typography and Grids",
-      "url": "https://medium.com/tradecraft-traction/harmonious-typography-and-grids-10da490a17d",
-      "date": "2016-11-25"
-    },
-    {
-      "id": "1485364861",
-      "title": "The Ultimate Guide to Minimum Viable Product",
-      "url": "https://hackernoon.com/the-ultimate-guide-to-minimum-viable-product-59218ce738f8",
-      "date": "2016-11-25"
+      "id": "1348170428",
+      "title": "Why 30 is the decade friends disappear — and what to do about it",
+      "url": "https://www.vox.com/2016/7/12/12148938/friendship-adult-challenges-solutions",
+      "date": "2016-11-19"
     },
     {
       "id": "1484996706",
@@ -386,10 +440,10 @@
       "date": "2016-11-19"
     },
     {
-      "id": "1348170428",
-      "title": "Why 30 is the decade friends disappear — and what to do about it",
-      "url": "https://www.vox.com/2016/7/12/12148938/friendship-adult-challenges-solutions",
-      "date": "2016-11-19"
+      "id": "1477245166",
+      "title": "Software Developers: Here’s how to get a raise without changing jobs",
+      "url": "https://fearlesssalarynegotiation.com/software-developers-how-to-get-a-raise/?utm_source=hackernewsletter&utm_medium=email&utm_term=working",
+      "date": "2016-11-11"
     },
     {
       "id": "1477245513",
@@ -398,16 +452,22 @@
       "date": "2016-11-11"
     },
     {
-      "id": "1477245166",
-      "title": "Software Developers: Here’s how to get a raise without changing jobs",
-      "url": "https://fearlesssalarynegotiation.com/software-developers-how-to-get-a-raise/?utm_source=hackernewsletter&utm_medium=email&utm_term=working",
-      "date": "2016-11-11"
-    },
-    {
       "id": "9323427",
       "title": "The fault, dear Brutus, is not in our stars",
       "url": "http://www.enotes.com/shakespeare-quotes/fault-dear-brutus-our-stars",
       "date": "2016-11-07"
+    },
+    {
+      "id": "1469636598",
+      "title": "Y Combinator's Hardware Guy Leaves After 14 Months",
+      "url": "https://www.bloomberg.com/news/articles/2016-11-04/y-combinator-s-hardware-guy-leaves-after-14-months",
+      "date": "2016-11-05"
+    },
+    {
+      "id": "1467084734",
+      "title": "10 principles for smooth web animations",
+      "url": "https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29",
+      "date": "2016-11-05"
     },
     {
       "id": "1458803912",
@@ -422,21 +482,9 @@
       "date": "2016-11-05"
     },
     {
-      "id": "1467084734",
-      "title": "10 principles for smooth web animations",
-      "url": "https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29",
-      "date": "2016-11-05"
-    },
-    {
       "id": "1128311031",
       "title": "Rails Anti-Pattern: Fat Decorator",
       "url": "http://craftingruby.com/posts/2015/12/09/rails-antipattern-fat-decorator.html",
-      "date": "2016-11-05"
-    },
-    {
-      "id": "1469636598",
-      "title": "Y Combinator's Hardware Guy Leaves After 14 Months",
-      "url": "https://www.bloomberg.com/news/articles/2016-11-04/y-combinator-s-hardware-guy-leaves-after-14-months",
       "date": "2016-11-05"
     },
     {
@@ -464,21 +512,15 @@
       "date": "2016-10-22"
     },
     {
-      "id": "769932",
-      "title": "Is Design Dead?",
-      "url": "https://martinfowler.com/articles/designDead.html",
-      "date": "2016-10-21"
-    },
-    {
-      "id": "930749998",
-      "title": "MonolithFirst",
-      "url": "https://martinfowler.com/bliki/MonolithFirst.html",
-      "date": "2016-10-21"
-    },
-    {
       "id": "394268002",
       "title": "ExtremeProgramming",
       "url": "https://martinfowler.com/bliki/ExtremeProgramming.html",
+      "date": "2016-10-21"
+    },
+    {
+      "id": "227002",
+      "title": "It's Not Just Standing Up: Patterns for Daily Standup Meetings",
+      "url": "https://martinfowler.com/articles/itsNotJustStandingUp.html",
       "date": "2016-10-21"
     },
     {
@@ -500,9 +542,15 @@
       "date": "2016-10-21"
     },
     {
-      "id": "227002",
-      "title": "It's Not Just Standing Up: Patterns for Daily Standup Meetings",
-      "url": "https://martinfowler.com/articles/itsNotJustStandingUp.html",
+      "id": "769932",
+      "title": "Is Design Dead?",
+      "url": "https://martinfowler.com/articles/designDead.html",
+      "date": "2016-10-21"
+    },
+    {
+      "id": "930749998",
+      "title": "MonolithFirst",
+      "url": "https://martinfowler.com/bliki/MonolithFirst.html",
       "date": "2016-10-21"
     },
     {
@@ -524,9 +572,9 @@
       "date": "2016-10-07"
     },
     {
-      "id": "1433391250",
-      "title": "Never accept a counter-offer",
-      "url": "https://vtorosyan.gitHub.io/never-accept-counter-offer/",
+      "id": "1427039944",
+      "title": "How being alone may be the key to rest",
+      "url": "https://www.bbc.com/news/magazine-37444982",
       "date": "2016-10-03"
     },
     {
@@ -536,9 +584,9 @@
       "date": "2016-10-03"
     },
     {
-      "id": "1427039944",
-      "title": "How being alone may be the key to rest",
-      "url": "https://www.bbc.com/news/magazine-37444982",
+      "id": "1433391250",
+      "title": "Never accept a counter-offer",
+      "url": "https://vtorosyan.gitHub.io/never-accept-counter-offer/",
       "date": "2016-10-03"
     },
     {
@@ -590,6 +638,12 @@
       "date": "2016-08-22"
     },
     {
+      "id": "1376784475",
+      "title": "31 Ways to Improve Your Life in Just a Month",
+      "url": "https://www.inc.com/marcel-schwantes/these-31-life-hacks-can-improve-your-life-in-just-a-month.html",
+      "date": "2016-08-21"
+    },
+    {
       "id": "1112649924",
       "title": "How to Charge for your Open Source",
       "url": "https://www.mikeperham.com/2015/11/23/how-to-charge-for-your-open-source",
@@ -608,15 +662,39 @@
       "date": "2016-08-21"
     },
     {
-      "id": "1376784475",
-      "title": "31 Ways to Improve Your Life in Just a Month",
-      "url": "https://www.inc.com/marcel-schwantes/these-31-life-hacks-can-improve-your-life-in-just-a-month.html",
-      "date": "2016-08-21"
+      "id": "1387190849",
+      "title": "Appointment Reminder",
+      "url": "https://www.indiehackers.com/businesses/appointment-reminder?utm_source=Indie+Hackers+Newsletter&utm_campaign=a7ca1fed9e-Weekly_Newsletter_001_Fri_2016_08_19_8_19_2016&utm_medium=email&utm_term=0_43062afaa5-a7ca1fed9e-119049041",
+      "date": "2016-08-20"
+    },
+    {
+      "id": "1385951009",
+      "title": "What Great Listeners Actually Do",
+      "url": "https://hbr.org/2016/07/what-great-listeners-actually-do",
+      "date": "2016-08-20"
     },
     {
       "id": "806132886",
       "title": "Financial technology",
       "url": "https://en.wikipedia.org/wiki/Financial_technology",
+      "date": "2016-08-20"
+    },
+    {
+      "id": "1385950799",
+      "title": "30K Page Views for $0.21: A Serverless Story",
+      "url": "https://fmlnerd.com/2016/08/16/30k-page-views-for-0-21-a-serverless-story/",
+      "date": "2016-08-20"
+    },
+    {
+      "id": "1378196490",
+      "title": "Complice",
+      "url": "https://www.indiehackers.com/businesses/complice",
+      "date": "2016-08-20"
+    },
+    {
+      "id": "1385952546",
+      "title": "Ask HN : Did some of you try the digital nomad lifestyle and not like it? : Hacker News",
+      "url": "https://news.ycombinator.com/item?id=12277477&utm_source=hackernewsletter&utm_medium=email&utm_term=ask_hn",
       "date": "2016-08-20"
     },
     {
@@ -644,51 +722,21 @@
       "date": "2016-08-20"
     },
     {
-      "id": "1387190849",
-      "title": "Appointment Reminder",
-      "url": "https://www.indiehackers.com/businesses/appointment-reminder?utm_source=Indie+Hackers+Newsletter&utm_campaign=a7ca1fed9e-Weekly_Newsletter_001_Fri_2016_08_19_8_19_2016&utm_medium=email&utm_term=0_43062afaa5-a7ca1fed9e-119049041",
-      "date": "2016-08-20"
-    },
-    {
-      "id": "1385951009",
-      "title": "What Great Listeners Actually Do",
-      "url": "https://hbr.org/2016/07/what-great-listeners-actually-do",
-      "date": "2016-08-20"
-    },
-    {
       "id": "1385955924",
       "title": "Ask HN : How have you achieved financial independence? : Hacker News",
       "url": "https://news.ycombinator.com/item?id=12274094&utm_source=hackernewsletter&utm_medium=email&utm_term=ask_hn",
       "date": "2016-08-20"
     },
     {
-      "id": "1385950799",
-      "title": "30K Page Views for $0.21: A Serverless Story",
-      "url": "https://fmlnerd.com/2016/08/16/30k-page-views-for-0-21-a-serverless-story/",
-      "date": "2016-08-20"
-    },
-    {
-      "id": "1378196490",
-      "title": "Complice",
-      "url": "https://www.indiehackers.com/businesses/complice",
-      "date": "2016-08-20"
-    },
-    {
-      "id": "1385952546",
-      "title": "Ask HN : Did some of you try the digital nomad lifestyle and not like it? : Hacker News",
-      "url": "https://news.ycombinator.com/item?id=12277477&utm_source=hackernewsletter&utm_medium=email&utm_term=ask_hn",
-      "date": "2016-08-20"
+      "id": "1358566631",
+      "title": "Destroy All Ifs — A Perspective from Functional Programming",
+      "url": "http://degoes.net/articles/destroy-all-ifs",
+      "date": "2016-07-23"
     },
     {
       "id": "1358569267",
       "title": "The Mind of an Architect",
       "url": "https://99percentinvisible.org/episode/the-mind-of-an-architect/",
-      "date": "2016-07-23"
-    },
-    {
-      "id": "1358566631",
-      "title": "Destroy All Ifs — A Perspective from Functional Programming",
-      "url": "http://degoes.net/articles/destroy-all-ifs",
       "date": "2016-07-23"
     },
     {
@@ -722,18 +770,6 @@
       "date": "2016-05-20"
     },
     {
-      "id": "1272257839",
-      "title": "Have Software Developers Given Up?",
-      "url": "http://blog.dantup.com/2016/04/have-software-developers-given-up/?utm_source=hackernewsletter&utm_medium=email&utm_term=fav",
-      "date": "2016-05-06"
-    },
-    {
-      "id": "1260735454",
-      "title": "The first rule of pricing is: you do not talk about pricing",
-      "url": "https://medium.com/fluxx-studio-notes/the-first-rule-of-pricing-is-you-do-not-talk-about-pricing-1875caa39b89",
-      "date": "2016-05-06"
-    },
-    {
       "id": "1271034732",
       "title": "Being A Developer After 40 — Free Code Camp",
       "url": "https://medium.freecodecamp.com/being-a-developer-after-40-3c5dd112210c?gi=f72c0e7e52b",
@@ -743,6 +779,18 @@
       "id": "1279362339",
       "title": "You (probably) don't need a JavaScript framework",
       "url": "https://slack-files.com/T03JT4FC2-F151AAF7A-13fe6f98da",
+      "date": "2016-05-06"
+    },
+    {
+      "id": "1260735454",
+      "title": "The first rule of pricing is: you do not talk about pricing",
+      "url": "https://medium.com/fluxx-studio-notes/the-first-rule-of-pricing-is-you-do-not-talk-about-pricing-1875caa39b89",
+      "date": "2016-05-06"
+    },
+    {
+      "id": "1272257839",
+      "title": "Have Software Developers Given Up?",
+      "url": "http://blog.dantup.com/2016/04/have-software-developers-given-up/?utm_source=hackernewsletter&utm_medium=email&utm_term=fav",
       "date": "2016-05-06"
     },
     {
@@ -782,12 +830,6 @@
       "date": "2016-04-08"
     },
     {
-      "id": "65140850",
-      "title": "Edonismo",
-      "url": "https://it.wikipedia.org/wiki/Edonismo",
-      "date": "2016-04-05"
-    },
-    {
       "id": "1247991435",
       "title": "EDONISMO in “Enciclopedia Italiana” – Treccani",
       "url": "http://www.treccani.it/enciclopedia/edonismo_(Enciclopedia-Italiana)/",
@@ -800,15 +842,21 @@
       "date": "2016-04-05"
     },
     {
+      "id": "65140850",
+      "title": "Edonismo",
+      "url": "https://it.wikipedia.org/wiki/Edonismo",
+      "date": "2016-04-05"
+    },
+    {
       "id": "683564269",
       "title": "Eudemonismo",
       "url": "http://www.treccani.it/enciclopedia/eudemonismo/",
       "date": "2016-04-05"
     },
     {
-      "id": "1243775032",
-      "title": "Squash your commits",
-      "url": "https://github.com/blog/2141-squash-your-commits",
+      "id": "1242927265",
+      "title": "How Facebook ruined Instagram",
+      "url": "https://medium.com/@giuliomichelon/how-mark-zuckerberg-ruined-instagram-9733ad373bdf",
       "date": "2016-04-02"
     },
     {
@@ -818,9 +866,9 @@
       "date": "2016-04-02"
     },
     {
-      "id": "1242927265",
-      "title": "How Facebook ruined Instagram",
-      "url": "https://medium.com/@giuliomichelon/how-mark-zuckerberg-ruined-instagram-9733ad373bdf",
+      "id": "1243775032",
+      "title": "Squash your commits",
+      "url": "https://github.com/blog/2141-squash-your-commits",
       "date": "2016-04-02"
     },
     {
@@ -854,9 +902,9 @@
       "date": "2016-03-19"
     },
     {
-      "id": "1228940378",
-      "title": "Mathematicians Discover Prime Conspiracy",
-      "url": "https://www.quantamagazine.org/20160313-mathematicians-discover-prime-conspiracy/?utm_source=hackernewsletter&utm_medium=email&utm_term=learn",
+      "id": "1228935889",
+      "title": "Facebook is the new Excel",
+      "url": "http://alexmuir.com/facebook-is-the-new-excel?utm_source=hackernewsletter&utm_medium=email&utm_term=fav",
       "date": "2016-03-19"
     },
     {
@@ -866,9 +914,9 @@
       "date": "2016-03-19"
     },
     {
-      "id": "1228935889",
-      "title": "Facebook is the new Excel",
-      "url": "http://alexmuir.com/facebook-is-the-new-excel?utm_source=hackernewsletter&utm_medium=email&utm_term=fav",
+      "id": "1228940378",
+      "title": "Mathematicians Discover Prime Conspiracy",
+      "url": "https://www.quantamagazine.org/20160313-mathematicians-discover-prime-conspiracy/?utm_source=hackernewsletter&utm_medium=email&utm_term=learn",
       "date": "2016-03-19"
     },
     {
@@ -896,12 +944,6 @@
       "date": "2016-03-14"
     },
     {
-      "id": "1217239342",
-      "title": "Why do we work so hard?",
-      "url": "https://www.1843magazine.com/features/why-do-we-work-so-hard",
-      "date": "2016-03-13"
-    },
-    {
       "id": "1096067642",
       "title": "7 Quotes To Remember When You’re Surrounded By Negativity",
       "url": "https://www.powerofpositivity.com/7-quotes-to-remember-when-youre-surrounded-by-negativity/",
@@ -920,27 +962,27 @@
       "date": "2016-03-13"
     },
     {
+      "id": "1217239342",
+      "title": "Why do we work so hard?",
+      "url": "https://www.1843magazine.com/features/why-do-we-work-so-hard",
+      "date": "2016-03-13"
+    },
+    {
       "id": "1222410549",
       "title": "钢企网-钢材-钢铁-钢材价格-钢铁价格-钢企网钢铁现货交易平台 - 优乐娱乐_优乐国际官网_U乐国际娱乐官网",
       "url": "http://www.betterruby.com/learning-from-a-gang-in-ruby/",
       "date": "2016-03-12"
     },
     {
-      "id": "31812817",
-      "title": "BlueGreenDeployment",
-      "url": "https://martinfowler.com/bliki/BlueGreenDeployment.html",
+      "id": "1220891850",
+      "title": "Add Reactions to Pull Requests, Issues, and Comments",
+      "url": "https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments",
       "date": "2016-03-11"
     },
     {
       "id": "618839589",
       "title": "CanaryRelease",
       "url": "https://martinfowler.com/bliki/CanaryRelease.html",
-      "date": "2016-03-11"
-    },
-    {
-      "id": "1220891850",
-      "title": "Add Reactions to Pull Requests, Issues, and Comments",
-      "url": "https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments",
       "date": "2016-03-11"
     },
     {
@@ -959,6 +1001,12 @@
       "id": "1221132638",
       "title": "Frameworks don't make any sense",
       "url": "http://www.catonmat.net/blog/frameworks-dont-make-sense/",
+      "date": "2016-03-11"
+    },
+    {
+      "id": "31812817",
+      "title": "BlueGreenDeployment",
+      "url": "https://martinfowler.com/bliki/BlueGreenDeployment.html",
       "date": "2016-03-11"
     },
     {
@@ -992,15 +1040,15 @@
       "date": "2016-02-28"
     },
     {
-      "id": "1207531145",
-      "title": "MentalHealthError: an exception occurred.",
-      "url": "https://www.kennethreitz.org/essays/mentalhealtherror-an-exception-occurred",
-      "date": "2016-02-27"
-    },
-    {
       "id": "118123",
       "title": "Set theory",
       "url": "https://en.wikipedia.org/wiki/Set_theory",
+      "date": "2016-02-27"
+    },
+    {
+      "id": "1207531145",
+      "title": "MentalHealthError: an exception occurred.",
+      "url": "https://www.kennethreitz.org/essays/mentalhealtherror-an-exception-occurred",
       "date": "2016-02-27"
     },
     {
@@ -1010,9 +1058,9 @@
       "date": "2016-02-27"
     },
     {
-      "id": "1203357451",
-      "title": "Why Are So Many Animals Homosexual?",
-      "url": "http://m.nautil.us/blog/why-are-so-many-animals-homosexual",
+      "id": "803713924",
+      "title": "Employee Satisfaction Doesn't Matter",
+      "url": "http://www.gallup.com/opinion/chairman/171302/employee-satisfaction-doesn-matter.aspx",
       "date": "2016-02-24"
     },
     {
@@ -1022,9 +1070,9 @@
       "date": "2016-02-24"
     },
     {
-      "id": "803713924",
-      "title": "Employee Satisfaction Doesn't Matter",
-      "url": "http://www.gallup.com/opinion/chairman/171302/employee-satisfaction-doesn-matter.aspx",
+      "id": "1203357451",
+      "title": "Why Are So Many Animals Homosexual?",
+      "url": "http://m.nautil.us/blog/why-are-so-many-animals-homosexual",
       "date": "2016-02-24"
     },
     {
@@ -1034,9 +1082,9 @@
       "date": "2016-02-23"
     },
     {
-      "id": "1203154232",
-      "title": "How to stop functional programming",
-      "url": "https://brianmckenna.org/blog/howtostopfp",
+      "id": "1199176182",
+      "title": "How Meditation Changes the Brain and Body",
+      "url": "https://mobile.nytimes.com/blogs/well/2016/02/18/contemplation-therapy/",
       "date": "2016-02-23"
     },
     {
@@ -1046,27 +1094,27 @@
       "date": "2016-02-23"
     },
     {
-      "id": "839328977",
-      "title": "Brian Williams Misremembers",
-      "url": "http://knowyourmeme.com/memes/events/brian-williams-misremembers",
-      "date": "2016-02-23"
-    },
-    {
-      "id": "1199176182",
-      "title": "How Meditation Changes the Brain and Body",
-      "url": "https://mobile.nytimes.com/blogs/well/2016/02/18/contemplation-therapy/",
-      "date": "2016-02-23"
-    },
-    {
       "id": "813086490",
       "title": "nbspjordan-dimov Resources and Information.",
       "url": "http://blog.jordan-dimov.com/elixir-sicp-mix-exunit-and-magical-unicorns/",
       "date": "2016-02-23"
     },
     {
+      "id": "1203154232",
+      "title": "How to stop functional programming",
+      "url": "https://brianmckenna.org/blog/howtostopfp",
+      "date": "2016-02-23"
+    },
+    {
       "id": "716297665",
       "title": "Sign in with your Google Account",
       "url": "https://inbox.google.com/",
+      "date": "2016-02-23"
+    },
+    {
+      "id": "839328977",
+      "title": "Brian Williams Misremembers",
+      "url": "http://knowyourmeme.com/memes/events/brian-williams-misremembers",
       "date": "2016-02-23"
     },
     {
@@ -1088,15 +1136,9 @@
       "date": "2016-02-15"
     },
     {
-      "id": "1193065855",
-      "title": "Write code that is easy to delete, not easy to extend.",
-      "url": "https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to",
-      "date": "2016-02-14"
-    },
-    {
-      "id": "1192044948",
-      "title": "Douglas Rushkoff: 'I’m thinking it may be good to be off social media altogether'",
-      "url": "https://www.theguardian.com/technology/2016/feb/12/digital-capitalism-douglas-rushkoff",
+      "id": "1177559302",
+      "title": "Who Killed Nokia? Nokia Did",
+      "url": "https://alumnimagazine.insead.edu/who-killed-nokia-nokia-did/",
       "date": "2016-02-14"
     },
     {
@@ -1106,9 +1148,15 @@
       "date": "2016-02-14"
     },
     {
-      "id": "1177559302",
-      "title": "Who Killed Nokia? Nokia Did",
-      "url": "https://alumnimagazine.insead.edu/who-killed-nokia-nokia-did/",
+      "id": "1193065855",
+      "title": "Write code that is easy to delete, not easy to extend.",
+      "url": "https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to",
+      "date": "2016-02-14"
+    },
+    {
+      "id": "1192044948",
+      "title": "Douglas Rushkoff: 'I’m thinking it may be good to be off social media altogether'",
+      "url": "https://www.theguardian.com/technology/2016/feb/12/digital-capitalism-douglas-rushkoff",
       "date": "2016-02-14"
     },
     {
@@ -1136,9 +1184,15 @@
       "date": "2016-02-07"
     },
     {
-      "id": "1173489631",
-      "title": "Most of your Facebook friends couldn't care less about you",
-      "url": "https://www.engadget.com/2016/01/25/facebook-friends-dunbar-study/",
+      "id": "1159634366",
+      "title": "“Never Drink Airplane Coffee” and Other Secrets From Airline Employees",
+      "url": "https://upvoted.com/2016/01/11/never-drink-airplane-coffee-and-other-secrets-from-airline-employees/",
+      "date": "2016-02-03"
+    },
+    {
+      "id": "1160970890",
+      "title": "How to declutter your life by not giving a fuck",
+      "url": "https://idealog.co.nz/workplace/2016/01/declutter-your-life-not-giving-fuck",
       "date": "2016-02-03"
     },
     {
@@ -1160,39 +1214,9 @@
       "date": "2016-02-03"
     },
     {
-      "id": "1167583580",
-      "title": "The Number One Secret to Superhuman Willpower",
-      "url": "https://medium.com/life-learning/the-number-one-secret-to-superhuman-willpower-fc52d1347d9f",
-      "date": "2016-02-03"
-    },
-    {
-      "id": "1176789226",
-      "title": "The Biggest Wastes of Time We Regret When We Get Older",
-      "url": "https://lifehacker.com/the-biggest-wastes-of-time-we-regret-when-we-get-older-1755526646",
-      "date": "2016-02-03"
-    },
-    {
-      "id": "1157592732",
-      "title": "You probably shower way too often",
-      "url": "https://qz.com/590437/you-probably-shower-way-too-often/",
-      "date": "2016-02-03"
-    },
-    {
-      "id": "1154922602",
-      "title": "The Number One Secret To Sleep That No One Tells You",
-      "url": "https://medium.com/life-learning/the-number-one-secret-to-sleep-that-no-one-tells-you-1a1a15ba80ec",
-      "date": "2016-02-03"
-    },
-    {
-      "id": "1155699790",
-      "title": "How I Got Jobs I Was Unqualified For",
-      "url": "https://medium.com/life-learning/how-i-got-jobs-i-was-unqualified-for-4ffb1f5ffa09#.jvhiuake1",
-      "date": "2016-02-03"
-    },
-    {
-      "id": "1157471606",
-      "title": "The 11 Daily Habits of Supremely Happy People",
-      "url": "http://www.huffingtonpost.com/rl-adams/the-11-daily-habits-of-supremely-happy-people_b_8898384.html",
+      "id": "1182215016",
+      "title": "Heisenberg Developers",
+      "url": "http://mikehadlow.blogspot.cl/2014/06/heisenberg-developers.html",
       "date": "2016-02-03"
     },
     {
@@ -1202,21 +1226,9 @@
       "date": "2016-02-03"
     },
     {
-      "id": "1182215016",
-      "title": "Heisenberg Developers",
-      "url": "http://mikehadlow.blogspot.cl/2014/06/heisenberg-developers.html",
-      "date": "2016-02-03"
-    },
-    {
-      "id": "1160970890",
-      "title": "How to declutter your life by not giving a fuck",
-      "url": "https://idealog.co.nz/workplace/2016/01/declutter-your-life-not-giving-fuck",
-      "date": "2016-02-03"
-    },
-    {
-      "id": "1159634366",
-      "title": "“Never Drink Airplane Coffee” and Other Secrets From Airline Employees",
-      "url": "https://upvoted.com/2016/01/11/never-drink-airplane-coffee-and-other-secrets-from-airline-employees/",
+      "id": "1157471606",
+      "title": "The 11 Daily Habits of Supremely Happy People",
+      "url": "http://www.huffingtonpost.com/rl-adams/the-11-daily-habits-of-supremely-happy-people_b_8898384.html",
       "date": "2016-02-03"
     },
     {
@@ -1226,16 +1238,46 @@
       "date": "2016-02-03"
     },
     {
+      "id": "1155699790",
+      "title": "How I Got Jobs I Was Unqualified For",
+      "url": "https://medium.com/life-learning/how-i-got-jobs-i-was-unqualified-for-4ffb1f5ffa09#.jvhiuake1",
+      "date": "2016-02-03"
+    },
+    {
+      "id": "1154922602",
+      "title": "The Number One Secret To Sleep That No One Tells You",
+      "url": "https://medium.com/life-learning/the-number-one-secret-to-sleep-that-no-one-tells-you-1a1a15ba80ec",
+      "date": "2016-02-03"
+    },
+    {
+      "id": "1157592732",
+      "title": "You probably shower way too often",
+      "url": "https://qz.com/590437/you-probably-shower-way-too-often/",
+      "date": "2016-02-03"
+    },
+    {
+      "id": "1176789226",
+      "title": "The Biggest Wastes of Time We Regret When We Get Older",
+      "url": "https://lifehacker.com/the-biggest-wastes-of-time-we-regret-when-we-get-older-1755526646",
+      "date": "2016-02-03"
+    },
+    {
+      "id": "1167583580",
+      "title": "The Number One Secret to Superhuman Willpower",
+      "url": "https://medium.com/life-learning/the-number-one-secret-to-superhuman-willpower-fc52d1347d9f",
+      "date": "2016-02-03"
+    },
+    {
+      "id": "1173489631",
+      "title": "Most of your Facebook friends couldn't care less about you",
+      "url": "https://www.engadget.com/2016/01/25/facebook-friends-dunbar-study/",
+      "date": "2016-02-03"
+    },
+    {
       "id": "1173744047",
       "title": "Uber’s virtuous cycle. Geographic density, hyperlocal marketplaces, and why drivers are key",
       "url": "https://andrewchen.co/ubers-virtuous-cycle-5-important-reads-about-uber/",
       "date": "2016-02-03"
-    },
-    {
-      "id": "605293293",
-      "title": "if corporations are people, then startups are children",
-      "url": "http://markpneyer.me/2014/04/28/if-corporations-are-people-then-startups-are-children/",
-      "date": "2016-01-25"
     },
     {
       "id": "1173610744",
@@ -1244,10 +1286,22 @@
       "date": "2016-01-25"
     },
     {
+      "id": "605293293",
+      "title": "if corporations are people, then startups are children",
+      "url": "http://markpneyer.me/2014/04/28/if-corporations-are-people-then-startups-are-children/",
+      "date": "2016-01-25"
+    },
+    {
       "id": "1170708137",
       "title": "A Drug to Cure Fear",
       "url": "https://www.nytimes.com/2016/01/24/opinion/sunday/a-drug-to-cure-fear.html",
       "date": "2016-01-24"
+    },
+    {
+      "id": "6882043",
+      "title": "Machiavellianism",
+      "url": "https://en.wikipedia.org/wiki/Machiavellianism",
+      "date": "2016-01-20"
     },
     {
       "id": "16476011",
@@ -1262,21 +1316,15 @@
       "date": "2016-01-20"
     },
     {
-      "id": "6882043",
-      "title": "Machiavellianism",
-      "url": "https://en.wikipedia.org/wiki/Machiavellianism",
-      "date": "2016-01-20"
+      "id": "1166793330",
+      "title": "How You Can Leverage Technical Debt & Why You Should",
+      "url": "https://medium.com/startup-guide-anti-patterns/how-you-can-leverage-technical-debt-why-you-should-4ec48a387751",
+      "date": "2016-01-19"
     },
     {
       "id": "1166692144",
       "title": "Why Big Companies Keep Failing: The Stack Fallacy",
       "url": "https://techcrunch.com/2016/01/18/why-big-companies-keep-failing-the-stack-fallacy/",
-      "date": "2016-01-19"
-    },
-    {
-      "id": "1166793330",
-      "title": "How You Can Leverage Technical Debt & Why You Should",
-      "url": "https://medium.com/startup-guide-anti-patterns/how-you-can-leverage-technical-debt-why-you-should-4ec48a387751",
       "date": "2016-01-19"
     },
     {
@@ -1292,15 +1340,51 @@
       "date": "2016-01-19"
     },
     {
+      "id": "1159360898",
+      "title": "A Beginner's Guide to Scaling to 11 Million+ Users on Amazon's AWS",
+      "url": "http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "1152579237",
+      "title": "Economic Inequality : The Short Version",
+      "url": "http://paulgraham.com/sim.html",
+      "date": "2016-01-18"
+    },
+    {
       "id": "922697563",
       "title": "Composition vs. Inheritance: How to Choose?",
       "url": "https://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose",
       "date": "2016-01-18"
     },
     {
-      "id": "4996220",
-      "title": "Attention deficit hyperactivity disorder",
-      "url": "https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder",
+      "id": "1151687147",
+      "title": "2015, a year of firsts",
+      "url": "https://medium.com/@rrhoover/2015-a-year-of-firsts-aa7fdca63a11",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "1151156309",
+      "title": "Say “agile” one more time",
+      "url": "https://tisquirrel.me/2016/01/03/say-agile-one-more-time/",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "1150504953",
+      "title": "Economic Inequality",
+      "url": "http://paulgraham.com/ineq.html",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "1143747241",
+      "title": "Ditching Scrum for Kanban — The best decision we’ve made as a team",
+      "url": "https://medium.com/cto-school/ditching-scrum-for-kanban-the-best-decision-we-ve-made-as-a-team-cd1167014a6f",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "3728701",
+      "title": "Token bucket",
+      "url": "https://en.wikipedia.org/wiki/Token_bucket",
       "date": "2016-01-18"
     },
     {
@@ -1310,15 +1394,81 @@
       "date": "2016-01-18"
     },
     {
-      "id": "1156702447",
-      "title": "When Are You Really an Adult?",
-      "url": "https://www.theatlantic.com/health/archive/2016/01/when-are-you-really-an-adult/422487/",
+      "id": "732135518",
+      "title": "Recognizing the Signs and Symptoms of Adult ADHD and What You Can Do About It",
+      "url": "https://www.helpguide.org/articles/add-adhd/adult-adhd-attention-deficit-disorder.htm",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "1160474720",
+      "title": "Feature Flag-Driven Development",
+      "url": "http://blog.launchdarkly.com/feature-flag-driven-development/?utm_content=bufferc210f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "427440",
+      "title": "Serendipity",
+      "url": "https://en.wikipedia.org/wiki/Serendipity",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "675400846",
+      "title": "Browserify vs. Webpack",
+      "url": "http://mattdesl.svbtle.com/browserify-vs-webpack",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "1100971634",
+      "title": "Polyfill, Ponyfill & Prollyfill",
+      "url": "https://kikobeats.com/polyfill-ponyfill-and-prollyfill/",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "6132307",
+      "title": "Istanbul",
+      "url": "https://en.wikipedia.org/wiki/Istanbul",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "5792585",
+      "title": "Europe",
+      "url": "https://en.wikipedia.org/wiki/Europe",
       "date": "2016-01-18"
     },
     {
       "id": "1164868081",
       "title": "Life is Short",
       "url": "http://paulgraham.com/vb.html",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "1063814661",
+      "title": "How To Learn a New Programming Language While Maintaining Your Day Job",
+      "url": "http://rob.conery.io/2015/10/06/how-to-learn-a-new-programming-language-while-maintaining-your-day-job-and-still-being-there-for-your-family/",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "4586661",
+      "title": "Psychopathy",
+      "url": "https://en.wikipedia.org/wiki/Psychopathy",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "4996220",
+      "title": "Attention deficit hyperactivity disorder",
+      "url": "https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "1152470832",
+      "title": "Dutch govt says no to backdoors, slides $540k into OpenSSL without breaking eye contact",
+      "url": "https://www.theregister.co.uk/2016/01/04/dutch_government_says_no_to_backdoors/",
+      "date": "2016-01-18"
+    },
+    {
+      "id": "1156702447",
+      "title": "When Are You Really an Adult?",
+      "url": "https://www.theatlantic.com/health/archive/2016/01/when-are-you-really-an-adult/422487/",
       "date": "2016-01-18"
     },
     {
@@ -1376,111 +1526,9 @@
       "date": "2016-01-18"
     },
     {
-      "id": "1152579237",
-      "title": "Economic Inequality : The Short Version",
-      "url": "http://paulgraham.com/sim.html",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "1152470832",
-      "title": "Dutch govt says no to backdoors, slides $540k into OpenSSL without breaking eye contact",
-      "url": "https://www.theregister.co.uk/2016/01/04/dutch_government_says_no_to_backdoors/",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "1151687147",
-      "title": "2015, a year of firsts",
-      "url": "https://medium.com/@rrhoover/2015-a-year-of-firsts-aa7fdca63a11",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "1151156309",
-      "title": "Say “agile” one more time",
-      "url": "https://tisquirrel.me/2016/01/03/say-agile-one-more-time/",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "1150504953",
-      "title": "Economic Inequality",
-      "url": "http://paulgraham.com/ineq.html",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "1143747241",
-      "title": "Ditching Scrum for Kanban — The best decision we’ve made as a team",
-      "url": "https://medium.com/cto-school/ditching-scrum-for-kanban-the-best-decision-we-ve-made-as-a-team-cd1167014a6f",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "3728701",
-      "title": "Token bucket",
-      "url": "https://en.wikipedia.org/wiki/Token_bucket",
-      "date": "2016-01-18"
-    },
-    {
       "id": "1127656569",
       "title": "Three hundred programming interviews in thirty days — Triplebyte Blog — Medium",
       "url": "https://data.triplebyte.com/three-hundred-programming-interviews-in-thirty-days-12c23c26b5ba?gi=bf5b48ff624b",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "732135518",
-      "title": "Recognizing the Signs and Symptoms of Adult ADHD and What You Can Do About It",
-      "url": "https://www.helpguide.org/articles/add-adhd/adult-adhd-attention-deficit-disorder.htm",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "1160474720",
-      "title": "Feature Flag-Driven Development",
-      "url": "http://blog.launchdarkly.com/feature-flag-driven-development/?utm_content=bufferc210f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "427440",
-      "title": "Serendipity",
-      "url": "https://en.wikipedia.org/wiki/Serendipity",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "675400846",
-      "title": "Browserify vs. Webpack",
-      "url": "http://mattdesl.svbtle.com/browserify-vs-webpack",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "1100971634",
-      "title": "Polyfill, Ponyfill & Prollyfill",
-      "url": "https://kikobeats.com/polyfill-ponyfill-and-prollyfill/",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "6132307",
-      "title": "Istanbul",
-      "url": "https://en.wikipedia.org/wiki/Istanbul",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "5792585",
-      "title": "Europe",
-      "url": "https://en.wikipedia.org/wiki/Europe",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "1159360898",
-      "title": "A Beginner's Guide to Scaling to 11 Million+ Users on Amazon's AWS",
-      "url": "http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "1063814661",
-      "title": "How To Learn a New Programming Language While Maintaining Your Day Job",
-      "url": "http://rob.conery.io/2015/10/06/how-to-learn-a-new-programming-language-while-maintaining-your-day-job-and-still-being-there-for-your-family/",
-      "date": "2016-01-18"
-    },
-    {
-      "id": "4586661",
-      "title": "Psychopathy",
-      "url": "https://en.wikipedia.org/wiki/Psychopathy",
       "date": "2016-01-18"
     },
     {
@@ -1514,15 +1562,15 @@
       "date": "2015-09-09"
     },
     {
-      "id": "1035498534",
-      "title": "Life, Offline",
-      "url": "http://motherboard.vice.com/read/life-offline",
-      "date": "2015-09-08"
-    },
-    {
       "id": "1034292826",
       "title": "Inside Popcorn Time – the world's fastest growing piracy site",
       "url": "http://www.dn.no/magasinet/2015/09/07/1606/Popcorn-Time/inside-popcorn-time--the-worlds-fastest-growing-piracy-site",
+      "date": "2015-09-08"
+    },
+    {
+      "id": "1035498534",
+      "title": "Life, Offline",
+      "url": "http://motherboard.vice.com/read/life-offline",
       "date": "2015-09-08"
     },
     {
@@ -1574,15 +1622,15 @@
       "date": "2015-08-23"
     },
     {
-      "id": "1018022533",
-      "title": "Spotify says sorry after privacy policy anger",
-      "url": "http://www.bbc.com/news/technology-34016658",
-      "date": "2015-08-21"
-    },
-    {
       "id": "1017606197",
       "title": "The Friend Break-Up — Personal Growth — Medium",
       "url": "https://medium.com/keep-learning-keep-growing/the-friend-break-up-89380901de2c",
+      "date": "2015-08-21"
+    },
+    {
+      "id": "1018022533",
+      "title": "Spotify says sorry after privacy policy anger",
+      "url": "http://www.bbc.com/news/technology-34016658",
       "date": "2015-08-21"
     },
     {
@@ -1616,12 +1664,6 @@
       "date": "2015-08-11"
     },
     {
-      "id": "701426624",
-      "title": "On Contributing to Open Source",
-      "url": "http://videlalvaro.github.io/2014/08/on-contributing-to-opensource.html",
-      "date": "2015-08-10"
-    },
-    {
       "id": "842874418",
       "title": "Harmful GOTOs, Premature Optimizations, and Programming Myths are the Root of all Evil",
       "url": "http://videlalvaro.github.io/2015/02/programming-myths.html",
@@ -1631,6 +1673,12 @@
       "id": "896919082",
       "title": "How Airbnb uses machine learning to detect host preferences",
       "url": "http://nerds.airbnb.com/host-preferences/",
+      "date": "2015-08-10"
+    },
+    {
+      "id": "701426624",
+      "title": "On Contributing to Open Source",
+      "url": "http://videlalvaro.github.io/2014/08/on-contributing-to-opensource.html",
       "date": "2015-08-10"
     },
     {
@@ -1694,18 +1742,6 @@
       "date": "2015-07-25"
     },
     {
-      "id": "855363490",
-      "title": "Design Principles: Dominance, Focal Points And Hierarchy",
-      "url": "http://www.smashingmagazine.com/2015/02/27/design-principles-dominance-focal-points-hierarchy/",
-      "date": "2015-07-21"
-    },
-    {
-      "id": "968338130",
-      "title": "Codeship",
-      "url": "http://blog.codeship.com/dockercon-2015-speeding-up-development-at-lyft/?utm_source=CodeshipNewsletter&utm_medium=newsletter&utm_campaign=DockerCon2015",
-      "date": "2015-07-21"
-    },
-    {
       "id": "580457014",
       "title": "Design Principles: Visual Perception And The Principles Of Gestalt",
       "url": "http://www.smashingmagazine.com/2014/03/28/design-principles-visual-perception-and-the-principles-of-gestalt/",
@@ -1724,9 +1760,15 @@
       "date": "2015-07-21"
     },
     {
-      "id": "910445002",
-      "title": "Design Principles: Compositional Flow And Rhythm",
-      "url": "http://www.smashingmagazine.com/2015/04/29/design-principles-compositional-flow-and-rhythm/",
+      "id": "855363490",
+      "title": "Design Principles: Dominance, Focal Points And Hierarchy",
+      "url": "http://www.smashingmagazine.com/2015/02/27/design-principles-dominance-focal-points-hierarchy/",
+      "date": "2015-07-21"
+    },
+    {
+      "id": "968338130",
+      "title": "Codeship",
+      "url": "http://blog.codeship.com/dockercon-2015-speeding-up-development-at-lyft/?utm_source=CodeshipNewsletter&utm_medium=newsletter&utm_campaign=DockerCon2015",
       "date": "2015-07-21"
     },
     {
@@ -1736,10 +1778,22 @@
       "date": "2015-07-21"
     },
     {
+      "id": "910445002",
+      "title": "Design Principles: Compositional Flow And Rhythm",
+      "url": "http://www.smashingmagazine.com/2015/04/29/design-principles-compositional-flow-and-rhythm/",
+      "date": "2015-07-21"
+    },
+    {
       "id": "985689456",
       "title": "The self-hating Web Developer",
       "url": "http://joequery.me/code/the-self-hating-web-developer/",
       "date": "2015-07-19"
+    },
+    {
+      "id": "980306438",
+      "title": "Want a Better Pitch?Watch This.",
+      "url": "https://medium.com/firm-narrative/want-a-better-pitch-watch-this-328b95c2fd0b",
+      "date": "2015-07-18"
     },
     {
       "id": "362930214",
@@ -1754,10 +1808,10 @@
       "date": "2015-07-18"
     },
     {
-      "id": "980306438",
-      "title": "Want a Better Pitch?Watch This.",
-      "url": "https://medium.com/firm-narrative/want-a-better-pitch-watch-this-328b95c2fd0b",
-      "date": "2015-07-18"
+      "id": "981675189",
+      "title": "Standing Desks – Save your back, change your life!",
+      "url": "http://getthinktank.com/2015/06/19/standing-desks/",
+      "date": "2015-07-14"
     },
     {
       "id": "981652325",
@@ -1772,82 +1826,10 @@
       "date": "2015-07-14"
     },
     {
-      "id": "981675189",
-      "title": "Standing Desks – Save your back, change your life!",
-      "url": "http://getthinktank.com/2015/06/19/standing-desks/",
-      "date": "2015-07-14"
-    },
-    {
       "id": "745775552",
       "title": "The Home Cloud",
       "url": "http://hokstad.com/the-home-cloud",
       "date": "2015-07-13"
-    },
-    {
-      "id": "852606258",
-      "title": "Load Balancing with HAProxy",
-      "url": "https://serversforhackers.com/load-balancing-with-haproxy",
-      "date": "2015-07-12"
-    },
-    {
-      "id": "73794175",
-      "title": "Why I Don't Like Mocks",
-      "url": "http://www.draconianoverlord.com/2010/07/09/why-i-dont-like-mocks.html",
-      "date": "2015-07-12"
-    },
-    {
-      "id": "312566450",
-      "title": "How to Save",
-      "url": "https://getpocket.com/add?sb=1",
-      "date": "2015-07-12"
-    },
-    {
-      "id": "745610785",
-      "title": "Eight Docker Development Patterns",
-      "url": "http://hokstad.com/docker/patterns",
-      "date": "2015-07-12"
-    },
-    {
-      "id": "125391771",
-      "title": "Nobody Understands REST or HTTP",
-      "url": "http://blog.steveklabnik.com/posts/2011-07-03-nobody-understands-rest-or-http",
-      "date": "2015-07-12"
-    },
-    {
-      "id": "770852918",
-      "title": "Execution sequence of a React component’s lifecycle methods",
-      "url": "https://javascript.tutorialhorizon.com/2014/09/13/execution-sequence-of-a-react-components-lifecycle-methods/",
-      "date": "2015-07-12"
-    },
-    {
-      "id": "785976345",
-      "title": "24 random docker tips",
-      "url": "http://csaba.palfi.me/random-docker-tips/",
-      "date": "2015-07-12"
-    },
-    {
-      "id": "11713498",
-      "title": "PUT or POST: The REST of the Story",
-      "url": "https://jcalcote.wordpress.com/2008/10/16/put-or-post-the-rest-of-the-story/",
-      "date": "2015-07-12"
-    },
-    {
-      "id": "466718400",
-      "title": "Component Specs and Lifecycle",
-      "url": "https://facebook.github.io/react/docs/component-specs.html",
-      "date": "2015-07-12"
-    },
-    {
-      "id": "467901139",
-      "title": "User Stories",
-      "url": "https://www.mountaingoatsoftware.com/agile/user-stories",
-      "date": "2015-07-12"
-    },
-    {
-      "id": "979315243",
-      "title": "The best icon is a text label",
-      "url": "http://thomasbyttebier.be/blog/the-best-icon-is-a-text-label?utm_source=The+UX+Booth+Newsletter&utm_campaign=70cf054a68-UXBoothWeekly&utm_medium=email&utm_term=0_8a33650440-70cf054a68-278609341",
-      "date": "2015-07-12"
     },
     {
       "id": "970493171",
@@ -1904,6 +1886,72 @@
       "date": "2015-07-12"
     },
     {
+      "id": "979315243",
+      "title": "The best icon is a text label",
+      "url": "http://thomasbyttebier.be/blog/the-best-icon-is-a-text-label?utm_source=The+UX+Booth+Newsletter&utm_campaign=70cf054a68-UXBoothWeekly&utm_medium=email&utm_term=0_8a33650440-70cf054a68-278609341",
+      "date": "2015-07-12"
+    },
+    {
+      "id": "312566450",
+      "title": "How to Save",
+      "url": "https://getpocket.com/add?sb=1",
+      "date": "2015-07-12"
+    },
+    {
+      "id": "745610785",
+      "title": "Eight Docker Development Patterns",
+      "url": "http://hokstad.com/docker/patterns",
+      "date": "2015-07-12"
+    },
+    {
+      "id": "125391771",
+      "title": "Nobody Understands REST or HTTP",
+      "url": "http://blog.steveklabnik.com/posts/2011-07-03-nobody-understands-rest-or-http",
+      "date": "2015-07-12"
+    },
+    {
+      "id": "770852918",
+      "title": "Execution sequence of a React component’s lifecycle methods",
+      "url": "https://javascript.tutorialhorizon.com/2014/09/13/execution-sequence-of-a-react-components-lifecycle-methods/",
+      "date": "2015-07-12"
+    },
+    {
+      "id": "785976345",
+      "title": "24 random docker tips",
+      "url": "http://csaba.palfi.me/random-docker-tips/",
+      "date": "2015-07-12"
+    },
+    {
+      "id": "73794175",
+      "title": "Why I Don't Like Mocks",
+      "url": "http://www.draconianoverlord.com/2010/07/09/why-i-dont-like-mocks.html",
+      "date": "2015-07-12"
+    },
+    {
+      "id": "466718400",
+      "title": "Component Specs and Lifecycle",
+      "url": "https://facebook.github.io/react/docs/component-specs.html",
+      "date": "2015-07-12"
+    },
+    {
+      "id": "467901139",
+      "title": "User Stories",
+      "url": "https://www.mountaingoatsoftware.com/agile/user-stories",
+      "date": "2015-07-12"
+    },
+    {
+      "id": "852606258",
+      "title": "Load Balancing with HAProxy",
+      "url": "https://serversforhackers.com/load-balancing-with-haproxy",
+      "date": "2015-07-12"
+    },
+    {
+      "id": "11713498",
+      "title": "PUT or POST: The REST of the Story",
+      "url": "https://jcalcote.wordpress.com/2008/10/16/put-or-post-the-rest-of-the-story/",
+      "date": "2015-07-12"
+    },
+    {
       "id": "976807125",
       "title": "Unit testing a TCP stack",
       "url": "https://www.snellman.net/blog/archive/2015-07-09-unit-testing-a-tcp-stack/",
@@ -1934,12 +1982,6 @@
       "date": "2015-07-02"
     },
     {
-      "id": "871215546",
-      "title": "How I got 2.3 million app downloads (without spending a cent on marketing)",
-      "url": "https://medium.com/@stuartkhall/how-i-got-2-3m-app-downloads-without-spending-a-cent-on-marketing-f4823b6bc779",
-      "date": "2015-07-01"
-    },
-    {
       "id": "968260191",
       "title": "In 1900, Los Angeles had a bike highway — and the US was a world leader in bike lanes",
       "url": "http://www.vox.com/2015/6/30/8861327/bike-lanes-history",
@@ -1949,6 +1991,12 @@
       "id": "964564395",
       "title": "Designing Data-Driven Interfaces",
       "url": "https://medium.com/truth-labs/designing-data-driven-interfaces-a75d62997631",
+      "date": "2015-07-01"
+    },
+    {
+      "id": "871215546",
+      "title": "How I got 2.3 million app downloads (without spending a cent on marketing)",
+      "url": "https://medium.com/@stuartkhall/how-i-got-2-3m-app-downloads-without-spending-a-cent-on-marketing-f4823b6bc779",
       "date": "2015-07-01"
     },
     {
@@ -1976,9 +2024,9 @@
       "date": "2015-06-28"
     },
     {
-      "id": "941380526",
-      "title": "The Role of a Senior Developer",
-      "url": "http://mattbriggs.net/blog/2015/06/01/the-role-of-a-senior-developer",
+      "id": "906300495",
+      "title": "Maintaining Open Source Projects: Documentation",
+      "url": "https://robots.thoughtbot.com/maintaining-open-source-projects-documentation",
       "date": "2015-06-27"
     },
     {
@@ -1988,15 +2036,15 @@
       "date": "2015-06-27"
     },
     {
-      "id": "906300495",
-      "title": "Maintaining Open Source Projects: Documentation",
-      "url": "https://robots.thoughtbot.com/maintaining-open-source-projects-documentation",
+      "id": "941380526",
+      "title": "The Role of a Senior Developer",
+      "url": "http://mattbriggs.net/blog/2015/06/01/the-role-of-a-senior-developer",
       "date": "2015-06-27"
     },
     {
-      "id": "964489865",
-      "title": "Why Don't Software Developers Use Static Analysis Tools to Find Bugs?",
-      "url": "https://www.viva64.com/en/b/0335/",
+      "id": "964703505",
+      "title": "The most important skill in software development",
+      "url": "https://www.johndcook.com/blog/2015/06/18/most-important-skill-in-software/",
       "date": "2015-06-26"
     },
     {
@@ -2006,9 +2054,9 @@
       "date": "2015-06-26"
     },
     {
-      "id": "964703505",
-      "title": "The most important skill in software development",
-      "url": "https://www.johndcook.com/blog/2015/06/18/most-important-skill-in-software/",
+      "id": "964489865",
+      "title": "Why Don't Software Developers Use Static Analysis Tools to Find Bugs?",
+      "url": "https://www.viva64.com/en/b/0335/",
       "date": "2015-06-26"
     },
     {
@@ -2018,15 +2066,15 @@
       "date": "2015-06-23"
     },
     {
-      "id": "605870253",
-      "title": "Why you might not need MVC with React.js",
-      "url": "http://www.code-experience.com/why-you-might-not-need-mvc-with-reactjs/",
-      "date": "2015-06-23"
-    },
-    {
       "id": "942215170",
       "title": "Managing Technical Debt Using Total Cost of Ownership",
       "url": "https://www.infoq.com/news/2015/06/technical-debt-tco",
+      "date": "2015-06-23"
+    },
+    {
+      "id": "605870253",
+      "title": "Why you might not need MVC with React.js",
+      "url": "http://www.code-experience.com/why-you-might-not-need-mvc-with-reactjs/",
       "date": "2015-06-23"
     },
     {
@@ -2036,15 +2084,15 @@
       "date": "2015-06-23"
     },
     {
-      "id": "957072606",
-      "title": "The most important skill in software development",
-      "url": "https://www.johndcook.com/blog/2015/06/18/most-important-skill-in-software/",
-      "date": "2015-06-22"
-    },
-    {
       "id": "958556428",
       "title": "SSD Prices In A Free Fall",
       "url": "http://www.networkcomputing.com/storage/ssd-prices-in-a-freefall/a/d-id/1320958",
+      "date": "2015-06-22"
+    },
+    {
+      "id": "957072606",
+      "title": "The most important skill in software development",
+      "url": "https://www.johndcook.com/blog/2015/06/18/most-important-skill-in-software/",
       "date": "2015-06-22"
     },
     {
@@ -2060,15 +2108,15 @@
       "date": "2015-06-16"
     },
     {
-      "id": "471310056",
-      "title": "Thoughts on How Kanban Differs from Scrum",
-      "url": "http://www.djaa.com/thoughts-how-kanban-differs-scrum#rd",
-      "date": "2015-06-15"
-    },
-    {
       "id": "4768247",
       "title": "Event Collaboration",
       "url": "https://martinfowler.com/eaaDev/EventCollaboration.html",
+      "date": "2015-06-15"
+    },
+    {
+      "id": "471310056",
+      "title": "Thoughts on How Kanban Differs from Scrum",
+      "url": "http://www.djaa.com/thoughts-how-kanban-differs-scrum#rd",
       "date": "2015-06-15"
     },
     {
@@ -2078,40 +2126,16 @@
       "date": "2015-06-15"
     },
     {
-      "id": "943618879",
-      "title": "How a keyboard changed what I look for in an editor",
-      "url": "http://devblog.avdi.org/2015/06/04/how-a-keyboard-changed-what-i-look-for-in-an-editor/#more-8438",
-      "date": "2015-06-14"
-    },
-    {
       "id": "952229842",
       "title": "‘The Dorito Effect,’ by Mark Schatzker",
       "url": "https://www.nytimes.com/2015/06/14/books/review/the-dorito-effect-by-mark-schatzker.html",
       "date": "2015-06-14"
     },
     {
-      "id": "951498227",
-      "title": "Plans for Redis 3.2",
-      "url": "http://antirez.com/news/89",
-      "date": "2015-06-13"
-    },
-    {
-      "id": "37758642",
-      "title": "Why you should never present more than one mockup to a client",
-      "url": "http://www.leemunroe.com/one-mockup/",
-      "date": "2015-06-13"
-    },
-    {
-      "id": "28728810",
-      "title": "52 weeks of UX A discourse on the process of designing for real people",
-      "url": "http://52weeksofux.com/tagged/week_1",
-      "date": "2015-06-13"
-    },
-    {
-      "id": "50359846",
-      "title": "52 weeks of UX A discourse on the process of designing for real people",
-      "url": "http://52weeksofux.com/tagged/week_6",
-      "date": "2015-06-13"
+      "id": "943618879",
+      "title": "How a keyboard changed what I look for in an editor",
+      "url": "http://devblog.avdi.org/2015/06/04/how-a-keyboard-changed-what-i-look-for-in-an-editor/#more-8438",
+      "date": "2015-06-14"
     },
     {
       "id": "41666246",
@@ -2120,15 +2144,9 @@
       "date": "2015-06-13"
     },
     {
-      "id": "33798608",
+      "id": "50359846",
       "title": "52 weeks of UX A discourse on the process of designing for real people",
-      "url": "http://52weeksofux.com/tagged/week_3",
-      "date": "2015-06-13"
-    },
-    {
-      "id": "30266264",
-      "title": "52 weeks of UX A discourse on the process of designing for real people",
-      "url": "http://52weeksofux.com/tagged/week_2",
+      "url": "http://52weeksofux.com/tagged/week_6",
       "date": "2015-06-13"
     },
     {
@@ -2141,6 +2159,12 @@
       "id": "41666243",
       "title": "52 weeks of UX A discourse on the process of designing for real people",
       "url": "http://52weeksofux.com/tagged/week_4",
+      "date": "2015-06-13"
+    },
+    {
+      "id": "33798608",
+      "title": "52 weeks of UX A discourse on the process of designing for real people",
+      "url": "http://52weeksofux.com/tagged/week_3",
       "date": "2015-06-13"
     },
     {
@@ -2162,6 +2186,30 @@
       "date": "2015-06-13"
     },
     {
+      "id": "951498227",
+      "title": "Plans for Redis 3.2",
+      "url": "http://antirez.com/news/89",
+      "date": "2015-06-13"
+    },
+    {
+      "id": "37758642",
+      "title": "Why you should never present more than one mockup to a client",
+      "url": "http://www.leemunroe.com/one-mockup/",
+      "date": "2015-06-13"
+    },
+    {
+      "id": "28728810",
+      "title": "52 weeks of UX A discourse on the process of designing for real people",
+      "url": "http://52weeksofux.com/tagged/week_1",
+      "date": "2015-06-13"
+    },
+    {
+      "id": "30266264",
+      "title": "52 weeks of UX A discourse on the process of designing for real people",
+      "url": "http://52weeksofux.com/tagged/week_2",
+      "date": "2015-06-13"
+    },
+    {
       "id": "946306844",
       "title": "Why Software Engineering Isn’t Engineering, and the Implication for Deadlines",
       "url": "https://blog.iancackett.com/2015/06/07/software-engineering/",
@@ -2180,15 +2228,15 @@
       "date": "2015-06-01"
     },
     {
-      "id": "938196609",
-      "title": "Talking microservices with the man who made Netflix’s cloud famous",
-      "url": "https://medium.com/s-c-a-l-e/talking-microservices-with-the-man-who-made-netflix-s-cloud-famous-1032689afed3",
-      "date": "2015-05-31"
-    },
-    {
       "id": "937554425",
       "title": "Interview with Gerald Weinberg!!!",
       "url": "http://www.functionalrequirementshq.com/2015/05/28/interview-with-gerald-weinberg/",
+      "date": "2015-05-31"
+    },
+    {
+      "id": "938196609",
+      "title": "Talking microservices with the man who made Netflix’s cloud famous",
+      "url": "https://medium.com/s-c-a-l-e/talking-microservices-with-the-man-who-made-netflix-s-cloud-famous-1032689afed3",
       "date": "2015-05-31"
     },
     {
@@ -2210,15 +2258,15 @@
       "date": "2015-05-24"
     },
     {
-      "id": "931578131",
-      "title": "How 500px serves up over 500TB of high res photos",
-      "url": "https://stackshare.io/500px/how-500px-serves-up-over-500tb-of-high-res-photos",
-      "date": "2015-05-22"
-    },
-    {
       "id": "45240483",
       "title": "Readme Driven Development",
       "url": "http://tom.preston-werner.com/2010/08/23/readme-driven-development.html",
+      "date": "2015-05-22"
+    },
+    {
+      "id": "931578131",
+      "title": "How 500px serves up over 500TB of high res photos",
+      "url": "https://stackshare.io/500px/how-500px-serves-up-over-500tb-of-high-res-photos",
       "date": "2015-05-22"
     },
     {
@@ -2228,9 +2276,27 @@
       "date": "2015-05-22"
     },
     {
+      "id": "667712514",
+      "title": "Understanding the Docker Cache for Faster Builds",
+      "url": "https://thenewstack.io/understanding-the-docker-cache-for-faster-builds/",
+      "date": "2015-05-21"
+    },
+    {
+      "id": "930523136",
+      "title": "Content Not Available",
+      "url": "https://vts.inxpo.com/scripts/Server.nxp?LASCmd=AI:1;S:17;F:QP!14100&EventKey=152831&EventAttendeeKey=11916028&RandomValue=1432209353634",
+      "date": "2015-05-21"
+    },
+    {
       "id": "663693547",
       "title": "Move fast and don’t break things! Testing with Jenkins, Ansible and Docker",
       "url": "https://developer.rackspace.com/blog/move-fast-and-dont-break-things-testing-with-jenkins-ansible-and-docker/",
+      "date": "2015-05-21"
+    },
+    {
+      "id": "930865933",
+      "title": "7 Patterns to Refactor JavaScript Applications: Value Objects",
+      "url": "https://blog.engineyard.com/2015/7-patterns-refactor-javascript-value-objects",
       "date": "2015-05-21"
     },
     {
@@ -2252,57 +2318,15 @@
       "date": "2015-05-21"
     },
     {
-      "id": "930523136",
-      "title": "Content Not Available",
-      "url": "https://vts.inxpo.com/scripts/Server.nxp?LASCmd=AI:1;S:17;F:QP!14100&EventKey=152831&EventAttendeeKey=11916028&RandomValue=1432209353634",
-      "date": "2015-05-21"
-    },
-    {
-      "id": "930865933",
-      "title": "7 Patterns to Refactor JavaScript Applications: Value Objects",
-      "url": "https://blog.engineyard.com/2015/7-patterns-refactor-javascript-value-objects",
-      "date": "2015-05-21"
-    },
-    {
-      "id": "667712514",
-      "title": "Understanding the Docker Cache for Faster Builds",
-      "url": "https://thenewstack.io/understanding-the-docker-cache-for-faster-builds/",
-      "date": "2015-05-21"
-    },
-    {
       "id": "929545559",
       "title": "How I Got 345k Page Views In Just 7 Days",
       "url": "https://medium.com/@craigjbarber/how-i-got-345k-page-views-7-days-after-launching-my-new-site-e636ccdc016c",
       "date": "2015-05-20"
     },
     {
-      "id": "908743391",
-      "title": "The Agile Manifesto and Holacracy",
-      "url": "https://medium.com/@DanielMezick/the-agile-manifesto-and-holacracy-b68440d57b4b",
-      "date": "2015-05-19"
-    },
-    {
-      "id": "928299771",
-      "title": "10 Ways To Improve Your Agile Process",
-      "url": "https://medium.com/@theproductclub/10-ways-to-improve-your-agile-process-f63ca29a17c",
-      "date": "2015-05-19"
-    },
-    {
-      "id": "926394994",
-      "title": "How Agile got Command and Control Wrong",
-      "url": "https://medium.com/@onleadership/how-agile-got-command-and-control-wrong-6b06dfa65ff8",
-      "date": "2015-05-19"
-    },
-    {
       "id": "630122095",
       "title": "The Dark Side of Scrum",
       "url": "https://medium.com/product-love/the-dark-side-of-scrum-d36657e5bc61",
-      "date": "2015-05-19"
-    },
-    {
-      "id": "891471259",
-      "title": "Hacking Company Culture",
-      "url": "https://medium.com/@pedramkeyani/hacking-company-culture-1daa3be1d769",
       "date": "2015-05-19"
     },
     {
@@ -2327,6 +2351,30 @@
       "id": "821853396",
       "title": "The Agile Taxi Driver",
       "url": "https://medium.com/featured-insights/the-agile-taxi-driver-c3cd303ab92a",
+      "date": "2015-05-19"
+    },
+    {
+      "id": "891471259",
+      "title": "Hacking Company Culture",
+      "url": "https://medium.com/@pedramkeyani/hacking-company-culture-1daa3be1d769",
+      "date": "2015-05-19"
+    },
+    {
+      "id": "908743391",
+      "title": "The Agile Manifesto and Holacracy",
+      "url": "https://medium.com/@DanielMezick/the-agile-manifesto-and-holacracy-b68440d57b4b",
+      "date": "2015-05-19"
+    },
+    {
+      "id": "928299771",
+      "title": "10 Ways To Improve Your Agile Process",
+      "url": "https://medium.com/@theproductclub/10-ways-to-improve-your-agile-process-f63ca29a17c",
+      "date": "2015-05-19"
+    },
+    {
+      "id": "926394994",
+      "title": "How Agile got Command and Control Wrong",
+      "url": "https://medium.com/@onleadership/how-agile-got-command-and-control-wrong-6b06dfa65ff8",
       "date": "2015-05-19"
     },
     {
@@ -2366,22 +2414,16 @@
       "date": "2015-05-10"
     },
     {
-      "id": "335276349",
-      "title": "What I Wish I Knew When Learning Haskell 2.3 ( Stephen Diehl )",
-      "url": "http://dev.stephendiehl.com/hask/",
-      "date": "2015-05-09"
-    },
-    {
       "id": "368325025",
       "title": "A re-introduction to JavaScript (JS tutorial)",
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript",
       "date": "2015-05-09"
     },
     {
-      "id": "917986244",
-      "title": "Accepting payments is getting harder",
-      "url": "https://medium.com/@folsen/accepting-payments-is-getting-harder-1b2f342e4ea",
-      "date": "2015-05-08"
+      "id": "335276349",
+      "title": "What I Wish I Knew When Learning Haskell 2.3 ( Stephen Diehl )",
+      "url": "http://dev.stephendiehl.com/hask/",
+      "date": "2015-05-09"
     },
     {
       "id": "918698158",
@@ -2390,16 +2432,16 @@
       "date": "2015-05-08"
     },
     {
+      "id": "917986244",
+      "title": "Accepting payments is getting harder",
+      "url": "https://medium.com/@folsen/accepting-payments-is-getting-harder-1b2f342e4ea",
+      "date": "2015-05-08"
+    },
+    {
       "id": "916963598",
       "title": "Leaving Stripe",
       "url": "https://blog.gregbrockman.com/leaving-stripe",
       "date": "2015-05-06"
-    },
-    {
-      "id": "915099334",
-      "title": "Its high time that we stop using Velocity",
-      "url": "http://agileworld.blogspot.it/2015/04/its-high-time-that-we-stop-using.html#590234",
-      "date": "2015-05-04"
     },
     {
       "id": "913269134",
@@ -2414,21 +2456,27 @@
       "date": "2015-05-04"
     },
     {
+      "id": "915099334",
+      "title": "Its high time that we stop using Velocity",
+      "url": "http://agileworld.blogspot.it/2015/04/its-high-time-that-we-stop-using.html#590234",
+      "date": "2015-05-04"
+    },
+    {
       "id": "915099202",
       "title": "What DONE Looks Like in DevOps",
       "url": "http://blogs.versionone.com/agile_management/2015/04/30/what-done-looks-like-in-devops/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+VersionOne+%28VersionOne+Blog%29",
       "date": "2015-05-04"
     },
     {
-      "id": "892809975",
-      "title": "The Dao of Immutability",
-      "url": "https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd",
-      "date": "2015-05-03"
-    },
-    {
       "id": "884342937",
       "title": "Pretty Unmistakeable",
       "url": "https://zachholman.com/posts/pretty-unmistakeable/",
+      "date": "2015-05-03"
+    },
+    {
+      "id": "892809975",
+      "title": "The Dao of Immutability",
+      "url": "https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd",
       "date": "2015-05-03"
     },
     {
@@ -2450,9 +2498,9 @@
       "date": "2015-04-29"
     },
     {
-      "id": "909783693",
-      "title": "Why and How to Use Docker for Development",
-      "url": "https://medium.com/@treeder/why-and-how-to-use-docker-for-development-a156c1de3b24",
+      "id": "872202609",
+      "title": "Inside Popcorn Time, the Piracy Party Hollywood Can't Stop",
+      "url": "https://www.wired.com/2015/03/inside-popcorn-time-piracy-party-hollywood-cant-stop/",
       "date": "2015-04-28"
     },
     {
@@ -2462,9 +2510,9 @@
       "date": "2015-04-28"
     },
     {
-      "id": "872202609",
-      "title": "Inside Popcorn Time, the Piracy Party Hollywood Can't Stop",
-      "url": "https://www.wired.com/2015/03/inside-popcorn-time-piracy-party-hollywood-cant-stop/",
+      "id": "909783693",
+      "title": "Why and How to Use Docker for Development",
+      "url": "https://medium.com/@treeder/why-and-how-to-use-docker-for-development-a156c1de3b24",
       "date": "2015-04-28"
     },
     {
@@ -2474,21 +2522,9 @@
       "date": "2015-04-27"
     },
     {
-      "id": "420015695",
-      "title": "Rewriting a large production system in Go",
-      "url": "http://matt-welsh.blogspot.it/2013/08/rewriting-large-production-system-in-go.html",
-      "date": "2015-04-26"
-    },
-    {
       "id": "412375493",
       "title": "Learn You Some Refactoring For Great Good",
       "url": "http://videlalvaro.github.io/2011/04/learn-you-some-refactoring-for-great-good.html",
-      "date": "2015-04-26"
-    },
-    {
-      "id": "576811700",
-      "title": "Becoming an accomplished software designer – jbrains",
-      "url": "http://www.jbrains.ca/permalink/becoming-an-accomplished-software-designer",
       "date": "2015-04-26"
     },
     {
@@ -2516,21 +2552,21 @@
       "date": "2015-04-26"
     },
     {
-      "id": "679126952",
-      "title": "Chapter 6: Functional Programming",
-      "url": "http://eloquentjavascript.net/1st_edition/chapter6.html",
-      "date": "2015-04-25"
+      "id": "420015695",
+      "title": "Rewriting a large production system in Go",
+      "url": "http://matt-welsh.blogspot.it/2013/08/rewriting-large-production-system-in-go.html",
+      "date": "2015-04-26"
+    },
+    {
+      "id": "576811700",
+      "title": "Becoming an accomplished software designer – jbrains",
+      "url": "http://www.jbrains.ca/permalink/becoming-an-accomplished-software-designer",
+      "date": "2015-04-26"
     },
     {
       "id": "101176340",
       "title": "CallSuper",
       "url": "https://martinfowler.com/bliki/CallSuper.html",
-      "date": "2015-04-25"
-    },
-    {
-      "id": "16405461",
-      "title": "RE: What's so cool about Scheme?",
-      "url": "http://people.csail.mit.edu/gregs/ll1-discuss-archive-html/msg03277.html",
       "date": "2015-04-25"
     },
     {
@@ -2546,15 +2582,21 @@
       "date": "2015-04-25"
     },
     {
-      "id": "905923490",
-      "title": "Musings on Science, Health Care, and Business",
-      "url": "https://mitchkirby.wordpress.com/?utm_source=hackernewsletter&utm_medium=email&utm_term=learn",
-      "date": "2015-04-24"
+      "id": "16405461",
+      "title": "RE: What's so cool about Scheme?",
+      "url": "http://people.csail.mit.edu/gregs/ll1-discuss-archive-html/msg03277.html",
+      "date": "2015-04-25"
     },
     {
-      "id": "905924925",
-      "title": "The sad state of sysadmin in the age of containers",
-      "url": "http://www.vitavonni.de/blog/201503/2015031201-the-sad-state-of-sysadmin-in-the-age-of-containers.html?utm_source=hackernewsletter&utm_medium=email&utm_term=fav",
+      "id": "679126952",
+      "title": "Chapter 6: Functional Programming",
+      "url": "http://eloquentjavascript.net/1st_edition/chapter6.html",
+      "date": "2015-04-25"
+    },
+    {
+      "id": "589102091",
+      "title": "Microservices - Not a free lunch!",
+      "url": "http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html",
       "date": "2015-04-24"
     },
     {
@@ -2564,9 +2606,15 @@
       "date": "2015-04-24"
     },
     {
-      "id": "589102091",
-      "title": "Microservices - Not a free lunch!",
-      "url": "http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html",
+      "id": "905924925",
+      "title": "The sad state of sysadmin in the age of containers",
+      "url": "http://www.vitavonni.de/blog/201503/2015031201-the-sad-state-of-sysadmin-in-the-age-of-containers.html?utm_source=hackernewsletter&utm_medium=email&utm_term=fav",
+      "date": "2015-04-24"
+    },
+    {
+      "id": "905923490",
+      "title": "Musings on Science, Health Care, and Business",
+      "url": "https://mitchkirby.wordpress.com/?utm_source=hackernewsletter&utm_medium=email&utm_term=learn",
       "date": "2015-04-24"
     },
     {
@@ -2594,12 +2642,6 @@
       "date": "2015-04-19"
     },
     {
-      "id": "900221941",
-      "title": "Double-clicking On The Web",
-      "url": "https://ma.ttias.be/double-clicking-on-the-web/",
-      "date": "2015-04-18"
-    },
-    {
       "id": "899595366",
       "title": "Microsoft Just Took Android’s Future Out of Google’s Hands",
       "url": "https://www.wired.com/2015/04/microsoft-google-cyanogen/",
@@ -2612,21 +2654,15 @@
       "date": "2015-04-18"
     },
     {
+      "id": "900221941",
+      "title": "Double-clicking On The Web",
+      "url": "https://ma.ttias.be/double-clicking-on-the-web/",
+      "date": "2015-04-18"
+    },
+    {
       "id": "899509708",
       "title": "Arduino web architecture, back to the future",
       "url": "http://blog.arduino.cc/2015/04/16/arduino-web-architecture-back-to-the-future/?utm_content=buffere40c1&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer",
-      "date": "2015-04-17"
-    },
-    {
-      "id": "898710495",
-      "title": "Fixing Italy, a little bit at a time",
-      "url": "https://blog.therealitaly.com/2015/04/16/fixing-italy-a-little-bit-at-a-time/",
-      "date": "2015-04-17"
-    },
-    {
-      "id": "882629935",
-      "title": "The Code Is Just the Symptom",
-      "url": "https://medium.com/@rubyghetto/the-code-is-just-the-symptom-c77f43b29320",
       "date": "2015-04-17"
     },
     {
@@ -2636,9 +2672,21 @@
       "date": "2015-04-17"
     },
     {
+      "id": "882629935",
+      "title": "The Code Is Just the Symptom",
+      "url": "https://medium.com/@rubyghetto/the-code-is-just-the-symptom-c77f43b29320",
+      "date": "2015-04-17"
+    },
+    {
       "id": "229819512",
       "title": "Why (and How) I Wrote My Academic Book in Plain Text",
       "url": "http://wcm1.web.rice.edu/my-academic-book-in-plain-text.html",
+      "date": "2015-04-17"
+    },
+    {
+      "id": "898710495",
+      "title": "Fixing Italy, a little bit at a time",
+      "url": "https://blog.therealitaly.com/2015/04/16/fixing-italy-a-little-bit-at-a-time/",
       "date": "2015-04-17"
     },
     {
@@ -2648,16 +2696,22 @@
       "date": "2015-04-15"
     },
     {
+      "id": "895811081",
+      "title": "Container Wars",
+      "url": "http://blog.circleci.com/container-war/",
+      "date": "2015-04-13"
+    },
+    {
       "id": "838381449",
       "title": "Disrupt NY 2015",
       "url": "http://techcrunch.com/events/disrupt-ny-2015/tickets/?utm_source=tc&utm_medium=announcementbar&utm_campaign=disruptnyc",
       "date": "2015-04-13"
     },
     {
-      "id": "895811081",
-      "title": "Container Wars",
-      "url": "http://blog.circleci.com/container-war/",
-      "date": "2015-04-13"
+      "id": "602808917",
+      "title": "Why we don't sell ads",
+      "url": "https://blog.whatsapp.com/245/Why-we-dont-sell-ads",
+      "date": "2015-04-12"
     },
     {
       "id": "89422970",
@@ -2669,12 +2723,6 @@
       "id": "96717199",
       "title": "Dependency Injection is EVIL",
       "url": "http://www.tonymarston.net/php-mysql/dependency-injection-is-evil.html",
-      "date": "2015-04-12"
-    },
-    {
-      "id": "602808917",
-      "title": "Why we don't sell ads",
-      "url": "https://blog.whatsapp.com/245/Why-we-dont-sell-ads",
       "date": "2015-04-12"
     },
     {
@@ -2696,9 +2744,9 @@
       "date": "2015-04-07"
     },
     {
-      "id": "31590954",
-      "title": "7 truths about Agile and Scrum that people don't want to hear. Part 0 of 7 Introduction",
-      "url": "http://gilb.com/blogpost111-7-truths-about-Agile-and-Scrum-that-people-don-t-want-to-hear-Part-0-of-7",
+      "id": "22210691",
+      "title": "7 truths about Agile and Scrum that people don't want to hear. Part 1 of 7 Wrong Focus!",
+      "url": "http://gilb.com/blogpost112-7-truths-about-Agile-and-Scrum-that-people-don-t-want-to-hear-Part-1-of-7-Wrong-Focus-",
       "date": "2015-04-05"
     },
     {
@@ -2708,21 +2756,21 @@
       "date": "2015-04-05"
     },
     {
-      "id": "22210691",
-      "title": "7 truths about Agile and Scrum that people don't want to hear. Part 1 of 7 Wrong Focus!",
-      "url": "http://gilb.com/blogpost112-7-truths-about-Agile-and-Scrum-that-people-don-t-want-to-hear-Part-1-of-7-Wrong-Focus-",
+      "id": "163156665",
+      "title": "TDD with mocks and spies",
+      "url": "http://blogs.ugidotnet.org/luKa/archive/0001/01/01/tdd-with-mocks-or-spies.aspx",
+      "date": "2015-04-05"
+    },
+    {
+      "id": "31590954",
+      "title": "7 truths about Agile and Scrum that people don't want to hear. Part 0 of 7 Introduction",
+      "url": "http://gilb.com/blogpost111-7-truths-about-Agile-and-Scrum-that-people-don-t-want-to-hear-Part-0-of-7",
       "date": "2015-04-05"
     },
     {
       "id": "55173639",
       "title": "7 truths about Agile and Scrum that people don't want to hear. Part 3 of 7: Stakeout Stakeholders or Stakeholders will stake you out.",
       "url": "http://www.gilb.com/blogpost130-7-truths-about-Agile-and-Scrum-that-people-don-t-want-to-hear-Part-3-of-7-Stakeout-Stakeholders-or-Stakeholders-will-stake-you-out-",
-      "date": "2015-04-05"
-    },
-    {
-      "id": "163156665",
-      "title": "TDD with mocks and spies",
-      "url": "http://blogs.ugidotnet.org/luKa/archive/0001/01/01/tdd-with-mocks-or-spies.aspx",
       "date": "2015-04-05"
     },
     {
@@ -2744,9 +2792,9 @@
       "date": "2015-03-30"
     },
     {
-      "id": "882194846",
-      "title": "Sign in",
-      "url": "https://ifttt.com/myrecipes/personal/14435291",
+      "id": "876736377",
+      "title": "Git workflows: Centralized or Feature Branching?",
+      "url": "http://codemonkeybananas.com/git-workflows-centralized-or-feature-branching",
       "date": "2015-03-29"
     },
     {
@@ -2762,15 +2810,15 @@
       "date": "2015-03-29"
     },
     {
-      "id": "876736377",
-      "title": "Git workflows: Centralized or Feature Branching?",
-      "url": "http://codemonkeybananas.com/git-workflows-centralized-or-feature-branching",
-      "date": "2015-03-29"
-    },
-    {
       "id": "877610256",
       "title": "The JavaScriptWorld Domination",
       "url": "https://medium.com/@slsoftworks/javascript-world-domination-af9ca2ee5070",
+      "date": "2015-03-29"
+    },
+    {
+      "id": "882194846",
+      "title": "Sign in",
+      "url": "https://ifttt.com/myrecipes/personal/14435291",
       "date": "2015-03-29"
     },
     {
@@ -2792,15 +2840,15 @@
       "date": "2015-03-23"
     },
     {
-      "id": "866933444",
-      "title": "Agile Is About Risk Mitigation -",
-      "url": "https://www.leadingagile.com/2015/03/agile-is-risk-mitigation/",
-      "date": "2015-03-22"
-    },
-    {
       "id": "874365916",
       "title": "Why I Don't Want to Talk About 'Women in Tech' : Life as I Know It",
       "url": "http://kronda.com/why-i-dont-want-to-talk-about-women-in-tech/",
+      "date": "2015-03-22"
+    },
+    {
+      "id": "866933444",
+      "title": "Agile Is About Risk Mitigation -",
+      "url": "https://www.leadingagile.com/2015/03/agile-is-risk-mitigation/",
       "date": "2015-03-22"
     },
     {
@@ -2810,9 +2858,9 @@
       "date": "2015-03-21"
     },
     {
-      "id": "43083",
-      "title": "Manifesto for Agile Software Development",
-      "url": "http://agilemanifesto.org/",
+      "id": "869666422",
+      "title": "agileoverflow.com -&nbspagileoverflow Resources and Information.",
+      "url": "http://agileoverflow.com/t/scrum-seems-to-be-mostly-about-having-better-alibis/47",
       "date": "2015-03-15"
     },
     {
@@ -2822,9 +2870,9 @@
       "date": "2015-03-15"
     },
     {
-      "id": "869666422",
-      "title": "agileoverflow.com -&nbspagileoverflow Resources and Information.",
-      "url": "http://agileoverflow.com/t/scrum-seems-to-be-mostly-about-having-better-alibis/47",
+      "id": "43083",
+      "title": "Manifesto for Agile Software Development",
+      "url": "http://agilemanifesto.org/",
       "date": "2015-03-15"
     },
     {
@@ -2852,9 +2900,9 @@
       "date": "2015-03-04"
     },
     {
-      "id": "300208310",
-      "title": "CamelCase vs underscores: Scientific showdown",
-      "url": "https://whathecode.wordpress.com/2011/02/10/camelcase-vs-underscores-scientific-showdown/",
+      "id": "601984055",
+      "title": "Introducing Content Security Policy",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy",
       "date": "2015-03-03"
     },
     {
@@ -2864,9 +2912,9 @@
       "date": "2015-03-03"
     },
     {
-      "id": "601984055",
-      "title": "Introducing Content Security Policy",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy",
+      "id": "300208310",
+      "title": "CamelCase vs underscores: Scientific showdown",
+      "url": "https://whathecode.wordpress.com/2011/02/10/camelcase-vs-underscores-scientific-showdown/",
       "date": "2015-03-03"
     },
     {
@@ -2894,12 +2942,6 @@
       "date": "2015-02-28"
     },
     {
-      "id": "855304125",
-      "title": "TDD: A Blueprint for Choosing Metrics",
-      "url": "http://blog.librato.com/posts/test-driven-development?utm_campaign=tdd-hackernewsletter-ppc&utm_content=blog&utm_medium=tdd-hackernewsletter-ppc&utm_source=ppc",
-      "date": "2015-02-27"
-    },
-    {
       "id": "855308022",
       "title": "Justin Jackson writes, broadcasts, and creates stuff for independent makers.",
       "url": "https://justinjackson.ca/where-do-you-find-the-time-for-side-projects/",
@@ -2912,15 +2954,21 @@
       "date": "2015-02-27"
     },
     {
-      "id": "853603580",
-      "title": "The Sorrows of Young Developer",
-      "url": "http://dev.mikamai.com/post/112047697144/the-sorrows-of-young-developer",
-      "date": "2015-02-26"
+      "id": "855304125",
+      "title": "TDD: A Blueprint for Choosing Metrics",
+      "url": "http://blog.librato.com/posts/test-driven-development?utm_campaign=tdd-hackernewsletter-ppc&utm_content=blog&utm_medium=tdd-hackernewsletter-ppc&utm_source=ppc",
+      "date": "2015-02-27"
     },
     {
       "id": "19498699",
       "title": "Chicken or the egg",
       "url": "https://en.wikipedia.org/wiki/Chicken_or_the_egg",
+      "date": "2015-02-26"
+    },
+    {
+      "id": "853603580",
+      "title": "The Sorrows of Young Developer",
+      "url": "http://dev.mikamai.com/post/112047697144/the-sorrows-of-young-developer",
       "date": "2015-02-26"
     },
     {
@@ -2960,6 +3008,12 @@
       "date": "2015-02-22"
     },
     {
+      "id": "848957677",
+      "title": "Million user webchat with Full Stack Flux, React, redis and PostgreSQL",
+      "url": "https://blog.rotenberg.io/million-user-webchat-with-full-stack-flux-react-redis-and-postgresql/?utm_source=hackernewsletter&utm_medium=email&utm_term=code",
+      "date": "2015-02-21"
+    },
+    {
       "id": "830158109",
       "title": "We Learned Us Some Erlang",
       "url": "https://medium.com/talko-team-talk-share-do/we-learned-us-some-erlang-ef06bd44e3c2",
@@ -2972,9 +3026,9 @@
       "date": "2015-02-21"
     },
     {
-      "id": "848957677",
-      "title": "Million user webchat with Full Stack Flux, React, redis and PostgreSQL",
-      "url": "https://blog.rotenberg.io/million-user-webchat-with-full-stack-flux-react-redis-and-postgresql/?utm_source=hackernewsletter&utm_medium=email&utm_term=code",
+      "id": "850141569",
+      "title": "Extreme programming",
+      "url": "https://thesoftwarebasement.wordpress.com/2015/02/15/extreme-programming/#_770257",
       "date": "2015-02-21"
     },
     {
@@ -2984,15 +3038,9 @@
       "date": "2015-02-21"
     },
     {
-      "id": "850141569",
-      "title": "Extreme programming",
-      "url": "https://thesoftwarebasement.wordpress.com/2015/02/15/extreme-programming/#_770257",
-      "date": "2015-02-21"
-    },
-    {
-      "id": "833079011",
-      "title": "Self-Organizing Teams... Really? : The Agile Management Blog",
-      "url": "http://blogs.versionone.com/agile_management/2015/02/02/self-organizing-teams-really/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+VersionOne+%28VersionOne+Blog%29",
+      "id": "368051753",
+      "title": "Understanding Scopes · angular/angular.js Wiki · GitHub",
+      "url": "https://github.com/angular/angular.js/wiki/Understanding-Scopes",
       "date": "2015-02-15"
     },
     {
@@ -3002,27 +3050,27 @@
       "date": "2015-02-15"
     },
     {
-      "id": "368051753",
-      "title": "Understanding Scopes · angular/angular.js Wiki · GitHub",
-      "url": "https://github.com/angular/angular.js/wiki/Understanding-Scopes",
-      "date": "2015-02-15"
-    },
-    {
       "id": "837998401",
       "title": "Redirecting...",
       "url": "http://brikis98.blogspot.com.au/2015/02/are-static-typing-and-functional.html",
       "date": "2015-02-15"
     },
     {
-      "id": "570979884",
-      "title": "Why OCaml, why now?",
-      "url": "https://spyder.wordpress.com/2014/03/16/why-ocaml-why-now/",
-      "date": "2015-02-14"
+      "id": "833079011",
+      "title": "Self-Organizing Teams... Really? : The Agile Management Blog",
+      "url": "http://blogs.versionone.com/agile_management/2015/02/02/self-organizing-teams-really/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+VersionOne+%28VersionOne+Blog%29",
+      "date": "2015-02-15"
     },
     {
       "id": "842813173",
       "title": "Stop wasting time trying to get estimates right! – and what to do instead",
       "url": "http://agileupgrade.com/stop-wasting-time-trying-to-get-estimates-right-and-what-to-do-instead/",
+      "date": "2015-02-14"
+    },
+    {
+      "id": "570979884",
+      "title": "Why OCaml, why now?",
+      "url": "https://spyder.wordpress.com/2014/03/16/why-ocaml-why-now/",
       "date": "2015-02-14"
     },
     {
@@ -3044,27 +3092,9 @@
       "date": "2015-02-08"
     },
     {
-      "id": "836622562",
-      "title": "Screw motivation, what you need is discipline.",
-      "url": "http://www.wisdomination.com/screw-motivation-what-you-need-is-discipline/",
-      "date": "2015-02-07"
-    },
-    {
       "id": "396153155",
       "title": "Do call yourself a programmer, and other career advice",
       "url": "http://yosefk.com/blog/do-call-yourself-a-programmer-and-other-career-advice.html",
-      "date": "2015-02-07"
-    },
-    {
-      "id": "112804981",
-      "title": "Don't Call Yourself A Programmer, And Other Career Advice",
-      "url": "https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/",
-      "date": "2015-02-07"
-    },
-    {
-      "id": "155027071",
-      "title": "TestPyramid",
-      "url": "https://martinfowler.com/bliki/TestPyramid.html",
       "date": "2015-02-07"
     },
     {
@@ -3074,27 +3104,33 @@
       "date": "2015-02-07"
     },
     {
+      "id": "155027071",
+      "title": "TestPyramid",
+      "url": "https://martinfowler.com/bliki/TestPyramid.html",
+      "date": "2015-02-07"
+    },
+    {
+      "id": "112804981",
+      "title": "Don't Call Yourself A Programmer, And Other Career Advice",
+      "url": "https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/",
+      "date": "2015-02-07"
+    },
+    {
       "id": "249355",
       "title": "Principles behind the Agile Manifesto",
       "url": "http://agilemanifesto.org/principles.html",
       "date": "2015-02-07"
     },
     {
+      "id": "836622562",
+      "title": "Screw motivation, what you need is discipline.",
+      "url": "http://www.wisdomination.com/screw-motivation-what-you-need-is-discipline/",
+      "date": "2015-02-07"
+    },
+    {
       "id": "830317131",
       "title": "Moving from Node.js to Go at Bowery",
       "url": "http://bowery.io/posts/Nodejs-to-Golang-Bowery/",
-      "date": "2015-02-03"
-    },
-    {
-      "id": "830317943",
-      "title": "A practical introduction to functional programming at Mary Rose Cook",
-      "url": "http://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming?utm_source=hackernewsletter&utm_medium=email&utm_term=code",
-      "date": "2015-02-03"
-    },
-    {
-      "id": "833248653",
-      "title": "CORE JAVA QUESTIONS FOR INTERVIEW : Part 1",
-      "url": "http://www.java-4-u.com/core-java-questions-interview/",
       "date": "2015-02-03"
     },
     {
@@ -3110,15 +3146,27 @@
       "date": "2015-02-03"
     },
     {
+      "id": "833249476",
+      "title": "You Aren't Doing Scrum If...",
+      "url": "http://java.dzone.com/articles/you-arent-doing-scrum-if",
+      "date": "2015-02-03"
+    },
+    {
+      "id": "830317943",
+      "title": "A practical introduction to functional programming at Mary Rose Cook",
+      "url": "http://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming?utm_source=hackernewsletter&utm_medium=email&utm_term=code",
+      "date": "2015-02-03"
+    },
+    {
       "id": "833248960",
       "title": "Why JavaScript Is Doomed",
       "url": "https://www.devbattles.com/en/sand/post-703-Why+JavaScript+Is+Doomed",
       "date": "2015-02-03"
     },
     {
-      "id": "833249476",
-      "title": "You Aren't Doing Scrum If...",
-      "url": "http://java.dzone.com/articles/you-arent-doing-scrum-if",
+      "id": "833248653",
+      "title": "CORE JAVA QUESTIONS FOR INTERVIEW : Part 1",
+      "url": "http://www.java-4-u.com/core-java-questions-interview/",
       "date": "2015-02-03"
     },
     {
@@ -3146,16 +3194,22 @@
       "date": "2015-01-27"
     },
     {
+      "id": "234298506",
+      "title": "Cloud-based Monitoring Service for Servers, Networks, Websites and Web Services, SaaS Monitoring - Anturis",
+      "url": "https://anturis.com",
+      "date": "2015-01-25"
+    },
+    {
       "id": "823462008",
       "title": "AngularJS Unit Testing Best Practices",
       "url": "http://blog.codeship.com/angularjs-tdd/?utm_source=CodeshipNewsletter&utm_medium=newsletter&utm_campaign=JavaScript",
       "date": "2015-01-25"
     },
     {
-      "id": "234298506",
-      "title": "Cloud-based Monitoring Service for Servers, Networks, Websites and Web Services, SaaS Monitoring - Anturis",
-      "url": "https://anturis.com",
-      "date": "2015-01-25"
+      "id": "518547276",
+      "title": "Dijkstra on Haskell and Java",
+      "url": "http://chrisdone.com/posts/dijkstra-haskell-java",
+      "date": "2015-01-24"
     },
     {
       "id": "755861603",
@@ -3167,12 +3221,6 @@
       "id": "98140897",
       "title": "Playbook for software design and development",
       "url": "http://playbook.thoughtbot.com/",
-      "date": "2015-01-24"
-    },
-    {
-      "id": "518547276",
-      "title": "Dijkstra on Haskell and Java",
-      "url": "http://chrisdone.com/posts/dijkstra-haskell-java",
       "date": "2015-01-24"
     },
     {
@@ -3188,9 +3236,9 @@
       "date": "2015-01-23"
     },
     {
-      "id": "815932957",
-      "title": "Go fast with $applyAsync in Angular 1.3",
-      "url": "https://blog.thoughtram.io/angularjs/2015/01/14/exploring-angular-1.3-speed-up-with-applyAsync.html",
+      "id": "822153517",
+      "title": "Making Skinny AngularJS Controllers",
+      "url": "https://scotch.io/tutorials/making-skinny-angularjs-controllers",
       "date": "2015-01-21"
     },
     {
@@ -3200,15 +3248,15 @@
       "date": "2015-01-21"
     },
     {
-      "id": "820051217",
-      "title": "Has visual design fallen flat?",
-      "url": "https://blog.intercom.io/has-visual-design-fallen-flat/",
+      "id": "815932957",
+      "title": "Go fast with $applyAsync in Angular 1.3",
+      "url": "https://blog.thoughtram.io/angularjs/2015/01/14/exploring-angular-1.3-speed-up-with-applyAsync.html",
       "date": "2015-01-21"
     },
     {
-      "id": "822153517",
-      "title": "Making Skinny AngularJS Controllers",
-      "url": "https://scotch.io/tutorials/making-skinny-angularjs-controllers",
+      "id": "820051217",
+      "title": "Has visual design fallen flat?",
+      "url": "https://blog.intercom.io/has-visual-design-fallen-flat/",
       "date": "2015-01-21"
     },
     {
@@ -3242,15 +3290,15 @@
       "date": "2015-01-19"
     },
     {
-      "id": "41774106",
-      "title": "Tail call",
-      "url": "https://en.wikipedia.org/wiki/Tail_call",
-      "date": "2015-01-18"
-    },
-    {
       "id": "804686186",
       "title": "Functional Programming should be your #1 priority for 2015",
       "url": "https://medium.com/@jugoncalves/functional-programming-should-be-your-1-priority-for-2015-47dd4641d6b9",
+      "date": "2015-01-18"
+    },
+    {
+      "id": "41774106",
+      "title": "Tail call",
+      "url": "https://en.wikipedia.org/wiki/Tail_call",
       "date": "2015-01-18"
     },
     {
@@ -3272,18 +3320,6 @@
       "date": "2015-01-18"
     },
     {
-      "id": "817509015",
-      "title": "We Suck at HTTP",
-      "url": "http://gadgetopia.com/post/9236",
-      "date": "2015-01-17"
-    },
-    {
-      "id": "817886381",
-      "title": "What Doesn't Seem Like Work?",
-      "url": "http://www.paulgraham.com/work.html",
-      "date": "2015-01-17"
-    },
-    {
       "id": "474926299",
       "title": "alex/what-happens-when",
       "url": "https://github.com/alex/what-happens-when",
@@ -3296,9 +3332,21 @@
       "date": "2015-01-17"
     },
     {
+      "id": "817509015",
+      "title": "We Suck at HTTP",
+      "url": "http://gadgetopia.com/post/9236",
+      "date": "2015-01-17"
+    },
+    {
       "id": "818417147",
       "title": "The Unix Philosophy / mrzool / designer & developer / berlin",
       "url": "http://mrzool.cc/unix/",
+      "date": "2015-01-17"
+    },
+    {
+      "id": "817886381",
+      "title": "What Doesn't Seem Like Work?",
+      "url": "http://www.paulgraham.com/work.html",
       "date": "2015-01-17"
     },
     {
@@ -3308,21 +3356,15 @@
       "date": "2015-01-15"
     },
     {
-      "id": "815333388",
-      "title": "Making Skinny AngularJS Controllers",
-      "url": "https://scotch.io/tutorials/making-skinny-angularjs-controllers",
-      "date": "2015-01-14"
-    },
-    {
-      "id": "473871529",
-      "title": "Grid System",
-      "url": "http://ux.mailchimp.com/patterns#grid-sizes",
-      "date": "2015-01-14"
-    },
-    {
       "id": "813086077",
       "title": "Hypothesis driven UX design",
       "url": "https://medium.com/@mwambach1/hypotheses-driven-ux-design-c75fbf3ce7cc#.p6jark8cj",
+      "date": "2015-01-14"
+    },
+    {
+      "id": "815333388",
+      "title": "Making Skinny AngularJS Controllers",
+      "url": "https://scotch.io/tutorials/making-skinny-angularjs-controllers",
       "date": "2015-01-14"
     },
     {
@@ -3332,15 +3374,21 @@
       "date": "2015-01-14"
     },
     {
-      "id": "690137348",
-      "title": "I don’t measure test coverage",
-      "url": "https://silkandspinach.net/2014/08/14/i-dont-measure-test-coverage/",
-      "date": "2015-01-13"
+      "id": "473871529",
+      "title": "Grid System",
+      "url": "http://ux.mailchimp.com/patterns#grid-sizes",
+      "date": "2015-01-14"
     },
     {
       "id": "62895526",
       "title": "Testing and Code Coverage",
       "url": "https://pjcj.net/testing_and_code_coverage/paper.html",
+      "date": "2015-01-13"
+    },
+    {
+      "id": "690137348",
+      "title": "I don’t measure test coverage",
+      "url": "https://silkandspinach.net/2014/08/14/i-dont-measure-test-coverage/",
       "date": "2015-01-13"
     },
     {
@@ -3362,18 +3410,6 @@
       "date": "2015-01-11"
     },
     {
-      "id": "1090453",
-      "title": "Introduction",
-      "url": "http://www.haskell.org/haskellwiki/Introduction",
-      "date": "2015-01-10"
-    },
-    {
-      "id": "809421509",
-      "title": "How HoursTracker earns five figures a month on the App Store",
-      "url": "https://medium.com/@carlosribas/how-hourstracker-earns-five-figures-a-month-on-the-app-store-85a20bb972eb",
-      "date": "2015-01-10"
-    },
-    {
       "id": "809791490",
       "title": "How to Get Read on Medium",
       "url": "https://medium.com/@Medium/how-to-get-read-on-medium-aa88e30495a",
@@ -3386,15 +3422,27 @@
       "date": "2015-01-10"
     },
     {
-      "id": "791450787",
-      "title": "JavaScript Application Architecture On The Road To 2015",
-      "url": "https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b",
+      "id": "1090453",
+      "title": "Introduction",
+      "url": "http://www.haskell.org/haskellwiki/Introduction",
       "date": "2015-01-10"
     },
     {
       "id": "811716001",
       "title": "To Fall in Love With Anyone, Do This",
       "url": "https://www.nytimes.com/2015/01/11/fashion/modern-love-to-fall-in-love-with-anyone-do-this.html",
+      "date": "2015-01-10"
+    },
+    {
+      "id": "809421509",
+      "title": "How HoursTracker earns five figures a month on the App Store",
+      "url": "https://medium.com/@carlosribas/how-hourstracker-earns-five-figures-a-month-on-the-app-store-85a20bb972eb",
+      "date": "2015-01-10"
+    },
+    {
+      "id": "791450787",
+      "title": "JavaScript Application Architecture On The Road To 2015",
+      "url": "https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b",
       "date": "2015-01-10"
     },
     {
@@ -3410,33 +3458,21 @@
       "date": "2015-01-08"
     },
     {
-      "id": "775063511",
-      "title": "Understanding Nginx HTTP Proxying, Load Balancing, Buffering, and Caching",
-      "url": "https://www.digitalocean.com/community/tutorials/understanding-nginx-http-proxying-load-balancing-buffering-and-caching",
-      "date": "2015-01-08"
-    },
-    {
       "id": "809945500",
       "title": "Notes: Microservices by Martin Fowler",
       "url": "https://www.javacodegeeks.com/2015/01/notes-microservices-by-martin-fowler.html",
       "date": "2015-01-08"
     },
     {
-      "id": "384550101",
-      "title": "Scrum Values",
-      "url": "https://www.scrumalliance.org/why-scrum/core-scrum-values-roles",
-      "date": "2015-01-06"
+      "id": "775063511",
+      "title": "Understanding Nginx HTTP Proxying, Load Balancing, Buffering, and Caching",
+      "url": "https://www.digitalocean.com/community/tutorials/understanding-nginx-http-proxying-load-balancing-buffering-and-caching",
+      "date": "2015-01-08"
     },
     {
-      "id": "808699940",
-      "title": "How GitHub uses GitHub to document GitHub",
-      "url": "https://github.com/blog/1939-how-github-uses-github-to-document-github",
-      "date": "2015-01-06"
-    },
-    {
-      "id": "303851969",
-      "title": "Levels of Agile Coaching",
-      "url": "http://lmsgoncalves.com/2013/02/18/levels-of-agile-coaching/",
+      "id": "808505751",
+      "title": "Ricerca empirica",
+      "url": "http://it.wikipedia.org/wiki/Ricerca_empirica",
       "date": "2015-01-06"
     },
     {
@@ -3446,9 +3482,21 @@
       "date": "2015-01-06"
     },
     {
-      "id": "808505751",
-      "title": "Ricerca empirica",
-      "url": "http://it.wikipedia.org/wiki/Ricerca_empirica",
+      "id": "303851969",
+      "title": "Levels of Agile Coaching",
+      "url": "http://lmsgoncalves.com/2013/02/18/levels-of-agile-coaching/",
+      "date": "2015-01-06"
+    },
+    {
+      "id": "808699940",
+      "title": "How GitHub uses GitHub to document GitHub",
+      "url": "https://github.com/blog/1939-how-github-uses-github-to-document-github",
+      "date": "2015-01-06"
+    },
+    {
+      "id": "384550101",
+      "title": "Scrum Values",
+      "url": "https://www.scrumalliance.org/why-scrum/core-scrum-values-roles",
       "date": "2015-01-06"
     },
     {
@@ -3464,9 +3512,9 @@
       "date": "2015-01-03"
     },
     {
-      "id": "805224266",
-      "title": "How to learn efficiently",
-      "url": "http://lemire.me/blog/archives/2014/12/30/how-to-learn-efficiently/?utm_source=hackernewsletter&utm_medium=email&utm_term=learn",
+      "id": "802214222",
+      "title": "Environment Variables Considered Harmful for Your Secrets",
+      "url": "http://movingfast.io/articles/environment-variables-considered-harmful/",
       "date": "2015-01-02"
     },
     {
@@ -3476,33 +3524,21 @@
       "date": "2015-01-02"
     },
     {
+      "id": "805224266",
+      "title": "How to learn efficiently",
+      "url": "http://lemire.me/blog/archives/2014/12/30/how-to-learn-efficiently/?utm_source=hackernewsletter&utm_medium=email&utm_term=learn",
+      "date": "2015-01-02"
+    },
+    {
       "id": "805276176",
       "title": "There are no projects like side projects (Piotr Migdał, January 2015)",
       "url": "http://crastina.se/theres-no-projects-like-side-projects/",
       "date": "2015-01-02"
     },
     {
-      "id": "802214222",
-      "title": "Environment Variables Considered Harmful for Your Secrets",
-      "url": "http://movingfast.io/articles/environment-variables-considered-harmful/",
-      "date": "2015-01-02"
-    },
-    {
-      "id": "802874169",
-      "title": "How Do You Take an App From No Tests to TDD?",
-      "url": "http://www.justinweiss.com/blog/2014/12/30/how-do-you-take-an-app-from-test-less-to-tdd/",
-      "date": "2014-12-30"
-    },
-    {
       "id": "375200653",
       "title": "Edward Snowden",
       "url": "https://en.wikipedia.org/wiki/Edward_Snowden",
-      "date": "2014-12-30"
-    },
-    {
-      "id": "802986536",
-      "title": "Generation Javascript",
-      "url": "https://manuel.bernhardt.io/2014/12/30/generation-javascript/",
       "date": "2014-12-30"
     },
     {
@@ -3512,10 +3548,28 @@
       "date": "2014-12-30"
     },
     {
+      "id": "802874169",
+      "title": "How Do You Take an App From No Tests to TDD?",
+      "url": "http://www.justinweiss.com/blog/2014/12/30/how-do-you-take-an-app-from-test-less-to-tdd/",
+      "date": "2014-12-30"
+    },
+    {
+      "id": "802986536",
+      "title": "Generation Javascript",
+      "url": "https://manuel.bernhardt.io/2014/12/30/generation-javascript/",
+      "date": "2014-12-30"
+    },
+    {
       "id": "762695937",
       "title": "Agile Needs to Be Both Iterative and Incremental",
       "url": "http://www.mountaingoatsoftware.com/blog/agile-needs-to-be-both-iterative-and-incremental",
       "date": "2014-12-27"
+    },
+    {
+      "id": "800284197",
+      "title": "Let the Other 95% of Great Programmers In",
+      "url": "http://paulgraham.com/95.html",
+      "date": "2014-12-26"
     },
     {
       "id": "722112368",
@@ -3527,12 +3581,6 @@
       "id": "800086966",
       "title": "How to Send Email Like a Startup",
       "url": "https://www.sendwithus.com/resources/guide/?utm_source=hackernewsletter&utm_medium=email&utm_term=fav",
-      "date": "2014-12-26"
-    },
-    {
-      "id": "800284197",
-      "title": "Let the Other 95% of Great Programmers In",
-      "url": "http://paulgraham.com/95.html",
       "date": "2014-12-26"
     },
     {
@@ -3548,6 +3596,12 @@
       "date": "2014-12-25"
     },
     {
+      "id": "797564252",
+      "title": "Minimalism: It’s Not What You Think",
+      "url": "http://www.breakthetwitch.com/minimalism-not-what-you-think/",
+      "date": "2014-12-22"
+    },
+    {
       "id": "796682393",
       "title": "Detecting Refactoring Diligence",
       "url": "https://michaelfeathers.silvrback.com/detecting-refactoring-diligence",
@@ -3555,12 +3609,6 @@
     },
     {
       "id": "797564215",
-      "title": "Minimalism: It’s Not What You Think",
-      "url": "http://www.breakthetwitch.com/minimalism-not-what-you-think/",
-      "date": "2014-12-22"
-    },
-    {
-      "id": "797564252",
       "title": "Minimalism: It’s Not What You Think",
       "url": "http://www.breakthetwitch.com/minimalism-not-what-you-think/",
       "date": "2014-12-22"
@@ -3590,21 +3638,21 @@
       "date": "2014-12-17"
     },
     {
-      "id": "790661239",
-      "title": "Working remotely for extroverts",
-      "url": "http://hoppycow.com/2014/12/13/dear-mjbrender-working-remotely-for-extroverts/",
-      "date": "2014-12-14"
-    },
-    {
       "id": "523449850",
       "title": "Your Voice – speaking.io",
       "url": "https://speaking.io/deliver/your-voice/",
       "date": "2014-12-14"
     },
     {
-      "id": "789540192",
-      "title": "Naming Test Classes and Methods",
-      "url": "https://codurance.com/2014/12/13/naming-test-classes-and-methods/",
+      "id": "790661239",
+      "title": "Working remotely for extroverts",
+      "url": "http://hoppycow.com/2014/12/13/dear-mjbrender-working-remotely-for-extroverts/",
+      "date": "2014-12-14"
+    },
+    {
+      "id": "643373478",
+      "title": "How to maintain a successful open source project",
+      "url": "https://medium.com/@shazow/how-to-maintain-a-successful-open-source-project-aaa2a5437d3a",
       "date": "2014-12-13"
     },
     {
@@ -3614,15 +3662,15 @@
       "date": "2014-12-13"
     },
     {
-      "id": "643373478",
-      "title": "How to maintain a successful open source project",
-      "url": "https://medium.com/@shazow/how-to-maintain-a-successful-open-source-project-aaa2a5437d3a",
+      "id": "789540192",
+      "title": "Naming Test Classes and Methods",
+      "url": "https://codurance.com/2014/12/13/naming-test-classes-and-methods/",
       "date": "2014-12-13"
     },
     {
-      "id": "789294404",
-      "title": "AngularJS one-time binding syntax",
-      "url": "https://toddmotto.com/angular-one-time-binding-syntax/",
+      "id": "787125272",
+      "title": "Fast Growing DigitalOcean Receives $50 Million to Expand in Every Direction",
+      "url": "http://www.businesswire.com/news/home/20141209006143/en/Fast-Growing-DigitalOcean-Receives-50-Million-Expand",
       "date": "2014-12-12"
     },
     {
@@ -3632,9 +3680,9 @@
       "date": "2014-12-12"
     },
     {
-      "id": "787125272",
-      "title": "Fast Growing DigitalOcean Receives $50 Million to Expand in Every Direction",
-      "url": "http://www.businesswire.com/news/home/20141209006143/en/Fast-Growing-DigitalOcean-Receives-50-Million-Expand",
+      "id": "789294404",
+      "title": "AngularJS one-time binding syntax",
+      "url": "https://toddmotto.com/angular-one-time-binding-syntax/",
       "date": "2014-12-12"
     },
     {
@@ -3644,15 +3692,15 @@
       "date": "2014-12-08"
     },
     {
-      "id": "785667610",
-      "title": "Why I’m Giving Up My Passport",
-      "url": "https://www.nytimes.com/2014/12/08/opinion/why-im-giving-up-my-american-citizenship-passport.html",
-      "date": "2014-12-08"
-    },
-    {
       "id": "782352362",
       "title": "Popular Coding Framework Node.js Is Now Seriously Forked",
       "url": "http://readwrite.com/2014/12/04/node-js-fork-io-js?_escaped_fragment_=",
+      "date": "2014-12-08"
+    },
+    {
+      "id": "785667610",
+      "title": "Why I’m Giving Up My Passport",
+      "url": "https://www.nytimes.com/2014/12/08/opinion/why-im-giving-up-my-american-citizenship-passport.html",
       "date": "2014-12-08"
     },
     {
@@ -3662,15 +3710,9 @@
       "date": "2014-12-07"
     },
     {
-      "id": "716864685",
-      "title": "The week-end freedom test",
-      "url": "http://lemire.me/blog/archives/2014/09/17/the-week-end-freedom-test/",
-      "date": "2014-12-06"
-    },
-    {
-      "id": "220729319",
-      "title": "Agile DevOps: Infrastructure automation",
-      "url": "http://www.ibm.com/developerworks/java/library/a-devops2/index.html",
+      "id": "246897326",
+      "title": "Agile DevOps: Test-driven infrastructure",
+      "url": "http://www.ibm.com/developerworks/opensource/library/a-devops5/index.html",
       "date": "2014-12-06"
     },
     {
@@ -3680,9 +3722,15 @@
       "date": "2014-12-06"
     },
     {
-      "id": "246897326",
-      "title": "Agile DevOps: Test-driven infrastructure",
-      "url": "http://www.ibm.com/developerworks/opensource/library/a-devops5/index.html",
+      "id": "220729319",
+      "title": "Agile DevOps: Infrastructure automation",
+      "url": "http://www.ibm.com/developerworks/java/library/a-devops2/index.html",
+      "date": "2014-12-06"
+    },
+    {
+      "id": "716864685",
+      "title": "The week-end freedom test",
+      "url": "http://lemire.me/blog/archives/2014/09/17/the-week-end-freedom-test/",
       "date": "2014-12-06"
     },
     {
@@ -3698,15 +3746,15 @@
       "date": "2014-12-05"
     },
     {
-      "id": "783171651",
-      "title": "Java for Everything",
-      "url": "http://www.teamten.com/lawrence/writings/java-for-everything.html",
-      "date": "2014-12-05"
-    },
-    {
       "id": "783170686",
       "title": "The State of JavaScript in 2015",
       "url": "http://www.breck-mckye.com/blog/2014/12/the-state-of-javascript-in-2015/?utm_source=hackernewsletter&utm_medium=email&utm_term=fav",
+      "date": "2014-12-05"
+    },
+    {
+      "id": "783171651",
+      "title": "Java for Everything",
+      "url": "http://www.teamten.com/lawrence/writings/java-for-everything.html",
       "date": "2014-12-05"
     },
     {
@@ -3752,6 +3800,12 @@
       "date": "2014-11-26"
     },
     {
+      "id": "774008575",
+      "title": "OO vs FP",
+      "url": "http://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html",
+      "date": "2014-11-24"
+    },
+    {
       "id": "773748412",
       "title": "Functional Programming",
       "url": "http://scott.sauyet.com/Javascript/Talk/2014/01/FuncProgTalk/#slide-1",
@@ -3764,9 +3818,9 @@
       "date": "2014-11-24"
     },
     {
-      "id": "774008575",
-      "title": "OO vs FP",
-      "url": "http://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html",
+      "id": "691016788",
+      "title": "The Internet is compromised",
+      "url": "https://medium.com/@botherder/the-internet-is-compromised-4c66984abd7d",
       "date": "2014-11-24"
     },
     {
@@ -3776,21 +3830,15 @@
       "date": "2014-11-24"
     },
     {
-      "id": "691016788",
-      "title": "The Internet is compromised",
-      "url": "https://medium.com/@botherder/the-internet-is-compromised-4c66984abd7d",
-      "date": "2014-11-24"
+      "id": "557869091",
+      "title": "How To Achieve Ultimate Blog Success In One Easy Step",
+      "url": "https://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/",
+      "date": "2014-11-23"
     },
     {
       "id": "772827820",
       "title": "Why go for Scrum?",
       "url": "https://scrummethodology.wordpress.com/2014/11/19/why-go-for-scrum/#_476523",
-      "date": "2014-11-23"
-    },
-    {
-      "id": "557869091",
-      "title": "How To Achieve Ultimate Blog Success In One Easy Step",
-      "url": "https://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/",
       "date": "2014-11-23"
     },
     {
@@ -3806,15 +3854,15 @@
       "date": "2014-11-22"
     },
     {
-      "id": "167259870",
-      "title": "A Mess is not a Technical Debt.",
-      "url": "https://sites.google.com/site/unclebobconsultingllc/a-mess-is-not-a-technical-debt",
-      "date": "2014-11-21"
-    },
-    {
       "id": "771445140",
       "title": "Your developers aren’t slow",
       "url": "https://sprint.ly/blog/your-developers-arent-slow/",
+      "date": "2014-11-21"
+    },
+    {
+      "id": "167259870",
+      "title": "A Mess is not a Technical Debt.",
+      "url": "https://sites.google.com/site/unclebobconsultingllc/a-mess-is-not-a-technical-debt",
       "date": "2014-11-21"
     },
     {
@@ -3824,15 +3872,9 @@
       "date": "2014-11-21"
     },
     {
-      "id": "92938474",
-      "title": "Don’t use IDs in CSS selectors? ❧ Oli.jp (@boblet)",
-      "url": "http://oli.jp/2011/ids/",
-      "date": "2014-11-19"
-    },
-    {
-      "id": "764932167",
-      "title": "7 Rules for Creating Gorgeous UI (Part 1)",
-      "url": "https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda",
+      "id": "769940953",
+      "title": "Frog and toad, willpower, and microservice architecture",
+      "url": "http://devblog.avdi.org/2014/11/19/frog-and-toad-willpower-and-microservice-architecture/",
       "date": "2014-11-19"
     },
     {
@@ -3842,9 +3884,15 @@
       "date": "2014-11-19"
     },
     {
-      "id": "769940953",
-      "title": "Frog and toad, willpower, and microservice architecture",
-      "url": "http://devblog.avdi.org/2014/11/19/frog-and-toad-willpower-and-microservice-architecture/",
+      "id": "764932167",
+      "title": "7 Rules for Creating Gorgeous UI (Part 1)",
+      "url": "https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda",
+      "date": "2014-11-19"
+    },
+    {
+      "id": "92938474",
+      "title": "Don’t use IDs in CSS selectors? ❧ Oli.jp (@boblet)",
+      "url": "http://oli.jp/2011/ids/",
       "date": "2014-11-19"
     },
     {
@@ -3860,15 +3908,15 @@
       "date": "2014-11-17"
     },
     {
-      "id": "765809272",
-      "title": "My favourite Zsh features",
-      "url": "https://code.joejag.com/2014/why-zsh.html",
-      "date": "2014-11-16"
-    },
-    {
       "id": "755459524",
       "title": "Better All the Time",
       "url": "https://www.newyorker.com/magazine/2014/11/10/better-time",
+      "date": "2014-11-16"
+    },
+    {
+      "id": "765809272",
+      "title": "My favourite Zsh features",
+      "url": "https://code.joejag.com/2014/why-zsh.html",
       "date": "2014-11-16"
     },
     {
@@ -3890,15 +3938,9 @@
       "date": "2014-11-12"
     },
     {
-      "id": "753633053",
-      "title": "10 Things To Consider While Keeping a Level Head About AngularJS 2.0",
-      "url": "http://onehungrymind.com/10-things-consider-keeping-level-head-angularjs-2-0/",
-      "date": "2014-11-11"
-    },
-    {
-      "id": "623330278",
-      "title": "Pomodoro Technique® Considered Harmful (don’t worry: you are not using it)",
-      "url": "https://arialdomartini.wordpress.com/2014/05/19/pomodoro-technique-considered-harmful-dont-worry-you-are-not-using-it/",
+      "id": "654672136",
+      "title": "The dark side of .io: How the U.K. is making web domain profits from a shady Cold War land deal",
+      "url": "https://gigaom.com/2014/06/30/the-dark-side-of-io-how-the-u-k-is-making-web-domain-profits-from-a-shady-cold-war-land-deal/",
       "date": "2014-11-11"
     },
     {
@@ -3908,15 +3950,21 @@
       "date": "2014-11-11"
     },
     {
-      "id": "762776693",
-      "title": "What women in technology really think (150 of them, at least)",
-      "url": "https://jvns.ca/blog/2014/11/11/the-best-thing-ive-ever-read-about-women-in-technology/",
+      "id": "623330278",
+      "title": "Pomodoro Technique® Considered Harmful (don’t worry: you are not using it)",
+      "url": "https://arialdomartini.wordpress.com/2014/05/19/pomodoro-technique-considered-harmful-dont-worry-you-are-not-using-it/",
       "date": "2014-11-11"
     },
     {
-      "id": "654672136",
-      "title": "The dark side of .io: How the U.K. is making web domain profits from a shady Cold War land deal",
-      "url": "https://gigaom.com/2014/06/30/the-dark-side-of-io-how-the-u-k-is-making-web-domain-profits-from-a-shady-cold-war-land-deal/",
+      "id": "753633053",
+      "title": "10 Things To Consider While Keeping a Level Head About AngularJS 2.0",
+      "url": "http://onehungrymind.com/10-things-consider-keeping-level-head-angularjs-2-0/",
+      "date": "2014-11-11"
+    },
+    {
+      "id": "762776693",
+      "title": "What women in technology really think (150 of them, at least)",
+      "url": "https://jvns.ca/blog/2014/11/11/the-best-thing-ive-ever-read-about-women-in-technology/",
       "date": "2014-11-11"
     },
     {
@@ -3926,21 +3974,9 @@
       "date": "2014-11-10"
     },
     {
-      "id": "7212",
-      "title": "Agile software development",
-      "url": "https://en.wikipedia.org/wiki/Agile_software_development",
-      "date": "2014-11-09"
-    },
-    {
-      "id": "761207493",
-      "title": "Sherlock Holmes Debugging",
-      "url": "http://blog.seancassidy.me/sherlock-holmes-debugging.html",
-      "date": "2014-11-09"
-    },
-    {
-      "id": "477906523",
-      "title": "The Eternal Struggle Between Business and Programmers",
-      "url": "http://blog.thecodewhisperer.com/2013/11/11/the-eternal-struggle-between-business-and-programmers/",
+      "id": "37764251",
+      "title": "Service locator pattern",
+      "url": "https://en.wikipedia.org/wiki/Service_locator_pattern",
       "date": "2014-11-09"
     },
     {
@@ -3956,30 +3992,6 @@
       "date": "2014-11-09"
     },
     {
-      "id": "118484",
-      "title": "Dependency injection",
-      "url": "https://en.wikipedia.org/wiki/Dependency_injection",
-      "date": "2014-11-09"
-    },
-    {
-      "id": "37764251",
-      "title": "Service locator pattern",
-      "url": "https://en.wikipedia.org/wiki/Service_locator_pattern",
-      "date": "2014-11-09"
-    },
-    {
-      "id": "376323617",
-      "title": "The Origin of the 8-Hour Work Day and Why We Should Rethink It",
-      "url": "https://blog.bufferapp.com/optimal-work-time-how-long-should-we-work-every-day-the-science-of-mental-strength",
-      "date": "2014-11-09"
-    },
-    {
-      "id": "18059106",
-      "title": "Minimum viable product",
-      "url": "https://en.wikipedia.org/wiki/Minimum_viable_product",
-      "date": "2014-11-09"
-    },
-    {
       "id": "891073",
       "title": "Adapter pattern",
       "url": "https://en.wikipedia.org/wiki/Adapter_pattern",
@@ -3989,6 +4001,42 @@
       "id": "32158763",
       "title": "Bert Lance",
       "url": "https://en.wikipedia.org/wiki/Bert_Lance",
+      "date": "2014-11-09"
+    },
+    {
+      "id": "376323617",
+      "title": "The Origin of the 8-Hour Work Day and Why We Should Rethink It",
+      "url": "https://blog.bufferapp.com/optimal-work-time-how-long-should-we-work-every-day-the-science-of-mental-strength",
+      "date": "2014-11-09"
+    },
+    {
+      "id": "761207493",
+      "title": "Sherlock Holmes Debugging",
+      "url": "http://blog.seancassidy.me/sherlock-holmes-debugging.html",
+      "date": "2014-11-09"
+    },
+    {
+      "id": "477906523",
+      "title": "The Eternal Struggle Between Business and Programmers",
+      "url": "http://blog.thecodewhisperer.com/2013/11/11/the-eternal-struggle-between-business-and-programmers/",
+      "date": "2014-11-09"
+    },
+    {
+      "id": "7212",
+      "title": "Agile software development",
+      "url": "https://en.wikipedia.org/wiki/Agile_software_development",
+      "date": "2014-11-09"
+    },
+    {
+      "id": "118484",
+      "title": "Dependency injection",
+      "url": "https://en.wikipedia.org/wiki/Dependency_injection",
+      "date": "2014-11-09"
+    },
+    {
+      "id": "18059106",
+      "title": "Minimum viable product",
+      "url": "https://en.wikipedia.org/wiki/Minimum_viable_product",
       "date": "2014-11-09"
     },
     {
@@ -4010,9 +4058,9 @@
       "date": "2014-11-07"
     },
     {
-      "id": "759356413",
-      "title": "Broken sleep",
-      "url": "http://aeon.co/magazine/psychology/why-broken-sleep-is-a-golden-time-for-creativity/",
+      "id": "585222153",
+      "title": "This is how we ZenPayroll: Our Development Workflow",
+      "url": "http://engineering.zenpayroll.com/this-is-how-we-zenpayroll-our-development-workflow/",
       "date": "2014-11-07"
     },
     {
@@ -4022,9 +4070,9 @@
       "date": "2014-11-07"
     },
     {
-      "id": "585222153",
-      "title": "This is how we ZenPayroll: Our Development Workflow",
-      "url": "http://engineering.zenpayroll.com/this-is-how-we-zenpayroll-our-development-workflow/",
+      "id": "759356413",
+      "title": "Broken sleep",
+      "url": "http://aeon.co/magazine/psychology/why-broken-sleep-is-a-golden-time-for-creativity/",
       "date": "2014-11-07"
     },
     {
@@ -4034,34 +4082,16 @@
       "date": "2014-11-06"
     },
     {
-      "id": "757317977",
-      "title": "npm and front-end packaging - Prismatic",
-      "url": "http://getprismatic.com/story/1415127997943?utm_medium=email",
-      "date": "2014-11-05"
-    },
-    {
       "id": "756993203",
       "title": "7 Principles of Rich Web Applications",
       "url": "https://rauchg.com/2014/7-principles-of-rich-web-applications",
       "date": "2014-11-05"
     },
     {
-      "id": "1198537",
-      "title": "Plain Old Java Object",
-      "url": "https://en.wikipedia.org/wiki/Plain_Old_Java_Object",
-      "date": "2014-11-04"
-    },
-    {
-      "id": "756916859",
-      "title": "Mayday.us",
-      "url": "https://stripe.com/blog/mayday",
-      "date": "2014-11-04"
-    },
-    {
-      "id": "750570396",
-      "title": "The Three Laws of Interaction Design",
-      "url": "http://uxdiogenes.com/blog/the-three-laws-of-interaction-design",
-      "date": "2014-11-04"
+      "id": "757317977",
+      "title": "npm and front-end packaging - Prismatic",
+      "url": "http://getprismatic.com/story/1415127997943?utm_medium=email",
+      "date": "2014-11-05"
     },
     {
       "id": "755234071",
@@ -4076,10 +4106,22 @@
       "date": "2014-11-04"
     },
     {
-      "id": "102993600",
-      "title": "When using IDs can be a pain in the class...",
-      "url": "https://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/",
-      "date": "2014-11-01"
+      "id": "750570396",
+      "title": "The Three Laws of Interaction Design",
+      "url": "http://uxdiogenes.com/blog/the-three-laws-of-interaction-design",
+      "date": "2014-11-04"
+    },
+    {
+      "id": "1198537",
+      "title": "Plain Old Java Object",
+      "url": "https://en.wikipedia.org/wiki/Plain_Old_Java_Object",
+      "date": "2014-11-04"
+    },
+    {
+      "id": "756916859",
+      "title": "Mayday.us",
+      "url": "https://stripe.com/blog/mayday",
+      "date": "2014-11-04"
     },
     {
       "id": "751733477",
@@ -4088,15 +4130,21 @@
       "date": "2014-11-01"
     },
     {
-      "id": "753553948",
-      "title": "Carlo Pecchia",
-      "url": "http://carlopecchia.eu/",
-      "date": "2014-10-31"
+      "id": "102993600",
+      "title": "When using IDs can be a pain in the class...",
+      "url": "https://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/",
+      "date": "2014-11-01"
     },
     {
       "id": "631392756",
       "title": "bevacqua/js",
       "url": "https://github.com/bevacqua/js",
+      "date": "2014-10-31"
+    },
+    {
+      "id": "753553948",
+      "title": "Carlo Pecchia",
+      "url": "http://carlopecchia.eu/",
       "date": "2014-10-31"
     },
     {
@@ -4112,6 +4160,12 @@
       "date": "2014-10-28"
     },
     {
+      "id": "280145565",
+      "title": "Repository pattern, done right – jgauffin's coding den",
+      "url": "http://blog.gauffin.org/2013/01/repository-pattern-done-right/",
+      "date": "2014-10-27"
+    },
+    {
       "id": "165476739",
       "title": "SOLID principles with real world examples – jgauffin's coding den",
       "url": "http://blog.gauffin.org/2012/05/solid-principles-with-real-world-examples/",
@@ -4121,12 +4175,6 @@
       "id": "601871930",
       "title": "Brian Ford",
       "url": "http://briantford.com/blog/huuuuuge-angular-apps",
-      "date": "2014-10-27"
-    },
-    {
-      "id": "280145565",
-      "title": "Repository pattern, done right – jgauffin's coding den",
-      "url": "http://blog.gauffin.org/2013/01/repository-pattern-done-right/",
       "date": "2014-10-27"
     },
     {
@@ -4148,21 +4196,21 @@
       "date": "2014-10-25"
     },
     {
-      "id": "733623464",
-      "title": "Meteor, Cordova, and Famo.us: The Chill Way to Build Apps",
-      "url": "https://www.discovermeteor.com/blog/meteor-cordova-famous-the-chill-way-to-build-apps/",
-      "date": "2014-10-25"
-    },
-    {
       "id": "705917641",
       "title": "Pair Programming Is Not a Panacea",
       "url": "http://www.mattgreer.org/articles/pair-programming-is-not-a-panacea/",
       "date": "2014-10-25"
     },
     {
-      "id": "69211009",
-      "title": "I Hate Puzzles: Am I Still A Programmer?",
-      "url": "http://zef.me/3666/i-hate-puzzles/",
+      "id": "733623464",
+      "title": "Meteor, Cordova, and Famo.us: The Chill Way to Build Apps",
+      "url": "https://www.discovermeteor.com/blog/meteor-cordova-famous-the-chill-way-to-build-apps/",
+      "date": "2014-10-25"
+    },
+    {
+      "id": "744847858",
+      "title": "Axiomatic CSS and Lobotomized Owls",
+      "url": "https://alistapart.com/article/axiomatic-css-and-lobotomized-owls",
       "date": "2014-10-24"
     },
     {
@@ -4172,21 +4220,21 @@
       "date": "2014-10-24"
     },
     {
-      "id": "744847858",
-      "title": "Axiomatic CSS and Lobotomized Owls",
-      "url": "https://alistapart.com/article/axiomatic-css-and-lobotomized-owls",
+      "id": "69211009",
+      "title": "I Hate Puzzles: Am I Still A Programmer?",
+      "url": "http://zef.me/3666/i-hate-puzzles/",
       "date": "2014-10-24"
-    },
-    {
-      "id": "745628637",
-      "title": "What if Age Is Nothing but a Mind-Set?",
-      "url": "https://www.nytimes.com/2014/10/26/magazine/what-if-age-is-nothing-but-a-mind-set.html",
-      "date": "2014-10-22"
     },
     {
       "id": "731174623",
       "title": "Why You're Losing Proposals",
       "url": "http://jeffarchibald.ca/losing-proposals/",
+      "date": "2014-10-22"
+    },
+    {
+      "id": "745628637",
+      "title": "What if Age Is Nothing but a Mind-Set?",
+      "url": "https://www.nytimes.com/2014/10/26/magazine/what-if-age-is-nothing-but-a-mind-set.html",
       "date": "2014-10-22"
     },
     {
@@ -4316,12 +4364,6 @@
       "date": "2014-10-07"
     },
     {
-      "id": "731319741",
-      "title": "3 radical habits of highly successful remote teams",
-      "url": "https://thenextweb.com/entrepreneur/2014/10/05/3-radical-habits-highly-successful-remote-teams/",
-      "date": "2014-10-05"
-    },
-    {
       "id": "729749656",
       "title": "Don’t Do the Things You Love",
       "url": "http://op-talk.blogs.nytimes.com/2014/09/28/dont-do-the-things-you-love/?_php=true&_type=blogs&_php=true&_type=blogs&smid=fb-nytimes&smtyp=cur&bicmp=AD&bicmlukp=WT.mc_id&bicmst=1409232722000&bicmet=1419773522000&_r=1&utm_content=buffere0594&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer&",
@@ -4340,16 +4382,16 @@
       "date": "2014-10-05"
     },
     {
+      "id": "731319741",
+      "title": "3 radical habits of highly successful remote teams",
+      "url": "https://thenextweb.com/entrepreneur/2014/10/05/3-radical-habits-highly-successful-remote-teams/",
+      "date": "2014-10-05"
+    },
+    {
       "id": "730326900",
       "title": "An Overnight Success — How Product Hunt + Hacker News fueled 300k views in 30 days",
       "url": "https://medium.com/@jadlimcaco/an-overnight-success-660739c2a7e9",
       "date": "2014-10-04"
-    },
-    {
-      "id": "725180727",
-      "title": "UX Thought of the Day",
-      "url": "https://uxthought.uie.com/",
-      "date": "2014-10-03"
     },
     {
       "id": "13323",
@@ -4358,15 +4400,21 @@
       "date": "2014-10-03"
     },
     {
-      "id": "720947892",
-      "title": "How To Deploy a Meteor.js Application on Ubuntu 14.04 with Nginx",
-      "url": "https://www.digitalocean.com/community/tutorials/how-to-deploy-a-meteor-js-application-on-ubuntu-14-04-with-nginx",
-      "date": "2014-10-03"
-    },
-    {
       "id": "663068664",
       "title": "Horror Vacui",
       "url": "https://medium.com/about-codecademy/horror-vacui-1af263f068bb",
+      "date": "2014-10-03"
+    },
+    {
+      "id": "725180727",
+      "title": "UX Thought of the Day",
+      "url": "https://uxthought.uie.com/",
+      "date": "2014-10-03"
+    },
+    {
+      "id": "720947892",
+      "title": "How To Deploy a Meteor.js Application on Ubuntu 14.04 with Nginx",
+      "url": "https://www.digitalocean.com/community/tutorials/how-to-deploy-a-meteor-js-application-on-ubuntu-14-04-with-nginx",
       "date": "2014-10-03"
     },
     {
@@ -4382,22 +4430,16 @@
       "date": "2014-09-27"
     },
     {
-      "id": "724999420",
-      "title": "Out in the Open: The Site That Teaches You to Code Well Enough to Get a Job",
-      "url": "https://www.wired.com/2014/09/exercism/",
-      "date": "2014-09-27"
-    },
-    {
       "id": "724997019",
       "title": "A Long, Ugly Year of Depression That's Finally Fading : Rand's Blog",
       "url": "http://moz.com/rand/long-ugly-year-depression-thats-finally-fading/?utm_source=hackernewsletter&utm_medium=email&utm_term=fav",
       "date": "2014-09-27"
     },
     {
-      "id": "724056832",
-      "title": "Why Some Students Don’t Learn to Code — Bloc Weekly — Medium",
-      "url": "https://medium.com/@getaaron/why-some-students-dont-learn-to-code-fe3bce9e9b6c",
-      "date": "2014-09-26"
+      "id": "724999420",
+      "title": "Out in the Open: The Site That Teaches You to Code Well Enough to Get a Job",
+      "url": "https://www.wired.com/2014/09/exercism/",
+      "date": "2014-09-27"
     },
     {
       "id": "635817180",
@@ -4406,16 +4448,10 @@
       "date": "2014-09-26"
     },
     {
-      "id": "723179230",
-      "title": "The ROI of UX",
-      "url": "http://digitalmarketingnow.com/roi-of-ux",
-      "date": "2014-09-25"
-    },
-    {
-      "id": "718126923",
-      "title": "Go Programming For Beginners",
-      "url": "https://thenewstack.io/the-new-stack-intros-go-programming-for-beginners/",
-      "date": "2014-09-25"
+      "id": "724056832",
+      "title": "Why Some Students Don’t Learn to Code — Bloc Weekly — Medium",
+      "url": "https://medium.com/@getaaron/why-some-students-dont-learn-to-code-fe3bce9e9b6c",
+      "date": "2014-09-26"
     },
     {
       "id": "721834821",
@@ -4427,6 +4463,18 @@
       "id": "723278877",
       "title": "A Developer’s Guide to Perform SEO on AngularJS Web Apps",
       "url": "http://www.algoworks.com/blog/a-developers-guide-to-perform-seo-on-angularjs-web-apps/?utm_source=twitterfeed&utm_medium=twitter",
+      "date": "2014-09-25"
+    },
+    {
+      "id": "718126923",
+      "title": "Go Programming For Beginners",
+      "url": "https://thenewstack.io/the-new-stack-intros-go-programming-for-beginners/",
+      "date": "2014-09-25"
+    },
+    {
+      "id": "723179230",
+      "title": "The ROI of UX",
+      "url": "http://digitalmarketingnow.com/roi-of-ux",
       "date": "2014-09-25"
     },
     {
@@ -4448,21 +4496,15 @@
       "date": "2014-09-21"
     },
     {
-      "id": "720123811",
-      "title": "Running a website: Google App Engine vs. Amazon EC2",
-      "url": "http://putrats.com/blog/1",
-      "date": "2014-09-21"
-    },
-    {
-      "id": "237400955",
-      "title": "Pirate Bay Moves to The Cloud, Becomes Raid-Proof",
-      "url": "http://torrentfreak.com/pirate-bay-moves-to-the-cloud-becomes-raid-proof-121017/",
-      "date": "2014-09-21"
-    },
-    {
       "id": "719921781",
       "title": "The Pirate Bay Runs on 21 \"Raid-Proof\" Virtual Machines",
       "url": "https://torrentfreak.com/the-pirate-bay-runs-on-21-raid-proof-virtual-machines-140921/",
+      "date": "2014-09-21"
+    },
+    {
+      "id": "720123811",
+      "title": "Running a website: Google App Engine vs. Amazon EC2",
+      "url": "http://putrats.com/blog/1",
       "date": "2014-09-21"
     },
     {
@@ -4478,10 +4520,10 @@
       "date": "2014-09-21"
     },
     {
-      "id": "598198663",
-      "title": "HTTP access control (CORS)",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS",
-      "date": "2014-09-20"
+      "id": "237400955",
+      "title": "Pirate Bay Moves to The Cloud, Becomes Raid-Proof",
+      "url": "http://torrentfreak.com/pirate-bay-moves-to-the-cloud-becomes-raid-proof-121017/",
+      "date": "2014-09-21"
     },
     {
       "id": "470453253",
@@ -4499,6 +4541,12 @@
       "id": "602245450",
       "title": "Hosting static sites with Docker and Nginx",
       "url": "http://bricolage.io/hosting-static-sites-with-docker-and-nginx/",
+      "date": "2014-09-20"
+    },
+    {
+      "id": "598198663",
+      "title": "HTTP access control (CORS)",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS",
       "date": "2014-09-20"
     },
     {
@@ -4532,15 +4580,15 @@
       "date": "2014-09-15"
     },
     {
-      "id": "715330712",
-      "title": "Road to Rust 1.0",
-      "url": "http://blog.rust-lang.org/2014/09/15/Rust-1.0.html",
-      "date": "2014-09-15"
-    },
-    {
       "id": "715025545",
       "title": "Rebuilding Stackoverflow with AngularJS",
       "url": "https://blog.stamplay.com/create-a-qa-app-like-stackoverflow-with-angularjs/",
+      "date": "2014-09-15"
+    },
+    {
+      "id": "715330712",
+      "title": "Road to Rust 1.0",
+      "url": "http://blog.rust-lang.org/2014/09/15/Rust-1.0.html",
       "date": "2014-09-15"
     },
     {
@@ -4548,12 +4596,6 @@
       "title": "Refining The Way We Structure Our CSS At Trello",
       "url": "http://blog.trello.com/refining-the-way-we-structure-our-css-at-trello",
       "date": "2014-09-14"
-    },
-    {
-      "id": "711255520",
-      "title": "How quitting my corporate job for my startup dream f*cked my life up",
-      "url": "https://medium.com/everything-about-startups-and-entrepreneurship/how-quitting-my-corporate-job-for-my-startup-dream-f-cked-my-life-up-3b6b3e29b318",
-      "date": "2014-09-12"
     },
     {
       "id": "706631696",
@@ -4568,10 +4610,10 @@
       "date": "2014-09-12"
     },
     {
-      "id": "162087168",
-      "title": "Facebook’s numbers",
-      "url": "http://dcurt.is/facebooks-numbers",
-      "date": "2014-09-09"
+      "id": "711255520",
+      "title": "How quitting my corporate job for my startup dream f*cked my life up",
+      "url": "https://medium.com/everything-about-startups-and-entrepreneurship/how-quitting-my-corporate-job-for-my-startup-dream-f-cked-my-life-up-3b6b3e29b318",
+      "date": "2014-09-12"
     },
     {
       "id": "502792805",
@@ -4583,6 +4625,12 @@
       "id": "423590392",
       "title": "En2kindle",
       "url": "http://en2kindle.com/pocket/",
+      "date": "2014-09-09"
+    },
+    {
+      "id": "162087168",
+      "title": "Facebook’s numbers",
+      "url": "http://dcurt.is/facebooks-numbers",
       "date": "2014-09-09"
     },
     {
@@ -4616,15 +4664,15 @@
       "date": "2014-09-08"
     },
     {
-      "id": "65597714",
-      "title": "The Pomodoro Technique: Is It Right For You?",
-      "url": "https://www.lifehack.org/articles/productivity/the-pomodoro-technique-is-it-right-for-you.html",
-      "date": "2014-09-06"
-    },
-    {
       "id": "406193077",
       "title": "fat",
       "url": "https://medium.com/@fat",
+      "date": "2014-09-06"
+    },
+    {
+      "id": "65597714",
+      "title": "The Pomodoro Technique: Is It Right For You?",
+      "url": "https://www.lifehack.org/articles/productivity/the-pomodoro-technique-is-it-right-for-you.html",
       "date": "2014-09-06"
     },
     {
@@ -4634,33 +4682,21 @@
       "date": "2014-09-05"
     },
     {
-      "id": "561928169",
-      "title": "Two months early. 300k under budget",
-      "url": "https://thoughtworks.github.io/p2/issue09/two-months-early/",
-      "date": "2014-09-04"
-    },
-    {
       "id": "706032171",
       "title": "Why Walking Helps Us Think",
       "url": "http://www.newyorker.com/tech/elements/walking-helps-us-think",
       "date": "2014-09-04"
     },
     {
-      "id": "662132086",
-      "title": "Best Practices for Building Angular.js Apps",
-      "url": "https://medium.com/@dickeyxxx/best-practices-for-building-angular-js-apps-266c1a4a6917",
-      "date": "2014-09-03"
+      "id": "561928169",
+      "title": "Two months early. 300k under budget",
+      "url": "https://thoughtworks.github.io/p2/issue09/two-months-early/",
+      "date": "2014-09-04"
     },
     {
       "id": "705655535",
       "title": "Steve Blank Why Founders Should Know How to Code",
       "url": "https://steveblank.com/2014/09/03/should-founders-know-how-to-code/",
-      "date": "2014-09-03"
-    },
-    {
-      "id": "705948425",
-      "title": "AngularJS: Use constant service Instead of Magic Strings | Jeff Cunningham | LinkPlug",
-      "url": "http://www.linkplugapp.com/a/602925",
       "date": "2014-09-03"
     },
     {
@@ -4670,10 +4706,16 @@
       "date": "2014-09-03"
     },
     {
-      "id": "705011579",
-      "title": "What I use instead of Google services",
-      "url": "http://www.gabrielweinberg.com/blog/2014/09/what-i-use-instead-of-google-services.html",
-      "date": "2014-09-02"
+      "id": "662132086",
+      "title": "Best Practices for Building Angular.js Apps",
+      "url": "https://medium.com/@dickeyxxx/best-practices-for-building-angular-js-apps-266c1a4a6917",
+      "date": "2014-09-03"
+    },
+    {
+      "id": "705948425",
+      "title": "AngularJS: Use constant service Instead of Magic Strings | Jeff Cunningham | LinkPlug",
+      "url": "http://www.linkplugapp.com/a/602925",
+      "date": "2014-09-03"
     },
     {
       "id": "598236840",
@@ -4685,6 +4727,12 @@
       "id": "704680333",
       "title": "Most Code Is an Ugly Mess. Here's How to Make It Beautiful",
       "url": "https://www.wired.com/2014/09/most-code-is-an-ugly-mess-heres-how-to-make-it-beautiful/",
+      "date": "2014-09-02"
+    },
+    {
+      "id": "705011579",
+      "title": "What I use instead of Google services",
+      "url": "http://www.gabrielweinberg.com/blog/2014/09/what-i-use-instead-of-google-services.html",
       "date": "2014-09-02"
     },
     {
@@ -4706,6 +4754,12 @@
       "date": "2014-08-31"
     },
     {
+      "id": "699223259",
+      "title": "Redirecting…",
+      "url": "http://www.barryclark.co/portfolio-studies/jad-limcaco/",
+      "date": "2014-08-29"
+    },
+    {
       "id": "699253930",
       "title": "Some Dark Patterns now illegal in UK – interview with Heather Burns",
       "url": "https://www.90percentofeverything.com/2014/08/26/some-dark-patterns-now-illegal-in-uk-interview-with-heather-burns/",
@@ -4718,10 +4772,40 @@
       "date": "2014-08-29"
     },
     {
-      "id": "699223259",
-      "title": "Redirecting…",
-      "url": "http://www.barryclark.co/portfolio-studies/jad-limcaco/",
-      "date": "2014-08-29"
+      "id": "532573191",
+      "title": "getify/You-Dont-Know-JS",
+      "url": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/apC.md",
+      "date": "2014-08-24"
+    },
+    {
+      "id": "532572835",
+      "title": "getify/You-Dont-Know-JS",
+      "url": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/apA.md",
+      "date": "2014-08-24"
+    },
+    {
+      "id": "484877859",
+      "title": "getify/You-Dont-Know-JS",
+      "url": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/ch5.md",
+      "date": "2014-08-24"
+    },
+    {
+      "id": "485698942",
+      "title": "getify/You-Dont-Know-JS",
+      "url": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/ch3.md",
+      "date": "2014-08-24"
+    },
+    {
+      "id": "532573052",
+      "title": "getify/You-Dont-Know-JS",
+      "url": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/apB.md",
+      "date": "2014-08-24"
+    },
+    {
+      "id": "485698986",
+      "title": "getify/You-Dont-Know-JS",
+      "url": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/ch4.md",
+      "date": "2014-08-24"
     },
     {
       "id": "484364861",
@@ -4742,45 +4826,9 @@
       "date": "2014-08-24"
     },
     {
-      "id": "532573191",
-      "title": "getify/You-Dont-Know-JS",
-      "url": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/apC.md",
-      "date": "2014-08-24"
-    },
-    {
-      "id": "532573052",
-      "title": "getify/You-Dont-Know-JS",
-      "url": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/apB.md",
-      "date": "2014-08-24"
-    },
-    {
-      "id": "532572835",
-      "title": "getify/You-Dont-Know-JS",
-      "url": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/apA.md",
-      "date": "2014-08-24"
-    },
-    {
       "id": "543205649",
       "title": "You-Dont-Know-JS/scope & closures/apD.md at master · getify/You-Dont-Know-JS · GitHub",
       "url": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/apD.md",
-      "date": "2014-08-24"
-    },
-    {
-      "id": "485698986",
-      "title": "getify/You-Dont-Know-JS",
-      "url": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/ch4.md",
-      "date": "2014-08-24"
-    },
-    {
-      "id": "485698942",
-      "title": "getify/You-Dont-Know-JS",
-      "url": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/ch3.md",
-      "date": "2014-08-24"
-    },
-    {
-      "id": "484877859",
-      "title": "getify/You-Dont-Know-JS",
-      "url": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/ch5.md",
       "date": "2014-08-24"
     },
     {
@@ -4790,15 +4838,21 @@
       "date": "2014-08-21"
     },
     {
-      "id": "166718979",
-      "title": "Dependency Injection in JavaScript",
-      "url": "http://blog.jankuca.com/post/23066002249/dependency-injection-javascript",
+      "id": "641642650",
+      "title": "How To Migrate Linux Servers Part 1 - System Preparation",
+      "url": "https://www.digitalocean.com/community/tutorials/how-to-migrate-linux-servers-part-1-system-preparation",
       "date": "2014-08-20"
     },
     {
       "id": "648585057",
       "title": "How To Migrate Linux Servers Part 2 - Transfer Core Data",
       "url": "https://www.digitalocean.com/community/tutorials/how-to-migrate-linux-servers-part-2-transfer-core-data",
+      "date": "2014-08-20"
+    },
+    {
+      "id": "166718979",
+      "title": "Dependency Injection in JavaScript",
+      "url": "http://blog.jankuca.com/post/23066002249/dependency-injection-javascript",
       "date": "2014-08-20"
     },
     {
@@ -4820,16 +4874,16 @@
       "date": "2014-08-20"
     },
     {
-      "id": "641642650",
-      "title": "How To Migrate Linux Servers Part 1 - System Preparation",
-      "url": "https://www.digitalocean.com/community/tutorials/how-to-migrate-linux-servers-part-1-system-preparation",
-      "date": "2014-08-20"
-    },
-    {
       "id": "290092121",
       "title": "Velocity is Killing Agility!",
       "url": "http://jimhighsmith.com/velocity-is-killing-agility/",
       "date": "2014-08-18"
+    },
+    {
+      "id": "549457589",
+      "title": "Why we left AngularJS : Hacker News",
+      "url": "https://news.ycombinator.com/item?id=7255227",
+      "date": "2014-08-16"
     },
     {
       "id": "690820955",
@@ -4838,10 +4892,22 @@
       "date": "2014-08-16"
     },
     {
-      "id": "549457589",
-      "title": "Why we left AngularJS : Hacker News",
-      "url": "https://news.ycombinator.com/item?id=7255227",
-      "date": "2014-08-16"
+      "id": "639517649",
+      "title": "How To Install and Use Docker: Getting Started",
+      "url": "https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started",
+      "date": "2014-08-15"
+    },
+    {
+      "id": "383521687",
+      "title": "The Laws of Reflection",
+      "url": "https://blog.golang.org/laws-of-reflection",
+      "date": "2014-08-15"
+    },
+    {
+      "id": "149814804",
+      "title": "Writing Web Applications",
+      "url": "http://golang.org/doc/articles/wiki/",
+      "date": "2014-08-15"
     },
     {
       "id": "494682960",
@@ -4853,6 +4919,30 @@
       "id": "373416826",
       "title": "Defer, Panic, and Recover",
       "url": "https://blog.golang.org/defer-panic-and-recover",
+      "date": "2014-08-15"
+    },
+    {
+      "id": "487948016",
+      "title": "Command godoc",
+      "url": "http://godoc.org/code.google.com/p/go.tools/cmd/godoc",
+      "date": "2014-08-15"
+    },
+    {
+      "id": "374377282",
+      "title": "Error handling and Go",
+      "url": "https://blog.golang.org/error-handling-and-go",
+      "date": "2014-08-15"
+    },
+    {
+      "id": "374116087",
+      "title": "Go Slices: usage and internals",
+      "url": "https://blog.golang.org/go-slices-usage-and-internals",
+      "date": "2014-08-15"
+    },
+    {
+      "id": "671269292",
+      "title": "The Basics Of ES6 Generators",
+      "url": "https://davidwalsh.name/es6-generators",
       "date": "2014-08-15"
     },
     {
@@ -4904,51 +4994,9 @@
       "date": "2014-08-15"
     },
     {
-      "id": "639517649",
-      "title": "How To Install and Use Docker: Getting Started",
-      "url": "https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started",
-      "date": "2014-08-15"
-    },
-    {
-      "id": "383521687",
-      "title": "The Laws of Reflection",
-      "url": "https://blog.golang.org/laws-of-reflection",
-      "date": "2014-08-15"
-    },
-    {
-      "id": "149814804",
-      "title": "Writing Web Applications",
-      "url": "http://golang.org/doc/articles/wiki/",
-      "date": "2014-08-15"
-    },
-    {
-      "id": "671269292",
-      "title": "The Basics Of ES6 Generators",
-      "url": "https://davidwalsh.name/es6-generators",
-      "date": "2014-08-15"
-    },
-    {
       "id": "187238632",
       "title": "Go at CloudFlare",
       "url": "http://blog.cloudflare.com/go-at-cloudflare/",
-      "date": "2014-08-15"
-    },
-    {
-      "id": "487948016",
-      "title": "Command godoc",
-      "url": "http://godoc.org/code.google.com/p/go.tools/cmd/godoc",
-      "date": "2014-08-15"
-    },
-    {
-      "id": "374377282",
-      "title": "Error handling and Go",
-      "url": "https://blog.golang.org/error-handling-and-go",
-      "date": "2014-08-15"
-    },
-    {
-      "id": "374116087",
-      "title": "Go Slices: usage and internals",
-      "url": "https://blog.golang.org/go-slices-usage-and-internals",
       "date": "2014-08-15"
     },
     {
@@ -4958,22 +5006,16 @@
       "date": "2014-08-14"
     },
     {
-      "id": "667339506",
-      "title": "X to Close",
-      "url": "https://medium.com/solve-for-x/x-to-close-417936dfc0dc",
-      "date": "2014-08-14"
-    },
-    {
       "id": "688310354",
       "title": "Slack is killing email",
       "url": "https://www.theverge.com/2014/8/12/5991005/slack-is-killing-email-yes-really",
       "date": "2014-08-14"
     },
     {
-      "id": "268762368",
-      "title": "The Power of Retrospection – Mob Programming",
-      "url": "http://mobprogramming.org/the-power-of-retrospection/",
-      "date": "2014-08-12"
+      "id": "667339506",
+      "title": "X to Close",
+      "url": "https://medium.com/solve-for-x/x-to-close-417936dfc0dc",
+      "date": "2014-08-14"
     },
     {
       "id": "688487047",
@@ -4982,39 +5024,21 @@
       "date": "2014-08-12"
     },
     {
-      "id": "97188646",
-      "title": "the middle hexagon should be independent of the adapters",
-      "url": "https://silkandspinach.net/2005/03/22/the-middle-hexagon-should-be-independent-of-the-adapters/",
-      "date": "2014-08-09"
+      "id": "268762368",
+      "title": "The Power of Retrospection – Mob Programming",
+      "url": "http://mobprogramming.org/the-power-of-retrospection/",
+      "date": "2014-08-12"
     },
     {
-      "id": "280300629",
-      "title": "thoughtbot/guides",
-      "url": "https://github.com/thoughtbot/guides/tree/master/code-review",
-      "date": "2014-08-09"
-    },
-    {
-      "id": "561431404",
-      "title": "thoughtbot/guides",
-      "url": "https://github.com/thoughtbot/guides/tree/master/protocol/git",
-      "date": "2014-08-09"
-    },
-    {
-      "id": "256831599",
-      "title": "thoughtbot/guides",
-      "url": "https://github.com/thoughtbot/guides/tree/master/best-practices",
+      "id": "225219730",
+      "title": "callbacks break hexagonal architectures",
+      "url": "https://silkandspinach.net/2009/03/16/callbacks-break-hexagonal-architectures/",
       "date": "2014-08-09"
     },
     {
       "id": "227750838",
       "title": "thoughtbot/guides",
       "url": "https://github.com/thoughtbot/guides/tree/master/style",
-      "date": "2014-08-09"
-    },
-    {
-      "id": "225219730",
-      "title": "callbacks break hexagonal architectures",
-      "url": "https://silkandspinach.net/2009/03/16/callbacks-break-hexagonal-architectures/",
       "date": "2014-08-09"
     },
     {
@@ -5042,10 +5066,40 @@
       "date": "2014-08-09"
     },
     {
+      "id": "280300629",
+      "title": "thoughtbot/guides",
+      "url": "https://github.com/thoughtbot/guides/tree/master/code-review",
+      "date": "2014-08-09"
+    },
+    {
+      "id": "561431404",
+      "title": "thoughtbot/guides",
+      "url": "https://github.com/thoughtbot/guides/tree/master/protocol/git",
+      "date": "2014-08-09"
+    },
+    {
+      "id": "256831599",
+      "title": "thoughtbot/guides",
+      "url": "https://github.com/thoughtbot/guides/tree/master/best-practices",
+      "date": "2014-08-09"
+    },
+    {
+      "id": "97188646",
+      "title": "the middle hexagon should be independent of the adapters",
+      "url": "https://silkandspinach.net/2005/03/22/the-middle-hexagon-should-be-independent-of-the-adapters/",
+      "date": "2014-08-09"
+    },
+    {
       "id": "608601357",
       "title": "My Trello workflow – CSS Wizardry – CSS Architecture, Web Performance Optimisation, and more, by Harry Roberts",
       "url": "https://csswizardry.com/2014/05/my-trello-workflow/",
       "date": "2014-08-08"
+    },
+    {
+      "id": "684702254",
+      "title": "Stupid Apps and Changing the World",
+      "url": "http://blog.samaltman.com/stupid-apps-and-changing-the-world",
+      "date": "2014-08-07"
     },
     {
       "id": "684739546",
@@ -5057,6 +5111,12 @@
       "id": "677093796",
       "title": "johnpapa/angular-styleguide",
       "url": "https://github.com/johnpapa/angularjs-styleguide",
+      "date": "2014-08-07"
+    },
+    {
+      "id": "684443742",
+      "title": "Speeding up AngularJS apps with simple optimizations",
+      "url": "http://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135",
       "date": "2014-08-07"
     },
     {
@@ -5072,18 +5132,6 @@
       "date": "2014-08-07"
     },
     {
-      "id": "684702254",
-      "title": "Stupid Apps and Changing the World",
-      "url": "http://blog.samaltman.com/stupid-apps-and-changing-the-world",
-      "date": "2014-08-07"
-    },
-    {
-      "id": "684443742",
-      "title": "Speeding up AngularJS apps with simple optimizations",
-      "url": "http://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135",
-      "date": "2014-08-07"
-    },
-    {
       "id": "395919121",
       "title": "The Solution to Technical Debt",
       "url": "https://blog.crisp.se/2013/07/12/henrikkniberg/the-solution-to-technical-debt",
@@ -5094,18 +5142,6 @@
       "title": "AngularJS Unit Testing - For Real, Though",
       "url": "http://quickleft.com/blog/angularjs-unit-testing-for-real-though?utm_content=buffer2b8c8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer",
       "date": "2014-08-06"
-    },
-    {
-      "id": "578596859",
-      "title": "AngularJS : When to use service instead of factory",
-      "url": "http://stackoverflow.com/questions/18939709/angularjs-when-to-use-service-instead-of-factory",
-      "date": "2014-08-04"
-    },
-    {
-      "id": "422679878",
-      "title": "AngularJS: Service vs provider vs factory",
-      "url": "http://stackoverflow.com/questions/15666048/angular-js-service-vs-provider-vs-factory",
-      "date": "2014-08-04"
     },
     {
       "id": "406762116",
@@ -5120,21 +5156,33 @@
       "date": "2014-08-04"
     },
     {
+      "id": "578596859",
+      "title": "AngularJS : When to use service instead of factory",
+      "url": "http://stackoverflow.com/questions/18939709/angularjs-when-to-use-service-instead-of-factory",
+      "date": "2014-08-04"
+    },
+    {
+      "id": "422679878",
+      "title": "AngularJS: Service vs provider vs factory",
+      "url": "http://stackoverflow.com/questions/15666048/angular-js-service-vs-provider-vs-factory",
+      "date": "2014-08-04"
+    },
+    {
       "id": "628577821",
       "title": "Building A Better Web With Track:js",
       "url": "https://www.digitalocean.com/company/blog/guest-post-trackjs/",
       "date": "2014-08-02"
     },
     {
-      "id": "173409669",
-      "title": "The Forgotten Layer of the Test Automation Pyramid",
-      "url": "https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid",
-      "date": "2014-07-31"
-    },
-    {
       "id": "82658461",
       "title": "The Hexagonal Architecture",
       "url": "http://matteo.vaccari.name/blog/the-hexagonal-architecture",
+      "date": "2014-07-31"
+    },
+    {
+      "id": "173409669",
+      "title": "The Forgotten Layer of the Test Automation Pyramid",
+      "url": "https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid",
       "date": "2014-07-31"
     },
     {
@@ -5144,15 +5192,15 @@
       "date": "2014-07-30"
     },
     {
-      "id": "677464076",
-      "title": "Why are some people so much luckier than others?",
-      "url": "https://ninjasandrobots.com/why-are-some-people-so-much-luckier-than-others",
-      "date": "2014-07-29"
-    },
-    {
       "id": "677666513",
       "title": "How to Wire Up Ruby on Rails and AngularJS as a Single-Page Application",
       "url": "http://www.angularonrails.com/ruby-on-rails-angularjs-single-page-application/?utm_source=ng-newsletter&utm_campaign=4709eb30a4-AngularJS_Newsletter_7_29_147_27_2014&utm_medium=email&utm_term=0_fa61364f13-4709eb30a4-96634537",
+      "date": "2014-07-29"
+    },
+    {
+      "id": "677464076",
+      "title": "Why are some people so much luckier than others?",
+      "url": "https://ninjasandrobots.com/why-are-some-people-so-much-luckier-than-others",
       "date": "2014-07-29"
     },
     {
@@ -5174,15 +5222,15 @@
       "date": "2014-07-27"
     },
     {
-      "id": "675779230",
-      "title": "toddmotto/angularjs-styleguide",
-      "url": "https://github.com/toddmotto/angularjs-styleguide",
-      "date": "2014-07-27"
-    },
-    {
       "id": "649750493",
       "title": "AngularJS's Controller As and the vm Variable",
       "url": "https://johnpapa.net/angularjss-controller-as-and-the-vm-variable/",
+      "date": "2014-07-27"
+    },
+    {
+      "id": "675779230",
+      "title": "toddmotto/angularjs-styleguide",
+      "url": "https://github.com/toddmotto/angularjs-styleguide",
       "date": "2014-07-27"
     },
     {
@@ -5246,15 +5294,15 @@
       "date": "2014-07-16"
     },
     {
-      "id": "666613707",
-      "title": "The life and times of the angular provider",
-      "url": "http://www.garabagne.io/2014/06/08/the-life-and-times-of-the-angular-provider/?utm_source=ng-newsletter&utm_campaign=bfce08935f-AngularJS_Newsletter_7_15_147_13_2014&utm_medium=email&utm_term=0_fa61364f13-bfce08935f-96634537",
-      "date": "2014-07-15"
-    },
-    {
       "id": "666613654",
       "title": "Requiring vs Browserifying Angular",
       "url": "http://developer.telerik.com/featured/requiring-vs-browerifying-angular/",
+      "date": "2014-07-15"
+    },
+    {
+      "id": "666613707",
+      "title": "The life and times of the angular provider",
+      "url": "http://www.garabagne.io/2014/06/08/the-life-and-times-of-the-angular-provider/?utm_source=ng-newsletter&utm_campaign=bfce08935f-AngularJS_Newsletter_7_15_147_13_2014&utm_medium=email&utm_term=0_fa61364f13-bfce08935f-96634537",
       "date": "2014-07-15"
     },
     {
@@ -5270,9 +5318,9 @@
       "date": "2014-07-14"
     },
     {
-      "id": "656728743",
-      "title": "Magical realism",
-      "url": "https://medium.com/@mikanger/magical-realism-29106d84cbc3",
+      "id": "638686255",
+      "title": "5 Common Server Setups For Your Web Application",
+      "url": "https://www.digitalocean.com/community/tutorials/5-common-server-setups-for-your-web-application",
       "date": "2014-07-13"
     },
     {
@@ -5282,22 +5330,10 @@
       "date": "2014-07-13"
     },
     {
-      "id": "638686255",
-      "title": "5 Common Server Setups For Your Web Application",
-      "url": "https://www.digitalocean.com/community/tutorials/5-common-server-setups-for-your-web-application",
+      "id": "656728743",
+      "title": "Magical realism",
+      "url": "https://medium.com/@mikanger/magical-realism-29106d84cbc3",
       "date": "2014-07-13"
-    },
-    {
-      "id": "662555999",
-      "title": "Optimising for 60fps everywhere",
-      "url": "https://engineering.gosquared.com/optimising-60fps-everywhere-in-javascript",
-      "date": "2014-07-12"
-    },
-    {
-      "id": "663202680",
-      "title": "Visualising the Go garbage collector",
-      "url": "https://dave.cheney.net/2014/07/11/visualising-the-go-garbage-collector",
-      "date": "2014-07-12"
     },
     {
       "id": "663514281",
@@ -5306,9 +5342,21 @@
       "date": "2014-07-12"
     },
     {
+      "id": "662555999",
+      "title": "Optimising for 60fps everywhere",
+      "url": "https://engineering.gosquared.com/optimising-60fps-everywhere-in-javascript",
+      "date": "2014-07-12"
+    },
+    {
       "id": "4714",
       "title": "Inversion of Control Containers and the Dependency Injection pattern",
       "url": "https://martinfowler.com/articles/injection.html",
+      "date": "2014-07-12"
+    },
+    {
+      "id": "663202680",
+      "title": "Visualising the Go garbage collector",
+      "url": "https://dave.cheney.net/2014/07/11/visualising-the-go-garbage-collector",
       "date": "2014-07-12"
     },
     {
@@ -5336,22 +5384,16 @@
       "date": "2014-07-06"
     },
     {
-      "id": "314026169",
-      "title": "Taking Baby Steps",
-      "url": "http://blog.adrianbolboaca.ro/2013/03/taking-baby-steps/",
-      "date": "2014-07-06"
-    },
-    {
       "id": "658584233",
       "title": "Microservices - 72 resources",
       "url": "http://blog.arkency.com/2014/07/microservices-72-resources/",
       "date": "2014-07-06"
     },
     {
-      "id": "565055246",
-      "title": "AngularJS",
-      "url": "https://docs.angularjs.org/guide/unit-testing#jasmine",
-      "date": "2014-07-05"
+      "id": "314026169",
+      "title": "Taking Baby Steps",
+      "url": "http://blog.adrianbolboaca.ro/2013/03/taking-baby-steps/",
+      "date": "2014-07-06"
     },
     {
       "id": "653466051",
@@ -5360,10 +5402,10 @@
       "date": "2014-07-05"
     },
     {
-      "id": "657748041",
-      "title": "Farewell Node.js",
-      "url": "https://medium.com/code-adventures/farewell-node-js-4ba9e7f3e52b",
-      "date": "2014-07-04"
+      "id": "565055246",
+      "title": "AngularJS",
+      "url": "https://docs.angularjs.org/guide/unit-testing#jasmine",
+      "date": "2014-07-05"
     },
     {
       "id": "632837346",
@@ -5372,15 +5414,21 @@
       "date": "2014-07-04"
     },
     {
-      "id": "654947334",
-      "title": "Get Your Development Team Started With Go",
-      "url": "https://www.digitalocean.com/company/blog/get-your-development-team-started-with-go/",
-      "date": "2014-07-01"
+      "id": "657748041",
+      "title": "Farewell Node.js",
+      "url": "https://medium.com/code-adventures/farewell-node-js-4ba9e7f3e52b",
+      "date": "2014-07-04"
     },
     {
       "id": "655055697",
       "title": "Methods to determine if an Object has a given property",
       "url": "https://toddmotto.com/methods-to-determine-if-an-object-has-a-given-property/",
+      "date": "2014-07-01"
+    },
+    {
+      "id": "654947334",
+      "title": "Get Your Development Team Started With Go",
+      "url": "https://www.digitalocean.com/company/blog/get-your-development-team-started-with-go/",
       "date": "2014-07-01"
     },
     {
@@ -5438,15 +5486,15 @@
       "date": "2014-06-11"
     },
     {
-      "id": "34529810",
-      "title": "Maintainable JavaScript: Don’t modify objects you don’t own",
-      "url": "https://www.nczonline.net/blog/2010/03/02/maintainable-javascript-dont-modify-objects-you-down-own/",
+      "id": "527928608",
+      "title": "Cleanly declaring AngularJS services with CoffeeScript",
+      "url": "https://benhollis.net/blog/2014/01/17/cleanly-declaring-angularjs-services-with-coffeescript/",
       "date": "2014-06-07"
     },
     {
-      "id": "9332649",
-      "title": "Remedial JavaScript",
-      "url": "http://javascript.crockford.com/remedial.html",
+      "id": "34529810",
+      "title": "Maintainable JavaScript: Don’t modify objects you don’t own",
+      "url": "https://www.nczonline.net/blog/2010/03/02/maintainable-javascript-dont-modify-objects-you-down-own/",
       "date": "2014-06-07"
     },
     {
@@ -5456,10 +5504,16 @@
       "date": "2014-06-07"
     },
     {
-      "id": "527928608",
-      "title": "Cleanly declaring AngularJS services with CoffeeScript",
-      "url": "https://benhollis.net/blog/2014/01/17/cleanly-declaring-angularjs-services-with-coffeescript/",
+      "id": "9332649",
+      "title": "Remedial JavaScript",
+      "url": "http://javascript.crockford.com/remedial.html",
       "date": "2014-06-07"
+    },
+    {
+      "id": "636625168",
+      "title": "Creating Custom AngularJS Directives Part 2 – Isolate Scope",
+      "url": "http://weblogs.asp.net/dwahlin/creating-custom-angularjs-directives-part-2-isolate-scope?utm_content=bufferb4053&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer",
+      "date": "2014-06-06"
     },
     {
       "id": "636363136",
@@ -5471,12 +5525,6 @@
       "id": "636445573",
       "title": "Writing Unit Tests for an AngularJS Service",
       "url": "http://busypeoples.github.io/post/writing-unit-tests-for-service-in-angular-js/?utm_content=buffer0a008&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer",
-      "date": "2014-06-06"
-    },
-    {
-      "id": "636625168",
-      "title": "Creating Custom AngularJS Directives Part 2 – Isolate Scope",
-      "url": "http://weblogs.asp.net/dwahlin/creating-custom-angularjs-directives-part-2-isolate-scope?utm_content=bufferb4053&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer",
       "date": "2014-06-06"
     },
     {
@@ -5498,15 +5546,15 @@
       "date": "2014-06-03"
     },
     {
-      "id": "326430833",
-      "title": "Getting a SOLID start.",
-      "url": "https://sites.google.com/site/unclebobconsultingllc/getting-a-solid-start",
-      "date": "2014-06-03"
-    },
-    {
       "id": "2927989",
       "title": "Guide: Writing Testable Code",
       "url": "http://misko.hevery.com/code-reviewers-guide/",
+      "date": "2014-06-03"
+    },
+    {
+      "id": "326430833",
+      "title": "Getting a SOLID start.",
+      "url": "https://sites.google.com/site/unclebobconsultingllc/getting-a-solid-start",
       "date": "2014-06-03"
     },
     {
@@ -5522,6 +5570,12 @@
       "date": "2014-06-01"
     },
     {
+      "id": "58703301",
+      "title": "Hexagonal architecture",
+      "url": "http://alistair.cockburn.us/Hexagonal architecture",
+      "date": "2014-05-31"
+    },
+    {
       "id": "631632433",
       "title": "mgechev/angularjs-in-patterns · GitHub",
       "url": "https://github.com/mgechev/angularjs-in-patterns?utm_content=buffere4015&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer",
@@ -5534,21 +5588,15 @@
       "date": "2014-05-31"
     },
     {
-      "id": "58703301",
-      "title": "Hexagonal architecture",
-      "url": "http://alistair.cockburn.us/Hexagonal architecture",
-      "date": "2014-05-31"
+      "id": "19388840",
+      "title": "Best Practices for Speeding Up Your Web Site",
+      "url": "https://developer.yahoo.com/performance/rules.html",
+      "date": "2014-05-28"
     },
     {
       "id": "616082412",
       "title": "Goto Fail, Heartbleed, and Unit Testing Culture",
       "url": "https://martinfowler.com/articles/testing-culture.html",
-      "date": "2014-05-28"
-    },
-    {
-      "id": "19388840",
-      "title": "Best Practices for Speeding Up Your Web Site",
-      "url": "https://developer.yahoo.com/performance/rules.html",
       "date": "2014-05-28"
     },
     {
@@ -5588,9 +5636,9 @@
       "date": "2014-05-24"
     },
     {
-      "id": "274034686",
-      "title": "Getting Started with Vim",
-      "url": "https://bilalquadri.com/blog/2012/12/17/getting-started-with-vim/",
+      "id": "625563050",
+      "title": "Differential | We Build Big Ideas",
+      "url": "http://differential.io/blog/meteor-vs-angular",
       "date": "2014-05-23"
     },
     {
@@ -5600,9 +5648,9 @@
       "date": "2014-05-23"
     },
     {
-      "id": "625563050",
-      "title": "Differential | We Build Big Ideas",
-      "url": "http://differential.io/blog/meteor-vs-angular",
+      "id": "274034686",
+      "title": "Getting Started with Vim",
+      "url": "https://bilalquadri.com/blog/2012/12/17/getting-started-with-vim/",
       "date": "2014-05-23"
     },
     {
@@ -5654,15 +5702,9 @@
       "date": "2014-05-16"
     },
     {
-      "id": "617299006",
-      "title": "Parallax Done Right",
-      "url": "https://medium.com/@dhg/82ced812e61c",
-      "date": "2014-05-15"
-    },
-    {
-      "id": "496580353",
-      "title": "Putting An Age-Old Battle To Rest",
-      "url": "http://blog.thecodewhisperer.com/2013/12/07/putting-an-age-old-battle-to-rest/",
+      "id": "28478005",
+      "title": "Maria Gaetana Agnesi",
+      "url": "https://en.wikipedia.org/wiki/Maria_Gaetana_Agnesi",
       "date": "2014-05-15"
     },
     {
@@ -5672,9 +5714,15 @@
       "date": "2014-05-15"
     },
     {
-      "id": "28478005",
-      "title": "Maria Gaetana Agnesi",
-      "url": "https://en.wikipedia.org/wiki/Maria_Gaetana_Agnesi",
+      "id": "496580353",
+      "title": "Putting An Age-Old Battle To Rest",
+      "url": "http://blog.thecodewhisperer.com/2013/12/07/putting-an-age-old-battle-to-rest/",
+      "date": "2014-05-15"
+    },
+    {
+      "id": "617299006",
+      "title": "Parallax Done Right",
+      "url": "https://medium.com/@dhg/82ced812e61c",
       "date": "2014-05-15"
     },
     {
@@ -5682,6 +5730,12 @@
       "title": "AngularJS",
       "url": "https://docs.angularjs.org/guide/controller",
       "date": "2014-05-14"
+    },
+    {
+      "id": "572834283",
+      "title": "Speaking JavaScript",
+      "url": "http://speakingjs.com/es5/",
+      "date": "2014-05-13"
     },
     {
       "id": "402284985",
@@ -5696,21 +5750,15 @@
       "date": "2014-05-13"
     },
     {
-      "id": "572834283",
-      "title": "Speaking JavaScript",
-      "url": "http://speakingjs.com/es5/",
-      "date": "2014-05-13"
+      "id": "613665183",
+      "title": "Deal to combat piracy in UK with 'alerts' is imminent",
+      "url": "http://m.bbc.com/news/technology-27330150",
+      "date": "2014-05-09"
     },
     {
       "id": "519304659",
       "title": "gulpjs/gulp",
       "url": "https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md",
-      "date": "2014-05-09"
-    },
-    {
-      "id": "613665183",
-      "title": "Deal to combat piracy in UK with 'alerts' is imminent",
-      "url": "http://m.bbc.com/news/technology-27330150",
       "date": "2014-05-09"
     },
     {
@@ -5720,9 +5768,9 @@
       "date": "2014-05-06"
     },
     {
-      "id": "565567532",
-      "title": "How to code JavaScript using Bootstrap best practices?",
-      "url": "http://www.theodo.fr/blog/2014/03/how-to-code-javascript-using-twitter-bootstrap-best-practices/",
+      "id": "84983697",
+      "title": "Elevator pitch",
+      "url": "http://en.m.wikipedia.org/wiki/Elevator_pitch",
       "date": "2014-05-05"
     },
     {
@@ -5732,9 +5780,9 @@
       "date": "2014-05-05"
     },
     {
-      "id": "84983697",
-      "title": "Elevator pitch",
-      "url": "http://en.m.wikipedia.org/wiki/Elevator_pitch",
+      "id": "565567532",
+      "title": "How to code JavaScript using Bootstrap best practices?",
+      "url": "http://www.theodo.fr/blog/2014/03/how-to-code-javascript-using-twitter-bootstrap-best-practices/",
       "date": "2014-05-05"
     },
     {
@@ -5762,15 +5810,15 @@
       "date": "2014-05-01"
     },
     {
-      "id": "112936957",
-      "title": "Built in matchers",
-      "url": "https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers",
-      "date": "2014-04-29"
-    },
-    {
       "id": "144642714",
       "title": "File: README",
       "url": "http://rubydoc.info/gems/rspec-expectations/frames",
+      "date": "2014-04-29"
+    },
+    {
+      "id": "112936957",
+      "title": "Built in matchers",
+      "url": "https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers",
       "date": "2014-04-29"
     },
     {
@@ -5798,15 +5846,15 @@
       "date": "2014-04-27"
     },
     {
-      "id": "602814061",
-      "title": "Better Javascript Promises",
-      "url": "http://frederic.vanderessen.com/better-javascript-promises/",
-      "date": "2014-04-25"
-    },
-    {
       "id": "602608212",
       "title": "The worst year of my life",
       "url": "http://maban.co.uk/91/",
+      "date": "2014-04-25"
+    },
+    {
+      "id": "602814061",
+      "title": "Better Javascript Promises",
+      "url": "http://frederic.vanderessen.com/better-javascript-promises/",
       "date": "2014-04-25"
     },
     {
@@ -5822,21 +5870,15 @@
       "date": "2014-04-23"
     },
     {
-      "id": "160473531",
-      "title": "Salted Password Hashing - Doing it Right",
-      "url": "https://crackstation.net/hashing-security.htm",
-      "date": "2014-04-23"
-    },
-    {
-      "id": "11426397",
-      "title": "ECMAScript 5 Strict Mode, JSON, and More",
-      "url": "http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/",
-      "date": "2014-04-23"
-    },
-    {
       "id": "17738096",
       "title": "Speed Kills",
       "url": "http://programmer.97things.oreilly.com/wiki/index.php/Speed_Kills",
+      "date": "2014-04-23"
+    },
+    {
+      "id": "160473531",
+      "title": "Salted Password Hashing - Doing it Right",
+      "url": "https://crackstation.net/hashing-security.htm",
       "date": "2014-04-23"
     },
     {
@@ -5846,10 +5888,22 @@
       "date": "2014-04-23"
     },
     {
+      "id": "11426397",
+      "title": "ECMAScript 5 Strict Mode, JSON, and More",
+      "url": "http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/",
+      "date": "2014-04-23"
+    },
+    {
       "id": "600176704",
       "title": "How to be a great software developer",
       "url": "http://peternixey.com/post/83510597580/how-to-be-a-great-software-developer",
       "date": "2014-04-22"
+    },
+    {
+      "id": "598763579",
+      "title": "Don’t Fuck Up the Culture",
+      "url": "https://medium.com/p/597cde9ee9d4",
+      "date": "2014-04-20"
     },
     {
       "id": "476921338",
@@ -5861,12 +5915,6 @@
       "id": "564785878",
       "title": "Anniversario",
       "url": "https://medium.com/medium-italia-bloggers-group/17b3d93c3f73",
-      "date": "2014-04-20"
-    },
-    {
-      "id": "598763579",
-      "title": "Don’t Fuck Up the Culture",
-      "url": "https://medium.com/p/597cde9ee9d4",
       "date": "2014-04-20"
     },
     {
@@ -5882,15 +5930,15 @@
       "date": "2014-04-18"
     },
     {
-      "id": "595665749",
-      "title": "Comparing Node.js Promises, Try/Catch, Angular Zone.js and yes, Zone",
-      "url": "http://strongloop.com/strongblog/comparing-node-js-promises-trycatch-zone-js-angular/",
-      "date": "2014-04-16"
-    },
-    {
       "id": "396083680",
       "title": "How to Unit Test Private Functions in JavaScript — Philip Walton",
       "url": "https://philipwalton.com/articles/how-to-unit-test-private-functions-in-javascript/",
+      "date": "2014-04-16"
+    },
+    {
+      "id": "595665749",
+      "title": "Comparing Node.js Promises, Try/Catch, Angular Zone.js and yes, Zone",
+      "url": "http://strongloop.com/strongblog/comparing-node-js-promises-trycatch-zone-js-angular/",
       "date": "2014-04-16"
     },
     {
@@ -5918,12 +5966,6 @@
       "date": "2014-04-14"
     },
     {
-      "id": "379723965",
-      "title": "AngularJS vs Ember",
-      "url": "http://eviltrout.com/2013/06/15/ember-vs-angular.html",
-      "date": "2014-04-13"
-    },
-    {
       "id": "592610147",
       "title": "Understanding the “this” keyword in JavaScript",
       "url": "https://toddmotto.com/understanding-the-this-keyword-in-javascript/",
@@ -5933,6 +5975,12 @@
       "id": "530352751",
       "title": "Meteor is F***ing Awesome — Medium",
       "url": "https://medium.com/meteor-news/a28ac7d30e2d",
+      "date": "2014-04-13"
+    },
+    {
+      "id": "379723965",
+      "title": "AngularJS vs Ember",
+      "url": "http://eviltrout.com/2013/06/15/ember-vs-angular.html",
       "date": "2014-04-13"
     },
     {
@@ -5948,13 +5996,13 @@
       "date": "2014-04-11"
     },
     {
-      "id": "590601056",
+      "id": "590545485",
       "title": "When two-factor authentication is not enough",
       "url": "http://blog.fastmail.fm/2014/04/10/when-two-factor-authentication-is-not-enough/",
       "date": "2014-04-10"
     },
     {
-      "id": "590545485",
+      "id": "590601056",
       "title": "When two-factor authentication is not enough",
       "url": "http://blog.fastmail.fm/2014/04/10/when-two-factor-authentication-is-not-enough/",
       "date": "2014-04-10"
@@ -6002,15 +6050,15 @@
       "date": "2014-04-04"
     },
     {
-      "id": "579892337",
-      "title": "Meteor",
-      "url": "https://www.meteor.com/blog/2014/03/27/meteor-080-introducing-blaze",
-      "date": "2014-04-02"
-    },
-    {
       "id": "352214030",
       "title": "Agile Gamification: apprendere le metodologie giocando",
       "url": "http://www2.mokabyte.it/cms/article.run?permalink=mb183_AgileGamification-2",
+      "date": "2014-04-02"
+    },
+    {
+      "id": "579892337",
+      "title": "Meteor",
+      "url": "https://www.meteor.com/blog/2014/03/27/meteor-080-introducing-blaze",
       "date": "2014-04-02"
     },
     {
@@ -6020,34 +6068,16 @@
       "date": "2014-04-01"
     },
     {
-      "id": "583380600",
-      "title": "My Website Was Stolen By A Hacker. And I Got It Back.",
-      "url": "http://www.ramshackleglam.com/2014/04/01/my-website-was-stolen-by-a-hacker-and-i-got-it-back/",
-      "date": "2014-04-01"
-    },
-    {
       "id": "459085805",
       "title": "The Definitive Guide to Angular on Mobile",
       "url": "https://www.ng-newsletter.com/posts/angular-on-mobile.html",
       "date": "2014-04-01"
     },
     {
-      "id": "579752167",
-      "title": "Whatever goes up, that’s what we do",
-      "url": "https://dcurt.is/facebooks-predicament",
-      "date": "2014-03-29"
-    },
-    {
-      "id": "545506384",
-      "title": "Chapter 2: Protocols",
-      "url": "https://zapier.com/learn/apis/chapter-2-protocols/",
-      "date": "2014-03-29"
-    },
-    {
-      "id": "550889413",
-      "title": "Chapter 3: Data Formats",
-      "url": "https://zapier.com/learn/apis/chapter-3-data-formats/",
-      "date": "2014-03-29"
+      "id": "583380600",
+      "title": "My Website Was Stolen By A Hacker. And I Got It Back.",
+      "url": "http://www.ramshackleglam.com/2014/04/01/my-website-was-stolen-by-a-hacker-and-i-got-it-back/",
+      "date": "2014-04-01"
     },
     {
       "id": "558145572",
@@ -6062,9 +6092,27 @@
       "date": "2014-03-29"
     },
     {
-      "id": "321067482",
-      "title": "maxogden/art-of-node",
-      "url": "https://github.com/maxogden/art-of-node",
+      "id": "579752167",
+      "title": "Whatever goes up, that’s what we do",
+      "url": "https://dcurt.is/facebooks-predicament",
+      "date": "2014-03-29"
+    },
+    {
+      "id": "550889413",
+      "title": "Chapter 3: Data Formats",
+      "url": "https://zapier.com/learn/apis/chapter-3-data-formats/",
+      "date": "2014-03-29"
+    },
+    {
+      "id": "545506384",
+      "title": "Chapter 2: Protocols",
+      "url": "https://zapier.com/learn/apis/chapter-2-protocols/",
+      "date": "2014-03-29"
+    },
+    {
+      "id": "575434723",
+      "title": "Getting a Job",
+      "url": "http://r.32k.io/getting-a-job",
       "date": "2014-03-22"
     },
     {
@@ -6074,9 +6122,9 @@
       "date": "2014-03-22"
     },
     {
-      "id": "575434723",
-      "title": "Getting a Job",
-      "url": "http://r.32k.io/getting-a-job",
+      "id": "321067482",
+      "title": "maxogden/art-of-node",
+      "url": "https://github.com/maxogden/art-of-node",
       "date": "2014-03-22"
     },
     {
@@ -6084,12 +6132,6 @@
       "title": "What You Can't Say",
       "url": "http://www.paulgraham.com/say.html",
       "date": "2014-03-21"
-    },
-    {
-      "id": "1253527",
-      "title": "Equinox",
-      "url": "https://en.wikipedia.org/wiki/Equinox",
-      "date": "2014-03-20"
     },
     {
       "id": "572191582",
@@ -6107,6 +6149,12 @@
       "id": "562200923",
       "title": "An Introduction to Securing your Linux VPS",
       "url": "https://www.digitalocean.com/community/articles/an-introduction-to-securing-your-linux-vps",
+      "date": "2014-03-20"
+    },
+    {
+      "id": "1253527",
+      "title": "Equinox",
+      "url": "https://en.wikipedia.org/wiki/Equinox",
       "date": "2014-03-20"
     },
     {
@@ -6182,15 +6230,15 @@
       "date": "2014-03-11"
     },
     {
-      "id": "565438392",
-      "title": "How I resurrected my MacBook Pro by putting it in the oven",
-      "url": "http://ales.io/2014/03/09/how-to-bake-a-mac.html",
-      "date": "2014-03-10"
-    },
-    {
       "id": "564901510",
       "title": "You jacked my scroll bro",
       "url": "https://medium.com/design-idea/7764db6a9987",
+      "date": "2014-03-10"
+    },
+    {
+      "id": "565438392",
+      "title": "How I resurrected my MacBook Pro by putting it in the oven",
+      "url": "http://ales.io/2014/03/09/how-to-bake-a-mac.html",
       "date": "2014-03-10"
     },
     {
@@ -6218,21 +6266,15 @@
       "date": "2014-03-08"
     },
     {
-      "id": "6036813",
-      "title": "Back office",
-      "url": "https://en.wikipedia.org/wiki/Back_office",
-      "date": "2014-03-07"
-    },
-    {
-      "id": "563516668",
-      "title": "Engineer's Guide to US Visas",
-      "url": "http://blog.sourcing.io/visa-guide",
-      "date": "2014-03-07"
-    },
-    {
       "id": "559351471",
       "title": "Myths about /dev/urandom",
       "url": "https://www.2uo.de/myths-about-urandom/",
+      "date": "2014-03-07"
+    },
+    {
+      "id": "6036813",
+      "title": "Back office",
+      "url": "https://en.wikipedia.org/wiki/Back_office",
       "date": "2014-03-07"
     },
     {
@@ -6242,15 +6284,15 @@
       "date": "2014-03-07"
     },
     {
-      "id": "562740119",
-      "title": "DigitalOcean Raises $37.2M From Andreessen Horowitz To Take On AWS",
-      "url": "http://techcrunch.com/2014/03/06/digitalocean-raises-37-million-from-andreessen-horowitz/",
-      "date": "2014-03-06"
+      "id": "563516668",
+      "title": "Engineer's Guide to US Visas",
+      "url": "http://blog.sourcing.io/visa-guide",
+      "date": "2014-03-07"
     },
     {
-      "id": "376881811",
-      "title": "When to use directives, controllers, or services in Angular JS",
-      "url": "http://kirkbushell.me/when-to-use-directives-controllers-or-services-in-angular/",
+      "id": "18778019",
+      "title": "Best practices for API versioning? [closed]",
+      "url": "https://stackoverflow.com/questions/389169/best-practices-for-api-versioning",
       "date": "2014-03-06"
     },
     {
@@ -6260,15 +6302,21 @@
       "date": "2014-03-06"
     },
     {
-      "id": "48909838",
-      "title": "The Human is a RESTful Client",
-      "url": "https://zachholman.com/2010/03/the-human-is-a-restful-client/",
+      "id": "376881811",
+      "title": "When to use directives, controllers, or services in Angular JS",
+      "url": "http://kirkbushell.me/when-to-use-directives-controllers-or-services-in-angular/",
       "date": "2014-03-06"
     },
     {
-      "id": "18778019",
-      "title": "Best practices for API versioning? [closed]",
-      "url": "https://stackoverflow.com/questions/389169/best-practices-for-api-versioning",
+      "id": "562740119",
+      "title": "DigitalOcean Raises $37.2M From Andreessen Horowitz To Take On AWS",
+      "url": "http://techcrunch.com/2014/03/06/digitalocean-raises-37-million-from-andreessen-horowitz/",
+      "date": "2014-03-06"
+    },
+    {
+      "id": "48909838",
+      "title": "The Human is a RESTful Client",
+      "url": "https://zachholman.com/2010/03/the-human-is-a-restful-client/",
       "date": "2014-03-06"
     },
     {
@@ -6282,18 +6330,6 @@
       "title": "Please stop using Twitter Bootstrap",
       "url": "http://notes.gross.is/post/43508972396/please-stop-using-twitter-bootstrap",
       "date": "2014-03-05"
-    },
-    {
-      "id": "561098147",
-      "title": "The browser cache is Vary broken",
-      "url": "https://jakearchibald.com/2014/browser-cache-vary-broken",
-      "date": "2014-03-04"
-    },
-    {
-      "id": "560703543",
-      "title": "Chrome 34: Responsive Images and Unprefixed Web Audio",
-      "url": "http://blog.chromium.org/2014/02/chrome-34-responsive-images-and_9316.html?utm_source=dlvr.it&utm_medium=twitter&m=1",
-      "date": "2014-03-04"
     },
     {
       "id": "560612472",
@@ -6320,10 +6356,16 @@
       "date": "2014-03-04"
     },
     {
-      "id": "560307158",
-      "title": "Help me distribute $100,000 to new entrepreneurs in Africa",
-      "url": "http://paulbuchheit.blogspot.it/2014/03/help-me-distribute-100000-to-new.html",
-      "date": "2014-03-03"
+      "id": "560703543",
+      "title": "Chrome 34: Responsive Images and Unprefixed Web Audio",
+      "url": "http://blog.chromium.org/2014/02/chrome-34-responsive-images-and_9316.html?utm_source=dlvr.it&utm_medium=twitter&m=1",
+      "date": "2014-03-04"
+    },
+    {
+      "id": "561098147",
+      "title": "The browser cache is Vary broken",
+      "url": "https://jakearchibald.com/2014/browser-cache-vary-broken",
+      "date": "2014-03-04"
     },
     {
       "id": "560358691",
@@ -6332,10 +6374,10 @@
       "date": "2014-03-03"
     },
     {
-      "id": "347031194",
-      "title": "Code Guide by @mdo",
-      "url": "http://mdo.github.io/code-guide/",
-      "date": "2014-03-02"
+      "id": "560307158",
+      "title": "Help me distribute $100,000 to new entrepreneurs in Africa",
+      "url": "http://paulbuchheit.blogspot.it/2014/03/help-me-distribute-100000-to-new.html",
+      "date": "2014-03-03"
     },
     {
       "id": "369752948",
@@ -6344,33 +6386,9 @@
       "date": "2014-03-02"
     },
     {
-      "id": "558694273",
-      "title": "From a Googler: the Google interview process",
-      "url": "https://www.reddit.com/r/cscareerquestions/comments/1z97rx/from_a_googler_the_google_interview_process/",
-      "date": "2014-03-02"
-    },
-    {
-      "id": "549402254",
-      "title": "Javascript is hard. Let’s not keep it that way.",
-      "url": "http://berzniz.com/post/76997643963/javascript-is-hard-lets-not-keep-it-that-way",
-      "date": "2014-03-02"
-    },
-    {
-      "id": "559205095",
-      "title": "What to say when someone is being an asshole",
-      "url": "http://www.karenx.com/blog/what-to-say-when-someone-is-being-an-asshole/",
-      "date": "2014-03-02"
-    },
-    {
-      "id": "558932811",
-      "title": "IE10 falls below IE9 in market share, Firefox hits 60-month low, and Chrome again gains the most",
-      "url": "https://thenextweb.com/insider/2014/03/01/ie10-falls-ie9-market-share-firefox-hits-60-month-low-chrome-gains/",
-      "date": "2014-03-02"
-    },
-    {
-      "id": "559053319",
-      "title": "Tal Bereznitskey : 5 Javascript debugging tips you'll start using...",
-      "url": "http://berzniz.com/post/78260747646/5-javascript-debugging-tips-youll-start-using-today",
+      "id": "347031194",
+      "title": "Code Guide by @mdo",
+      "url": "http://mdo.github.io/code-guide/",
       "date": "2014-03-02"
     },
     {
@@ -6380,9 +6398,39 @@
       "date": "2014-03-02"
     },
     {
-      "id": "544615103",
-      "title": "The History of User Experience Design",
-      "url": "https://medium.com/user-experience-researche/5d87d1f81f5a",
+      "id": "559053319",
+      "title": "Tal Bereznitskey : 5 Javascript debugging tips you'll start using...",
+      "url": "http://berzniz.com/post/78260747646/5-javascript-debugging-tips-youll-start-using-today",
+      "date": "2014-03-02"
+    },
+    {
+      "id": "558932811",
+      "title": "IE10 falls below IE9 in market share, Firefox hits 60-month low, and Chrome again gains the most",
+      "url": "https://thenextweb.com/insider/2014/03/01/ie10-falls-ie9-market-share-firefox-hits-60-month-low-chrome-gains/",
+      "date": "2014-03-02"
+    },
+    {
+      "id": "559205095",
+      "title": "What to say when someone is being an asshole",
+      "url": "http://www.karenx.com/blog/what-to-say-when-someone-is-being-an-asshole/",
+      "date": "2014-03-02"
+    },
+    {
+      "id": "549402254",
+      "title": "Javascript is hard. Let’s not keep it that way.",
+      "url": "http://berzniz.com/post/76997643963/javascript-is-hard-lets-not-keep-it-that-way",
+      "date": "2014-03-02"
+    },
+    {
+      "id": "558694273",
+      "title": "From a Googler: the Google interview process",
+      "url": "https://www.reddit.com/r/cscareerquestions/comments/1z97rx/from_a_googler_the_google_interview_process/",
+      "date": "2014-03-02"
+    },
+    {
+      "id": "556784240",
+      "title": "The Nucleus of Atom",
+      "url": "http://blog.atom.io/2014/02/26/the-nucleus-of-atom.html",
       "date": "2014-03-01"
     },
     {
@@ -6410,9 +6458,9 @@
       "date": "2014-03-01"
     },
     {
-      "id": "554307656",
-      "title": "Cross-browser handling of Ajax requests",
-      "url": "http://krasimirtsonev.com/blog/article/Cross-browser-handling-of-Ajax-requests-in-absurdjs",
+      "id": "544615103",
+      "title": "The History of User Experience Design",
+      "url": "https://medium.com/user-experience-researche/5d87d1f81f5a",
       "date": "2014-03-01"
     },
     {
@@ -6428,15 +6476,15 @@
       "date": "2014-03-01"
     },
     {
-      "id": "556784240",
-      "title": "The Nucleus of Atom",
-      "url": "http://blog.atom.io/2014/02/26/the-nucleus-of-atom.html",
+      "id": "554307656",
+      "title": "Cross-browser handling of Ajax requests",
+      "url": "http://krasimirtsonev.com/blog/article/Cross-browser-handling-of-Ajax-requests-in-absurdjs",
       "date": "2014-03-01"
     },
     {
-      "id": "557860620",
-      "title": "10 Years of Coding Horror",
-      "url": "http://blog.codinghorror.com/10-years-of-coding-horror/",
+      "id": "557332556",
+      "title": "Testing at Airbnb - Airbnb Engineering",
+      "url": "http://nerds.airbnb.com/testing-at-airbnb/",
       "date": "2014-02-28"
     },
     {
@@ -6446,9 +6494,9 @@
       "date": "2014-02-28"
     },
     {
-      "id": "557332556",
-      "title": "Testing at Airbnb - Airbnb Engineering",
-      "url": "http://nerds.airbnb.com/testing-at-airbnb/",
+      "id": "557860620",
+      "title": "10 Years of Coding Horror",
+      "url": "http://blog.codinghorror.com/10-years-of-coding-horror/",
       "date": "2014-02-28"
     }
   ]

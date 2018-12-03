@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 <p>
-  I write code for a living and for passion, and to make my computer do what i command it to.
+  <h1 style="font-size: 6em !important;">I write code for a living and for passion.</h1>
 </p>
 
 <p>
