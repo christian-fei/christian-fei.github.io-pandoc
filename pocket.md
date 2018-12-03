@@ -1,7 +1,7 @@
 ---
 layout: page
 free_layout: true
-title: My pocket items
+title: ''
 permalink: /pocket/
 ---
 
