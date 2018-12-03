@@ -83,48 +83,41 @@ main.container.content {
 		transform: rotateY(180deg);
 	}
 
-.flip-container, .front, .back {
+/* .social-container {
 	width: 128px;
 	height: 128px;
+} */
+
+.hover-container {
+  opacity: 0;
+}
+.hover .hover-container {
+  opacity: 0;
+}
+div:hover .hover-container {
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 
-.flipper {
-	-webkit-transition: 0.5s;
-	-webkit-transform-style: preserve-3d;
-	-moz-transition: 0.5s;
-	-moz-transform-style: preserve-3d;
-  -o-transition: 0.5s;
-	-o-transform-style: preserve-3d;
-	transition: 0.5s;
-	transform-style: preserve-3d;
-
-	position: relative;
+.hover-container .small-text {
+  font-size: 0.7rem;
+}
+.hover-container .twitter {
+  background: #1e96ff;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  border-radius: 9px;
 }
 
-.front, .back {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
+.hover-container a.twitter:hover,.hover-container a.github:hover {
+  color: white;
 }
-
-.front {
-	z-index: 2;
+.hover-container .github {
+  background: #191919;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  border-radius: 9px;
 }
-
-.back {
-	-webkit-transform: rotateY(180deg);
-	-moz-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-}
-
-
-
 
 
 
