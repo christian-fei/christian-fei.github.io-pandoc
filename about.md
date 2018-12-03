@@ -1,12 +1,12 @@
 ---
 layout: page
 free_layout: true
-title: About Christian
+title: ''
 permalink: /about/
 ---
 
 <p>
-  I write code for a living, and to make my computer do what i command it to.
+  I write code for a living and for passion, and to make my computer do what i command it to.
 </p>
 
 <p>
