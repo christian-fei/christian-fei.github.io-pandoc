@@ -2,7 +2,7 @@
 layout: page
 free_layout: true
 title: My pocket items
-permalink: /pocket-items/
+permalink: /pocket/
 ---
 
 <div id="pocket-items">

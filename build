@@ -18,10 +18,10 @@ mkdir -p $DIST/about
 pandoc $PANDOC_PARAMS about.md -o $DIST/about.html
 cp $DIST/about.html $DIST/about/index.html
 
-printf "\n⛏ pocket-items page"
-mkdir -p $DIST/pocket-items
-pandoc $PANDOC_PARAMS pocket-items.md -o $DIST/pocket-items.html
-cp $DIST/pocket-items.html $DIST/pocket-items/index.html
+printf "\n⛏ pocket page"
+mkdir -p $DIST/pocket
+pandoc $PANDOC_PARAMS pocket.md -o $DIST/pocket.html
+cp $DIST/pocket.html $DIST/pocket/index.html
 
 mkdir -p $DIST/posts
 
