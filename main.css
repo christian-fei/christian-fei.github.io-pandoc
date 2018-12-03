@@ -77,12 +77,9 @@ main.container.content {
   color: white;
 }
 .navigation-link {
-  text-decoration: overline;
   color: black;
-  font-weight: bold;
-}
-.navigation-link:nth-child(2n) {
-  text-decoration: underline;
+  border-bottom: 3px solid black;
+  padding-right: 2em;
 }
 
 .hover-container {
