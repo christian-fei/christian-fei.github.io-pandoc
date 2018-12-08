@@ -32,6 +32,6 @@ window.fetch('/synced.json')
     li.setAttribute('class', 'pocket-item')
     ul.appendChild(li)
     itemsAdded++
-  }, 100)
+  }, 300)
 })
 </script>

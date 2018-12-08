@@ -116,6 +116,7 @@ div:hover .hover-container {
   margin-left: 0;
 }
 .pocket-item {
+  font-size: 0.9rem;
 	-webkit-animation: pocket-item-animation 1s ease both;
           animation: pocket-item-animation 1s ease both;
   transform-origin: 0 0;
