@@ -111,6 +111,37 @@ div:hover .hover-container {
 }
 
 
+#pocket-items ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+.pocket-item {
+	-webkit-animation: pocket-item-animation 1s ease both;
+          animation: pocket-item-animation 1s ease both;
+  transform-origin: 0 0;
+}
+
+@-webkit-keyframes pocket-item-animation {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes pocket-item-animation {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 
 
 

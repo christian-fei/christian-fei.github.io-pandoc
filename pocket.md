@@ -17,14 +17,21 @@ window.fetch('/synced.json')
 .then(pocketItems => {
   console.log('pocketItems', pocketItems)
   const pocketItemsContainer = document.getElementById('pocket-items')
-  pocketItemsContainer.innerHTML = `
-    <ul>
-      ${pocketItems.items.map(item => `
-      <li>
-        <b><a target="_blank" href="${item.url}">${item.title}</a></b> &nbsp; ${item.date}<br/>
-      </li>
-      `).join('')}
-    </ul>
-  `
+
+  const ul = document.createElement('ul')
+  pocketItemsContainer.appendChild(ul)
+
+  let itemsAdded = 0
+  const intervalHandle = setInterval(() => {
+    const itemToAdd = pocketItems.items[itemsAdded]
+    if (!itemToAdd) return clearInterval(intervalHandle)
+    const li = document.createElement('li')
+    li.innerHTML = `
+      <b>${itemToAdd.date} &nbsp; <a target="_blank" href="${itemToAdd.url}">${itemToAdd.title}</a></b><br/>
+    `
+    li.setAttribute('class', 'pocket-item')
+    ul.appendChild(li)
+    itemsAdded++
+  }, 100)
 })
 </script>
