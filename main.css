@@ -27,17 +27,29 @@ header {
 }
 .content .posts .post-link time {
   display: inline-block;
+  font-family: monospace;
   float: right;
   position: absolute;
   right: 100px;
   background: white;
+  color: black;
+  opacity: 0.1;
   /* display: none; */
-  transform: scaleX(0);
+  font-weight: normal;
   transition: all 0.3s ease;
 }
-.content .posts .post-link:hover time {
-  /* display: inline-block; */
-  transform: scaleX(1);
+.content .posts .post-link:hover,
+.content .posts .post-link:active,
+.content .posts .post-link:focus {
+  color: black;
+  background: #f5f5f5;
+  outline: white 2px solid;
+}
+.content .posts .post-link:hover time,
+.content .posts .post-link:active time,
+.content .posts .post-link:focus time {
+  font-weight: bold;
+  opacity: 1;
 }
 
 .content .posts li {
