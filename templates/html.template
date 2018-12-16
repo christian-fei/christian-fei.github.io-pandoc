@@ -42,7 +42,7 @@
       <div class="content">
         <ul class="posts">
           $for(posts)$
-            <li><a href="/posts/$posts$/">$posts$</a></li>
+            <li><a class="post-link" href="/posts/$posts.filepath$/"><time>$posts.date$</time> $posts.title$</a></li>
           $endfor$
         </ul>
       </div>

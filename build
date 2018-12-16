@@ -46,8 +46,12 @@ echo "posts: " > index.yml
 for file in $(ls -lr posts/*.md)
 do
   if [ -f $file ] && [ "$file" != "posts/index.md" ]; then
-    name=$(basename ${file%.*})
-    echo "  - $name" >> index.yml
+    filepath=$(basename ${file%.*})
+    date=${filepath:0:10}
+    title=${filepath:11:100}
+    echo "  - date: $date" >> index.yml
+    echo "    title: \"$title\"" >> index.yml
+    echo "    filepath: \"$filepath\"" >> index.yml
   fi
 done
 

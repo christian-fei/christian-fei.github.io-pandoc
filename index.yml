@@ -1,80 +1,238 @@
 posts: 
-  - 2018-12-09-Notes-about-Crash-course-in-Machine-Learning
-  - 2018-11-28-Publishing-org-scoped-npm-packages-with-travis
-  - 2018-10-31-my-current-blogging-stack
-  - 2018-10-28-i-am-switching-from-jekyll-to-pandoc-for-my-blog
-  - 2018-10-27-hello-world-v2
-  - 2018-10-18-Start-an-npm-script-with-pm2
-  - 2018-10-06-Make-Anaconda-executables-available-in-your-PATH-fish-shell
-  - 2018-07-28-Using-Cryptosheet.cc-Extract-the-cumulative-historic-wallet-size-for-a-specific-crypto-currency-and-exchange
-  - 2018-07-11-clean-android-device-storage-move-files-to-sd-card-remove-junk-files
-  - 2018-07-03-pm2-deploy-shallow-git-repository-with---depth-also-known-as-fetch-fast
-  - 2018-06-26-Using-Cryptosheet.cc-Aggregate-account-balance-by-exchange-and-currency-pair
-  - 2018-06-20-Cryptosheet.cc-🚀--The-Launch
-  - 2018-04-18-Fix-Python-2-7-issue-on-OSX-bad-interpreter
-  - 2018-04-12-Notes-about-Blockchain-for-Smart-Communities-trentosmart-TSCW18
-  - 2018-04-12-Easy-rate-limit-API-calls-with-p-limit
-  - 2018-04-09-Fix-issue-with-Pandoc-MacOS-Sierra-and-pdflatex-xelatex
-  - 2018-04-05-Offloading-my-Inbox-items-to-discover
-  - 2018-02-07-setup-nginx-as-a-reverse-proxy-with-basic-auth-for-an-upstream
-  - 2018-01-31-a-story-about-npm-publish-unpublish
-  - 2017-12-11-Mapping-historic-market-data
-  - 2017-10-21-Building-the-new-version-of-pomodoro.cc-in-the-open
-  - 2017-10-13-Keeping-an-eye-on-your-Crypto-currency-trades-with-Uebersicht
-  - 2017-04-15-Loop-jekyll-data-directory-files
-  - 2017-03-30-My-dotfiles
-  - 2017-03-27-Prevent-accidental-quit-of-iTerm
-  - 2017-03-24-how-i-deploy-my-site
-  - 2017-03-23-how-i-build-my-site
-  - 2017-03-22-npm-package-kata
-  - 2017-02-24-Trying-out-Redash
-  - 2017-02-22-Chaining-and-indenting-after-the-return-statement
-  - 2017-02-10-How-to-read-Hacker-Newsletter
-  - 2017-02-05-Use-Simple-Jekyll-Search-on-your-blog-in-these-easy-steps
-  - 2016-05-28-discourse-first-installation-steps
-  - 2016-02-03-i-was-at-fosdem-2016-and-it-was-awesome
-  - 2016-01-07-Forking-is-a-commitment
-  - 2015-11-23-Using-a-daily-activity-log-to-keep-track-of-your-studies-and-bookmarks
-  - 2015-10-25-Elixir-Plug-order-matters
-  - 2015-10-24-Jekyll-new-post-script
-  - 2015-10-20-Introduction-to-AngularJS
-  - 2015-10-19-What-Elixir-and-Angular-have-in-common
-  - 2015-10-18-Favor-Viewmodel-over-$scope
-  - 2015-10-15-Always-$digest-after-you-expect
-  - 2015-08-12-How-to-invalidate-app-cache
-  - 2015-07-07-The-simplest-way-to-set-vagrant-default-directory
-  - 2015-07-05-Backup-mongodb-database-from-docker-container-to-host
-  - 2015-07-04-Conforming-to-protocols-in-JavaScript
-  - 2015-05-24-write-a-damn-readme
-  - 2015-05-09-Functional-JavaScript-write-your-negate-not-function
-  - 2015-04-27-About-business-value-and-confidence-in-legacy-projects
-  - 2015-04-23-Angular-ui-router-same-url-different-state
-  - 2015-03-06-Cache-speed-up-docker-node-modules
-  - 2015-03-04-How-to-pull-request-from-command-line
-  - 2015-02-23-How-to-use-morgan-with-node-simple-router
-  - 2015-02-21-start-your-kata-the-right-way
-  - 2015-01-17-Write-your-Protractor-tests-in-Cucumber
-  - 2015-01-16-How-to-zsh-and-hub-auto-completition
-  - 2015-01-09-Debugging-acceptance-tests-with-Angular-and-Cucumber
-  - 2014-12-23-keep-docker-container-running-with-upstart-and-dockers-restart-policy
-  - 2014-10-27-a-list-of-angular-style-guides
-  - 2014-08-22-Angular-Filter-already-selected-items-from-ng-options
-  - 2014-08-20-Solution-to-PhoneGap-issue-device-ready-has-not-fired-after-5-seconds
-  - 2014-08-03-How-to-configure-Drone-behind-an-nginx-proxy-on-a-subdomain
-  - 2014-08-02-How-to-setup-Drone-CI-on-your-server
-  - 2014-07-05-A-practical-workflow-for-resizing-images-with-ImageMagick
-  - 2014-06-30-DRY-dependency-injection-in-Angular-with-gulp-ng-annotate
-  - 2014-05-26-A-closer-look-at-Angular's-dependency-injection
-  - 2014-03-04-updating-dynamic-fields-and-nested-arrays-in-mongodb
-  - 2014-01-19-node-and-sudo-now-kiss
-  - 2014-01-18-simplest-apache-configuration-for-hosting-multiple-sites
-  - 2014-01-05-create-a-new-github-repository-from-the-command-line
-  - 2014-01-04-about-vanity-metrics-and-social-media-bullshit
-  - 2013-10-12-simple-templating-with-regular-expressions
-  - 2013-09-17-keep-ssh-connection-alive
-  - 2013-07-16-how-to-gzip-compression-of-css-and-js-files-on-s3-with-s3cmd
-  - 2013-06-06-how-to-lazy-load-disqus-comments
-  - 2013-05-08-auto-mount-partitions-on-linux-the-easy-way
-  - 2013-04-21-berlin-april-2013
-  - 2013-03-29-replace-links-in-files-with-regular-expressions
-  - 2012-12-23-enable-indexing-of-ntfs-partition-on-mac
+  - date: 2018-12-09
+    title: "Notes-about-Crash-course-in-Machine-Learning"
+    filepath: "2018-12-09-Notes-about-Crash-course-in-Machine-Learning"
+  - date: 2018-11-28
+    title: "Publishing-org-scoped-npm-packages-with-travis"
+    filepath: "2018-11-28-Publishing-org-scoped-npm-packages-with-travis"
+  - date: 2018-10-31
+    title: "my-current-blogging-stack"
+    filepath: "2018-10-31-my-current-blogging-stack"
+  - date: 2018-10-28
+    title: "i-am-switching-from-jekyll-to-pandoc-for-my-blog"
+    filepath: "2018-10-28-i-am-switching-from-jekyll-to-pandoc-for-my-blog"
+  - date: 2018-10-27
+    title: "hello-world-v2"
+    filepath: "2018-10-27-hello-world-v2"
+  - date: 2018-10-18
+    title: "Start-an-npm-script-with-pm2"
+    filepath: "2018-10-18-Start-an-npm-script-with-pm2"
+  - date: 2018-10-06
+    title: "Make-Anaconda-executables-available-in-your-PATH-fish-shell"
+    filepath: "2018-10-06-Make-Anaconda-executables-available-in-your-PATH-fish-shell"
+  - date: 2018-07-28
+    title: "Using-Cryptosheet.cc-Extract-the-cumulative-historic-wallet-size-for-a-specific-crypto-currency-and-"
+    filepath: "2018-07-28-Using-Cryptosheet.cc-Extract-the-cumulative-historic-wallet-size-for-a-specific-crypto-currency-and-exchange"
+  - date: 2018-07-11
+    title: "clean-android-device-storage-move-files-to-sd-card-remove-junk-files"
+    filepath: "2018-07-11-clean-android-device-storage-move-files-to-sd-card-remove-junk-files"
+  - date: 2018-07-03
+    title: "pm2-deploy-shallow-git-repository-with---depth-also-known-as-fetch-fast"
+    filepath: "2018-07-03-pm2-deploy-shallow-git-repository-with---depth-also-known-as-fetch-fast"
+  - date: 2018-06-26
+    title: "Using-Cryptosheet.cc-Aggregate-account-balance-by-exchange-and-currency-pair"
+    filepath: "2018-06-26-Using-Cryptosheet.cc-Aggregate-account-balance-by-exchange-and-currency-pair"
+  - date: 2018-06-20
+    title: "Cryptosheet.cc-🚀--The-Launch"
+    filepath: "2018-06-20-Cryptosheet.cc-🚀--The-Launch"
+  - date: 2018-04-18
+    title: "Fix-Python-2-7-issue-on-OSX-bad-interpreter"
+    filepath: "2018-04-18-Fix-Python-2-7-issue-on-OSX-bad-interpreter"
+  - date: 2018-04-12
+    title: "Notes-about-Blockchain-for-Smart-Communities-trentosmart-TSCW18"
+    filepath: "2018-04-12-Notes-about-Blockchain-for-Smart-Communities-trentosmart-TSCW18"
+  - date: 2018-04-12
+    title: "Easy-rate-limit-API-calls-with-p-limit"
+    filepath: "2018-04-12-Easy-rate-limit-API-calls-with-p-limit"
+  - date: 2018-04-09
+    title: "Fix-issue-with-Pandoc-MacOS-Sierra-and-pdflatex-xelatex"
+    filepath: "2018-04-09-Fix-issue-with-Pandoc-MacOS-Sierra-and-pdflatex-xelatex"
+  - date: 2018-04-05
+    title: "Offloading-my-Inbox-items-to-discover"
+    filepath: "2018-04-05-Offloading-my-Inbox-items-to-discover"
+  - date: 2018-02-07
+    title: "setup-nginx-as-a-reverse-proxy-with-basic-auth-for-an-upstream"
+    filepath: "2018-02-07-setup-nginx-as-a-reverse-proxy-with-basic-auth-for-an-upstream"
+  - date: 2018-01-31
+    title: "a-story-about-npm-publish-unpublish"
+    filepath: "2018-01-31-a-story-about-npm-publish-unpublish"
+  - date: 2017-12-11
+    title: "Mapping-historic-market-data"
+    filepath: "2017-12-11-Mapping-historic-market-data"
+  - date: 2017-10-21
+    title: "Building-the-new-version-of-pomodoro.cc-in-the-open"
+    filepath: "2017-10-21-Building-the-new-version-of-pomodoro.cc-in-the-open"
+  - date: 2017-10-13
+    title: "Keeping-an-eye-on-your-Crypto-currency-trades-with-Uebersicht"
+    filepath: "2017-10-13-Keeping-an-eye-on-your-Crypto-currency-trades-with-Uebersicht"
+  - date: 2017-04-15
+    title: "Loop-jekyll-data-directory-files"
+    filepath: "2017-04-15-Loop-jekyll-data-directory-files"
+  - date: 2017-03-30
+    title: "My-dotfiles"
+    filepath: "2017-03-30-My-dotfiles"
+  - date: 2017-03-27
+    title: "Prevent-accidental-quit-of-iTerm"
+    filepath: "2017-03-27-Prevent-accidental-quit-of-iTerm"
+  - date: 2017-03-24
+    title: "how-i-deploy-my-site"
+    filepath: "2017-03-24-how-i-deploy-my-site"
+  - date: 2017-03-23
+    title: "how-i-build-my-site"
+    filepath: "2017-03-23-how-i-build-my-site"
+  - date: 2017-03-22
+    title: "npm-package-kata"
+    filepath: "2017-03-22-npm-package-kata"
+  - date: 2017-02-24
+    title: "Trying-out-Redash"
+    filepath: "2017-02-24-Trying-out-Redash"
+  - date: 2017-02-22
+    title: "Chaining-and-indenting-after-the-return-statement"
+    filepath: "2017-02-22-Chaining-and-indenting-after-the-return-statement"
+  - date: 2017-02-10
+    title: "How-to-read-Hacker-Newsletter"
+    filepath: "2017-02-10-How-to-read-Hacker-Newsletter"
+  - date: 2017-02-05
+    title: "Use-Simple-Jekyll-Search-on-your-blog-in-these-easy-steps"
+    filepath: "2017-02-05-Use-Simple-Jekyll-Search-on-your-blog-in-these-easy-steps"
+  - date: 2016-05-28
+    title: "discourse-first-installation-steps"
+    filepath: "2016-05-28-discourse-first-installation-steps"
+  - date: 2016-02-03
+    title: "i-was-at-fosdem-2016-and-it-was-awesome"
+    filepath: "2016-02-03-i-was-at-fosdem-2016-and-it-was-awesome"
+  - date: 2016-01-07
+    title: "Forking-is-a-commitment"
+    filepath: "2016-01-07-Forking-is-a-commitment"
+  - date: 2015-11-23
+    title: "Using-a-daily-activity-log-to-keep-track-of-your-studies-and-bookmarks"
+    filepath: "2015-11-23-Using-a-daily-activity-log-to-keep-track-of-your-studies-and-bookmarks"
+  - date: 2015-10-25
+    title: "Elixir-Plug-order-matters"
+    filepath: "2015-10-25-Elixir-Plug-order-matters"
+  - date: 2015-10-24
+    title: "Jekyll-new-post-script"
+    filepath: "2015-10-24-Jekyll-new-post-script"
+  - date: 2015-10-20
+    title: "Introduction-to-AngularJS"
+    filepath: "2015-10-20-Introduction-to-AngularJS"
+  - date: 2015-10-19
+    title: "What-Elixir-and-Angular-have-in-common"
+    filepath: "2015-10-19-What-Elixir-and-Angular-have-in-common"
+  - date: 2015-10-18
+    title: "Favor-Viewmodel-over-$scope"
+    filepath: "2015-10-18-Favor-Viewmodel-over-$scope"
+  - date: 2015-10-15
+    title: "Always-$digest-after-you-expect"
+    filepath: "2015-10-15-Always-$digest-after-you-expect"
+  - date: 2015-08-12
+    title: "How-to-invalidate-app-cache"
+    filepath: "2015-08-12-How-to-invalidate-app-cache"
+  - date: 2015-07-07
+    title: "The-simplest-way-to-set-vagrant-default-directory"
+    filepath: "2015-07-07-The-simplest-way-to-set-vagrant-default-directory"
+  - date: 2015-07-05
+    title: "Backup-mongodb-database-from-docker-container-to-host"
+    filepath: "2015-07-05-Backup-mongodb-database-from-docker-container-to-host"
+  - date: 2015-07-04
+    title: "Conforming-to-protocols-in-JavaScript"
+    filepath: "2015-07-04-Conforming-to-protocols-in-JavaScript"
+  - date: 2015-05-24
+    title: "write-a-damn-readme"
+    filepath: "2015-05-24-write-a-damn-readme"
+  - date: 2015-05-09
+    title: "Functional-JavaScript-write-your-negate-not-function"
+    filepath: "2015-05-09-Functional-JavaScript-write-your-negate-not-function"
+  - date: 2015-04-27
+    title: "About-business-value-and-confidence-in-legacy-projects"
+    filepath: "2015-04-27-About-business-value-and-confidence-in-legacy-projects"
+  - date: 2015-04-23
+    title: "Angular-ui-router-same-url-different-state"
+    filepath: "2015-04-23-Angular-ui-router-same-url-different-state"
+  - date: 2015-03-06
+    title: "Cache-speed-up-docker-node-modules"
+    filepath: "2015-03-06-Cache-speed-up-docker-node-modules"
+  - date: 2015-03-04
+    title: "How-to-pull-request-from-command-line"
+    filepath: "2015-03-04-How-to-pull-request-from-command-line"
+  - date: 2015-02-23
+    title: "How-to-use-morgan-with-node-simple-router"
+    filepath: "2015-02-23-How-to-use-morgan-with-node-simple-router"
+  - date: 2015-02-21
+    title: "start-your-kata-the-right-way"
+    filepath: "2015-02-21-start-your-kata-the-right-way"
+  - date: 2015-01-17
+    title: "Write-your-Protractor-tests-in-Cucumber"
+    filepath: "2015-01-17-Write-your-Protractor-tests-in-Cucumber"
+  - date: 2015-01-16
+    title: "How-to-zsh-and-hub-auto-completition"
+    filepath: "2015-01-16-How-to-zsh-and-hub-auto-completition"
+  - date: 2015-01-09
+    title: "Debugging-acceptance-tests-with-Angular-and-Cucumber"
+    filepath: "2015-01-09-Debugging-acceptance-tests-with-Angular-and-Cucumber"
+  - date: 2014-12-23
+    title: "keep-docker-container-running-with-upstart-and-dockers-restart-policy"
+    filepath: "2014-12-23-keep-docker-container-running-with-upstart-and-dockers-restart-policy"
+  - date: 2014-10-27
+    title: "a-list-of-angular-style-guides"
+    filepath: "2014-10-27-a-list-of-angular-style-guides"
+  - date: 2014-08-22
+    title: "Angular-Filter-already-selected-items-from-ng-options"
+    filepath: "2014-08-22-Angular-Filter-already-selected-items-from-ng-options"
+  - date: 2014-08-20
+    title: "Solution-to-PhoneGap-issue-device-ready-has-not-fired-after-5-seconds"
+    filepath: "2014-08-20-Solution-to-PhoneGap-issue-device-ready-has-not-fired-after-5-seconds"
+  - date: 2014-08-03
+    title: "How-to-configure-Drone-behind-an-nginx-proxy-on-a-subdomain"
+    filepath: "2014-08-03-How-to-configure-Drone-behind-an-nginx-proxy-on-a-subdomain"
+  - date: 2014-08-02
+    title: "How-to-setup-Drone-CI-on-your-server"
+    filepath: "2014-08-02-How-to-setup-Drone-CI-on-your-server"
+  - date: 2014-07-05
+    title: "A-practical-workflow-for-resizing-images-with-ImageMagick"
+    filepath: "2014-07-05-A-practical-workflow-for-resizing-images-with-ImageMagick"
+  - date: 2014-06-30
+    title: "DRY-dependency-injection-in-Angular-with-gulp-ng-annotate"
+    filepath: "2014-06-30-DRY-dependency-injection-in-Angular-with-gulp-ng-annotate"
+  - date: 2014-05-26
+    title: "A-closer-look-at-Angular's-dependency-injection"
+    filepath: "2014-05-26-A-closer-look-at-Angular's-dependency-injection"
+  - date: 2014-03-04
+    title: "updating-dynamic-fields-and-nested-arrays-in-mongodb"
+    filepath: "2014-03-04-updating-dynamic-fields-and-nested-arrays-in-mongodb"
+  - date: 2014-01-19
+    title: "node-and-sudo-now-kiss"
+    filepath: "2014-01-19-node-and-sudo-now-kiss"
+  - date: 2014-01-18
+    title: "simplest-apache-configuration-for-hosting-multiple-sites"
+    filepath: "2014-01-18-simplest-apache-configuration-for-hosting-multiple-sites"
+  - date: 2014-01-05
+    title: "create-a-new-github-repository-from-the-command-line"
+    filepath: "2014-01-05-create-a-new-github-repository-from-the-command-line"
+  - date: 2014-01-04
+    title: "about-vanity-metrics-and-social-media-bullshit"
+    filepath: "2014-01-04-about-vanity-metrics-and-social-media-bullshit"
+  - date: 2013-10-12
+    title: "simple-templating-with-regular-expressions"
+    filepath: "2013-10-12-simple-templating-with-regular-expressions"
+  - date: 2013-09-17
+    title: "keep-ssh-connection-alive"
+    filepath: "2013-09-17-keep-ssh-connection-alive"
+  - date: 2013-07-16
+    title: "how-to-gzip-compression-of-css-and-js-files-on-s3-with-s3cmd"
+    filepath: "2013-07-16-how-to-gzip-compression-of-css-and-js-files-on-s3-with-s3cmd"
+  - date: 2013-06-06
+    title: "how-to-lazy-load-disqus-comments"
+    filepath: "2013-06-06-how-to-lazy-load-disqus-comments"
+  - date: 2013-05-08
+    title: "auto-mount-partitions-on-linux-the-easy-way"
+    filepath: "2013-05-08-auto-mount-partitions-on-linux-the-easy-way"
+  - date: 2013-04-21
+    title: "berlin-april-2013"
+    filepath: "2013-04-21-berlin-april-2013"
+  - date: 2013-03-29
+    title: "replace-links-in-files-with-regular-expressions"
+    filepath: "2013-03-29-replace-links-in-files-with-regular-expressions"
+  - date: 2012-12-23
+    title: "enable-indexing-of-ntfs-partition-on-mac"
+    filepath: "2012-12-23-enable-indexing-of-ntfs-partition-on-mac"
