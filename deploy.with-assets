@@ -6,8 +6,4 @@ aws s3 cp \
   --recursive \
   --acl public-read \
   --region eu-central-1 \
-  --exclude "assets/images/*.jpg" \
-  --exclude "assets/images/*.png" \
-  --exclude "assets/images/posts/*.jpg" \
-  --exclude "assets/images/posts/*.png" \
   ./dist/ s3://christianfei.com
