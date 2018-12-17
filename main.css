@@ -5,6 +5,14 @@ body {
   padding: 0.5em 1em;
 }
 
+a:hover,
+a:active,
+a:focus {
+  color: black;
+  background: #f5f5f5;
+  outline: white 2px solid;
+}
+
 header {
   padding: 1em;
   /* background: #e8e8e8; */
@@ -28,22 +36,13 @@ header {
 .content .posts .post-link time {
   display: inline-block;
   font-family: monospace;
-  float: right;
   position: absolute;
   right: 100px;
   background: white;
   color: black;
   opacity: 0.1;
-  /* display: none; */
   font-weight: normal;
   transition: all 0.3s ease;
-}
-.content .posts .post-link:hover,
-.content .posts .post-link:active,
-.content .posts .post-link:focus {
-  color: black;
-  background: #f5f5f5;
-  outline: white 2px solid;
 }
 .content .posts .post-link:hover time,
 .content .posts .post-link:active time,
@@ -53,7 +52,7 @@ header {
 }
 
 .content .posts li {
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
 }
 
 header .button {
@@ -67,50 +66,33 @@ main.container.content {
 }
 
 .search-posts {
-  font-size: 0.8rem;
+  display: block;
+  font-size: 0.9rem;
   padding: 0.75em;
-  width: 250px;
+  width: 100%;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  outline: none;
+  border: none;
 }
 
 
-
-/* github contributions chart */
-.wday {
-  font-size: 0.6rem;
-}
-.month {
-  font-size: 0.6rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .social-container {
-	width: 128px;
-	height: 128px;
-} */
-
+/*
 .navigation-link:active {
   background: black;
   color: white;
 }
+*/
+
+.navigation-link:first-child {
+  padding: 0.5rem 1rem;
+  padding-left: 0;
+}
 .navigation-link {
-  color: black;
-  border-bottom: 3px solid black;
-  padding-right: 2em;
+  /* color: black; */
+  padding: 0.5rem 1rem;
+  /* background: #f5f5f5; */
+
 }
 
 .hover-container {
