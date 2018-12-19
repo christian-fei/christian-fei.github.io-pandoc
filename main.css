@@ -51,6 +51,13 @@ header {
   opacity: 1;
 }
 
+@media all and (max-width: 768px) {
+  .content .posts .post-link time {
+    display: none;
+  }
+}
+
+
 .content .posts li {
   /* font-size: 0.9rem; */
 }
