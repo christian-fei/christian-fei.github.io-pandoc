@@ -28,10 +28,22 @@ header {
   list-style-type: none;
   margin-left: 0;
 }
+.content .posts li {
+  display: block;
+}
 .content .posts .post-link {
   position: relative;
   min-width: 500px;
   display: block;
+}
+@media all and (max-width: 700px) {
+  .content .posts .post-link {
+    display: inline-block;
+  }
+  .content .posts li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 .content .posts .post-link time {
   display: inline-block;
