@@ -41,6 +41,27 @@ header strong {
 header .avatar {
   display: inline-block;
 }
+@media all and (max-width: 700px) {
+  .social-container {
+    display: none;
+  }
+  header {
+    overflow: hidden;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .content .posts {
   list-style-type: none;
