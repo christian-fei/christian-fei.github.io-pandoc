@@ -8,7 +8,7 @@
     $endfor$
 
     $for(css)$
-      <link rel="stylesheet" href="$css$">
+      <link async defer rel="stylesheet" href="$css$">
     $endfor$
   </head>
   <body>
@@ -54,6 +54,6 @@
       &copy; Christian Fei 2018
     </footer>
 
-    <script src="/main.js"></script>
+    <script async defer src="/main.js"></script>
   </body>
 </html>
