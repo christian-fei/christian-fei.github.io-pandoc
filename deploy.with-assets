@@ -1,6 +1,6 @@
 #!/bin/bash
 
-printf "\n🚀  deploy\n"
+printf "\n🚀  deploy with assets\n"
 printf "\n"
 aws s3 cp \
   --recursive \
