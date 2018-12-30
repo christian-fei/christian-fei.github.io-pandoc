@@ -23,7 +23,6 @@ mkdir -p $DIST/pocket
 pandoc $PANDOC_PARAMS pocket.md -o $DIST/pocket.html
 cp $DIST/pocket.html $DIST/pocket/index.html
 
-mkdir -p $DIST/posts
 
 printf "\n⛏ copying assets"
 cp -r assets dist/
@@ -55,7 +54,12 @@ do
   fi
 done
 
+mkdir -p $DIST/posts
 printf "\n⛏ building posts\n"
+
+pandoc $PANDOC_PARAMS posts/index.md -o $DIST/posts/index.html
+cp $DIST/posts/index.html $DIST/posts/index.html
+
 for file in posts/*.md
 do
   if [ -f $file ] && [ "$file" != "posts/index.md" ]; then

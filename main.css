@@ -18,6 +18,7 @@ a:focus {
 }
 
 header {
+  font-size: 16px;
   padding: 1em;
   margin-right: -1rem;
   margin-left: -1rem;
@@ -62,6 +63,20 @@ header .avatar {
 
 
 
+/*
+article.content {
+  font-family: monospace;
+}
+
+article.content h1,
+article.content h2,
+article.content h3,
+article.content h4,
+article.content h5,
+article.content h6 {
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+*/
 
 .content .posts {
   list-style-type: none;
@@ -92,9 +107,6 @@ header .avatar {
   font-family: monospace;
   position: absolute;
   right: 100px;
-  /* background: white; */
-  /* color: black; */
-  /* opacity: 0.1; */
   font-weight: normal;
   transition: all 0.3s ease;
 }
@@ -112,11 +124,6 @@ header .avatar {
 .content .posts .post-link:focus time {
   font-weight: bold;
   opacity: 1;
-}
-
-
-.content .posts li {
-  /* font-size: 0.9rem; */
 }
 
 header .button {
@@ -142,19 +149,12 @@ main.container.content {
 
 
 
-.navigation-link {
-  /* color: black; */
-  padding: 0.5rem 1rem;
-  /* background: #f5f5f5; */
-}
-.navigation-link:first-child {
-  /* padding: 0.5rem 1rem; */
-  /* padding-left: 0; */
-}
 
 
 .hover-container {
   opacity: 0.4;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 div:hover .hover-container {
   opacity: 1;

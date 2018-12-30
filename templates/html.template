@@ -17,7 +17,7 @@
     $endfor$
 
     <div class="container">
-      <article class="content" itemscope itemtype="http://schema.org/BlogPosting">
+      <article class="main-content content" itemscope itemtype="http://schema.org/BlogPosting">
         <main class="container content">
           $if(title)$
             <div class="content">
