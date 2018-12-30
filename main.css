@@ -34,9 +34,20 @@ header {
   color: white;
   color: whitesmoke;
 }
+header a {
+  padding: 0.0rem 0.2rem;
+  text-decoration: underline;
+  /* background-color: white; */
+  /* color: black; */
+  /* text-decoration: underline; */
+}
+header a:hover,
+header a:active,
+header a:focus {
+  /* color: black; */
+}
 header strong {
   color: white;
-  /* text-decoration: underline; */
 }
 
 header .avatar {
@@ -261,6 +272,7 @@ div:hover .hover-container {
 #carbonads a {
   color: inherit !important;
   text-decoration: none !important;
+  padding: 0;
 }
 
 #carbonads a:hover {
