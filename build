@@ -1,12 +1,9 @@
 #!/bin/bash
 
-MAIN_CSS=main.css
-MAIN_JS=main.js
-PANDOC_PARAMS="--atx-headers --template=templates/html.template --from markdown --to=html5 -H head.html -B header.html --metadata-file=index.yml"
-DIST=dist
-
 printf "\n💯  build\n"
 
+PANDOC_PARAMS="--atx-headers --template=templates/html.template --from markdown --to=html5 -H head.html -B header.html --metadata-file=index.yml"
+DIST=dist
 
 printf "\n⛏ index page"
 mkdir -p $DIST
@@ -28,11 +25,11 @@ printf "\n⛏ copying assets"
 cp -r assets dist/
 
 printf "\n⛏ copying styles\n"
-cp -r $MAIN_CSS dist/$MAIN_CSS
+cp -r main.css dist/main.css
 cp github-contributions.svg  dist/github-contributions.svg
 
 printf "\n⛏ copying scripts\n"
-cp -r $MAIN_JS dist/$MAIN_JS
+cp -r main.js dist/main.js
 
 printf "\n⛏ copying synced.json\n"
 cp synced.json dist/synced.json
