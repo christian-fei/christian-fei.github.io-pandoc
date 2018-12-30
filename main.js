@@ -3,19 +3,16 @@
 console.log('loaded js')
 
 const $posts = document.querySelector('.posts')
-const $postLis = document.querySelectorAll('.posts li')
+const $postLis = document.querySelectorAll('.posts li') || []
 const postTitles = Array.prototype.map.call($postLis, $el => $el.innerText)
 
-const $search = document.createElement('input')
-$search.setAttribute('type', 'test')
-$search.setAttribute('class', 'search-posts')
-$search.setAttribute('placeholder', 'Search posts...')
-$search.onkeyup = handleSearchKeyUp
-
 if ($posts) {
+  const $search = document.createElement('input')
+  $search.setAttribute('type', 'test')
+  $search.setAttribute('class', 'search-posts')
+  $search.setAttribute('placeholder', 'Search posts...')
+  $search.onkeyup = handleSearchKeyUp
   $posts.prepend($search)
-} else {
-  console.log('no .posts')
 }
 
 function handleSearchKeyUp (e) {
