@@ -37,14 +37,6 @@ header {
 header a {
   padding: 0.0rem 0.2rem;
   text-decoration: underline;
-  /* background-color: white; */
-  /* color: black; */
-  /* text-decoration: underline; */
-}
-header a:hover,
-header a:active,
-header a:focus {
-  /* color: black; */
 }
 header strong {
   color: white;
@@ -246,7 +238,6 @@ div:hover .hover-container {
 
 
 /* AD */
-
 #carbonads {
   --width: 180px;
   --font-size: 10px;
