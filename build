@@ -26,12 +26,10 @@ cp -r assets dist/
 
 printf "\n⛏ copying styles\n"
 cp -r main.css dist/main.css
-cp -r carbonads.css dist/carbonads.css
 cp github-contributions.svg  dist/github-contributions.svg
 
 printf "\n⛏ copying scripts\n"
 cp -r main.js dist/main.js
-cp -r cssrelpreload.js dist/cssrelpreload.js
 
 printf "\n⛏ copying synced.json\n"
 cp synced.json dist/synced.json
