@@ -8,7 +8,8 @@
     $endfor$
 
     $for(css)$
-      <link async defer rel="stylesheet" href="$css$">
+      <link rel='preload' href='$css$' as='style' onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="$css$"></noscript>
     $endfor$
   </head>
   <body>
@@ -54,6 +55,7 @@
       &copy; Christian Fei 2018
     </footer>
 
+    <script async defer src="/cssrelpreload.js"></script>
     <script async defer src="/main.js"></script>
   </body>
 </html>
