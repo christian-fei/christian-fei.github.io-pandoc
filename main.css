@@ -40,7 +40,9 @@ header {
 }
 header a {
   padding: 0.0rem 0.2rem;
+  color: orange;
   text-decoration: underline;
+  /* border-bottom: 2px solid orange; */
 }
 header strong {
   color: white;
