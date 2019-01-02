@@ -199,3 +199,8 @@ div:hover .hover-container {
     opacity: 1;
   }
 }
+
+
+.math {
+  font-size: 2rem;
+}

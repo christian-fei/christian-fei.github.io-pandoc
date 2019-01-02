@@ -3,8 +3,6 @@ title: Notes about Crash course in Machine Learning
 date: 2018-12-09
 ---
 
-# crash course machine learning
-
 Following this [Machine Learning - Crash Course](https://developers.google.com/machine-learning/crash-course/
 License)
 
@@ -30,14 +28,6 @@ License)
 ### Linear regression
 A linear relationship is defined by the linear regression equation:
 
-```
-y = mx + b
-```
-
-```math
-y = mx + b
-```
-
 $$
 y = mx + b
 $$
@@ -58,11 +48,9 @@ Training means determining good (predicted) values for a certain feature (labell
 
 A popular loss function to determine this is “Mean Squared Error“, where you compute the “square of the difference between the label and the prediction” and apply it to every datapoint of the labelled examples.
 
-![](/assets/images/posts/notes-about-ml-crash-course/mse.png)
-
-```
-MSE = 1 / N * SUM(y - prediction(x))^2
-```
+$$
+1 / N * \sum_{(x,y) \in D}{ } (y - prediction(x))^2
+$$
 
 You can also read the `y` variable as “observation”, the  value of the labelled example.
 
