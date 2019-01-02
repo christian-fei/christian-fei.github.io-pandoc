@@ -34,15 +34,22 @@ A linear relationship is defined by the linear regression equation:
 y = mx + b
 ```
 
+```math
+y = mx + b
+```
+
+$$
+y = mx + b
+$$
+
 Where `y` is the predicted value, `m` is the slope of the line, `x` is the value of input and `b` is also called the `y-intercept`, the initial “offset” of your function.
 
 In ML, it is slightly different:
 
-![](/assets/images/posts/notes-about-ml-crash-course/linear.png)
+$$
+\hat{y} = w_1 x_1 + b
+$$
 
-```
-y’ = w1x1 + b
-```
 
 Again, `y'` is the predicted output value, `w1` is the weight associated to each feature (x-value), `x1` is the first feature and `b` is also called the bias, also referred to as `w0` (weight of the first feature).
 
