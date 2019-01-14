@@ -178,9 +178,9 @@ div:hover .hover-container {
 }
 .pocket-item {
   font-size: 0.9rem;
-	-webkit-animation: pocket-item-animation 1s ease both;
-          animation: pocket-item-animation 1s ease both;
-  transform-origin: 0 0;
+	/* -webkit-animation: pocket-item-animation 1s ease both; */
+          /* animation: pocket-item-animation 1s ease both; */
+  /* transform-origin: 0 0; */
 }
 
 @-webkit-keyframes pocket-item-animation {

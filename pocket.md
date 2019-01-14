@@ -18,19 +18,25 @@ window.fetch('/synced.json')
   const pocketItemsContainer = document.getElementById('pocket-items')
 
   const ul = document.createElement('ul')
+  ul.classList.add('search-posts')
+  ul.classList.add('searchable')
   pocketItemsContainer.appendChild(ul)
+  console.time('render')
+  const fragment = document.createDocumentFragment()
 
-  let itemsAdded = 0
-  const intervalHandle = setInterval(() => {
-    const itemToAdd = pocketItems.items[itemsAdded]
-    if (!itemToAdd) return clearInterval(intervalHandle)
+  pocketItems.items.forEach(function (itemToAdd) {
+    if (!itemToAdd) return
     const li = document.createElement('li')
     li.innerHTML = `
       <b>${itemToAdd.date} &nbsp; <a target="_blank" href="${itemToAdd.url}">${itemToAdd.title}</a></b><br/>
     `
     li.setAttribute('class', 'pocket-item')
-    ul.appendChild(li)
-    itemsAdded++
-  }, 60)
+    fragment.appendChild(li)
+    // ul.appendChild(li)
+  })
+
+  ul.appendChild(fragment)
+  console.timeEnd('render')
+
 })
 </script>

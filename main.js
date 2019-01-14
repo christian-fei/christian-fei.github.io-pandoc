@@ -2,17 +2,20 @@
 
 console.log('loaded js')
 
-const $posts = document.querySelector('.posts')
-const $postLis = document.querySelectorAll('.posts li') || []
+const $searchable = document.querySelectorAll('.searchable')
+const $postLis = document.querySelectorAll('.searchable li') || []
 const postTitles = Array.prototype.map.call($postLis, $el => $el.innerText)
 
-if ($posts) {
-  const $search = document.createElement('input')
-  $search.setAttribute('type', 'test')
-  $search.setAttribute('class', 'search-posts')
-  $search.setAttribute('placeholder', 'Search posts...')
-  $search.onkeyup = handleSearchKeyUp
-  $posts.prepend($search)
+if ($searchable) {
+  $searchable.forEach(function ($s) {
+    debugger
+    const $search = document.createElement('input')
+    $search.setAttribute('type', 'test')
+    $search.setAttribute('class', 'search-posts')
+    $search.setAttribute('placeholder', 'Search posts...')
+    $search.onkeyup = handleSearchKeyUp
+    $s.prepend($search)
+  })
 }
 
 function handleSearchKeyUp (e) {
@@ -27,10 +30,10 @@ function handleSearchKeyUp (e) {
       $noMatch = document.createElement('div')
       $noMatch.setAttribute('id', 'no-match')
       $noMatch.innerText = 'No matches'
-      $posts.prepend($noMatch)
+      $searchable.prepend($noMatch)
     }
   } else {
-    if ($noMatch) $posts.removeChild($noMatch)
+    if ($noMatch) $searchable.removeChild($noMatch)
   }
 
   $postLis.forEach(function ($postLi) {
