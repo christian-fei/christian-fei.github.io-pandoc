@@ -1,4 +1,7 @@
 posts: 
+  - date: 2019-04-04
+    title: "How-to-fix-Ansible-error-The-task-includes-an-option-with-an-undefined-variable"
+    filepath: "2019-04-04-How-to-fix-Ansible-error-The-task-includes-an-option-with-an-undefined-variable"
   - date: 2018-12-09
     title: "Notes-about-Crash-course-in-Machine-Learning"
     filepath: "2018-12-09-Notes-about-Crash-course-in-Machine-Learning"
