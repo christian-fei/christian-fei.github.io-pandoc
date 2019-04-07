@@ -17,4 +17,4 @@ Where:
 - COUNTA returns `Number of rows in a dataset`
 
 
-Based on [this article] for Microsoft Excel
+Based on [this article](https://www.techrepublic.com/blog/microsoft-office/how-to-return-the-last-value-in-an-excel-column/) for Microsoft Excel
