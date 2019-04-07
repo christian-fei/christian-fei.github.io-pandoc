@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="generator" content="pandoc">
+    $if(title)$
+      <title>$title$ - Christian Fei's Blog</title>>
+    $endif$
+
     $for(header-includes)$
       $header-includes$
     $endfor$
