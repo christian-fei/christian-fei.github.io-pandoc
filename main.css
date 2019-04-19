@@ -17,6 +17,10 @@ a:focus {
   color: inherit;
 }
 
+a.no-outline {
+  outline: none !important;
+}
+
 
 
 
