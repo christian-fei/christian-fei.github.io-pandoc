@@ -32,8 +32,8 @@ cp github-contributions.svg  dist/github-contributions.svg
 printf "\n⛏ copying scripts\n"
 cp -r main.js dist/main.js
 
-printf "\n⛏ copying synced.json\n"
-cp synced.json dist/synced.json
+printf "\n⛏ copying pocket.json\n"
+cp pocket.json dist/pocket.json
 
 printf "\n⛏ copying github-contributions.svg\n"
 cp github-contributions.svg dist/github-contributions.svg
