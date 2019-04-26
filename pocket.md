@@ -11,7 +11,7 @@ You can skim through the articles I bookmarked on [pocket](http://getpocket.com)
 </div>
 
 <script type="text/javascript">
-window.fetch('/synced.json')
+window.fetch('/pocket.json')
 .then((response) => response.json())
 .then(pocketItems => {
   console.log('pocketItems', pocketItems)
