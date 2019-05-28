@@ -25,7 +25,7 @@ a.no-outline {
 
 
 /* HEADER */
-header {
+.main-header {
   font-size: 16px;
   padding: 1em;
   margin-right: -1rem;
@@ -42,33 +42,33 @@ header {
   color: white;
   color: whitesmoke;
 }
-header a {
+.main-header a {
   padding: 0.0rem 0.2rem;
   color: orange;
   text-decoration: underline;
   /* border-bottom: 2px solid orange; */
 }
-header strong {
+.main-header strong {
   color: white;
 }
 
-header .avatar {
+.main-header .avatar {
   display: inline-block;
 }
 @media all and (max-width: 700px) {
   .social-container {
     display: none;
   }
-  header {
-    overflow: hidden;
-  }
 }
 @media all and (max-width: 700px) {
-  header .avatar-container {
+  .main-header .avatar-container {
     display: none;
   }
 }
 
+.main-header header {
+  padding: 0.5em;
+}
 
 
 /* CONTENT */
