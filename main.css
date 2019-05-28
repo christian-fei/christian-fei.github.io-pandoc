@@ -130,7 +130,7 @@ main.container.content {
   margin-left: 0;
 }
 
-.search-posts {
+.searchable input {
   display: block;
   font-size: 0.9rem;
   padding: 0.75em;

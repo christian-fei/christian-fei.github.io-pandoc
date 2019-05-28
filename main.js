@@ -1,43 +1,45 @@
 'use strict'
 
-console.log('loaded js')
+window.initSearchable = initSearchable
 
-const $searchable = document.querySelectorAll('.searchable')
-const $postLis = document.querySelectorAll('.searchable li') || []
-const postTitles = Array.prototype.map.call($postLis, $el => $el.innerText)
+const $searchables = document.querySelectorAll('.searchable')
 
-if ($searchable) {
-  $searchable.forEach(function ($s) {
-    debugger
-    const $search = document.createElement('input')
-    $search.setAttribute('type', 'test')
-    $search.setAttribute('class', 'search-posts')
-    $search.setAttribute('placeholder', 'Search posts...')
-    $search.onkeyup = handleSearchKeyUp
-    $s.prepend($search)
-  })
+if ($searchables) {
+  $searchables.forEach(initSearchable)
 }
 
-function handleSearchKeyUp (e) {
-  const searchTerm = e.target.value
-  const searchRegExp = new RegExp(searchTerm, 'i')
-  const noMatch = postTitles.filter(t => searchRegExp.test(t)).length === 0
+function initSearchable ($searchable) {
+  const $search = document.createElement('input')
+  $search.setAttribute('type', 'test')
+  $search.setAttribute('placeholder', 'Search posts...')
+  $search.onkeyup = handleSearchKeyUp
+  $searchable.prepend($search)
 
-  let $noMatch = document.getElementById('no-match')
+  function handleSearchKeyUp (e) {
+    const searchTerm = e.target.value
+    const searchRegExp = new RegExp(searchTerm, 'i')
+    const $searchableItems = $searchable.querySelectorAll('li') || []
+    const postTitles = Array.prototype.map.call($searchableItems, $el => $el.innerText)
+    const noMatch = postTitles.filter(t => searchRegExp.test(t)).length === 0
 
-  if (noMatch) {
-    if (!$noMatch) {
-      $noMatch = document.createElement('div')
-      $noMatch.setAttribute('id', 'no-match')
-      $noMatch.innerText = 'No matches'
-      $searchable.prepend($noMatch)
+    let $noMatch = document.getElementById('no-match')
+
+    if (noMatch) {
+      if (!$noMatch) {
+        $noMatch = document.createElement('div')
+        $noMatch.setAttribute('id', 'no-match')
+        $noMatch.innerText = 'No matches'
+        $searchable.prepend($noMatch)
+      }
+    } else {
+      if ($noMatch) $searchable.removeChild($noMatch)
     }
-  } else {
-    if ($noMatch) $searchable.removeChild($noMatch)
-  }
 
-  $postLis.forEach(function ($postLi) {
-    const show = noMatch || !searchTerm || searchRegExp.test($postLi.innerText)
-    $postLi.style.display = show ? 'inherit' : 'none'
-  })
+    $searchableItems.forEach(function ($postLi) {
+      const show = noMatch || !searchTerm || searchRegExp.test($postLi.innerText)
+      $postLi.style.display = show ? 'inherit' : 'none'
+    })
+  }
 }
+
+console.log('loaded js')

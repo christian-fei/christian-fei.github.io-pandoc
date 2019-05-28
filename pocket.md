@@ -17,10 +17,10 @@ window.fetch('/pocket.json')
   console.log('pocketItems', pocketItems)
   const pocketItemsContainer = document.getElementById('pocket-items')
 
-  const ul = document.createElement('ul')
-  ul.classList.add('search-posts')
-  ul.classList.add('searchable')
-  pocketItemsContainer.appendChild(ul)
+  const $searchable = document.createElement('ul')
+  $searchable.classList.add('searchable')
+  pocketItemsContainer.appendChild($searchable)
+  window.initSearchable($searchable)
   console.time('render')
   const fragment = document.createDocumentFragment()
 
@@ -32,11 +32,9 @@ window.fetch('/pocket.json')
     `
     li.setAttribute('class', 'pocket-item')
     fragment.appendChild(li)
-    // ul.appendChild(li)
   })
 
-  ul.appendChild(fragment)
+  $searchable.appendChild(fragment)
   console.timeEnd('render')
-
 })
 </script>
