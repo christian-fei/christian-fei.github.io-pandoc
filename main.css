@@ -130,6 +130,12 @@ main.container.content {
   margin-left: 0;
 }
 
+
+
+
+/*
+searchable.css
+*/
 .searchable input {
   display: block;
   font-size: 0.9rem;
@@ -145,36 +151,16 @@ main.container.content {
 
 
 
-.hover-container {
-  opacity: 0.4;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-div:hover .hover-container {
-  opacity: 1;
-  transition: opacity 0.3s ease;
-}
-
-.hover-container .small-text {
+.small-text {
   font-size: 0.7rem;
 }
-.hover-container .twitter {
+.twitter {
   background: #1e96ff;
   color: white;
   padding: 0.2rem 0.4rem;
   border-radius: 9px;
+  text-decoration: none !important;
 }
-
-.hover-container a.twitter:hover,.hover-container a.github:hover {
-  color: white;
-}
-.hover-container .github {
-  background: #191919;
-  color: white;
-  padding: 0.2rem 0.4rem;
-  border-radius: 9px;
-}
-
 
 #pocket-items ul {
   list-style-type: none;
