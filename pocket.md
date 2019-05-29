@@ -19,6 +19,7 @@ window.fetch('/pocket.json')
 
   const $searchable = document.createElement('ul')
   $searchable.classList.add('searchable')
+  $searchable.classList.add('fade-out-bottom')
   pocketItemsContainer.appendChild($searchable)
   window.initSearchable($searchable)
   console.time('render')
