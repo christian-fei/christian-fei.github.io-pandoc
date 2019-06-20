@@ -32,7 +32,7 @@ permalink: /about/
 </p>
 
 <p>
-  Reach out on <b>Twitter <a href="https://twitter.com/christian_fei">@christian_fei</a></b>!
+  Reach out on <b>Twitter <a href="https://twitter.com/christian_fei" rel="noreferrer">@christian_fei</a></b>!
 </p>
 
 <p>

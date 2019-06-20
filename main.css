@@ -217,3 +217,7 @@ searchable.css
 .math {
   font-size: 2rem;
 }
+
+.mega {
+  font-size: 4em !important;
+}
