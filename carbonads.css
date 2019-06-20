@@ -1,3 +1,10 @@
+#carbonads * {
+  border-bottom: none !important;
+}
+#carbonads a:hover {
+  background: inherit !important;
+}
+
 #carbonads {
   --width: 180px;
   --font-size: 10px;

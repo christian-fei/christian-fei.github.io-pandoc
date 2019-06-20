@@ -1,20 +1,31 @@
 html, body {
-  font-size: 18px;
+  font-size: 24px;
 }
 body {
   padding: 0.5em 1em;
 }
 @media all and (max-width: 700px) {
   html, body {
-    font-size: 16px;
+    font-size: 22px;
   }
+}
+
+a {
+  color: #222;
+  border-bottom: 1px solid #ff3b00;
+  transition: all .2s ease-in-out;
+  padding: 0.1em 0.2em;
+}
+
+a img {
+  border-bottom: none !important;
 }
 
 a:hover,
 a:active,
 a:focus {
-  outline: white 2px solid;
-  color: inherit;
+  background: #ff3b00;
+  color: white;
 }
 
 a.no-outline {
@@ -26,7 +37,6 @@ a.no-outline {
 
 /* HEADER */
 .main-header {
-  font-size: 16px;
   padding: 1em;
   margin-right: -1rem;
   margin-left: -1rem;
@@ -34,24 +44,7 @@ a.no-outline {
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-bottom: 3rem;
-
-  background: #e8e8e8;
-  background: black;
-  background: #2f2f2f;
-  background: #1b1b1b;
-  color: white;
-  color: whitesmoke;
 }
-.main-header a {
-  padding: 0.0rem 0.2rem;
-  color: orange;
-  text-decoration: underline;
-  /* border-bottom: 2px solid orange; */
-}
-.main-header strong {
-  color: white;
-}
-
 .main-header .avatar {
   display: inline-block;
 }
@@ -65,7 +58,6 @@ a.no-outline {
     display: none;
   }
 }
-
 .main-header header {
   padding: 0.5em;
 }
@@ -186,6 +178,7 @@ searchable.css
   padding: 0.2rem 0.4rem;
   border-radius: 9px;
   text-decoration: none !important;
+  border: none;
 }
 
 #pocket-items ul {
