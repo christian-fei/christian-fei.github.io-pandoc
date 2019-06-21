@@ -41,5 +41,3 @@ function initSearchable ($searchable) {
     })
   }
 }
-
-console.log('loaded js')
