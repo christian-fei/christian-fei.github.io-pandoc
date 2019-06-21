@@ -103,6 +103,9 @@ a.no-outline {
 
 
 /* CONTENT */
+.content {
+  margin-left: 0;
+}
 .content .posts {
   list-style-type: none;
   margin-left: 0;
