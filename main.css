@@ -1,12 +1,12 @@
 html, body {
-  font-size: 24px;
+  font-size: 22px;
 }
 body {
   padding: 0.5em 1em;
 }
 @media all and (max-width: 700px) {
   html, body {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
@@ -232,5 +232,5 @@ searchable.css
 }
 
 .mega {
-  font-size: 4em !important;
+  font-size: 3.5em !important;
 }
