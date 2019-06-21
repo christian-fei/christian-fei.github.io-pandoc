@@ -6,7 +6,7 @@ body {
 }
 @media all and (max-width: 700px) {
   html, body {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
