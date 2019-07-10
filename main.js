@@ -10,10 +10,11 @@ if ($searchables) {
 
 function initSearchable ($searchable) {
   const $search = document.createElement('input')
+  $search.setAttribute('class', 'searchable-input')
   $search.setAttribute('type', 'test')
   $search.setAttribute('placeholder', 'Search posts...')
   $search.onkeyup = handleSearchKeyUp
-  $searchable.prepend($search)
+  $searchable.parentNode.prepend($search, $searchable)
 
   function handleSearchKeyUp (e) {
     const searchTerm = e.target.value
