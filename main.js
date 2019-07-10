@@ -18,7 +18,7 @@ function initSearchable ($searchable) {
 
   function handleSearchKeyUp (e) {
     const searchTerm = e.target.value
-    const searchRegExp = new RegExp(searchTerm, 'i')
+    const searchRegExp = new RegExp(searchTerm.replace(' ', '.*'), 'i')
     const $searchableItems = $searchable.querySelectorAll('li') || []
     const postTitles = Array.prototype.map.call($searchableItems, $el => $el.innerText)
     const noMatch = postTitles.filter(t => searchRegExp.test(t)).length === 0
