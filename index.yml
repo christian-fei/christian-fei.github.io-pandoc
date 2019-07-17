@@ -1,4 +1,7 @@
 posts: 
+  - date: 2019-07-16
+    title: "Upgrade-MongoDB-3-to-4-on-Ubuntu"
+    filepath: "2019-07-16-Upgrade-MongoDB-3-to-4-on-Ubuntu"
   - date: 2019-04-07
     title: "Get-last-non-empty-cell-value-in-a-spreadsheet"
     filepath: "2019-04-07-Get-last-non-empty-cell-value-in-a-spreadsheet"
