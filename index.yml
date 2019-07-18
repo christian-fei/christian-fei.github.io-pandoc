@@ -1,4 +1,7 @@
 posts: 
+  - date: 2019-07-18
+    title: "Pomodoro-cc-new-launch-and-features"
+    filepath: "2019-07-18-Pomodoro-cc-new-launch-and-features"
   - date: 2019-07-16
     title: "Upgrade-MongoDB-3-to-4-on-Ubuntu"
     filepath: "2019-07-16-Upgrade-MongoDB-3-to-4-on-Ubuntu"
