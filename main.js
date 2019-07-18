@@ -2,10 +2,19 @@
 
 window.initSearchable = initSearchable
 
-const $searchables = document.querySelectorAll('.searchable')
+main()
 
-if ($searchables) {
-  $searchables.forEach(initSearchable)
+function main () {
+  const $searchables = document.querySelectorAll('.searchable')
+  const $headingsH1 = document.querySelectorAll('h1:not(.no-anchorify), h2:not(.no-anchorify), h3:not(.no-anchorify)')
+
+  if ($searchables) {
+    $searchables.forEach(initSearchable)
+  }
+
+  if ($headingsH1) {
+    $headingsH1.forEach(anchorify)
+  }
 }
 
 function initSearchable ($searchable) {
@@ -41,4 +50,12 @@ function initSearchable ($searchable) {
       $postLi.style.display = show ? 'inherit' : 'none'
     })
   }
+}
+
+function anchorify (element) {
+  console.log('anchorify', element)
+  let id = (element.innerText || '').toLowerCase().replace(/ /gi, '-')
+  element.setAttribute('id', id)
+  const text = element.innerText
+  element.innerHTML = `<a href="#${id}">${text}</a>`
 }
