@@ -6,14 +6,14 @@ main()
 
 function main () {
   const $searchables = document.querySelectorAll('.searchable')
-  const $headingsH1 = document.querySelectorAll('h1:not(.no-anchorify), h2:not(.no-anchorify), h3:not(.no-anchorify)')
+  const $headings = document.querySelectorAll('h1:not(.no-anchorify), h2:not(.no-anchorify), h3:not(.no-anchorify)')
 
   if ($searchables) {
     $searchables.forEach(initSearchable)
   }
 
-  if ($headingsH1) {
-    $headingsH1.forEach(anchorify)
+  if ($headings) {
+    $headings.forEach(anchorify)
   }
 }
 
@@ -53,8 +53,7 @@ function initSearchable ($searchable) {
 }
 
 function anchorify (element) {
-  console.log('anchorify', element)
-  let id = (element.innerText || '').toLowerCase().replace(/ /gi, '-')
+  const id = (element.innerText || '').toLowerCase().replace(/ /gi, '-')
   element.setAttribute('id', id)
   const text = element.innerText
   element.innerHTML = `<a href="#${id}">${text}</a>`
