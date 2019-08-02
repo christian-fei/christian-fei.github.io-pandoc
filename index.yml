@@ -1,4 +1,7 @@
 posts: 
+  - date: 2019-07-19
+    title: "Fun-with-single-letter-commands"
+    filepath: "2019-07-19-Fun-with-single-letter-commands"
   - date: 2019-07-18
     title: "Pomodoro-cc-new-launch-and-features"
     filepath: "2019-07-18-Pomodoro-cc-new-launch-and-features"
